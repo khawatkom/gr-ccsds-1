@@ -36,5 +36,5 @@ Configuration of LDPC Encoder and Decoder
 - The LDPC decoder uses alist file to create the parity check matrix. The alist file is under /lib/fec/ldpc/alist/C2_alist.a
 
 ## Issues
-- Memory leaks with LDPC Decoder (See examples/LDPC/ldpc_bit_error_rate)
-- Memory leaks with Turbo Decoder (See examples/Turbo/turbo_bit_error_rate)
+- Memory leaks in the LDPC Decoder (See examples/LDPC/ldpc_bit_error_rate)
+- Memory leaks in the Turbo Decoder (See examples/Turbo/turbo_bit_error_rate)
