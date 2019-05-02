@@ -7,6 +7,7 @@ This GNU Radio OOT implements CCSDS FEC codes as specified by the CCSDS TM Synch
 - RS(255,223) and RS(255,239)
 - LDPC(8176,8154) and LDPC(8160,7136) [aka C2]
 - Turbo Codes
+- Frame sync, with automatic ambiguity resolution
 
 ## Dependencies
 The flowgraphs use the gr-mapper OOT to evaluate BER performance.
