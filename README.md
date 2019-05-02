@@ -1,5 +1,5 @@
 # CCSDS FEC Codes Stack
-This GNU Radio OOT has blocks that implement CCSDS FEC codes as specified by the CCSDS TM Synchonization and Channel Coding 
+This GNU Radio OOT implements CCSDS FEC codes as specified by the CCSDS TM Synchonization and Channel Coding 
 (CCSDS 131.0-B-2, August 2011).
 
 ## FEC Codes Supported
