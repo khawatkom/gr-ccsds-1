@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_41f69392a78b649fd6618ea6cadeecbf" kind="dir">
+    <compoundname>bch</compoundname>
+    <innerdir refid="dir_2eb4177d06b49c04369852abbd55972a">libcrc-2.0</innerdir>
+    <innerfile refid="lib_2fec_2bch_2debug_8h">lib/fec/bch/debug.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/"/>
+  </compounddef>
+</doxygen>

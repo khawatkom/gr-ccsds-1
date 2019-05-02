@@ -1,0 +1,585 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="bch_2libcrc-2_80_2include_2checksum_8h" kind="file" language="C++">
+    <compoundname>bch/libcrc-2.0/include/checksum.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <incdepgraph>
+      <node id="713">
+        <label>stdint.h</label>
+      </node>
+      <node id="712">
+        <label>checksum.h</label>
+        <link refid="bch/libcrc-2.0/include/checksum.h"/>
+        <childnode refid="713" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="bch_2libcrc-2_80_2include_2checksum_8h_1a13bc7ff03fd67c69613031cf3a416593" prot="public" static="no">
+        <name>CRC_POLY_16</name>
+        <initializer>0xA001</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="46" column="10" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="bch_2libcrc-2_80_2include_2checksum_8h_1a031d59c9f5ec4b0f410f93175de706e4" prot="public" static="no">
+        <name>CRC_POLY_32</name>
+        <initializer>0xEDB88320L</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="47" column="10" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="bch_2libcrc-2_80_2include_2checksum_8h_1ab296674743bf8d3c926674dc4236b397" prot="public" static="no">
+        <name>CRC_POLY_CCITT</name>
+        <initializer>0x1021</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="48" column="10" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="bch_2libcrc-2_80_2include_2checksum_8h_1aa36fbf8cbe076ed64c0281ba9b51d4c5" prot="public" static="no">
+        <name>CRC_POLY_DNP</name>
+        <initializer>0xA6BC</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="49" column="10" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="bch_2libcrc-2_80_2include_2checksum_8h_1a4dcaf5231d73980b3a70e020907576b0" prot="public" static="no">
+        <name>CRC_POLY_KERMIT</name>
+        <initializer>0x8408</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="50" column="10" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="bch_2libcrc-2_80_2include_2checksum_8h_1aea67951c8e08084ff1ce85e9dccf9cc4" prot="public" static="no">
+        <name>CRC_POLY_SICK</name>
+        <initializer>0x8005</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="51" column="10" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="bch_2libcrc-2_80_2include_2checksum_8h_1a1dfa2a411d58473aa022e4db32db5254" prot="public" static="no">
+        <name>CRC_START_8</name>
+        <initializer>0x00</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="60" column="10" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="bch_2libcrc-2_80_2include_2checksum_8h_1abe9dda34f9d8171af17126b64eab2f5d" prot="public" static="no">
+        <name>CRC_START_16</name>
+        <initializer>0x0000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="61" column="10" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="bch_2libcrc-2_80_2include_2checksum_8h_1a6c39e45cec7bec74ac637b45f74cfeef" prot="public" static="no">
+        <name>CRC_START_MODBUS</name>
+        <initializer>0xFFFF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="62" column="10" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="bch_2libcrc-2_80_2include_2checksum_8h_1a061e6ae61e35523d6b4173c918f90277" prot="public" static="no">
+        <name>CRC_START_XMODEM</name>
+        <initializer>0x0000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="63" column="10" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="bch_2libcrc-2_80_2include_2checksum_8h_1a4b345a4a94b569ee1b2201c5fc67fa20" prot="public" static="no">
+        <name>CRC_START_CCITT_1D0F</name>
+        <initializer>0x1D0F</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="64" column="10" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="bch_2libcrc-2_80_2include_2checksum_8h_1a7d576b3270518e339f4a4f62265e9438" prot="public" static="no">
+        <name>CRC_START_CCITT_FFFF</name>
+        <initializer>0xFFFF</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="65" column="10" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="bch_2libcrc-2_80_2include_2checksum_8h_1a632c78f3f8f518eb0e9c0ebabaff587e" prot="public" static="no">
+        <name>CRC_START_KERMIT</name>
+        <initializer>0x0000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="66" column="10" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="bch_2libcrc-2_80_2include_2checksum_8h_1a8ce4562e156e53af0c41b25097175069" prot="public" static="no">
+        <name>CRC_START_SICK</name>
+        <initializer>0x0000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="67" column="10" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="bch_2libcrc-2_80_2include_2checksum_8h_1a458489fae292d9f516c5bf57e09a3c69" prot="public" static="no">
+        <name>CRC_START_DNP</name>
+        <initializer>0x0000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="68" column="10" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="bch_2libcrc-2_80_2include_2checksum_8h_1acdd1d0d3d199fefaf1ca0dcd2ca2fd31" prot="public" static="no">
+        <name>CRC_START_32</name>
+        <initializer>0xFFFFFFFFL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="69" column="10" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="bch_2libcrc-2_80_2include_2checksum_8h_1a9d61b676338895c46e7b1879b4a62cf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned char *</type>
+        <definition>unsigned char* checksum_NMEA</definition>
+        <argsstring>(const unsigned char *input_str, unsigned char *result)</argsstring>
+        <name>checksum_NMEA</name>
+        <param>
+          <type>const unsigned char *</type>
+          <declname>input_str</declname>
+        </param>
+        <param>
+          <type>unsigned char *</type>
+          <declname>result</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="75" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bch_2libcrc-2_80_2include_2checksum_8h_1aaad33e491fa114d2e4b54911672e1408" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="generateCLTU__impl_8h_1aba7bc1797add20fe3efdf37ced1182c5" kindref="member">uint8_t</ref></type>
+        <definition>uint8_t crc_8</definition>
+        <argsstring>(const unsigned char *input_str, size_t num_bytes)</argsstring>
+        <name>crc_8</name>
+        <param>
+          <type>const unsigned char *</type>
+          <declname>input_str</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>num_bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="76" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bch_2libcrc-2_80_2include_2checksum_8h_1aa6c8dfec7e03e15f4bb2af6047caab4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t crc_16</definition>
+        <argsstring>(const unsigned char *input_str, size_t num_bytes)</argsstring>
+        <name>crc_16</name>
+        <param>
+          <type>const unsigned char *</type>
+          <declname>input_str</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>num_bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="77" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bch_2libcrc-2_80_2include_2checksum_8h_1a75862979cd483ba8380a5620fdd805c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t crc_32</definition>
+        <argsstring>(const unsigned char *input_str, size_t num_bytes)</argsstring>
+        <name>crc_32</name>
+        <param>
+          <type>const unsigned char *</type>
+          <declname>input_str</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>num_bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="78" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bch_2libcrc-2_80_2include_2checksum_8h_1a239b2b63fc54810085eacfe1c7e6b463" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t crc_ccitt_1d0f</definition>
+        <argsstring>(const unsigned char *input_str, size_t num_bytes)</argsstring>
+        <name>crc_ccitt_1d0f</name>
+        <param>
+          <type>const unsigned char *</type>
+          <declname>input_str</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>num_bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="79" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bch_2libcrc-2_80_2include_2checksum_8h_1a4e80c16b4a986e0ef4b6b18938e5b111" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t crc_ccitt_ffff</definition>
+        <argsstring>(const unsigned char *input_str, size_t num_bytes)</argsstring>
+        <name>crc_ccitt_ffff</name>
+        <param>
+          <type>const unsigned char *</type>
+          <declname>input_str</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>num_bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="80" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bch_2libcrc-2_80_2include_2checksum_8h_1a2422db9d959a3370244847a6b0df91fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t crc_dnp</definition>
+        <argsstring>(const unsigned char *input_str, size_t num_bytes)</argsstring>
+        <name>crc_dnp</name>
+        <param>
+          <type>const unsigned char *</type>
+          <declname>input_str</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>num_bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="81" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bch_2libcrc-2_80_2include_2checksum_8h_1af4d4391c8517c991147e5e4734d906bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t crc_kermit</definition>
+        <argsstring>(const unsigned char *input_str, size_t num_bytes)</argsstring>
+        <name>crc_kermit</name>
+        <param>
+          <type>const unsigned char *</type>
+          <declname>input_str</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>num_bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="82" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bch_2libcrc-2_80_2include_2checksum_8h_1add0b342136a8f19d18f6a0a50163cac6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t crc_modbus</definition>
+        <argsstring>(const unsigned char *input_str, size_t num_bytes)</argsstring>
+        <name>crc_modbus</name>
+        <param>
+          <type>const unsigned char *</type>
+          <declname>input_str</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>num_bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="83" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bch_2libcrc-2_80_2include_2checksum_8h_1abfc044c8c170f97dbe95d5053111de5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t crc_sick</definition>
+        <argsstring>(const unsigned char *input_str, size_t num_bytes)</argsstring>
+        <name>crc_sick</name>
+        <param>
+          <type>const unsigned char *</type>
+          <declname>input_str</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>num_bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="84" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bch_2libcrc-2_80_2include_2checksum_8h_1a2bace0bbeba4ca5e09ec8ae0a049859e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t crc_xmodem</definition>
+        <argsstring>(const unsigned char *input_str, size_t num_bytes)</argsstring>
+        <name>crc_xmodem</name>
+        <param>
+          <type>const unsigned char *</type>
+          <declname>input_str</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>num_bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bch_2libcrc-2_80_2include_2checksum_8h_1a461166b35c7b8682936ebd3f35529e5d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="generateCLTU__impl_8h_1aba7bc1797add20fe3efdf37ced1182c5" kindref="member">uint8_t</ref></type>
+        <definition>uint8_t update_crc_8</definition>
+        <argsstring>(uint8_t crc, unsigned char c)</argsstring>
+        <name>update_crc_8</name>
+        <param>
+          <type><ref refid="generateCLTU__impl_8h_1aba7bc1797add20fe3efdf37ced1182c5" kindref="member">uint8_t</ref></type>
+          <declname>crc</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="86" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bch_2libcrc-2_80_2include_2checksum_8h_1a8666af91298fde3ed02c5d9f753b8d67" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t update_crc_16</definition>
+        <argsstring>(uint16_t crc, unsigned char c)</argsstring>
+        <name>update_crc_16</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>crc</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="87" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bch_2libcrc-2_80_2include_2checksum_8h_1a7b6baae905337d57c4de48df99acd5fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint32_t</type>
+        <definition>uint32_t update_crc_32</definition>
+        <argsstring>(uint32_t crc, unsigned char c)</argsstring>
+        <name>update_crc_32</name>
+        <param>
+          <type>uint32_t</type>
+          <declname>crc</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="88" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bch_2libcrc-2_80_2include_2checksum_8h_1ab198a0d917a82e6641ee1e4ac160f21f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t update_crc_ccitt</definition>
+        <argsstring>(uint16_t crc, unsigned char c)</argsstring>
+        <name>update_crc_ccitt</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>crc</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="89" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bch_2libcrc-2_80_2include_2checksum_8h_1af26c13f5028428c51b567fe9360b4637" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t update_crc_dnp</definition>
+        <argsstring>(uint16_t crc, unsigned char c)</argsstring>
+        <name>update_crc_dnp</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>crc</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="90" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bch_2libcrc-2_80_2include_2checksum_8h_1a020b66ffe4c0b2b1a783cd5d0c8152ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t update_crc_kermit</definition>
+        <argsstring>(uint16_t crc, unsigned char c)</argsstring>
+        <name>update_crc_kermit</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>crc</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="91" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="bch_2libcrc-2_80_2include_2checksum_8h_1a88de53aab01c8c1bb87cd3652e40385c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint16_t</type>
+        <definition>uint16_t update_crc_sick</definition>
+        <argsstring>(uint16_t crc, unsigned char c, unsigned char prev_byte)</argsstring>
+        <name>update_crc_sick</name>
+        <param>
+          <type>uint16_t</type>
+          <declname>crc</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>prev_byte</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h" line="92" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/checksum.h"/>
+  </compounddef>
+</doxygen>

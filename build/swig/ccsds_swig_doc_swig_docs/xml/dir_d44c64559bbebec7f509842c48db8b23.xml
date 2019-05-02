@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_d44c64559bbebec7f509842c48db8b23" kind="dir">
+    <compoundname>/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include</compoundname>
+    <innerdir refid="dir_5224ee2953f32c53f7aec0cce0c17a52">/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/"/>
+  </compounddef>
+</doxygen>

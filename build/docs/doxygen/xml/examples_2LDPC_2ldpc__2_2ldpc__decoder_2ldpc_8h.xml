@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="examples_2LDPC_2ldpc__2_2ldpc__decoder_2ldpc_8h" kind="file" language="C++">
+    <compoundname>examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h</compoundname>
+    <includes local="no">vector</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="no">string</includes>
+    <includes local="no">cassert</includes>
+    <includes refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2checknode_8h" local="yes">checknode.h</includes>
+    <includes refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2variablenode_8h" local="yes">variablenode.h</includes>
+    <includes refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" local="yes">alist.h</includes>
+    <includedby refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h" local="yes">debug.h</includedby>
+    <incdepgraph>
+      <node id="1012">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1006">
+        <label>cmath</label>
+      </node>
+      <node id="1004">
+        <label>cassert</label>
+      </node>
+      <node id="1003">
+        <label>string</label>
+      </node>
+      <node id="1009">
+        <label>alist.h</label>
+        <link refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h"/>
+        <childnode refid="1008" relation="include">
+        </childnode>
+        <childnode refid="1010" relation="include">
+        </childnode>
+        <childnode refid="1011" relation="include">
+        </childnode>
+        <childnode refid="1001" relation="include">
+        </childnode>
+        <childnode refid="1012" relation="include">
+        </childnode>
+      </node>
+      <node id="1005">
+        <label>checknode.h</label>
+        <link refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2checknode_8h"/>
+        <childnode refid="1001" relation="include">
+        </childnode>
+        <childnode refid="1002" relation="include">
+        </childnode>
+        <childnode refid="1006" relation="include">
+        </childnode>
+      </node>
+      <node id="1010">
+        <label>fstream</label>
+      </node>
+      <node id="1001">
+        <label>vector</label>
+      </node>
+      <node id="1011">
+        <label>sstream</label>
+      </node>
+      <node id="1007">
+        <label>variablenode.h</label>
+        <link refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2variablenode_8h"/>
+        <childnode refid="1001" relation="include">
+        </childnode>
+        <childnode refid="1002" relation="include">
+        </childnode>
+        <childnode refid="1008" relation="include">
+        </childnode>
+      </node>
+      <node id="1000">
+        <label>ldpc.h</label>
+        <link refid="examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h"/>
+        <childnode refid="1001" relation="include">
+        </childnode>
+        <childnode refid="1002" relation="include">
+        </childnode>
+        <childnode refid="1003" relation="include">
+        </childnode>
+        <childnode refid="1004" relation="include">
+        </childnode>
+        <childnode refid="1005" relation="include">
+        </childnode>
+        <childnode refid="1007" relation="include">
+        </childnode>
+        <childnode refid="1009" relation="include">
+        </childnode>
+      </node>
+      <node id="1008">
+        <label>iostream</label>
+      </node>
+      <node id="1002">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1014">
+        <label>debug.h</label>
+        <link refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h_source"/>
+      </node>
+      <node id="1013">
+        <label>ldpc.h</label>
+        <link refid="examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h"/>
+        <childnode refid="1014" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classldpc" prot="public">ldpc</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h"/>
+  </compounddef>
+</doxygen>

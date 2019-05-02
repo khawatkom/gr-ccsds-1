@@ -1,0 +1,200 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="colors_8h" kind="file" language="C++">
+    <compoundname>colors.h</compoundname>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="colors_8h_1ab702106cf3b3e96750b6845ded4e0299" prot="public" static="no">
+        <name>RESET</name>
+        <initializer>&quot;\033[0m&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" line="8" column="9" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="colors_8h_1a7b3b25cba33b07c303f3060fe41887f6" prot="public" static="no">
+        <name>BLACK</name>
+        <initializer>&quot;\033[30m&quot;      /* Black */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" line="9" column="9" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="colors_8h_1a8d23feea868a983c8c2b661e1e16972f" prot="public" static="no">
+        <name>RED</name>
+        <initializer>&quot;\033[31m&quot;      /* Red */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" line="10" column="9" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="colors_8h_1acfbc006ea433ad708fdee3e82996e721" prot="public" static="no">
+        <name>GREEN</name>
+        <initializer>&quot;\033[32m&quot;      /* Green */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" line="11" column="9" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="colors_8h_1abf681265909adf3d3e8116c93c0ba179" prot="public" static="no">
+        <name>YELLOW</name>
+        <initializer>&quot;\033[33m&quot;      /* Yellow */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" line="12" column="9" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="colors_8h_1a79d10e672abb49ad63eeaa8aaef57c38" prot="public" static="no">
+        <name>BLUE</name>
+        <initializer>&quot;\033[34m&quot;      /* Blue */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" line="13" column="9" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="colors_8h_1a6f699060902f800f12aaae150f3a708e" prot="public" static="no">
+        <name>MAGENTA</name>
+        <initializer>&quot;\033[35m&quot;      /* Magenta */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" line="14" column="9" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="colors_8h_1ad243f93c16bc4c1d3e0a13b84421d760" prot="public" static="no">
+        <name>CYAN</name>
+        <initializer>&quot;\033[36m&quot;      /* Cyan */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" line="15" column="9" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="colors_8h_1a87b537f5fa5c109d3c05c13d6b18f382" prot="public" static="no">
+        <name>WHITE</name>
+        <initializer>&quot;\033[37m&quot;      /* White */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" line="16" column="9" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="colors_8h_1aef2fe95894117165b29036718221979f" prot="public" static="no">
+        <name>BOLDBLACK</name>
+        <initializer>&quot;\033[1m\033[30m&quot;      /* Bold Black */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" line="17" column="9" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="colors_8h_1ab912d02c7998c3d47d05f87be4e2c920" prot="public" static="no">
+        <name>BOLDRED</name>
+        <initializer>&quot;\033[1m\033[31m&quot;      /* Bold Red */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" line="18" column="9" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="colors_8h_1a4a6c893a1703c33ede7d702fe5f97c91" prot="public" static="no">
+        <name>BOLDGREEN</name>
+        <initializer>&quot;\033[1m\033[32m&quot;      /* Bold Green */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" line="19" column="9" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="colors_8h_1a8cec79108dfc3c61e8e32d390ec28b26" prot="public" static="no">
+        <name>BOLDYELLOW</name>
+        <initializer>&quot;\033[1m\033[33m&quot;      /* Bold Yellow */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" line="20" column="9" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="colors_8h_1a11e77c19555cbd15bcc744ff36a18635" prot="public" static="no">
+        <name>BOLDBLUE</name>
+        <initializer>&quot;\033[1m\033[34m&quot;      /* Bold Blue */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" line="21" column="9" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="colors_8h_1ac4723c5ee12cfca16e2172b57b99cb07" prot="public" static="no">
+        <name>BOLDMAGENTA</name>
+        <initializer>&quot;\033[1m\033[35m&quot;      /* Bold Magenta */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" line="22" column="9" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="colors_8h_1ae87af5e6363eb1913b17f24dcb60a22d" prot="public" static="no">
+        <name>BOLDCYAN</name>
+        <initializer>&quot;\033[1m\033[36m&quot;      /* Bold Cyan */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" line="23" column="9" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="colors_8h_1aa4ef051614aa0bd503b0a18ee158c5d7" prot="public" static="no">
+        <name>BOLDWHITE</name>
+        <initializer>&quot;\033[1m\033[37m&quot;      /* Bold White */</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" line="24" column="9" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/colors.h"/>
+  </compounddef>
+</doxygen>

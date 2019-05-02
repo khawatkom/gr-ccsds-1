@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ccsds_1_1cc__depuncture" kind="class" language="C++" prot="public">
+    <compoundname>gr::ccsds::cc_depuncture</compoundname>
+    <basecompoundref prot="public" virt="virtual">block</basecompoundref>
+    <includes refid="cc__depuncture_8h" local="no">cc_depuncture.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ccsds_1_1cc__depuncture_1a6f5c904502ac145a278b343b1932e45c" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1ccsds_1_1cc__depuncture" kindref="compound">cc_depuncture</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;cc_depuncture&gt; gr::ccsds::cc_depuncture::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/cc_depuncture.h" line="39" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/cc_depuncture.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1cc__depuncture_1a54eae8fef9e276124e17753e3194b5e9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ccsds_1_1cc__depuncture_1a6f5c904502ac145a278b343b1932e45c" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ccsds::cc_depuncture::make</definition>
+        <argsstring>(int puncsize, int puncpat, int delay, char symbol)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>puncsize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>puncpat</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>delay</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>symbol</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1ccsds_1_1cc__depuncture" kindref="compound">ccsds::cc_depuncture</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1ccsds_1_1cc__depuncture" kindref="compound">ccsds::cc_depuncture</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1ccsds_1_1cc__depuncture_1a54eae8fef9e276124e17753e3194b5e9" kindref="member">ccsds::cc_depuncture::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/cc_depuncture.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>gr::block</label>
+      </node>
+      <node id="0">
+        <label>gr::ccsds::cc_depuncture</label>
+        <link refid="classgr_1_1ccsds_1_1cc__depuncture"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>gr::block</label>
+      </node>
+      <node id="2">
+        <label>gr::ccsds::cc_depuncture</label>
+        <link refid="classgr_1_1ccsds_1_1cc__depuncture"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/cc_depuncture.h" line="37" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/cc_depuncture.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ccsds_1_1cc__depuncture_1a54eae8fef9e276124e17753e3194b5e9" prot="public" virt="non-virtual"><scope>gr::ccsds::cc_depuncture</scope><name>make</name></member>
+      <member refid="classgr_1_1ccsds_1_1cc__depuncture_1a6f5c904502ac145a278b343b1932e45c" prot="public" virt="non-virtual"><scope>gr::ccsds::cc_depuncture</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

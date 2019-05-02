@@ -1,0 +1,244 @@
+I have created a CCSDS BCH(64,56) encoder by using a very basic CRC subroutine in C++. I intend to use it in a GNU Radio applicaiton. The format of the BCH(64,56) codeblock is shown below. 
+[![BCH codeblock][1]][1]. 
+A group of codeblocks can be combined to form a data unit referred to as a communication link transfer unit (CLTU) shown below. 
+[![cltu][2]][2]
+
+To my understanding, both BCH and CRC appends a "remainder/parity" to the end of the data, using the same form of calculations, as explained in [this][3] thread. 
+
+All I had to do was modifying a standard CRC C++ [crcFast() subroutine ][4]. The subroutine calculates the CRC by iterating through an array (table) that is pre-initialized by a given polynomial (crcInit()). The two subroutines, crcInit() and crcFast() are shown in the code below. 
+
+    typedef unsigned char uint8_t;
+    typedef unsigned short crc;
+    #define WIDTH (8 * sizeof(crc))
+    #define TOPBIT (1 << (WIDTH - 1))
+    crc crcTable[256];
+    #define POLYNOMIAL 0xD8  /* 11011 followed by 0's */
+    void
+    crcInit(void)
+    {
+        crc remainder;
+    
+    
+        /*
+    * Compute the remainder of each possible dividend.
+    */
+        for (int dividend = 0; dividend < 256; ++dividend)
+        {
+            /*
+    * Start with the dividend followed by zeros.
+    */
+            remainder = dividend << (WIDTH - 8);
+    
+            /*
+    * Perform modulo-2 division, a bit at a time.
+    */
+            for (uint8_t bit = 8; bit > 0; --bit)
+            {
+                /*
+    * Try to divide the current data bit.
+    */
+                if (remainder & TOPBIT)
+                {
+                    remainder = (remainder << 1) ^ POLYNOMIAL;
+                }
+                else
+                {
+                    remainder = (remainder << 1);
+                }
+            }
+    
+            /*
+    * Store the result into the table.
+    */
+            crcTable[dividend] = remainder;
+        }
+    
+    } /* crcInit() */
+    
+    
+    crc
+    crcFast(uint8_t const message[], int nBytes)
+    {
+        uint8_t data;
+        crc remainder = 0;
+    
+    
+        /*
+         * Divide the message by the polynomial, a byte at a time.
+         */
+        for (int byte = 0; byte < nBytes; ++byte)
+        {
+            data = message[byte] ^ (remainder >> (WIDTH - 8));
+            remainder = crcTable[data] ^ (remainder << 8);
+        }
+    
+        /*
+         * The final remainder is the CRC.
+         */
+        return (remainder);
+    
+    }   /* crcFast() */
+
+
+    
+
+The modified code is shown below. The table generating function, crcInit() is unchanged. The crcFast algorithm has been modified slightly to incorporate changes on the parity byte (compliment and filler bit) as specified by the format. The CRC type has been changed from short to unsigned char (1 byte).  The BCH(64,56) in an expurgated Hamming code with a generator polynomial given by g(x) = x^7 +x^6 + x^2 + 1, which is to my account equivalent to 0xC5. 
+
+
+    #include <string.h>
+    #include <stdlib.h>
+    #include <stdio.h>
+    #include <ctype.h>
+    #include <vector>
+    #include <iostream>
+    #include "debug.h"
+    typedef unsigned char uint8_t;
+    typedef unsigned char crc;
+    #define WIDTH  (8 * sizeof(crc))
+    #define TOPBIT (1 << (WIDTH - 1))
+    crc  crcTable[256];
+    #define POLYNOMIAL 0xC5  // x^7 + x^6 + x^2 + 1
+    #define INITIAL_REMAINDER 0x00
+    #define BCH_INFORMATION_BLOCK 7
+    void
+    crcInit(void)
+    {
+        crc  remainder;
+    
+    
+        /*
+         * Compute the remainder of each possible dividend.
+         */
+        for (int dividend = 0; dividend < 256; ++dividend)
+        {
+            /*
+             * Start with the dividend followed by zeros.
+             */
+            remainder = dividend << (WIDTH - 8);
+    
+            /*
+             * Perform modulo-2 division, a bit at a time.
+             */
+            for (uint8_t bit = 8; bit > 0; --bit)
+            {
+                /*
+                 * Try to divide the current data bit.
+                 */			
+                if (remainder & TOPBIT)
+                {
+                    remainder = (remainder << 1) ^ POLYNOMIAL;
+                }
+                else
+                {
+                    remainder = (remainder << 1);
+                }
+            }
+    
+            /*
+             * Store the result into the table.
+             */
+            crcTable[dividend] = remainder;
+    	//std::cout << "Remainder from table : " << int (remainder&0xffff) << std::endl;
+        }
+    
+    }   /* crcInit() */
+    
+    void
+    crcEncoder(std::vector<unsigned char> &message, const crc initial_remainder)
+    {
+        uint8_t data;
+        crc remainder = initial_remainder;
+    
+        /*
+         * Divide the message by the polynomial, a byte at a time.
+         */
+        for (int byte = 0; byte < message.size(); ++byte)
+        {
+            data = message.at(byte) ^ (remainder >> (WIDTH - 8));
+            remainder = crcTable[data] ^ (remainder << 8);
+        }
+    
+        //Flip the remainder and move by 1 bit
+        remainder ^= 0xFF;
+        remainder <<= 1;
+    
+        //Set filler bit to 0 (anding with 1111 1110)
+        remainder &= 0xFE;
+    
+        /*
+         * The final remainder is the CRC.
+         */
+        message.push_back(remainder);
+        //return message;
+    }
+    
+    
+    void bchEncoder(std::vector<unsigned char> &message)
+    {
+        std::vector<unsigned char> information; // 7 bytes
+        std::vector<unsigned char> codewords; // Encoded message
+    
+        //Ensure integral information symbols
+        while(!(message.size() % BCH_INFORMATION_BLOCK) == 0)
+          {
+            message.push_back(0x55);
+          }
+    
+        for(int i = 0; i < message.size(); i += BCH_INFORMATION_BLOCK)
+        {
+            //Copy 7 information bytes
+            std::copy(message.begin() + i, message.begin() + i + BCH_INFORMATION_BLOCK,
+                          std::back_inserter(information));
+            //BCH encoding
+            crcEncoder(information,INITIAL_REMAINDER);
+    
+            //Copy encoded information bits
+            codewords.insert(codewords.end(), information.begin(), information.end());
+    
+            //Clear information bytes
+            information.clear();
+        }
+        message = codewords;
+    }
+    
+    
+    int main()
+    {
+      crcInit();
+      //hexdump(crcTable,256);
+      unsigned char message[] = {0xaa, 0xbb, 0xcd, 0xdd, 0xee, 0xff, 0x11,0x00};
+      //unsigned char tail[] = {0xC5,0xC5,0xC5,0xC5,0xC5,0xC5,0xC5,0x79};
+      std::vector<unsigned char> info(message, message + sizeof(message)/sizeof(unsigned char));
+    
+      bchEncoder(info);
+      hexdump(info.data(),info.size());
+    
+      //Vector hex dump
+    
+      return 0;
+    }
+
+
+I somehow feel like my approach is too naive. I would like to know if it is accurate.  
+
+Regards,
+
+  [1]: https://i.stack.imgur.com/lvf9v.png
+  [2]: https://i.stack.imgur.com/08zvC.png
+  [3]: https://stackoverflow.com/questions/45236114/crc-calculating-and-bch-encoding-theory
+  [4]: https://barrgroup.com/Embedded-Systems/How-To/CRC-Calculation-C-Code
+
+
+
+
+
+
+f the BCH code has distance 3, only meant to correct a single bit error or detect (but not correct) all two bit errors, then the BCH polynomial will be the same as the field polynomial. If a higher level of correction or detection is wanted, then the BCH polynomial gets complicated. This is explained in the wiki article:
+
+https://en.wikipedia.org/wiki/BCH_code
+
+Since the message length (including the filler bit) is 64 bits, a 7 bit field is being used (good for up to 127 bits), but the table generation shown is for the polynomial 0x1C5. To fix this, change POLYNOMIAL to 0x8A, which is ((0xC5 << 1) & 0xFE)). This should result in a 7 bit parity that ends up in the upper 7 bits of a byte.
+
+The inner part of the encode loop should be:
+
+    remainder = crcTable[message.at(byte) ^ remainder];

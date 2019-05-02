@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/Turbo/memory/turbo_memory.cc
+gnuradio/top_block.h
+-
+gnuradio/blocks/file_source.h
+-
+gnuradio/blocks/unpack_k_bits_bb.h
+-
+gnuradio/digital/map_bb.h
+-
+gnuradio/blocks/char_to_float.h
+-
+ccsds/synchronizeCADUSoft.h
+-
+ccsds/recoverCADUSoft.h
+-
+ccsds/decodeTurbo.h
+-
+tdd/nullMsgSink.h
+-
+cstdlib
+-
+

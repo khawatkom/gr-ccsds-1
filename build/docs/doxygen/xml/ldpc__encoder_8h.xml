@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="ldpc__encoder_8h" kind="file" language="C++">
+    <compoundname>ldpc_encoder.h</compoundname>
+    <includes local="no">vector</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="no">itpp/itcomm.h</includes>
+    <incdepgraph>
+      <node id="1030">
+        <label>ldpc_encoder.h</label>
+        <link refid="ldpc_encoder.h"/>
+        <childnode refid="1031" relation="include">
+        </childnode>
+        <childnode refid="1032" relation="include">
+        </childnode>
+        <childnode refid="1033" relation="include">
+        </childnode>
+      </node>
+      <node id="1031">
+        <label>vector</label>
+      </node>
+      <node id="1033">
+        <label>itpp/itcomm.h</label>
+      </node>
+      <node id="1032">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <innernamespace refid="namespaceitpp">itpp</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="ldpc__encoder_8h_1a0240ac851181b84ac374872dc5434ee4" prot="public" static="no">
+        <name>N</name>
+        <initializer>8176</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc_encoder.h" line="8" column="9" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc_encoder.h" bodystart="8" bodyend="-1"/>
+        <referencedby refid="ldpc__encoder_8h_1a39622881c503151fd346ef6cb7e782c3" compoundref="ldpc__encoder_8h" startline="46" endline="112">generatorMatrix</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="ldpc__encoder_8h_1a97d832ae23af4f215e801e37e4f94254" prot="public" static="no">
+        <name>K</name>
+        <initializer>7154</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc_encoder.h" line="9" column="9" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc_encoder.h" bodystart="9" bodyend="-1"/>
+        <referencedby refid="ldpc__encoder_8h_1a39622881c503151fd346ef6cb7e782c3" compoundref="ldpc__encoder_8h" startline="46" endline="112">generatorMatrix</referencedby>
+        <referencedby refid="ldpc__encoder_8h_1a8704df4cb7217c7f99759854c5c92183" compoundref="ldpc__encoder_8h" startline="113" endline="131">ldpc_encode</referencedby>
+      </memberdef>
+      <memberdef kind="define" id="ldpc__encoder_8h_1a2748566f4c443ee77aa831e63dbb5ebe" prot="public" static="no">
+        <name>P</name>
+        <initializer>(<ref refid="ldpc__encoder_8h_1a0240ac851181b84ac374872dc5434ee4" kindref="member">N</ref> - <ref refid="ldpc__encoder_8h_1a97d832ae23af4f215e801e37e4f94254" kindref="member">K</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc_encoder.h" line="10" column="9" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc_encoder.h" bodystart="10" bodyend="-1"/>
+        <referencedby refid="ldpc__encoder_8h_1a39622881c503151fd346ef6cb7e782c3" compoundref="ldpc__encoder_8h" startline="46" endline="112">generatorMatrix</referencedby>
+        <referencedby refid="ldpc__encoder_8h_1a8704df4cb7217c7f99759854c5c92183" compoundref="ldpc__encoder_8h" startline="113" endline="131">ldpc_encode</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="ldpc__encoder_8h_1af762a5191ce771bad1805a9d846fe422" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void leftrotate</definition>
+        <argsstring>(string &amp;s, int d)</argsstring>
+        <name>leftrotate</name>
+        <param>
+          <type>string &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc_encoder.h" line="13" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc_encoder.h" bodystart="13" bodyend="18"/>
+        <referencedby refid="ldpc__encoder_8h_1a722997c1f9aeedeb53673b80ee43b6fa" compoundref="ldpc__encoder_8h" startline="22" endline="25">rightrotate</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="ldpc__encoder_8h_1a722997c1f9aeedeb53673b80ee43b6fa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void rightrotate</definition>
+        <argsstring>(string &amp;s, int d)</argsstring>
+        <name>rightrotate</name>
+        <param>
+          <type>string &amp;</type>
+          <declname>s</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>d</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc_encoder.h" line="22" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc_encoder.h" bodystart="22" bodyend="25"/>
+        <references refid="ldpc__encoder_8h_1af762a5191ce771bad1805a9d846fe422" compoundref="ldpc__encoder_8h" startline="13" endline="18">leftrotate</references>
+        <referencedby refid="ldpc__encoder_8h_1a9fa57cc7a7afd3dd19819ce46f844aaa" compoundref="ldpc__encoder_8h" startline="134" endline="202">C2_Parity</referencedby>
+        <referencedby refid="ldpc__encoder_8h_1a39622881c503151fd346ef6cb7e782c3" compoundref="ldpc__encoder_8h" startline="46" endline="112">generatorMatrix</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="ldpc__encoder_8h_1a5904708b50ec51ed1668aa48efafa390" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::string &gt;</type>
+        <definition>std::vector&lt;std::string&gt; splitString</definition>
+        <argsstring>(const std::string &amp;str, std::size_t len)</argsstring>
+        <name>splitString</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>str</declname>
+        </param>
+        <param>
+          <type>std::size_t</type>
+          <declname>len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc_encoder.h" line="27" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc_encoder.h" bodystart="27" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="ldpc__encoder_8h_1a39622881c503151fd346ef6cb7e782c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::vector&lt; unsigned char &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt;unsigned char&gt; &gt; generatorMatrix</definition>
+        <argsstring>()</argsstring>
+        <name>generatorMatrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc_encoder.h" line="46" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc_encoder.h" bodystart="46" bodyend="112"/>
+        <references refid="ldpc__encoder_8h_1a97d832ae23af4f215e801e37e4f94254" compoundref="ldpc__encoder_8h" startline="9">K</references>
+        <references refid="ldpc__encoder_8h_1a0240ac851181b84ac374872dc5434ee4" compoundref="ldpc__encoder_8h" startline="8">N</references>
+        <references refid="ldpc__encoder_8h_1a2748566f4c443ee77aa831e63dbb5ebe" compoundref="ldpc__encoder_8h" startline="10">P</references>
+        <references refid="ldpc__encoder_8h_1a722997c1f9aeedeb53673b80ee43b6fa" compoundref="ldpc__encoder_8h" startline="22" endline="25">rightrotate</references>
+      </memberdef>
+      <memberdef kind="function" id="ldpc__encoder_8h_1a8704df4cb7217c7f99759854c5c92183" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; unsigned char &gt;</type>
+        <definition>std::vector&lt;unsigned char&gt; ldpc_encode</definition>
+        <argsstring>(std::vector&lt; unsigned char &gt; input, std::vector&lt; std::vector&lt; unsigned char &gt; &gt; G)</argsstring>
+        <name>ldpc_encode</name>
+        <param>
+          <type>std::vector&lt; unsigned char &gt;</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::vector&lt; unsigned char &gt; &gt;</type>
+          <declname>G</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc_encoder.h" line="113" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc_encoder.h" bodystart="113" bodyend="131"/>
+        <references refid="ldpc__encoder_8h_1a97d832ae23af4f215e801e37e4f94254" compoundref="ldpc__encoder_8h" startline="9">K</references>
+        <references refid="ldpc__encoder_8h_1a2748566f4c443ee77aa831e63dbb5ebe" compoundref="ldpc__encoder_8h" startline="10">P</references>
+      </memberdef>
+      <memberdef kind="function" id="ldpc__encoder_8h_1a9fa57cc7a7afd3dd19819ce46f844aaa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void C2_Parity</definition>
+        <argsstring>()</argsstring>
+        <name>C2_Parity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc_encoder.h" line="134" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc_encoder.h" bodystart="134" bodyend="202"/>
+        <references refid="ldpc__encoder_8h_1a722997c1f9aeedeb53673b80ee43b6fa" compoundref="ldpc__encoder_8h" startline="22" endline="25">rightrotate</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc_encoder.h"/>
+  </compounddef>
+</doxygen>

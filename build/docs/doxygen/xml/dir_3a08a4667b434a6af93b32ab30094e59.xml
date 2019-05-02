@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_3a08a4667b434a6af93b32ab30094e59" kind="dir">
+    <compoundname>ldpc_2</compoundname>
+    <innerdir refid="dir_a07b7c57a87d89f851dd7edc95b0029d">ldpc_decoder</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/"/>
+  </compounddef>
+</doxygen>

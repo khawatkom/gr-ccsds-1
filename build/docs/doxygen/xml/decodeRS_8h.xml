@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="decodeRS_8h" kind="file" language="C++">
+    <compoundname>decodeRS.h</compoundname>
+    <includes refid="api_8h" local="no">ccsds/api.h</includes>
+    <includes local="no">gnuradio/sync_block.h</includes>
+    <includedby refid="decodeRS__impl_8h" local="no">decodeRS_impl.h</includedby>
+    <incdepgraph>
+      <node id="833">
+        <label>decodeRS.h</label>
+        <link refid="decodeRS.h"/>
+        <childnode refid="834" relation="include">
+        </childnode>
+        <childnode refid="836" relation="include">
+        </childnode>
+      </node>
+      <node id="836">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="835">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="834">
+        <label>ccsds/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="835" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="837">
+        <label>decodeRS.h</label>
+        <link refid="decodeRS.h"/>
+        <childnode refid="838" relation="include">
+        </childnode>
+      </node>
+      <node id="838">
+        <label>decodeRS_impl.h</label>
+        <link refid="decodeRS__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1ccsds_1_1decodeRS" prot="public">gr::ccsds::decodeRS</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1ccsds">gr::ccsds</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/decodeRS.h"/>
+  </compounddef>
+</doxygen>

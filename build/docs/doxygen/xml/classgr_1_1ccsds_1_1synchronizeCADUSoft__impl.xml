@@ -1,0 +1,647 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ccsds::synchronizeCADUSoft_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ccsds_1_1synchronizeCADUSoft" prot="public" virt="non-virtual">gr::ccsds::synchronizeCADUSoft</basecompoundref>
+    <includes refid="synchronizeCADUSoft__impl_8h" local="no">synchronizeCADUSoft_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1ac013d10281811316dad509bab0be22bc" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::ccsds::synchronizeCADUSoft_impl::d_sync</definition>
+        <argsstring></argsstring>
+        <name>d_sync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="33" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1aab2123d0ad5f7df4820d1259c1b40ae4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::synchronizeCADUSoft_impl::d_stl</definition>
+        <argsstring></argsstring>
+        <name>d_stl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="34" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a8917d3712d553a070ccb1b7a67e3a19a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::synchronizeCADUSoft_impl::d_lts</definition>
+        <argsstring></argsstring>
+        <name>d_lts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="35" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a5354bebf863ffa3e93857f590e77247f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::synchronizeCADUSoft_impl::d_slip</definition>
+        <argsstring></argsstring>
+        <name>d_slip</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="36" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a714c2f4e3439c95ca72f68a3a2d7443d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::synchronizeCADUSoft_impl::d_frame_size</definition>
+        <argsstring></argsstring>
+        <name>d_frame_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="37" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1ab0b6b96064537516b3e3bd8d97d10739" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::synchronizeCADUSoft_impl::d_scramble</definition>
+        <argsstring></argsstring>
+        <name>d_scramble</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="38" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a000adba3c500786d6c42585d21ba1c36" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::synchronizeCADUSoft_impl::d_fec</definition>
+        <argsstring></argsstring>
+        <name>d_fec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="39" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1afb753eeabddac24830ed070c8ffb601a" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::ccsds::synchronizeCADUSoft_impl::d_tag_name</definition>
+        <argsstring></argsstring>
+        <name>d_tag_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="40" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1ace297f4e836b0f293f2efd60ba776837" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::ccsds::synchronizeCADUSoft_impl::d_access_code_0</definition>
+        <argsstring></argsstring>
+        <name>d_access_code_0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="42" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1aa89e55ac5163b52145762ed8dbd551a1" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::ccsds::synchronizeCADUSoft_impl::d_access_code_1</definition>
+        <argsstring></argsstring>
+        <name>d_access_code_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="43" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1af4521bf6d312c450f4b533a41a718c56" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::ccsds::synchronizeCADUSoft_impl::d_access_code_2</definition>
+        <argsstring></argsstring>
+        <name>d_access_code_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="44" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a74ec7fe4d7ae99576a78c416da63a0ab" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::ccsds::synchronizeCADUSoft_impl::d_access_code_3</definition>
+        <argsstring></argsstring>
+        <name>d_access_code_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="45" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1abe31a1934ac3ead4c358385cf71aca2a" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; uint64_t &gt;</type>
+        <definition>std::vector&lt;uint64_t&gt; gr::ccsds::synchronizeCADUSoft_impl::d_wrong_bits</definition>
+        <argsstring></argsstring>
+        <name>d_wrong_bits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="46" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a221d77fdf3efd047fa3597787364e865" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; uint64_t &gt;</type>
+        <definition>std::vector&lt;uint64_t&gt; gr::ccsds::synchronizeCADUSoft_impl::d_nwrong</definition>
+        <argsstring></argsstring>
+        <name>d_nwrong</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="47" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a46d0f4f53225c7beae4a5ba27520c32f" prot="private" static="no" mutable="no">
+        <type>unsigned long long</type>
+        <definition>unsigned long long gr::ccsds::synchronizeCADUSoft_impl::d_access_code</definition>
+        <argsstring></argsstring>
+        <name>d_access_code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="49" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a4b528404adddbeb83fe6911c0a805a91" prot="private" static="no" mutable="no">
+        <type>unsigned long long</type>
+        <definition>unsigned long long gr::ccsds::synchronizeCADUSoft_impl::d_data_reg</definition>
+        <argsstring></argsstring>
+        <name>d_data_reg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="51" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1aa352dc50584df7b4fc61cd2eaab19862" prot="private" static="no" mutable="no">
+        <type>unsigned long long</type>
+        <definition>unsigned long long gr::ccsds::synchronizeCADUSoft_impl::d_mask</definition>
+        <argsstring></argsstring>
+        <name>d_mask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="52" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a45d2e3283927bbdf5445e4aea9eb799c" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::ccsds::synchronizeCADUSoft_impl::d_threshold</definition>
+        <argsstring></argsstring>
+        <name>d_threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="54" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a609d01476f3888ff4a38156713ae67be" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::ccsds::synchronizeCADUSoft_impl::d_len</definition>
+        <argsstring></argsstring>
+        <name>d_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="55" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a3d388dc76b2dc9794c03e67c889e3154" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::ccsds::synchronizeCADUSoft_impl::d_key</definition>
+        <argsstring></argsstring>
+        <name>d_key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="57" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a07d6a86598585423e850a2a3f2c4b231" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::ccsds::synchronizeCADUSoft_impl::d_me</definition>
+        <argsstring></argsstring>
+        <name>d_me</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="57" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1afb37e9dc01cab02e098eb7013f0bd795" prot="private" static="no" mutable="no">
+        <type>gr::thread::mutex</type>
+        <definition>gr::thread::mutex gr::ccsds::synchronizeCADUSoft_impl::d_mutex_access_code</definition>
+        <argsstring></argsstring>
+        <name>d_mutex_access_code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="60" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1ac202716d214c08c785c396e10c100704" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::ccsds::synchronizeCADUSoft_impl::abs_out_sample_cnt_last</definition>
+        <argsstring></argsstring>
+        <name>abs_out_sample_cnt_last</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="62" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1aef94aaa08fc96664d5b8bde4651db001" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::ccsds::synchronizeCADUSoft_impl::abs_out_sample_cnt_now</definition>
+        <argsstring></argsstring>
+        <name>abs_out_sample_cnt_now</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="63" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a771757f146b0ddef3fdcad89dd0558df" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::ccsds::synchronizeCADUSoft_impl::d_consec_sync</definition>
+        <argsstring></argsstring>
+        <name>d_consec_sync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="64" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1adea56b00aed5bde6aace0d145048fd55" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::ccsds::synchronizeCADUSoft_impl::d_consec_loss</definition>
+        <argsstring></argsstring>
+        <name>d_consec_loss</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="65" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a956df86eb0a5e1290824bc7389674d40" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::synchronizeCADUSoft_impl::d_ambiguity</definition>
+        <argsstring></argsstring>
+        <name>d_ambiguity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="66" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a36ee8d1e23264d3a4efcb1961e1af123" prot="private" static="no" mutable="no">
+        <type><ref refid="synchronizeCADUHard__impl_8h_1adc6e5733fc3c22f0a7b2914188c49c90" kindref="member">state</ref></type>
+        <definition>state gr::ccsds::synchronizeCADUSoft_impl::d_state</definition>
+        <argsstring></argsstring>
+        <name>d_state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="67" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a422c3749cd1e65153755776124bf601b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::ccsds::synchronizeCADUSoft_impl::d_invert_g1</definition>
+        <argsstring></argsstring>
+        <name>d_invert_g1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="70" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1ac12863c9f4d9c06c17115a65b33c9f5d" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::ccsds::synchronizeCADUSoft_impl::d_invert_g2</definition>
+        <argsstring></argsstring>
+        <name>d_invert_g2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="70" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a9f025c10439dc9644a75e74bf5763e7b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* gr::ccsds::synchronizeCADUSoft_impl::hex_char_to_bin</definition>
+        <argsstring>(char c)</argsstring>
+        <name>hex_char_to_bin</name>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="58" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a36171962875d7cf1339b1183e4092300" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string gr::ccsds::synchronizeCADUSoft_impl::hex_str_to_bin_str</definition>
+        <argsstring>(const std::string &amp;hex)</argsstring>
+        <name>hex_str_to_bin_str</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>hex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a8548aee454fa8e257c3c64f88ab8a62f" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string gr::ccsds::synchronizeCADUSoft_impl::convEncode</definition>
+        <argsstring>(std::string in, bool invG1, bool invG2, int code)</argsstring>
+        <name>convEncode</name>
+        <param>
+          <type>std::string</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>invG1</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>invG2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="71" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1ae720811b9c2b0d8e68c29f8313e01072" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ccsds::synchronizeCADUSoft_impl::synchronizeCADUSoft_impl</definition>
+        <argsstring>(std::string sync, int stl, int lts, int slip, int frame_size, int fec, int invCC, std::string tag_name)</argsstring>
+        <name>synchronizeCADUSoft_impl</name>
+        <param>
+          <type>std::string</type>
+          <declname>sync</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>stl</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lts</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>slip</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>frame_size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fec</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>invCC</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>tag_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="74" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a431110d785908f3d71e9972b091dc03f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ccsds::synchronizeCADUSoft_impl::~synchronizeCADUSoft_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~synchronizeCADUSoft_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="75" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a8afee8c64df4dd47b4ce0a6c4e718637" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ccsds::synchronizeCADUSoft_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="78" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1af4875994ddf0ceaac2364bd638155044" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::ccsds::synchronizeCADUSoft_impl::set_access_code</definition>
+        <argsstring>(const std::string &amp;access_code)</argsstring>
+        <name>set_access_code</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>access_code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="81" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="394">
+        <label>gr::ccsds::synchronizeCADUSoft</label>
+        <link refid="classgr_1_1ccsds_1_1synchronizeCADUSoft"/>
+        <childnode refid="395" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="395">
+        <label>sync_block</label>
+      </node>
+      <node id="393">
+        <label>gr::ccsds::synchronizeCADUSoft_impl</label>
+        <link refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl"/>
+        <childnode refid="394" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="397">
+        <label>gr::ccsds::synchronizeCADUSoft</label>
+        <link refid="classgr_1_1ccsds_1_1synchronizeCADUSoft"/>
+        <childnode refid="398" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="398">
+        <label>sync_block</label>
+      </node>
+      <node id="396">
+        <label>gr::ccsds::synchronizeCADUSoft_impl</label>
+        <link refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl"/>
+        <childnode refid="397" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="31" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="30" bodyend="82"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1ac202716d214c08c785c396e10c100704" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>abs_out_sample_cnt_last</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1aef94aaa08fc96664d5b8bde4651db001" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>abs_out_sample_cnt_now</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a8548aee454fa8e257c3c64f88ab8a62f" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>convEncode</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a46d0f4f53225c7beae4a5ba27520c32f" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_access_code</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1ace297f4e836b0f293f2efd60ba776837" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_access_code_0</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1aa89e55ac5163b52145762ed8dbd551a1" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_access_code_1</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1af4521bf6d312c450f4b533a41a718c56" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_access_code_2</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a74ec7fe4d7ae99576a78c416da63a0ab" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_access_code_3</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a956df86eb0a5e1290824bc7389674d40" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_ambiguity</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1adea56b00aed5bde6aace0d145048fd55" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_consec_loss</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a771757f146b0ddef3fdcad89dd0558df" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_consec_sync</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a4b528404adddbeb83fe6911c0a805a91" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_data_reg</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a000adba3c500786d6c42585d21ba1c36" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_fec</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a714c2f4e3439c95ca72f68a3a2d7443d" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_frame_size</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a422c3749cd1e65153755776124bf601b" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_invert_g1</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1ac12863c9f4d9c06c17115a65b33c9f5d" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_invert_g2</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a3d388dc76b2dc9794c03e67c889e3154" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_key</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a609d01476f3888ff4a38156713ae67be" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_len</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a8917d3712d553a070ccb1b7a67e3a19a" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_lts</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1aa352dc50584df7b4fc61cd2eaab19862" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_mask</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a07d6a86598585423e850a2a3f2c4b231" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_me</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1afb37e9dc01cab02e098eb7013f0bd795" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_mutex_access_code</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a221d77fdf3efd047fa3597787364e865" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_nwrong</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1ab0b6b96064537516b3e3bd8d97d10739" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_scramble</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a5354bebf863ffa3e93857f590e77247f" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_slip</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a36ee8d1e23264d3a4efcb1961e1af123" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_state</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1aab2123d0ad5f7df4820d1259c1b40ae4" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_stl</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1ac013d10281811316dad509bab0be22bc" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_sync</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1afb753eeabddac24830ed070c8ffb601a" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_tag_name</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a45d2e3283927bbdf5445e4aea9eb799c" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_threshold</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1abe31a1934ac3ead4c358385cf71aca2a" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>d_wrong_bits</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a9f025c10439dc9644a75e74bf5763e7b" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>hex_char_to_bin</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a36171962875d7cf1339b1183e4092300" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>hex_str_to_bin_str</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft_1aa47c976c2e6d7aeb1030ef31d27d0107" prot="public" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1af4875994ddf0ceaac2364bd638155044" prot="public" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>set_access_code</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft_1aa657a1308353fe1bf303e9dc0818c7df" prot="public" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1ae720811b9c2b0d8e68c29f8313e01072" prot="public" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>synchronizeCADUSoft_impl</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a8afee8c64df4dd47b4ce0a6c4e718637" prot="public" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a431110d785908f3d71e9972b091dc03f" prot="public" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft_impl</scope><name>~synchronizeCADUSoft_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

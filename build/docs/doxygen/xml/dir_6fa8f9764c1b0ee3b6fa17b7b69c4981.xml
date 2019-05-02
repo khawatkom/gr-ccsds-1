@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_6fa8f9764c1b0ee3b6fa17b7b69c4981" kind="dir">
+    <compoundname>swig</compoundname>
+    <innerdir refid="dir_041a48f14dd242105e67a06b87851f28">python</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/EZPWD/ezpwd-reed-solomon/swig/"/>
+  </compounddef>
+</doxygen>

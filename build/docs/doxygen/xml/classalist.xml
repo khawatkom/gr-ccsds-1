@@ -1,0 +1,687 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classalist" kind="class" language="C++" prot="public">
+    <compoundname>alist</compoundname>
+    <includes refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" local="no">alist.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classalist_1a8e2674f7688512aca72cc097171ed188" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool alist::data_ok</definition>
+        <argsstring></argsstring>
+        <name>data_ok</name>
+        <briefdescription>
+<para>A variable indicating if data has been read from alist-file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" line="96" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" bodystart="96" bodyend="-1"/>
+        <referencedby refid="classalist_1abc1c3d86e688208532900d6550927e58" compoundref="lib_2fec_2ldpc_2alist_8h" startline="50" endline="50">alist</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classalist_1a2d66f51dac934dd7fc3a4513f47944cc" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int alist::N</definition>
+        <argsstring></argsstring>
+        <name>N</name>
+        <briefdescription>
+<para>Number of variable nodes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" line="99" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" bodystart="99" bodyend="-1"/>
+        <referencedby refid="classalist_1abc1c3d86e688208532900d6550927e58" compoundref="lib_2fec_2ldpc_2alist_8h" startline="50" endline="50">alist</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classalist_1a3640c1629d32057f2952d3d72db06f46" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int alist::M</definition>
+        <argsstring></argsstring>
+        <name>M</name>
+        <briefdescription>
+<para>Number of check nodes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" line="102" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" bodystart="102" bodyend="-1"/>
+        <referencedby refid="classalist_1abc1c3d86e688208532900d6550927e58" compoundref="lib_2fec_2ldpc_2alist_8h" startline="50" endline="50">alist</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classalist_1a89caa6d4edc75e8a4a13e76dea1050c6" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int alist::max_num_mlist</definition>
+        <argsstring></argsstring>
+        <name>max_num_mlist</name>
+        <briefdescription>
+<para>Maximum weight of rows. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" line="105" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" bodystart="105" bodyend="-1"/>
+        <referencedby refid="classalist_1abc1c3d86e688208532900d6550927e58" compoundref="lib_2fec_2ldpc_2alist_8h" startline="50" endline="50">alist</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classalist_1a4d3c0ea2906c7432f5ae4e21c0590656" prot="protected" static="no" mutable="no">
+        <type>int</type>
+        <definition>int alist::max_num_nlist</definition>
+        <argsstring></argsstring>
+        <name>max_num_nlist</name>
+        <briefdescription>
+<para>Maximum weight of columns. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" line="108" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" bodystart="108" bodyend="-1"/>
+        <referencedby refid="classalist_1abc1c3d86e688208532900d6550927e58" compoundref="lib_2fec_2ldpc_2alist_8h" startline="50" endline="50">alist</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classalist_1aed21d45896fd0585a57cc12702784b70" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt; int &gt; alist::num_nlist</definition>
+        <argsstring></argsstring>
+        <name>num_nlist</name>
+        <briefdescription>
+<para>Weight of each column n. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" line="111" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" bodystart="111" bodyend="-1"/>
+        <referencedby refid="classalist_1abc1c3d86e688208532900d6550927e58" compoundref="lib_2fec_2ldpc_2alist_8h" startline="50" endline="50">alist</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classalist_1a86ce262837df914dd5d60d7db19ce91d" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt; int &gt; alist::num_mlist</definition>
+        <argsstring></argsstring>
+        <name>num_mlist</name>
+        <briefdescription>
+<para>Weight of each row m. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" line="114" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" bodystart="114" bodyend="-1"/>
+        <referencedby refid="classalist_1abc1c3d86e688208532900d6550927e58" compoundref="lib_2fec_2ldpc_2alist_8h" startline="50" endline="50">alist</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classalist_1a98c50fe5eac53f12907024d6c1d9bcd7" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; int &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt; int &gt; &gt; alist::mlist</definition>
+        <argsstring></argsstring>
+        <name>mlist</name>
+        <briefdescription>
+<para>List of integer coordinates along each rows with non-zero entries. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" line="117" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" bodystart="117" bodyend="-1"/>
+        <referencedby refid="classalist_1abc1c3d86e688208532900d6550927e58" compoundref="lib_2fec_2ldpc_2alist_8h" startline="50" endline="50">alist</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="classalist_1a04c41d5a90c31d185dd1a0fce61683f5" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; std::vector&lt; int &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt; int &gt; &gt; alist::nlist</definition>
+        <argsstring></argsstring>
+        <name>nlist</name>
+        <briefdescription>
+<para>List of integer coordinates along each column with non-zero entries. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" line="120" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" bodystart="120" bodyend="-1"/>
+        <referencedby refid="classalist_1abc1c3d86e688208532900d6550927e58" compoundref="lib_2fec_2ldpc_2alist_8h" startline="50" endline="50">alist</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classalist_1abc1c3d86e688208532900d6550927e58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>alist::alist</definition>
+        <argsstring>()</argsstring>
+        <name>alist</name>
+        <briefdescription>
+<para>Default Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" line="50" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" bodystart="50" bodyend="50"/>
+        <references refid="classalist_1a21d596d138c1407368bc29a0b9506f99">get_M</references>
+        <references refid="classalist_1ad2392cffaa3530cea5fb08678ad0b4ea">get_matrix</references>
+        <references refid="classalist_1a99a91de60597f6145d8c92a64c8a24d3">get_max_num_mlist</references>
+        <references refid="classalist_1acc236b9480302ec7c164c340e790849f">get_max_num_nlist</references>
+        <references refid="classalist_1aafc4fbcc109bddaedfa906af2b951cd1">get_mlist</references>
+        <references refid="classalist_1a6c54432f761b22e74ab3b0d26669e7ab">get_N</references>
+        <references refid="classalist_1a6de2f8824171ee580f261232d5a553d2">get_nlist</references>
+        <references refid="classalist_1a15fba02e8105c754c7f977b64c801315">get_num_mlist</references>
+        <references refid="classalist_1a476c1db41b49451a5132a633a3cdb1ec">get_num_nlist</references>
+        <references refid="classalist_1aafa6a25107fde9ad12ed9834ba4e1830">print_mlist_i</references>
+        <references refid="classalist_1ac0c15f553cc1e2eabe82e41e0cbd2bf4">print_nlist_i</references>
+        <references refid="classalist_1a5e0330acee649466ab1d7241a7da7e6b">read</references>
+        <references refid="classalist_1aaaad6d2ae2b183b2af21cb3ee564819e">write</references>
+        <referencedby refid="classalist_1abc1c3d86e688208532900d6550927e58" compoundref="lib_2fec_2ldpc_2alist_8h" startline="50" endline="50">alist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a5c2c0d9ac55c8b5a4fa8b697651bead6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>alist::alist</definition>
+        <argsstring>(const char *fname)</argsstring>
+        <name>alist</name>
+        <param>
+          <type>const char *</type>
+          <declname>fname</declname>
+        </param>
+        <briefdescription>
+<para>Constructor which loads alist class from an alist-file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a5e0330acee649466ab1d7241a7da7e6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void alist::read</definition>
+        <argsstring>(const char *fname)</argsstring>
+        <name>read</name>
+        <param>
+          <type>const char *</type>
+          <declname>fname</declname>
+        </param>
+        <briefdescription>
+<para>Read alist data from a file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" line="56" column="1"/>
+        <referencedby refid="classalist_1abc1c3d86e688208532900d6550927e58" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" startline="50" endline="50">alist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1aaaad6d2ae2b183b2af21cb3ee564819e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void alist::write</definition>
+        <argsstring>(const char *fname) const </argsstring>
+        <name>write</name>
+        <param>
+          <type>const char *</type>
+          <declname>fname</declname>
+        </param>
+        <briefdescription>
+<para>Write alist data to a file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" line="59" column="1"/>
+        <referencedby refid="classalist_1abc1c3d86e688208532900d6550927e58" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" startline="50" endline="50">alist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a6c54432f761b22e74ab3b0d26669e7ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int alist::get_N</definition>
+        <argsstring>()</argsstring>
+        <name>get_N</name>
+        <briefdescription>
+<para>Retuns N, the number of variable nodes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" line="62" column="1"/>
+        <referencedby refid="classalist_1abc1c3d86e688208532900d6550927e58" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" startline="50" endline="50">alist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a21d596d138c1407368bc29a0b9506f99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int alist::get_M</definition>
+        <argsstring>()</argsstring>
+        <name>get_M</name>
+        <briefdescription>
+<para>Return M, the number of check nodes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" line="65" column="1"/>
+        <referencedby refid="classalist_1abc1c3d86e688208532900d6550927e58" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" startline="50" endline="50">alist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1aafc4fbcc109bddaedfa906af2b951cd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::vector&lt; int &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt;int&gt; &gt; alist::get_mlist</definition>
+        <argsstring>()</argsstring>
+        <name>get_mlist</name>
+        <briefdescription>
+<para>Return the m_list variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" line="68" column="1"/>
+        <referencedby refid="classalist_1abc1c3d86e688208532900d6550927e58" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" startline="50" endline="50">alist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a6de2f8824171ee580f261232d5a553d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::vector&lt; int &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt;int&gt; &gt; alist::get_nlist</definition>
+        <argsstring>()</argsstring>
+        <name>get_nlist</name>
+        <briefdescription>
+<para>Returns the n_list variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" line="71" column="1"/>
+        <referencedby refid="classalist_1abc1c3d86e688208532900d6550927e58" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" startline="50" endline="50">alist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a15fba02e8105c754c7f977b64c801315" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; alist::get_num_mlist</definition>
+        <argsstring>()</argsstring>
+        <name>get_num_mlist</name>
+        <briefdescription>
+<para>Returns the num_mlist variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" line="74" column="1"/>
+        <referencedby refid="classalist_1abc1c3d86e688208532900d6550927e58" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" startline="50" endline="50">alist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a476c1db41b49451a5132a633a3cdb1ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; alist::get_num_nlist</definition>
+        <argsstring>()</argsstring>
+        <name>get_num_nlist</name>
+        <briefdescription>
+<para>Returns the num_nlist variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" line="77" column="1"/>
+        <referencedby refid="classalist_1abc1c3d86e688208532900d6550927e58" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" startline="50" endline="50">alist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1acc236b9480302ec7c164c340e790849f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int alist::get_max_num_nlist</definition>
+        <argsstring>()</argsstring>
+        <name>get_max_num_nlist</name>
+        <briefdescription>
+<para>Returns the max_num_nlist variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" line="80" column="1"/>
+        <referencedby refid="classalist_1abc1c3d86e688208532900d6550927e58" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" startline="50" endline="50">alist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a99a91de60597f6145d8c92a64c8a24d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int alist::get_max_num_mlist</definition>
+        <argsstring>()</argsstring>
+        <name>get_max_num_mlist</name>
+        <briefdescription>
+<para>Returns the max_num_mlist variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" line="83" column="1"/>
+        <referencedby refid="classalist_1abc1c3d86e688208532900d6550927e58" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" startline="50" endline="50">alist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1ac0c15f553cc1e2eabe82e41e0cbd2bf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void alist::print_nlist_i</definition>
+        <argsstring>(int i)</argsstring>
+        <name>print_nlist_i</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Prints the nlist[i] variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" line="86" column="1"/>
+        <referencedby refid="classalist_1abc1c3d86e688208532900d6550927e58" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" startline="50" endline="50">alist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1aafa6a25107fde9ad12ed9834ba4e1830" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void alist::print_mlist_i</definition>
+        <argsstring>(int i)</argsstring>
+        <name>print_mlist_i</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Prints the mlist[i] variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" line="89" column="1"/>
+        <referencedby refid="classalist_1abc1c3d86e688208532900d6550927e58" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" startline="50" endline="50">alist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1ad2392cffaa3530cea5fb08678ad0b4ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::vector&lt; char &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;char&gt; &gt; alist::get_matrix</definition>
+        <argsstring>()</argsstring>
+        <name>get_matrix</name>
+        <briefdescription>
+<para>Returns the corresponding H matrix. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" line="92" column="1"/>
+        <referencedby refid="classalist_1abc1c3d86e688208532900d6550927e58" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" startline="50" endline="50">alist</referencedby>
+        <referencedby refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h_1af0aad916698756c6196deadda392d0f2" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h" startline="92" endline="132">readAlist</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1abc1c3d86e688208532900d6550927e58" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>alist::alist</definition>
+        <argsstring>()</argsstring>
+        <name>alist</name>
+        <briefdescription>
+<para>Default Constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/alist.h" line="50" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/alist.h" bodystart="50" bodyend="50"/>
+        <references refid="classalist_1abc1c3d86e688208532900d6550927e58" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" startline="50" endline="50">alist</references>
+        <references refid="classalist_1a8e2674f7688512aca72cc097171ed188" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" startline="96">data_ok</references>
+        <references refid="classalist_1a21d596d138c1407368bc29a0b9506f99">get_M</references>
+        <references refid="classalist_1ad2392cffaa3530cea5fb08678ad0b4ea">get_matrix</references>
+        <references refid="classalist_1a99a91de60597f6145d8c92a64c8a24d3">get_max_num_mlist</references>
+        <references refid="classalist_1acc236b9480302ec7c164c340e790849f">get_max_num_nlist</references>
+        <references refid="classalist_1aafc4fbcc109bddaedfa906af2b951cd1">get_mlist</references>
+        <references refid="classalist_1a6c54432f761b22e74ab3b0d26669e7ab">get_N</references>
+        <references refid="classalist_1a6de2f8824171ee580f261232d5a553d2">get_nlist</references>
+        <references refid="classalist_1a15fba02e8105c754c7f977b64c801315">get_num_mlist</references>
+        <references refid="classalist_1a476c1db41b49451a5132a633a3cdb1ec">get_num_nlist</references>
+        <references refid="classalist_1a3640c1629d32057f2952d3d72db06f46" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" startline="102">M</references>
+        <references refid="classalist_1a89caa6d4edc75e8a4a13e76dea1050c6" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" startline="105">max_num_mlist</references>
+        <references refid="classalist_1a4d3c0ea2906c7432f5ae4e21c0590656" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" startline="108">max_num_nlist</references>
+        <references refid="classalist_1a98c50fe5eac53f12907024d6c1d9bcd7" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" startline="117">mlist</references>
+        <references refid="classalist_1a2d66f51dac934dd7fc3a4513f47944cc" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" startline="99">N</references>
+        <references refid="classalist_1a04c41d5a90c31d185dd1a0fce61683f5" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" startline="120">nlist</references>
+        <references refid="classalist_1a86ce262837df914dd5d60d7db19ce91d" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" startline="114">num_mlist</references>
+        <references refid="classalist_1aed21d45896fd0585a57cc12702784b70" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" startline="111">num_nlist</references>
+        <references refid="classalist_1aafa6a25107fde9ad12ed9834ba4e1830">print_mlist_i</references>
+        <references refid="classalist_1ac0c15f553cc1e2eabe82e41e0cbd2bf4">print_nlist_i</references>
+        <references refid="classalist_1a5e0330acee649466ab1d7241a7da7e6b">read</references>
+        <references refid="classalist_1aaaad6d2ae2b183b2af21cb3ee564819e">write</references>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a5c2c0d9ac55c8b5a4fa8b697651bead6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>alist::alist</definition>
+        <argsstring>(const char *fname)</argsstring>
+        <name>alist</name>
+        <param>
+          <type>const char *</type>
+          <declname>fname</declname>
+        </param>
+        <briefdescription>
+<para>Constructor which loads alist class from an alist-file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/alist.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a5e0330acee649466ab1d7241a7da7e6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void alist::read</definition>
+        <argsstring>(const char *fname)</argsstring>
+        <name>read</name>
+        <param>
+          <type>const char *</type>
+          <declname>fname</declname>
+        </param>
+        <briefdescription>
+<para>Read alist data from a file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/alist.h" line="56" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1aaaad6d2ae2b183b2af21cb3ee564819e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void alist::write</definition>
+        <argsstring>(const char *fname) const </argsstring>
+        <name>write</name>
+        <param>
+          <type>const char *</type>
+          <declname>fname</declname>
+        </param>
+        <briefdescription>
+<para>Write alist data to a file. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/alist.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a6c54432f761b22e74ab3b0d26669e7ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int alist::get_N</definition>
+        <argsstring>()</argsstring>
+        <name>get_N</name>
+        <briefdescription>
+<para>Retuns N, the number of variable nodes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/alist.h" line="62" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a21d596d138c1407368bc29a0b9506f99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int alist::get_M</definition>
+        <argsstring>()</argsstring>
+        <name>get_M</name>
+        <briefdescription>
+<para>Return M, the number of check nodes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/alist.h" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1aafc4fbcc109bddaedfa906af2b951cd1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::vector&lt; int &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt;int&gt; &gt; alist::get_mlist</definition>
+        <argsstring>()</argsstring>
+        <name>get_mlist</name>
+        <briefdescription>
+<para>Return the m_list variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/alist.h" line="68" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a6de2f8824171ee580f261232d5a553d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::vector&lt; int &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt;int&gt; &gt; alist::get_nlist</definition>
+        <argsstring>()</argsstring>
+        <name>get_nlist</name>
+        <briefdescription>
+<para>Returns the n_list variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/alist.h" line="71" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a15fba02e8105c754c7f977b64c801315" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; alist::get_num_mlist</definition>
+        <argsstring>()</argsstring>
+        <name>get_num_mlist</name>
+        <briefdescription>
+<para>Returns the num_mlist variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/alist.h" line="74" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a476c1db41b49451a5132a633a3cdb1ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; alist::get_num_nlist</definition>
+        <argsstring>()</argsstring>
+        <name>get_num_nlist</name>
+        <briefdescription>
+<para>Returns the num_nlist variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/alist.h" line="77" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1acc236b9480302ec7c164c340e790849f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int alist::get_max_num_nlist</definition>
+        <argsstring>()</argsstring>
+        <name>get_max_num_nlist</name>
+        <briefdescription>
+<para>Returns the max_num_nlist variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/alist.h" line="80" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1a99a91de60597f6145d8c92a64c8a24d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int alist::get_max_num_mlist</definition>
+        <argsstring>()</argsstring>
+        <name>get_max_num_mlist</name>
+        <briefdescription>
+<para>Returns the max_num_mlist variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/alist.h" line="83" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1ac0c15f553cc1e2eabe82e41e0cbd2bf4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void alist::print_nlist_i</definition>
+        <argsstring>(int i)</argsstring>
+        <name>print_nlist_i</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Prints the nlist[i] variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/alist.h" line="86" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1aafa6a25107fde9ad12ed9834ba4e1830" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void alist::print_mlist_i</definition>
+        <argsstring>(int i)</argsstring>
+        <name>print_mlist_i</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Prints the mlist[i] variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/alist.h" line="89" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classalist_1ad2392cffaa3530cea5fb08678ad0b4ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::vector&lt; char &gt; &gt;</type>
+        <definition>std::vector&lt;std::vector&lt;char&gt; &gt; alist::get_matrix</definition>
+        <argsstring>()</argsstring>
+        <name>get_matrix</name>
+        <briefdescription>
+<para>Returns the corresponding H matrix. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/alist.h" line="92" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="140">
+        <label>alist</label>
+        <link refid="classalist"/>
+        <childnode refid="141" relation="usage">
+          <edgelabel>mlist</edgelabel>
+          <edgelabel>nlist</edgelabel>
+        </childnode>
+        <childnode refid="142" relation="usage">
+          <edgelabel>num_mlist</edgelabel>
+          <edgelabel>num_nlist</edgelabel>
+        </childnode>
+      </node>
+      <node id="141">
+        <label>std::vector&lt; std::vector&lt; int &gt; &gt;</label>
+        <childnode refid="142" relation="usage">
+          <edgelabel>elements</edgelabel>
+        </childnode>
+      </node>
+      <node id="142">
+        <label>std::vector&lt; int &gt;</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" line="46" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h" bodystart="45" bodyend="121"/>
+    <listofallmembers>
+      <member refid="classalist_1abc1c3d86e688208532900d6550927e58" prot="public" virt="non-virtual"><scope>alist</scope><name>alist</name></member>
+      <member refid="classalist_1a5c2c0d9ac55c8b5a4fa8b697651bead6" prot="public" virt="non-virtual"><scope>alist</scope><name>alist</name></member>
+      <member refid="classalist_1abc1c3d86e688208532900d6550927e58" prot="public" virt="non-virtual"><scope>alist</scope><name>alist</name></member>
+      <member refid="classalist_1a5c2c0d9ac55c8b5a4fa8b697651bead6" prot="public" virt="non-virtual"><scope>alist</scope><name>alist</name></member>
+      <member refid="classalist_1a8e2674f7688512aca72cc097171ed188" prot="protected" virt="non-virtual"><scope>alist</scope><name>data_ok</name></member>
+      <member refid="classalist_1a21d596d138c1407368bc29a0b9506f99" prot="public" virt="non-virtual"><scope>alist</scope><name>get_M</name></member>
+      <member refid="classalist_1a21d596d138c1407368bc29a0b9506f99" prot="public" virt="non-virtual"><scope>alist</scope><name>get_M</name></member>
+      <member refid="classalist_1ad2392cffaa3530cea5fb08678ad0b4ea" prot="public" virt="non-virtual"><scope>alist</scope><name>get_matrix</name></member>
+      <member refid="classalist_1ad2392cffaa3530cea5fb08678ad0b4ea" prot="public" virt="non-virtual"><scope>alist</scope><name>get_matrix</name></member>
+      <member refid="classalist_1a99a91de60597f6145d8c92a64c8a24d3" prot="public" virt="non-virtual"><scope>alist</scope><name>get_max_num_mlist</name></member>
+      <member refid="classalist_1a99a91de60597f6145d8c92a64c8a24d3" prot="public" virt="non-virtual"><scope>alist</scope><name>get_max_num_mlist</name></member>
+      <member refid="classalist_1acc236b9480302ec7c164c340e790849f" prot="public" virt="non-virtual"><scope>alist</scope><name>get_max_num_nlist</name></member>
+      <member refid="classalist_1acc236b9480302ec7c164c340e790849f" prot="public" virt="non-virtual"><scope>alist</scope><name>get_max_num_nlist</name></member>
+      <member refid="classalist_1aafc4fbcc109bddaedfa906af2b951cd1" prot="public" virt="non-virtual"><scope>alist</scope><name>get_mlist</name></member>
+      <member refid="classalist_1aafc4fbcc109bddaedfa906af2b951cd1" prot="public" virt="non-virtual"><scope>alist</scope><name>get_mlist</name></member>
+      <member refid="classalist_1a6c54432f761b22e74ab3b0d26669e7ab" prot="public" virt="non-virtual"><scope>alist</scope><name>get_N</name></member>
+      <member refid="classalist_1a6c54432f761b22e74ab3b0d26669e7ab" prot="public" virt="non-virtual"><scope>alist</scope><name>get_N</name></member>
+      <member refid="classalist_1a6de2f8824171ee580f261232d5a553d2" prot="public" virt="non-virtual"><scope>alist</scope><name>get_nlist</name></member>
+      <member refid="classalist_1a6de2f8824171ee580f261232d5a553d2" prot="public" virt="non-virtual"><scope>alist</scope><name>get_nlist</name></member>
+      <member refid="classalist_1a15fba02e8105c754c7f977b64c801315" prot="public" virt="non-virtual"><scope>alist</scope><name>get_num_mlist</name></member>
+      <member refid="classalist_1a15fba02e8105c754c7f977b64c801315" prot="public" virt="non-virtual"><scope>alist</scope><name>get_num_mlist</name></member>
+      <member refid="classalist_1a476c1db41b49451a5132a633a3cdb1ec" prot="public" virt="non-virtual"><scope>alist</scope><name>get_num_nlist</name></member>
+      <member refid="classalist_1a476c1db41b49451a5132a633a3cdb1ec" prot="public" virt="non-virtual"><scope>alist</scope><name>get_num_nlist</name></member>
+      <member refid="classalist_1a3640c1629d32057f2952d3d72db06f46" prot="protected" virt="non-virtual"><scope>alist</scope><name>M</name></member>
+      <member refid="classalist_1a89caa6d4edc75e8a4a13e76dea1050c6" prot="protected" virt="non-virtual"><scope>alist</scope><name>max_num_mlist</name></member>
+      <member refid="classalist_1a4d3c0ea2906c7432f5ae4e21c0590656" prot="protected" virt="non-virtual"><scope>alist</scope><name>max_num_nlist</name></member>
+      <member refid="classalist_1a98c50fe5eac53f12907024d6c1d9bcd7" prot="protected" virt="non-virtual"><scope>alist</scope><name>mlist</name></member>
+      <member refid="classalist_1a2d66f51dac934dd7fc3a4513f47944cc" prot="protected" virt="non-virtual"><scope>alist</scope><name>N</name></member>
+      <member refid="classalist_1a04c41d5a90c31d185dd1a0fce61683f5" prot="protected" virt="non-virtual"><scope>alist</scope><name>nlist</name></member>
+      <member refid="classalist_1a86ce262837df914dd5d60d7db19ce91d" prot="protected" virt="non-virtual"><scope>alist</scope><name>num_mlist</name></member>
+      <member refid="classalist_1aed21d45896fd0585a57cc12702784b70" prot="protected" virt="non-virtual"><scope>alist</scope><name>num_nlist</name></member>
+      <member refid="classalist_1aafa6a25107fde9ad12ed9834ba4e1830" prot="public" virt="non-virtual"><scope>alist</scope><name>print_mlist_i</name></member>
+      <member refid="classalist_1aafa6a25107fde9ad12ed9834ba4e1830" prot="public" virt="non-virtual"><scope>alist</scope><name>print_mlist_i</name></member>
+      <member refid="classalist_1ac0c15f553cc1e2eabe82e41e0cbd2bf4" prot="public" virt="non-virtual"><scope>alist</scope><name>print_nlist_i</name></member>
+      <member refid="classalist_1ac0c15f553cc1e2eabe82e41e0cbd2bf4" prot="public" virt="non-virtual"><scope>alist</scope><name>print_nlist_i</name></member>
+      <member refid="classalist_1a5e0330acee649466ab1d7241a7da7e6b" prot="public" virt="non-virtual"><scope>alist</scope><name>read</name></member>
+      <member refid="classalist_1a5e0330acee649466ab1d7241a7da7e6b" prot="public" virt="non-virtual"><scope>alist</scope><name>read</name></member>
+      <member refid="classalist_1aaaad6d2ae2b183b2af21cb3ee564819e" prot="public" virt="non-virtual"><scope>alist</scope><name>write</name></member>
+      <member refid="classalist_1aaaad6d2ae2b183b2af21cb3ee564819e" prot="public" virt="non-virtual"><scope>alist</scope><name>write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

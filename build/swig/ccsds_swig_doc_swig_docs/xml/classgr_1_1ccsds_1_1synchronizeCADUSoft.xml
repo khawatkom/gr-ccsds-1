@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ccsds_1_1synchronizeCADUSoft" kind="class" language="C++" prot="public">
+    <compoundname>gr::ccsds::synchronizeCADUSoft</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <includes refid="synchronizeCADUSoft_8h" local="no">synchronizeCADUSoft.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ccsds_1_1synchronizeCADUSoft_1aa657a1308353fe1bf303e9dc0818c7df" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1ccsds_1_1synchronizeCADUSoft" kindref="compound">synchronizeCADUSoft</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;synchronizeCADUSoft&gt; gr::ccsds::synchronizeCADUSoft::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/synchronizeCADUSoft.h" line="39" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/synchronizeCADUSoft.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1synchronizeCADUSoft_1aa47c976c2e6d7aeb1030ef31d27d0107" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ccsds_1_1synchronizeCADUSoft_1aa657a1308353fe1bf303e9dc0818c7df" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ccsds::synchronizeCADUSoft::make</definition>
+        <argsstring>(std::string sync, int stl, int lts, int slip, int frame_size, int fec, int invCC, std::string tag_name)</argsstring>
+        <name>make</name>
+        <param>
+          <type>std::string</type>
+          <declname>sync</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>stl</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lts</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>slip</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>frame_size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fec</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>invCC</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>tag_name</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1ccsds_1_1synchronizeCADUSoft" kindref="compound">ccsds::synchronizeCADUSoft</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1ccsds_1_1synchronizeCADUSoft" kindref="compound">ccsds::synchronizeCADUSoft</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1ccsds_1_1synchronizeCADUSoft_1aa47c976c2e6d7aeb1030ef31d27d0107" kindref="member">ccsds::synchronizeCADUSoft::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/synchronizeCADUSoft.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="80">
+        <label>gr::ccsds::synchronizeCADUSoft</label>
+        <link refid="classgr_1_1ccsds_1_1synchronizeCADUSoft"/>
+        <childnode refid="81" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="81">
+        <label>sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="82">
+        <label>gr::ccsds::synchronizeCADUSoft</label>
+        <link refid="classgr_1_1ccsds_1_1synchronizeCADUSoft"/>
+        <childnode refid="83" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="83">
+        <label>sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/synchronizeCADUSoft.h" line="37" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/synchronizeCADUSoft.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft_1aa47c976c2e6d7aeb1030ef31d27d0107" prot="public" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft</scope><name>make</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft_1aa657a1308353fe1bf303e9dc0818c7df" prot="public" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUSoft</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

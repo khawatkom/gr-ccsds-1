@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<block>
+  <name>synchronizeCADUSoft</name>
+  <key>ccsds_synchronizeCADUSoft</key>
+  <category>[ccsds]</category>
+  <import>import ccsds</import>
+  <make>ccsds.synchronizeCADUSoft($sync,$stl,$lts,$slip,$frame_size,$fec,$invCC,$tag_name)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Sync Word</name>
+    <key>sync</key>
+    <type>string</type>
+  </param>
+
+  <param>
+    <name>STL</name>
+    <key>stl</key>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>LTS</name>
+    <key>lts</key>
+    <type>int</type>
+  </param>
+  
+  <param>
+    <name>Slip</name>
+    <key>slip</key>
+    <type>int</type>
+  </param>
+  
+  <param>
+    <name>CADU Size</name>
+    <key>frame_size</key>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>FEC</name>
+    <key>fec</key>
+    <value>0</value>
+	<type>enum</type>
+	<option>
+		<name>None, RS, Turbo, LDPC</name>
+		<key>0</key>
+	</option>
+	<option>
+		<name>CC(7,1/2)</name>
+		<key>1</key>
+	</option>
+	<option>
+		<name>CC(7,2/3)</name>
+		<key>2</key>
+	</option>
+	<option>
+		<name>CC(7,3/4)</name>
+		<key>3</key>
+	</option>
+	<option>
+		<name>CC(7,5/6)</name>
+		<key>4</key>
+	</option>
+	<option>
+		<name>CC(7,7/8)</name>
+		<key>5</key>
+	</option>
+  </param>
+
+  <param>
+    <name>Inv CC FEC</name>
+    <key>invCC</key>
+    <value>0</value>
+	<type>enum</type>
+	<option>
+		<name>None</name>
+		<key>0</key>
+	</option>
+	<option>
+		<name>Invert G1</name>
+		<key>1</key>
+	</option>
+	<option>
+		<name>Invert G2</name>
+		<key>2</key>
+	</option>
+  </param>
+
+  <param>
+    <name>Tag Name</name>
+    <key>tag_name</key>
+    <type>string</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

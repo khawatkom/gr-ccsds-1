@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="convEncoder_8h" kind="file" language="C++">
+    <compoundname>convEncoder.h</compoundname>
+    <includes refid="api_8h" local="no">ccsds/api.h</includes>
+    <includes local="no">gnuradio/sync_interpolator.h</includes>
+    <includedby refid="convEncoder__impl_8h" local="no">convEncoder_impl.h</includedby>
+    <incdepgraph>
+      <node id="738">
+        <label>convEncoder.h</label>
+        <link refid="convEncoder.h"/>
+        <childnode refid="739" relation="include">
+        </childnode>
+        <childnode refid="741" relation="include">
+        </childnode>
+      </node>
+      <node id="740">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="739">
+        <label>ccsds/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="740" relation="include">
+        </childnode>
+      </node>
+      <node id="741">
+        <label>gnuradio/sync_interpolator.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="743">
+        <label>convEncoder_impl.h</label>
+        <link refid="convEncoder__impl_8h"/>
+      </node>
+      <node id="742">
+        <label>convEncoder.h</label>
+        <link refid="convEncoder.h"/>
+        <childnode refid="743" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1ccsds_1_1convEncoder" prot="public">gr::ccsds::convEncoder</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1ccsds">gr::ccsds</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/convEncoder.h"/>
+  </compounddef>
+</doxygen>

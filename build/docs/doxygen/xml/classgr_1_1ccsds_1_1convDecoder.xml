@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ccsds_1_1convDecoder" kind="class" language="C++" prot="public">
+    <compoundname>gr::ccsds::convDecoder</compoundname>
+    <basecompoundref prot="public" virt="virtual">hier_block2</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1ccsds_1_1convDecoder__impl" prot="public" virt="non-virtual">gr::ccsds::convDecoder_impl</derivedcompoundref>
+    <includes refid="convDecoder_8h" local="no">convDecoder.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ccsds_1_1convDecoder_1abd8d55d819d0a17590c3e9f665edb24c" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1ccsds_1_1convDecoder" kindref="compound">convDecoder</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;convDecoder&gt; gr::ccsds::convDecoder::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/convDecoder.h" line="39" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/convDecoder.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1convDecoder_1ad2c9a7c3e86cb3d0bc0a04de1c7d3566" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ccsds_1_1convDecoder_1abd8d55d819d0a17590c3e9f665edb24c" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ccsds::convDecoder::make</definition>
+        <argsstring>(int frame_size, std::vector&lt; int &gt; polys, int mode, int pad)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>frame_size</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>polys</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pad</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1ccsds_1_1convDecoder" kindref="compound">ccsds::convDecoder</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1ccsds_1_1convDecoder" kindref="compound">ccsds::convDecoder</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1ccsds_1_1convDecoder_1ad2c9a7c3e86cb3d0bc0a04de1c7d3566" kindref="member">ccsds::convDecoder::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/convDecoder.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="160">
+        <label>gr::ccsds::convDecoder_impl</label>
+        <link refid="classgr_1_1ccsds_1_1convDecoder__impl"/>
+        <childnode refid="158" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="159">
+        <label>hier_block2</label>
+      </node>
+      <node id="158">
+        <label>gr::ccsds::convDecoder</label>
+        <link refid="classgr_1_1ccsds_1_1convDecoder"/>
+        <childnode refid="159" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="162">
+        <label>hier_block2</label>
+      </node>
+      <node id="161">
+        <label>gr::ccsds::convDecoder</label>
+        <link refid="classgr_1_1ccsds_1_1convDecoder"/>
+        <childnode refid="162" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/convDecoder.h" line="37" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/convDecoder.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ccsds_1_1convDecoder_1ad2c9a7c3e86cb3d0bc0a04de1c7d3566" prot="public" virt="non-virtual"><scope>gr::ccsds::convDecoder</scope><name>make</name></member>
+      <member refid="classgr_1_1ccsds_1_1convDecoder_1abd8d55d819d0a17590c3e9f665edb24c" prot="public" virt="non-virtual"><scope>gr::ccsds::convDecoder</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

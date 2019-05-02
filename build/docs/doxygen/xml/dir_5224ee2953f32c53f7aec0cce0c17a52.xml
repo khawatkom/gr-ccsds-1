@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_5224ee2953f32c53f7aec0cce0c17a52" kind="dir">
+    <compoundname>ccsds</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="cc__depuncture_8h">cc_depuncture.h</innerfile>
+    <innerfile refid="convDecoder_8h">convDecoder.h</innerfile>
+    <innerfile refid="convEncoder_8h">convEncoder.h</innerfile>
+    <innerfile refid="createCADU_8h">createCADU.h</innerfile>
+    <innerfile refid="decodeLDPC_8h">decodeLDPC.h</innerfile>
+    <innerfile refid="decodeRS_8h">decodeRS.h</innerfile>
+    <innerfile refid="decodeTurbo_8h">decodeTurbo.h</innerfile>
+    <innerfile refid="encodeLDPC_8h">encodeLDPC.h</innerfile>
+    <innerfile refid="encodeRS_8h">encodeRS.h</innerfile>
+    <innerfile refid="encodeTurbo_8h">encodeTurbo.h</innerfile>
+    <innerfile refid="extractCADU_8h">extractCADU.h</innerfile>
+    <innerfile refid="genCADU_8h">genCADU.h</innerfile>
+    <innerfile refid="generateCADU_8h">generateCADU.h</innerfile>
+    <innerfile refid="generateCLTU_8h">generateCLTU.h</innerfile>
+    <innerfile refid="processCADU_8h">processCADU.h</innerfile>
+    <innerfile refid="recoverCADU_8h">recoverCADU.h</innerfile>
+    <innerfile refid="recoverCADUSoft_8h">recoverCADUSoft.h</innerfile>
+    <innerfile refid="simplifiedPLOP1_8h">simplifiedPLOP1.h</innerfile>
+    <innerfile refid="synchronizeCADU_8h">synchronizeCADU.h</innerfile>
+    <innerfile refid="synchronizeCADUHard_8h">synchronizeCADUHard.h</innerfile>
+    <innerfile refid="synchronizeCADUSoft_8h">synchronizeCADUSoft.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir">
+    <compoundname>lib</compoundname>
+    <innerdir refid="dir_73af00b870d90f3eb28260527156c90f">fec</innerdir>
+    <innerfile refid="cc__depuncture__impl_8h">cc_depuncture_impl.h</innerfile>
+    <innerfile refid="convDecoder__impl_8h">convDecoder_impl.h</innerfile>
+    <innerfile refid="convEncoder__impl_8h">convEncoder_impl.h</innerfile>
+    <innerfile refid="createCADU__impl_8h">createCADU_impl.h</innerfile>
+    <innerfile refid="decodeLDPC__impl_8h">decodeLDPC_impl.h</innerfile>
+    <innerfile refid="decodeRS__impl_8h">decodeRS_impl.h</innerfile>
+    <innerfile refid="decodeTurbo__impl_8h">decodeTurbo_impl.h</innerfile>
+    <innerfile refid="encodeLDPC__impl_8h">encodeLDPC_impl.h</innerfile>
+    <innerfile refid="encodeRS__impl_8h">encodeRS_impl.h</innerfile>
+    <innerfile refid="encodeTurbo__impl_8h">encodeTurbo_impl.h</innerfile>
+    <innerfile refid="extractCADU__impl_8h">extractCADU_impl.h</innerfile>
+    <innerfile refid="genCADU__impl_8h">genCADU_impl.h</innerfile>
+    <innerfile refid="generateCADU__impl_8h">generateCADU_impl.h</innerfile>
+    <innerfile refid="generateCLTU__impl_8h">generateCLTU_impl.h</innerfile>
+    <innerfile refid="processCADU__impl_8h">processCADU_impl.h</innerfile>
+    <innerfile refid="recoverCADU__impl_8h">recoverCADU_impl.h</innerfile>
+    <innerfile refid="recoverCADUSoft__impl_8h">recoverCADUSoft_impl.h</innerfile>
+    <innerfile refid="simplifiedPLOP1__impl_8h">simplifiedPLOP1_impl.h</innerfile>
+    <innerfile refid="synchronizeCADU__impl_8h">synchronizeCADU_impl.h</innerfile>
+    <innerfile refid="synchronizeCADUHard__impl_8h">synchronizeCADUHard_impl.h</innerfile>
+    <innerfile refid="synchronizeCADUSoft__impl_8h">synchronizeCADUSoft_impl.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_7ccd3acde8adc92b50ad81d39bda6c2b" kind="dir">
+    <compoundname>ReedSolomon</compoundname>
+    <innerdir refid="dir_872b32a716a1a6b625d4759b35b74387">older</innerdir>
+    <innerfile refid="lib_2fec_2ReedSolomon_2debug_8h">lib/fec/ReedSolomon/debug.h</innerfile>
+    <innerfile refid="ReedSolomon_8h">ReedSolomon.h</innerfile>
+    <innerfile refid="ReedSolomon__CCSDS_8h">ReedSolomon_CCSDS.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/"/>
+  </compounddef>
+</doxygen>

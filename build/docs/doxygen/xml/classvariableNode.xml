@@ -1,0 +1,459 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classvariableNode" kind="class" language="C++" prot="public">
+    <compoundname>variableNode</compoundname>
+    <includes refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2variablenode_8h" local="no">variablenode.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classvariableNode_1aeba27baedf6fcb7cd8c6a44b9615c2cf" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt; int &gt; variableNode::d_checkNodeIndicies</definition>
+        <argsstring></argsstring>
+        <name>d_checkNodeIndicies</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" line="10" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvariableNode_1a88f692fe58ff4a3419e2d37138a1d26c" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt; double &gt; variableNode::d_Lr</definition>
+        <argsstring></argsstring>
+        <name>d_Lr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" line="11" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvariableNode_1abe2e13e20c9b520a95e4443454021199" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt; double &gt; variableNode::d_Lq</definition>
+        <argsstring></argsstring>
+        <name>d_Lq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" line="12" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvariableNode_1a5472a35c005aa5fb441fb83f7b60dcc4" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double variableNode::lx</definition>
+        <argsstring></argsstring>
+        <name>lx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" line="13" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classvariableNode_1a50dc3dec486dda401d6861a7dffbdf79" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double variableNode::logAPP</definition>
+        <argsstring></argsstring>
+        <name>logAPP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" line="14" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classvariableNode_1a77dedcde931072b7d85facd5becf35aa" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double variableNode::calculateLq</definition>
+        <argsstring>(std::vector&lt; double &gt; lr, unsigned int index)</argsstring>
+        <name>calculateLq</name>
+        <param>
+          <type>std::vector&lt; double &gt;</type>
+          <declname>lr</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classvariableNode_1ae5b3f5097b8bf102f28bfb0bf89f7afa" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double variableNode::sum</definition>
+        <argsstring>(std::vector&lt; double &gt; vec)</argsstring>
+        <name>sum</name>
+        <param>
+          <type>std::vector&lt; double &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classvariableNode_1a77dedcde931072b7d85facd5becf35aa" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double variableNode::calculateLq</definition>
+        <argsstring>(std::vector&lt; double &gt; lr, unsigned int index)</argsstring>
+        <name>calculateLq</name>
+        <param>
+          <type>std::vector&lt; double &gt;</type>
+          <declname>lr</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/variablenode.h" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classvariableNode_1ae5b3f5097b8bf102f28bfb0bf89f7afa" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double variableNode::sum</definition>
+        <argsstring>(std::vector&lt; double &gt; vec)</argsstring>
+        <name>sum</name>
+        <param>
+          <type>std::vector&lt; double &gt;</type>
+          <declname>vec</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/variablenode.h" line="17" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classvariableNode_1a758f49dbf2ca27b6e91c27fbe17034d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>variableNode::variableNode</definition>
+        <argsstring>(std::vector&lt; int &gt; indicies)</argsstring>
+        <name>variableNode</name>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>indicies</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classvariableNode_1abf4a4a4e6a965e6390716801f920634c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; variableNode::getCheckNodes</definition>
+        <argsstring>()</argsstring>
+        <name>getCheckNodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" line="20" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classvariableNode_1aa2e19691a5f955200458d407caf95e50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; variableNode::getLq</definition>
+        <argsstring>()</argsstring>
+        <name>getLq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" line="21" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" bodystart="21" bodyend="21"/>
+        <referencedby refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h_1a8ba01acb0a84e022a06cf3eabf95970b" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h" startline="50" endline="58">printVarNodeLq</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classvariableNode_1a25c73afe930e4d911cde5d177d9852c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; variableNode::getLr</definition>
+        <argsstring>()</argsstring>
+        <name>getLr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" line="22" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" bodystart="22" bodyend="22"/>
+        <references refid="classvariableNode_1ab7b325fc2c5a3bf37cec6555185d7a2e">setLx</references>
+        <references refid="classvariableNode_1ac11d252e5ea600ece7d4997df829465d">updatelogAPP</references>
+      </memberdef>
+      <memberdef kind="function" id="classvariableNode_1ab7b325fc2c5a3bf37cec6555185d7a2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void variableNode::setLx</definition>
+        <argsstring>(double newLx)</argsstring>
+        <name>setLx</name>
+        <param>
+          <type>double</type>
+          <declname>newLx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" line="23" column="1"/>
+        <referencedby refid="classvariableNode_1a25c73afe930e4d911cde5d177d9852c4" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2variablenode_8h" startline="22" endline="22">getLr</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classvariableNode_1ac11d252e5ea600ece7d4997df829465d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void variableNode::updatelogAPP</definition>
+        <argsstring>()</argsstring>
+        <name>updatelogAPP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" line="24" column="1"/>
+        <referencedby refid="classvariableNode_1a25c73afe930e4d911cde5d177d9852c4" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2variablenode_8h" startline="22" endline="22">getLr</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classvariableNode_1a03d38d83cecd7286bc3d9873bd0a8708" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double variableNode::getlogAPP</definition>
+        <argsstring>()</argsstring>
+        <name>getlogAPP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" line="25" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" bodystart="25" bodyend="25"/>
+        <references refid="classvariableNode_1a7ad32c4646ddb323d6c52e205d0085e2">updateLq</references>
+        <references refid="classvariableNode_1adfb3bf89a740d695bb62a175eb2151e0">updateLr</references>
+      </memberdef>
+      <memberdef kind="function" id="classvariableNode_1a7ad32c4646ddb323d6c52e205d0085e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void variableNode::updateLq</definition>
+        <argsstring>()</argsstring>
+        <name>updateLq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" line="26" column="1"/>
+        <referencedby refid="classvariableNode_1a03d38d83cecd7286bc3d9873bd0a8708" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2variablenode_8h" startline="25" endline="25">getlogAPP</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classvariableNode_1adfb3bf89a740d695bb62a175eb2151e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void variableNode::updateLr</definition>
+        <argsstring>(double newLr)</argsstring>
+        <name>updateLr</name>
+        <param>
+          <type>double</type>
+          <declname>newLr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" line="27" column="1"/>
+        <referencedby refid="classvariableNode_1a03d38d83cecd7286bc3d9873bd0a8708" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2variablenode_8h" startline="25" endline="25">getlogAPP</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classvariableNode_1a758f49dbf2ca27b6e91c27fbe17034d0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>variableNode::variableNode</definition>
+        <argsstring>(std::vector&lt; int &gt; indicies)</argsstring>
+        <name>variableNode</name>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>indicies</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/variablenode.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classvariableNode_1abf4a4a4e6a965e6390716801f920634c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; variableNode::getCheckNodes</definition>
+        <argsstring>()</argsstring>
+        <name>getCheckNodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/variablenode.h" line="20" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/variablenode.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classvariableNode_1aa2e19691a5f955200458d407caf95e50" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; variableNode::getLq</definition>
+        <argsstring>()</argsstring>
+        <name>getLq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/variablenode.h" line="21" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/variablenode.h" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classvariableNode_1a25c73afe930e4d911cde5d177d9852c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; variableNode::getLr</definition>
+        <argsstring>()</argsstring>
+        <name>getLr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/variablenode.h" line="22" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/variablenode.h" bodystart="22" bodyend="22"/>
+        <references refid="classvariableNode_1ab7b325fc2c5a3bf37cec6555185d7a2e">setLx</references>
+        <references refid="classvariableNode_1ac11d252e5ea600ece7d4997df829465d">updatelogAPP</references>
+      </memberdef>
+      <memberdef kind="function" id="classvariableNode_1ab7b325fc2c5a3bf37cec6555185d7a2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void variableNode::setLx</definition>
+        <argsstring>(double newLx)</argsstring>
+        <name>setLx</name>
+        <param>
+          <type>double</type>
+          <declname>newLx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/variablenode.h" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classvariableNode_1ac11d252e5ea600ece7d4997df829465d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void variableNode::updatelogAPP</definition>
+        <argsstring>()</argsstring>
+        <name>updatelogAPP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/variablenode.h" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classvariableNode_1a03d38d83cecd7286bc3d9873bd0a8708" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double variableNode::getlogAPP</definition>
+        <argsstring>()</argsstring>
+        <name>getlogAPP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/variablenode.h" line="25" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/variablenode.h" bodystart="25" bodyend="25"/>
+        <references refid="classvariableNode_1a7ad32c4646ddb323d6c52e205d0085e2">updateLq</references>
+        <references refid="classvariableNode_1adfb3bf89a740d695bb62a175eb2151e0">updateLr</references>
+      </memberdef>
+      <memberdef kind="function" id="classvariableNode_1a7ad32c4646ddb323d6c52e205d0085e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void variableNode::updateLq</definition>
+        <argsstring>()</argsstring>
+        <name>updateLq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/variablenode.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classvariableNode_1adfb3bf89a740d695bb62a175eb2151e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void variableNode::updateLr</definition>
+        <argsstring>(double newLr)</argsstring>
+        <name>updateLr</name>
+        <param>
+          <type>double</type>
+          <declname>newLr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/variablenode.h" line="27" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" line="8" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/variablenode.h" bodystart="7" bodyend="30"/>
+    <listofallmembers>
+      <member refid="classvariableNode_1a77dedcde931072b7d85facd5becf35aa" prot="protected" virt="non-virtual"><scope>variableNode</scope><name>calculateLq</name></member>
+      <member refid="classvariableNode_1a77dedcde931072b7d85facd5becf35aa" prot="protected" virt="non-virtual"><scope>variableNode</scope><name>calculateLq</name></member>
+      <member refid="classvariableNode_1aeba27baedf6fcb7cd8c6a44b9615c2cf" prot="private" virt="non-virtual"><scope>variableNode</scope><name>d_checkNodeIndicies</name></member>
+      <member refid="classvariableNode_1abe2e13e20c9b520a95e4443454021199" prot="private" virt="non-virtual"><scope>variableNode</scope><name>d_Lq</name></member>
+      <member refid="classvariableNode_1a88f692fe58ff4a3419e2d37138a1d26c" prot="private" virt="non-virtual"><scope>variableNode</scope><name>d_Lr</name></member>
+      <member refid="classvariableNode_1abf4a4a4e6a965e6390716801f920634c" prot="public" virt="non-virtual"><scope>variableNode</scope><name>getCheckNodes</name></member>
+      <member refid="classvariableNode_1abf4a4a4e6a965e6390716801f920634c" prot="public" virt="non-virtual"><scope>variableNode</scope><name>getCheckNodes</name></member>
+      <member refid="classvariableNode_1a03d38d83cecd7286bc3d9873bd0a8708" prot="public" virt="non-virtual"><scope>variableNode</scope><name>getlogAPP</name></member>
+      <member refid="classvariableNode_1a03d38d83cecd7286bc3d9873bd0a8708" prot="public" virt="non-virtual"><scope>variableNode</scope><name>getlogAPP</name></member>
+      <member refid="classvariableNode_1aa2e19691a5f955200458d407caf95e50" prot="public" virt="non-virtual"><scope>variableNode</scope><name>getLq</name></member>
+      <member refid="classvariableNode_1aa2e19691a5f955200458d407caf95e50" prot="public" virt="non-virtual"><scope>variableNode</scope><name>getLq</name></member>
+      <member refid="classvariableNode_1a25c73afe930e4d911cde5d177d9852c4" prot="public" virt="non-virtual"><scope>variableNode</scope><name>getLr</name></member>
+      <member refid="classvariableNode_1a25c73afe930e4d911cde5d177d9852c4" prot="public" virt="non-virtual"><scope>variableNode</scope><name>getLr</name></member>
+      <member refid="classvariableNode_1a50dc3dec486dda401d6861a7dffbdf79" prot="private" virt="non-virtual"><scope>variableNode</scope><name>logAPP</name></member>
+      <member refid="classvariableNode_1a5472a35c005aa5fb441fb83f7b60dcc4" prot="private" virt="non-virtual"><scope>variableNode</scope><name>lx</name></member>
+      <member refid="classvariableNode_1ab7b325fc2c5a3bf37cec6555185d7a2e" prot="public" virt="non-virtual"><scope>variableNode</scope><name>setLx</name></member>
+      <member refid="classvariableNode_1ab7b325fc2c5a3bf37cec6555185d7a2e" prot="public" virt="non-virtual"><scope>variableNode</scope><name>setLx</name></member>
+      <member refid="classvariableNode_1ae5b3f5097b8bf102f28bfb0bf89f7afa" prot="protected" virt="non-virtual"><scope>variableNode</scope><name>sum</name></member>
+      <member refid="classvariableNode_1ae5b3f5097b8bf102f28bfb0bf89f7afa" prot="protected" virt="non-virtual"><scope>variableNode</scope><name>sum</name></member>
+      <member refid="classvariableNode_1ac11d252e5ea600ece7d4997df829465d" prot="public" virt="non-virtual"><scope>variableNode</scope><name>updatelogAPP</name></member>
+      <member refid="classvariableNode_1ac11d252e5ea600ece7d4997df829465d" prot="public" virt="non-virtual"><scope>variableNode</scope><name>updatelogAPP</name></member>
+      <member refid="classvariableNode_1a7ad32c4646ddb323d6c52e205d0085e2" prot="public" virt="non-virtual"><scope>variableNode</scope><name>updateLq</name></member>
+      <member refid="classvariableNode_1a7ad32c4646ddb323d6c52e205d0085e2" prot="public" virt="non-virtual"><scope>variableNode</scope><name>updateLq</name></member>
+      <member refid="classvariableNode_1adfb3bf89a740d695bb62a175eb2151e0" prot="public" virt="non-virtual"><scope>variableNode</scope><name>updateLr</name></member>
+      <member refid="classvariableNode_1adfb3bf89a740d695bb62a175eb2151e0" prot="public" virt="non-virtual"><scope>variableNode</scope><name>updateLr</name></member>
+      <member refid="classvariableNode_1a758f49dbf2ca27b6e91c27fbe17034d0" prot="public" virt="non-virtual"><scope>variableNode</scope><name>variableNode</name></member>
+      <member refid="classvariableNode_1a758f49dbf2ca27b6e91c27fbe17034d0" prot="public" virt="non-virtual"><scope>variableNode</scope><name>variableNode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

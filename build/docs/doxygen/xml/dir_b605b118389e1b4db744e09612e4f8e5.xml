@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_b605b118389e1b4db744e09612e4f8e5" kind="dir">
+    <compoundname>standalone</compoundname>
+    <innerdir refid="dir_7d2535f49f3e7f0ce88e40577857078c">linux</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/EZPWD/ezpwd-reed-solomon/standalone/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classldpc" kind="class" language="C++" prot="public">
+    <compoundname>ldpc</compoundname>
+    <includes refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2ldpc_8h" local="no">ldpc.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classldpc_1a3dd263d0f2730be391d8ae3d45c03b66" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classcheckNode" kindref="compound">checkNode</ref> &gt;</type>
+        <definition>std::vector&lt; checkNode &gt; ldpc::checkNodes</definition>
+        <argsstring></argsstring>
+        <name>checkNodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h" line="14" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classldpc_1af4c293873ff35e70568efccb8cb7258d" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classvariableNode" kindref="compound">variableNode</ref> &gt;</type>
+        <definition>std::vector&lt; variableNode &gt; ldpc::varNodes</definition>
+        <argsstring></argsstring>
+        <name>varNodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h" line="15" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classldpc_1a20a5a275d6f1292a88939ebaab3580b6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ldpc::numCheckNodes</definition>
+        <argsstring></argsstring>
+        <name>numCheckNodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h" line="16" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classldpc_1a690efa9b4064b77a3072378d1df09f10" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ldpc::numVarNodes</definition>
+        <argsstring></argsstring>
+        <name>numVarNodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h" line="17" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classldpc_1ae97176a5da0112cf7ab2b17cfe21aaf8" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double ldpc::codeRate</definition>
+        <argsstring></argsstring>
+        <name>codeRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h" line="18" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classldpc_1a7bbf7078ee74520783032704129405bf" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float ldpc::codeRate</definition>
+        <argsstring></argsstring>
+        <name>codeRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/ldpc.h" line="18" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/ldpc.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classldpc_1a34df822985e1121cfe6da86b33b06c8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ldpc::ldpc</definition>
+        <argsstring>(string filename)</argsstring>
+        <name>ldpc</name>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classldpc_1a75a5f7b122197b07dc3c2b3208f3ebf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ldpc::readAlist</definition>
+        <argsstring>(string filename, std::vector&lt; std::vector&lt; int &gt; &gt; &amp;m_list, std::vector&lt; std::vector&lt; int &gt; &gt; &amp;n_list)</argsstring>
+        <name>readAlist</name>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::vector&lt; int &gt; &gt; &amp;</type>
+          <declname>m_list</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::vector&lt; int &gt; &gt; &amp;</type>
+          <declname>n_list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classldpc_1ae5e0881e0b7e3f6d38c210e22c30190b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; ldpc::decode</definition>
+        <argsstring>(std::vector&lt; double &gt; softBits, int iterations, double sigma)</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::vector&lt; double &gt;</type>
+          <declname>softBits</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iterations</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>sigma</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h" line="22" column="1"/>
+        <referencedby refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h_1ae02b1f32b3074f499e599dc5656b4847" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h" startline="134" endline="144">ldpcTDD</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classldpc_1aae1a993984eafbf3b5cbb858a9b13b1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double ldpc::getCodeRate</definition>
+        <argsstring>()</argsstring>
+        <name>getCodeRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h" line="23" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h" bodystart="23" bodyend="23"/>
+        <referencedby refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h_1ae02b1f32b3074f499e599dc5656b4847" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h" startline="134" endline="144">ldpcTDD</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classldpc_1a66fb86de3c28bf3e0b09e203e7241a8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ldpc::getnumCheckNodes</definition>
+        <argsstring>()</argsstring>
+        <name>getnumCheckNodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h" line="24" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classldpc_1a014cf0db5947999fd7817b6a6bf4ae3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ldpc::getnumVarNodes</definition>
+        <argsstring>()</argsstring>
+        <name>getnumVarNodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h" line="25" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classldpc_1a34df822985e1121cfe6da86b33b06c8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ldpc::ldpc</definition>
+        <argsstring>(string filename)</argsstring>
+        <name>ldpc</name>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/ldpc.h" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classldpc_1a75a5f7b122197b07dc3c2b3208f3ebf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ldpc::readAlist</definition>
+        <argsstring>(string filename, std::vector&lt; std::vector&lt; int &gt; &gt; &amp;m_list, std::vector&lt; std::vector&lt; int &gt; &gt; &amp;n_list)</argsstring>
+        <name>readAlist</name>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::vector&lt; int &gt; &gt; &amp;</type>
+          <declname>m_list</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::vector&lt; int &gt; &gt; &amp;</type>
+          <declname>n_list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/ldpc.h" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classldpc_1a601f398c432c42e6e29a139c5be46ab0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; ldpc::decode</definition>
+        <argsstring>(std::vector&lt; float &gt; softBits, int iterations, float sigma)</argsstring>
+        <name>decode</name>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>softBits</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iterations</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>sigma</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/ldpc.h" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classldpc_1abb9ab3bdd72e1cd54bdd654d7ca607ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>float</type>
+        <definition>float ldpc::getCodeRate</definition>
+        <argsstring>()</argsstring>
+        <name>getCodeRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/ldpc.h" line="23" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/ldpc.h" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="classldpc_1a66fb86de3c28bf3e0b09e203e7241a8a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ldpc::getnumCheckNodes</definition>
+        <argsstring>()</argsstring>
+        <name>getnumCheckNodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/ldpc.h" line="24" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/ldpc.h" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classldpc_1a014cf0db5947999fd7817b6a6bf4ae3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int ldpc::getnumVarNodes</definition>
+        <argsstring>()</argsstring>
+        <name>getnumVarNodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/ldpc.h" line="25" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/ldpc.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h" line="12" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h" bodystart="11" bodyend="27"/>
+    <listofallmembers>
+      <member refid="classldpc_1a3dd263d0f2730be391d8ae3d45c03b66" prot="private" virt="non-virtual"><scope>ldpc</scope><name>checkNodes</name></member>
+      <member refid="classldpc_1ae97176a5da0112cf7ab2b17cfe21aaf8" prot="private" virt="non-virtual"><scope>ldpc</scope><name>codeRate</name></member>
+      <member refid="classldpc_1a7bbf7078ee74520783032704129405bf" prot="private" virt="non-virtual"><scope>ldpc</scope><name>codeRate</name></member>
+      <member refid="classldpc_1ae5e0881e0b7e3f6d38c210e22c30190b" prot="public" virt="non-virtual"><scope>ldpc</scope><name>decode</name></member>
+      <member refid="classldpc_1a601f398c432c42e6e29a139c5be46ab0" prot="public" virt="non-virtual"><scope>ldpc</scope><name>decode</name></member>
+      <member refid="classldpc_1aae1a993984eafbf3b5cbb858a9b13b1d" prot="public" virt="non-virtual"><scope>ldpc</scope><name>getCodeRate</name></member>
+      <member refid="classldpc_1abb9ab3bdd72e1cd54bdd654d7ca607ce" prot="public" virt="non-virtual"><scope>ldpc</scope><name>getCodeRate</name></member>
+      <member refid="classldpc_1a66fb86de3c28bf3e0b09e203e7241a8a" prot="public" virt="non-virtual"><scope>ldpc</scope><name>getnumCheckNodes</name></member>
+      <member refid="classldpc_1a66fb86de3c28bf3e0b09e203e7241a8a" prot="public" virt="non-virtual"><scope>ldpc</scope><name>getnumCheckNodes</name></member>
+      <member refid="classldpc_1a014cf0db5947999fd7817b6a6bf4ae3b" prot="public" virt="non-virtual"><scope>ldpc</scope><name>getnumVarNodes</name></member>
+      <member refid="classldpc_1a014cf0db5947999fd7817b6a6bf4ae3b" prot="public" virt="non-virtual"><scope>ldpc</scope><name>getnumVarNodes</name></member>
+      <member refid="classldpc_1a34df822985e1121cfe6da86b33b06c8b" prot="public" virt="non-virtual"><scope>ldpc</scope><name>ldpc</name></member>
+      <member refid="classldpc_1a34df822985e1121cfe6da86b33b06c8b" prot="public" virt="non-virtual"><scope>ldpc</scope><name>ldpc</name></member>
+      <member refid="classldpc_1a20a5a275d6f1292a88939ebaab3580b6" prot="private" virt="non-virtual"><scope>ldpc</scope><name>numCheckNodes</name></member>
+      <member refid="classldpc_1a690efa9b4064b77a3072378d1df09f10" prot="private" virt="non-virtual"><scope>ldpc</scope><name>numVarNodes</name></member>
+      <member refid="classldpc_1a75a5f7b122197b07dc3c2b3208f3ebf5" prot="public" virt="non-virtual"><scope>ldpc</scope><name>readAlist</name></member>
+      <member refid="classldpc_1a75a5f7b122197b07dc3c2b3208f3ebf5" prot="public" virt="non-virtual"><scope>ldpc</scope><name>readAlist</name></member>
+      <member refid="classldpc_1af4c293873ff35e70568efccb8cb7258d" prot="private" virt="non-virtual"><scope>ldpc</scope><name>varNodes</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

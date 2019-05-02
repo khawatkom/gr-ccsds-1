@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ccsds_1_1generateCLTU" kind="class" language="C++" prot="public">
+    <compoundname>gr::ccsds::generateCLTU</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <includes refid="generateCLTU_8h" local="no">generateCLTU.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ccsds_1_1generateCLTU_1adb5d2495f8927d73312427d8bfcf5f4c" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1ccsds_1_1generateCLTU" kindref="compound">generateCLTU</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;generateCLTU&gt; gr::ccsds::generateCLTU::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/generateCLTU.h" line="39" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/generateCLTU.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1generateCLTU_1a86d51a923b70c123fbd411350f5e5c08" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ccsds_1_1generateCLTU_1adb5d2495f8927d73312427d8bfcf5f4c" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ccsds::generateCLTU::make</definition>
+        <argsstring>(int scramble)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>scramble</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1ccsds_1_1generateCLTU" kindref="compound">ccsds::generateCLTU</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1ccsds_1_1generateCLTU" kindref="compound">ccsds::generateCLTU</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1ccsds_1_1generateCLTU_1a86d51a923b70c123fbd411350f5e5c08" kindref="member">ccsds::generateCLTU::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/generateCLTU.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="52">
+        <label>gr::ccsds::generateCLTU</label>
+        <link refid="classgr_1_1ccsds_1_1generateCLTU"/>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="54">
+        <label>gr::ccsds::generateCLTU</label>
+        <link refid="classgr_1_1ccsds_1_1generateCLTU"/>
+        <childnode refid="55" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="55">
+        <label>sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/generateCLTU.h" line="37" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/generateCLTU.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ccsds_1_1generateCLTU_1a86d51a923b70c123fbd411350f5e5c08" prot="public" virt="non-virtual"><scope>gr::ccsds::generateCLTU</scope><name>make</name></member>
+      <member refid="classgr_1_1ccsds_1_1generateCLTU_1adb5d2495f8927d73312427d8bfcf5f4c" prot="public" virt="non-virtual"><scope>gr::ccsds::generateCLTU</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

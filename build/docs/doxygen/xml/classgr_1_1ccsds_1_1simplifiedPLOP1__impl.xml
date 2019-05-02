@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ccsds_1_1simplifiedPLOP1__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ccsds::simplifiedPLOP1_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ccsds_1_1simplifiedPLOP1" prot="public" virt="non-virtual">gr::ccsds::simplifiedPLOP1</basecompoundref>
+    <includes refid="simplifiedPLOP1__impl_8h" local="no">simplifiedPLOP1_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1simplifiedPLOP1__impl_1a94d1457e50591763455211ddff5994d8" prot="private" static="no" mutable="no">
+        <type><ref refid="generateCLTU__impl_8h_1aba7bc1797add20fe3efdf37ced1182c5" kindref="member">uint8_t</ref> *</type>
+        <definition>uint8_t* gr::ccsds::simplifiedPLOP1_impl::idleSeq</definition>
+        <argsstring></argsstring>
+        <name>idleSeq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/simplifiedPLOP1_impl.h" line="33" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/simplifiedPLOP1_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1simplifiedPLOP1__impl_1a879bf1ce3c480c3af98f7ae0bd83efc0" prot="private" static="no" mutable="no">
+        <type><ref refid="generateCLTU__impl_8h_1aba7bc1797add20fe3efdf37ced1182c5" kindref="member">uint8_t</ref> *</type>
+        <definition>uint8_t* gr::ccsds::simplifiedPLOP1_impl::acqSeq</definition>
+        <argsstring></argsstring>
+        <name>acqSeq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/simplifiedPLOP1_impl.h" line="34" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/simplifiedPLOP1_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1simplifiedPLOP1__impl_1ae8b2a315bd8ad205d0f355a4a5b21480" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::simplifiedPLOP1_impl::d_idleSeqLen</definition>
+        <argsstring></argsstring>
+        <name>d_idleSeqLen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/simplifiedPLOP1_impl.h" line="35" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/simplifiedPLOP1_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1simplifiedPLOP1__impl_1a711175d8f4d6ec079d456da6cbbb50a0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::simplifiedPLOP1_impl::d_acqSeqLen</definition>
+        <argsstring></argsstring>
+        <name>d_acqSeqLen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/simplifiedPLOP1_impl.h" line="36" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/simplifiedPLOP1_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1simplifiedPLOP1__impl_1a808e007242ce99e472d41b8fb9064f10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ccsds::simplifiedPLOP1_impl::simplifiedPLOP1_impl</definition>
+        <argsstring>(int idleSeqLen, int acqSeqLen)</argsstring>
+        <name>simplifiedPLOP1_impl</name>
+        <param>
+          <type>int</type>
+          <declname>idleSeqLen</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>acqSeqLen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/simplifiedPLOP1_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1simplifiedPLOP1__impl_1af369596946b58f2a31c209f25e68773e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ccsds::simplifiedPLOP1_impl::~simplifiedPLOP1_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~simplifiedPLOP1_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/simplifiedPLOP1_impl.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1simplifiedPLOP1__impl_1a17205e5b945a058bdaaf8d83ef48af1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ccsds::simplifiedPLOP1_impl::plop1</definition>
+        <argsstring>(pmt::pmt_t pmt_msg)</argsstring>
+        <name>plop1</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>pmt_msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/simplifiedPLOP1_impl.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1simplifiedPLOP1__impl_1ab8f2509c780115a68b3537b39e12cbcf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ccsds::simplifiedPLOP1_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/simplifiedPLOP1_impl.h" line="43" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="355">
+        <label>gr::ccsds::simplifiedPLOP1_impl</label>
+        <link refid="classgr_1_1ccsds_1_1simplifiedPLOP1__impl"/>
+        <childnode refid="356" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="356">
+        <label>gr::ccsds::simplifiedPLOP1</label>
+        <link refid="classgr_1_1ccsds_1_1simplifiedPLOP1"/>
+        <childnode refid="357" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="357">
+        <label>sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="358">
+        <label>gr::ccsds::simplifiedPLOP1_impl</label>
+        <link refid="classgr_1_1ccsds_1_1simplifiedPLOP1__impl"/>
+        <childnode refid="359" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="359">
+        <label>gr::ccsds::simplifiedPLOP1</label>
+        <link refid="classgr_1_1ccsds_1_1simplifiedPLOP1"/>
+        <childnode refid="360" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="360">
+        <label>sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/simplifiedPLOP1_impl.h" line="31" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/simplifiedPLOP1_impl.h" bodystart="30" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ccsds_1_1simplifiedPLOP1__impl_1a879bf1ce3c480c3af98f7ae0bd83efc0" prot="private" virt="non-virtual"><scope>gr::ccsds::simplifiedPLOP1_impl</scope><name>acqSeq</name></member>
+      <member refid="classgr_1_1ccsds_1_1simplifiedPLOP1__impl_1a711175d8f4d6ec079d456da6cbbb50a0" prot="private" virt="non-virtual"><scope>gr::ccsds::simplifiedPLOP1_impl</scope><name>d_acqSeqLen</name></member>
+      <member refid="classgr_1_1ccsds_1_1simplifiedPLOP1__impl_1ae8b2a315bd8ad205d0f355a4a5b21480" prot="private" virt="non-virtual"><scope>gr::ccsds::simplifiedPLOP1_impl</scope><name>d_idleSeqLen</name></member>
+      <member refid="classgr_1_1ccsds_1_1simplifiedPLOP1__impl_1a94d1457e50591763455211ddff5994d8" prot="private" virt="non-virtual"><scope>gr::ccsds::simplifiedPLOP1_impl</scope><name>idleSeq</name></member>
+      <member refid="classgr_1_1ccsds_1_1simplifiedPLOP1_1a5c186328303ae410e467753a1a4a5f2d" prot="public" virt="non-virtual"><scope>gr::ccsds::simplifiedPLOP1_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ccsds_1_1simplifiedPLOP1__impl_1a17205e5b945a058bdaaf8d83ef48af1c" prot="public" virt="non-virtual"><scope>gr::ccsds::simplifiedPLOP1_impl</scope><name>plop1</name></member>
+      <member refid="classgr_1_1ccsds_1_1simplifiedPLOP1__impl_1a808e007242ce99e472d41b8fb9064f10" prot="public" virt="non-virtual"><scope>gr::ccsds::simplifiedPLOP1_impl</scope><name>simplifiedPLOP1_impl</name></member>
+      <member refid="classgr_1_1ccsds_1_1simplifiedPLOP1_1aaf06d69e5149b6dc7e882f26ac7e3739" prot="public" virt="non-virtual"><scope>gr::ccsds::simplifiedPLOP1_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ccsds_1_1simplifiedPLOP1__impl_1ab8f2509c780115a68b3537b39e12cbcf" prot="public" virt="non-virtual"><scope>gr::ccsds::simplifiedPLOP1_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1ccsds_1_1simplifiedPLOP1__impl_1af369596946b58f2a31c209f25e68773e" prot="public" virt="non-virtual"><scope>gr::ccsds::simplifiedPLOP1_impl</scope><name>~simplifiedPLOP1_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

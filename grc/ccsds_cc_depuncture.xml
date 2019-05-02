@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<block>
+  <name>cc_depuncture</name>
+  <key>ccsds_cc_depuncture</key>
+  <category>[ccsds]</category>
+  <import>import ccsds</import>
+  <make>ccsds.cc_depuncture($puncsize, $puncpat, $delay, $symbol)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Puncture Size</name>
+    <key>puncsize</key>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Puncture Pattern</name>
+    <key>puncpat</key>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Delay</name>
+    <key>delay</key>
+    <value>0</value>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Symbol</name>
+    <key>symbol</key>
+    <value>0</value>
+    <type>int</type>
+    <hide>part</hide>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>float</type>
+  </source>
+</block>

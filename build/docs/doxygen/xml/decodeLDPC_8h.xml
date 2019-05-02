@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="decodeLDPC_8h" kind="file" language="C++">
+    <compoundname>decodeLDPC.h</compoundname>
+    <includes refid="api_8h" local="no">ccsds/api.h</includes>
+    <includes local="no">gnuradio/sync_block.h</includes>
+    <includedby refid="decodeLDPC__impl_8h" local="no">decodeLDPC_impl.h</includedby>
+    <incdepgraph>
+      <node id="810">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="809">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="808">
+        <label>ccsds/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="809" relation="include">
+        </childnode>
+      </node>
+      <node id="807">
+        <label>decodeLDPC.h</label>
+        <link refid="decodeLDPC.h"/>
+        <childnode refid="808" relation="include">
+        </childnode>
+        <childnode refid="810" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="811">
+        <label>decodeLDPC.h</label>
+        <link refid="decodeLDPC.h"/>
+        <childnode refid="812" relation="include">
+        </childnode>
+      </node>
+      <node id="812">
+        <label>decodeLDPC_impl.h</label>
+        <link refid="decodeLDPC__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1ccsds_1_1decodeLDPC" prot="public">gr::ccsds::decodeLDPC</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1ccsds">gr::ccsds</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/decodeLDPC.h"/>
+  </compounddef>
+</doxygen>

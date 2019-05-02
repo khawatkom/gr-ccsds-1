@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ccsds_1_1convEncoder__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ccsds::convEncoder_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ccsds_1_1convEncoder" prot="public" virt="non-virtual">gr::ccsds::convEncoder</basecompoundref>
+    <includes refid="convEncoder__impl_8h" local="no">convEncoder_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1convEncoder__impl_1a4857c679b6eb9a68ac1e48f1f63f95bd" prot="private" static="no" mutable="no">
+        <type>vector&lt; unsigned char &gt;</type>
+        <definition>vector&lt;unsigned char&gt; gr::ccsds::convEncoder_impl::state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/convEncoder_impl.h" line="35" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/convEncoder_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1convEncoder__impl_1a9148a92085ad1c25dc6033698d93e3b2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::ccsds::convEncoder_impl::d_invert</definition>
+        <argsstring></argsstring>
+        <name>d_invert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/convEncoder_impl.h" line="36" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/convEncoder_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1convEncoder__impl_1af046271141b8de531dc8223fd61e76ed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ccsds::convEncoder_impl::convEncoder_impl</definition>
+        <argsstring>(int invert)</argsstring>
+        <name>convEncoder_impl</name>
+        <param>
+          <type>int</type>
+          <declname>invert</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/convEncoder_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1convEncoder__impl_1a75839c55608bf8cbfeb67b2c6e04f305" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ccsds::convEncoder_impl::~convEncoder_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~convEncoder_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/convEncoder_impl.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1convEncoder__impl_1ac71dfe5d61a8130ceaec8afc5471e830" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ccsds::convEncoder_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/convEncoder_impl.h" line="43" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="175">
+        <label>gr::ccsds::convEncoder</label>
+        <link refid="classgr_1_1ccsds_1_1convEncoder"/>
+        <childnode refid="176" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="174">
+        <label>gr::ccsds::convEncoder_impl</label>
+        <link refid="classgr_1_1ccsds_1_1convEncoder__impl"/>
+        <childnode refid="175" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="176">
+        <label>gr::sync_interpolator</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="178">
+        <label>gr::ccsds::convEncoder</label>
+        <link refid="classgr_1_1ccsds_1_1convEncoder"/>
+        <childnode refid="179" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="177">
+        <label>gr::ccsds::convEncoder_impl</label>
+        <link refid="classgr_1_1ccsds_1_1convEncoder__impl"/>
+        <childnode refid="178" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="179">
+        <label>gr::sync_interpolator</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/convEncoder_impl.h" line="33" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/convEncoder_impl.h" bodystart="32" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ccsds_1_1convEncoder__impl_1af046271141b8de531dc8223fd61e76ed" prot="public" virt="non-virtual"><scope>gr::ccsds::convEncoder_impl</scope><name>convEncoder_impl</name></member>
+      <member refid="classgr_1_1ccsds_1_1convEncoder__impl_1a9148a92085ad1c25dc6033698d93e3b2" prot="private" virt="non-virtual"><scope>gr::ccsds::convEncoder_impl</scope><name>d_invert</name></member>
+      <member refid="classgr_1_1ccsds_1_1convEncoder_1ac7bfc284da6a52ad4870f494b8e8fba7" prot="public" virt="non-virtual"><scope>gr::ccsds::convEncoder_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ccsds_1_1convEncoder_1a680d5fb0bcfb0c871081b890346a8b20" prot="public" virt="non-virtual"><scope>gr::ccsds::convEncoder_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ccsds_1_1convEncoder__impl_1a4857c679b6eb9a68ac1e48f1f63f95bd" prot="private" virt="non-virtual"><scope>gr::ccsds::convEncoder_impl</scope><name>state</name></member>
+      <member refid="classgr_1_1ccsds_1_1convEncoder__impl_1ac71dfe5d61a8130ceaec8afc5471e830" prot="public" virt="non-virtual"><scope>gr::ccsds::convEncoder_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1ccsds_1_1convEncoder__impl_1a75839c55608bf8cbfeb67b2c6e04f305" prot="public" virt="non-virtual"><scope>gr::ccsds::convEncoder_impl</scope><name>~convEncoder_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

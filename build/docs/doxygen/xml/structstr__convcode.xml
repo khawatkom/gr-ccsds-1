@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structstr__convcode" kind="struct" language="C++" prot="public">
+    <compoundname>str_convcode</compoundname>
+    <includes refid="backup_2libconvcodes_8h" local="no">libconvcodes.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structstr__convcode_1a72fca5ad96f78b8a3d55da97226c6f6a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int str_convcode::components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/backup/libconvcodes.h" line="9" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/backup/libconvcodes.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structstr__convcode_1aa5803abe161a9b5743429443b1446da4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int str_convcode::memory</definition>
+        <argsstring></argsstring>
+        <name>memory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/backup/libconvcodes.h" line="10" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/backup/libconvcodes.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structstr__convcode_1ac9785a898a5a3a884599bd121ec7770e" prot="public" static="no" mutable="no">
+        <type>int **</type>
+        <definition>int ** str_convcode::forward_connections</definition>
+        <argsstring></argsstring>
+        <name>forward_connections</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/backup/libconvcodes.h" line="11" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/backup/libconvcodes.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structstr__convcode_1a396dbf0bd3abb6bc0077e875a8b85f11" prot="public" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int * str_convcode::backward_connections</definition>
+        <argsstring></argsstring>
+        <name>backward_connections</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/backup/libconvcodes.h" line="12" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/backup/libconvcodes.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structstr__convcode_1a871ce84fedf0ace8c7ff926fd92bc698" prot="public" static="no" mutable="no">
+        <type>int **</type>
+        <definition>int ** str_convcode::next_state</definition>
+        <argsstring></argsstring>
+        <name>next_state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/backup/libconvcodes.h" line="13" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/backup/libconvcodes.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structstr__convcode_1acf595a215e5af8b88b0aa1bc7f15e26f" prot="public" static="no" mutable="no">
+        <type>int **</type>
+        <definition>int ** str_convcode::neighbors</definition>
+        <argsstring></argsstring>
+        <name>neighbors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/backup/libconvcodes.h" line="14" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/backup/libconvcodes.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structstr__convcode_1aab0fc5d4b370aa82c79fa5e3221ddc76" prot="public" static="no" mutable="no">
+        <type>int ***</type>
+        <definition>int *** str_convcode::output</definition>
+        <argsstring></argsstring>
+        <name>output</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/backup/libconvcodes.h" line="15" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/backup/libconvcodes.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/backup/libconvcodes.h" line="8" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/backup/libconvcodes.h" bodystart="8" bodyend="16"/>
+    <listofallmembers>
+      <member refid="structstr__convcode_1a396dbf0bd3abb6bc0077e875a8b85f11" prot="public" virt="non-virtual"><scope>str_convcode</scope><name>backward_connections</name></member>
+      <member refid="structstr__convcode_1a72fca5ad96f78b8a3d55da97226c6f6a" prot="public" virt="non-virtual"><scope>str_convcode</scope><name>components</name></member>
+      <member refid="structstr__convcode_1ac9785a898a5a3a884599bd121ec7770e" prot="public" virt="non-virtual"><scope>str_convcode</scope><name>forward_connections</name></member>
+      <member refid="structstr__convcode_1aa5803abe161a9b5743429443b1446da4" prot="public" virt="non-virtual"><scope>str_convcode</scope><name>memory</name></member>
+      <member refid="structstr__convcode_1acf595a215e5af8b88b0aa1bc7f15e26f" prot="public" virt="non-virtual"><scope>str_convcode</scope><name>neighbors</name></member>
+      <member refid="structstr__convcode_1a871ce84fedf0ace8c7ff926fd92bc698" prot="public" virt="non-virtual"><scope>str_convcode</scope><name>next_state</name></member>
+      <member refid="structstr__convcode_1aab0fc5d4b370aa82c79fa5e3221ddc76" prot="public" virt="non-virtual"><scope>str_convcode</scope><name>output</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

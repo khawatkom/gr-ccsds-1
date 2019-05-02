@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="encodeTurbo_8h" kind="file" language="C++">
+    <compoundname>encodeTurbo.h</compoundname>
+    <includes refid="api_8h" local="no">ccsds/api.h</includes>
+    <includes local="no">gnuradio/tagged_stream_block.h</includes>
+    <includedby refid="encodeTurbo__impl_8h" local="no">encodeTurbo_impl.h</includedby>
+    <incdepgraph>
+      <node id="907">
+        <label>encodeTurbo.h</label>
+        <link refid="encodeTurbo.h"/>
+        <childnode refid="908" relation="include">
+        </childnode>
+        <childnode refid="910" relation="include">
+        </childnode>
+      </node>
+      <node id="909">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="908">
+        <label>ccsds/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="909" relation="include">
+        </childnode>
+      </node>
+      <node id="910">
+        <label>gnuradio/tagged_stream_block.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="911">
+        <label>encodeTurbo.h</label>
+        <link refid="encodeTurbo.h"/>
+        <childnode refid="912" relation="include">
+        </childnode>
+      </node>
+      <node id="912">
+        <label>encodeTurbo_impl.h</label>
+        <link refid="encodeTurbo__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1ccsds_1_1encodeTurbo" prot="public">gr::ccsds::encodeTurbo</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1ccsds">gr::ccsds</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/encodeTurbo.h"/>
+  </compounddef>
+</doxygen>

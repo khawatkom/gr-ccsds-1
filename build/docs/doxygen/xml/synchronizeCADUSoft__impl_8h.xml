@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="synchronizeCADUSoft__impl_8h" kind="file" language="C++">
+    <compoundname>synchronizeCADUSoft_impl.h</compoundname>
+    <includes refid="synchronizeCADUSoft_8h" local="no">ccsds/synchronizeCADUSoft.h</includes>
+    <incdepgraph>
+      <node id="1211">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="1210">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="1209">
+        <label>ccsds/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="1210" relation="include">
+        </childnode>
+      </node>
+      <node id="1207">
+        <label>synchronizeCADUSoft_impl.h</label>
+        <link refid="synchronizeCADUSoft_impl.h"/>
+        <childnode refid="1208" relation="include">
+        </childnode>
+      </node>
+      <node id="1208">
+        <label>ccsds/synchronizeCADUSoft.h</label>
+        <link refid="synchronizeCADUSoft_8h"/>
+        <childnode refid="1209" relation="include">
+        </childnode>
+        <childnode refid="1211" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl" prot="public">gr::ccsds::synchronizeCADUSoft_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1ccsds">gr::ccsds</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="synchronizeCADUSoft__impl_8h_1adc6e5733fc3c22f0a7b2914188c49c90" prot="public" static="no">
+        <name>state</name>
+        <enumvalue id="synchronizeCADUHard__impl_8h_1adc6e5733fc3c22f0a7b2914188c49c90a803088a5d28b83b0f9d0828150ca4e76" prot="public">
+          <name>SEARCH</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="synchronizeCADUHard__impl_8h_1adc6e5733fc3c22f0a7b2914188c49c90a438b68412f24003b09e0993b62dc7b48" prot="public">
+          <name>LOCK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="synchronizeCADUSoft__impl_8h_1adc6e5733fc3c22f0a7b2914188c49c90a803088a5d28b83b0f9d0828150ca4e76" prot="public">
+          <name>SEARCH</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="synchronizeCADUSoft__impl_8h_1adc6e5733fc3c22f0a7b2914188c49c90a438b68412f24003b09e0993b62dc7b48" prot="public">
+          <name>LOCK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="25" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="enum" id="synchronizeCADUSoft__impl_8h_1a41fcba09f2bdcdf315ba4119dc7978dd" prot="public" static="no">
+        <name>cc</name>
+        <enumvalue id="synchronizeCADUSoft__impl_8h_1a41fcba09f2bdcdf315ba4119dc7978ddaba61587dcca788cf68c25b51677bf5d6" prot="public">
+          <name>CC_1_2</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="synchronizeCADUSoft__impl_8h_1a41fcba09f2bdcdf315ba4119dc7978ddaa22af4a66d84ae69b7ccaf67fcaade6c" prot="public">
+          <name>CC_2_3</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="synchronizeCADUSoft__impl_8h_1a41fcba09f2bdcdf315ba4119dc7978ddaed57b66d9bc784f7e6fdf5b6cdefd528" prot="public">
+          <name>CC_3_4</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="synchronizeCADUSoft__impl_8h_1a41fcba09f2bdcdf315ba4119dc7978dda444a0527fb2de410133c5fd6eb9c6f27" prot="public">
+          <name>CC_5_6</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="synchronizeCADUSoft__impl_8h_1a41fcba09f2bdcdf315ba4119dc7978ddaae2d525758c0793036d54e5e97fc0c9c" prot="public">
+          <name>CC_7_8</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" line="26" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h" bodystart="26" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.h"/>
+  </compounddef>
+</doxygen>

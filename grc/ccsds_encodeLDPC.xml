@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<block>
+  <name>encodeLDPC</name>
+  <key>ccsds_encodeLDPC</key>
+  <category>[ccsds]</category>
+  <import>import ccsds</import>
+  <make>ccsds.encodeLDPC($circulant_file,$code_type,$out_tag_key,$len_tag_key,$verbose)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <callback>open($file)</callback>
+	<param>
+		<name>Circulant File</name>
+                <key>circulant_file</key>
+		<value></value>
+		<type>file_open</type>
+	</param>
+<!--  <param>
+    <name>Circulant File</name>
+    <key>circulant_file</key>
+    <type>string</type>
+  </param> -->
+  
+  <param>
+    <name>Code Type</name>
+    <key>code_type</key>
+    <value>0</value>
+    <type>enum</type>
+	<option>
+		<name>CCSDS C2(8176,7154)</name>
+		<key>0</key>
+	</option>
+	<option>
+		<name>CCSDS C2(8160,7136)</name>
+		<key>1</key>
+	</option>
+        <option>
+		<name>AR4JA_r12_k1024n LDPC(2048,1024)</name>
+		<key>2</key>
+	</option>
+  </param>
+
+
+  <param>
+    <name>Out Tag</name>
+    <key>out_tag_key</key>
+    <type>string</type>
+  </param>
+
+  <param>
+    <name>Length Tag</name>
+    <key>len_tag_key</key>
+    <type>string</type>
+  </param>
+
+  <param>
+    <name>Verbose</name>
+    <key>verbose</key>
+    <type>enum</type>
+	<option>
+		<name>False</name>
+		<key>0</key>
+	</option>
+	<option>
+		<name>True</name>
+		<key>1</key>
+	</option>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

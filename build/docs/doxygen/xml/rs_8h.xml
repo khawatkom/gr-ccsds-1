@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="rs_8h" kind="file" language="C++">
+    <compoundname>rs.h</compoundname>
+    <includes local="no">fec/rs-common.h</includes>
+    <includes local="no">fec/fec.h</includes>
+    <incdepgraph>
+      <node id="1134">
+        <label>fec/rs-common.h</label>
+      </node>
+      <node id="1135">
+        <label>fec/fec.h</label>
+      </node>
+      <node id="1133">
+        <label>rs.h</label>
+        <link refid="rs.h"/>
+        <childnode refid="1134" relation="include">
+        </childnode>
+        <childnode refid="1135" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="rs_8h_1ab5408669505a929bd1eeb2d619145df6" prot="public" static="no">
+        <type>void</type>
+        <definition>typedef void data_t</definition>
+        <argsstring></argsstring>
+        <name>data_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/EZPWD/ezpwd-reed-solomon/phil-karn/rs.h" line="10" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/EZPWD/ezpwd-reed-solomon/phil-karn/rs.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="rs_8h_1a63c125a08c79f937871956918d960a84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* pad_rs_char</definition>
+        <argsstring>(void *p, int pad)</argsstring>
+        <name>pad_rs_char</name>
+        <param>
+          <type>void *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pad</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/EZPWD/ezpwd-reed-solomon/phil-karn/rs.h" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="rs_8h_1aab0ddfe2910febf6ddc0b15083b18e10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void *</type>
+        <definition>void* pad_rs_int</definition>
+        <argsstring>(void *p, int pad)</argsstring>
+        <name>pad_rs_int</name>
+        <param>
+          <type>void *</type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pad</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/EZPWD/ezpwd-reed-solomon/phil-karn/rs.h" line="23" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/EZPWD/ezpwd-reed-solomon/phil-karn/rs.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_fe9fffd1d06d53546b75dbca3c98e3d3" kind="dir">
+    <compoundname>BCH_BASE</compoundname>
+    <innerdir refid="dir_756e5c761fcbe14c9bd39b372bdee4a0">CRC</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/BCH_BASE/"/>
+  </compounddef>
+</doxygen>

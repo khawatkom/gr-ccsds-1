@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classScrambler" kind="class" language="C++" prot="public">
+    <compoundname>Scrambler</compoundname>
+    <includes refid="Scrambler_8h" local="no">Scrambler.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classScrambler_1a8ac651c6fc9dc271d63a483a9056c350" prot="private" static="no" mutable="no">
+        <type><ref refid="rs_8h_1ab5408669505a929bd1eeb2d619145df6" kindref="member">data_t</ref> *</type>
+        <definition>data_t* Scrambler::POLY</definition>
+        <argsstring></argsstring>
+        <name>POLY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/Scrambler/Scrambler.h" line="31" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/Scrambler/Scrambler.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classScrambler_1aea243dab3bae910c2ae134c30ad473ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Scrambler::Scrambler</definition>
+        <argsstring>()</argsstring>
+        <name>Scrambler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/Scrambler/Scrambler.h" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classScrambler_1a9ed0f3b853f24983bf6d99b424db0a5b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Scrambler::~Scrambler</definition>
+        <argsstring>()</argsstring>
+        <name>~Scrambler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/Scrambler/Scrambler.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classScrambler_1a427cb90277c36f988e109126eb62deed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scrambler::Scramble</definition>
+        <argsstring>(BYTEARRAY &amp;data)</argsstring>
+        <name>Scramble</name>
+        <param>
+          <type><ref refid="Scrambler_8h_1a4930711126646f6ad61516d3d8a27232" kindref="member">BYTEARRAY</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/Scrambler/Scrambler.h" line="27" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classScrambler_1ace7d2dfae167b9110e0587eb429e5102" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scrambler::Descramble</definition>
+        <argsstring>(BYTEARRAY &amp;data)</argsstring>
+        <name>Descramble</name>
+        <param>
+          <type><ref refid="Scrambler_8h_1a4930711126646f6ad61516d3d8a27232" kindref="member">BYTEARRAY</ref> &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/Scrambler/Scrambler.h" line="28" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classScrambler_1a4a6c51d5096216094a2696d19d09efd4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Scrambler::descramble_soft</definition>
+        <argsstring>(float data[], int frame_length)</argsstring>
+        <name>descramble_soft</name>
+        <param>
+          <type>float</type>
+          <declname>data</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>frame_length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/Scrambler/Scrambler.h" line="29" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/Scrambler/Scrambler.h" line="23" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/Scrambler/Scrambler.h" bodystart="23" bodyend="33"/>
+    <listofallmembers>
+      <member refid="classScrambler_1ace7d2dfae167b9110e0587eb429e5102" prot="public" virt="non-virtual"><scope>Scrambler</scope><name>Descramble</name></member>
+      <member refid="classScrambler_1a4a6c51d5096216094a2696d19d09efd4" prot="public" virt="non-virtual"><scope>Scrambler</scope><name>descramble_soft</name></member>
+      <member refid="classScrambler_1a8ac651c6fc9dc271d63a483a9056c350" prot="private" virt="non-virtual"><scope>Scrambler</scope><name>POLY</name></member>
+      <member refid="classScrambler_1a427cb90277c36f988e109126eb62deed" prot="public" virt="non-virtual"><scope>Scrambler</scope><name>Scramble</name></member>
+      <member refid="classScrambler_1aea243dab3bae910c2ae134c30ad473ac" prot="public" virt="non-virtual"><scope>Scrambler</scope><name>Scrambler</name></member>
+      <member refid="classScrambler_1a9ed0f3b853f24983bf6d99b424db0a5b" prot="public" virt="non-virtual"><scope>Scrambler</scope><name>~Scrambler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

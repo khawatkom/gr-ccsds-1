@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_403f6692dd2748be5bda1ee3709f3e76" kind="dir">
+    <compoundname>ezpwd-reed-solomon</compoundname>
+    <innerdir refid="dir_0c10056481ff9f1332611fcf55ba92ee">phil-karn</innerdir>
+    <innerdir refid="dir_b605b118389e1b4db744e09612e4f8e5">standalone</innerdir>
+    <innerdir refid="dir_6fa8f9764c1b0ee3b6fa17b7b69c4981">swig</innerdir>
+    <innerfile refid="djelic__bch_8h">djelic_bch.h</innerfile>
+    <innerfile refid="ezcod_8h">ezcod.h</innerfile>
+    <innerfile refid="rskey_8h">rskey.h</innerfile>
+    <innerfile refid="rspwd_8h">rspwd.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/EZPWD/ezpwd-reed-solomon/"/>
+  </compounddef>
+</doxygen>

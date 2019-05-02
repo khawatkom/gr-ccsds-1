@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="encodeLDPC__impl_8h" kind="file" language="C++">
+    <compoundname>encodeLDPC_impl.h</compoundname>
+    <includes refid="encodeLDPC_8h" local="no">ccsds/encodeLDPC.h</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="no">string</includes>
+    <includes local="no">fstream</includes>
+    <includes local="no">gnuradio/blocks/pack_k_bits.h</includes>
+    <incdepgraph>
+      <node id="886">
+        <label>string</label>
+      </node>
+      <node id="882">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="887">
+        <label>fstream</label>
+      </node>
+      <node id="881">
+        <label>ccsds/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="882" relation="include">
+        </childnode>
+      </node>
+      <node id="884">
+        <label>vector</label>
+      </node>
+      <node id="879">
+        <label>encodeLDPC_impl.h</label>
+        <link refid="encodeLDPC_impl.h"/>
+        <childnode refid="880" relation="include">
+        </childnode>
+        <childnode refid="884" relation="include">
+        </childnode>
+        <childnode refid="885" relation="include">
+        </childnode>
+        <childnode refid="886" relation="include">
+        </childnode>
+        <childnode refid="887" relation="include">
+        </childnode>
+        <childnode refid="888" relation="include">
+        </childnode>
+      </node>
+      <node id="888">
+        <label>gnuradio/blocks/pack_k_bits.h</label>
+      </node>
+      <node id="883">
+        <label>gnuradio/tagged_stream_block.h</label>
+      </node>
+      <node id="880">
+        <label>ccsds/encodeLDPC.h</label>
+        <link refid="encodeLDPC_8h"/>
+        <childnode refid="881" relation="include">
+        </childnode>
+        <childnode refid="883" relation="include">
+        </childnode>
+      </node>
+      <node id="885">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1ccsds_1_1encodeLDPC__impl" prot="public">gr::ccsds::encodeLDPC_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1ccsds">gr::ccsds</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeLDPC_impl.h"/>
+  </compounddef>
+</doxygen>

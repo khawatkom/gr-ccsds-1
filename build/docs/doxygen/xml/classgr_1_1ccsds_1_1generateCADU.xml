@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ccsds_1_1generateCADU" kind="class" language="C++" prot="public">
+    <compoundname>gr::ccsds::generateCADU</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1ccsds_1_1generateCADU__impl" prot="public" virt="non-virtual">gr::ccsds::generateCADU_impl</derivedcompoundref>
+    <includes refid="generateCADU_8h" local="no">generateCADU.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ccsds_1_1generateCADU_1a24201a7614f15cfbde8b3f538e4221f2" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1ccsds_1_1generateCADU" kindref="compound">generateCADU</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;generateCADU&gt; gr::ccsds::generateCADU::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/generateCADU.h" line="39" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/generateCADU.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1generateCADU_1a02a8299cc67ba5c97469cad502d3666e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ccsds_1_1generateCADU_1a24201a7614f15cfbde8b3f538e4221f2" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ccsds::generateCADU::make</definition>
+        <argsstring>(int frameLength, std::string sync, int scramble, int rs, int intDepth)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>frameLength</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>sync</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>scramble</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>intDepth</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1ccsds_1_1generateCADU" kindref="compound">ccsds::generateCADU</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1ccsds_1_1generateCADU" kindref="compound">ccsds::generateCADU</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1ccsds_1_1generateCADU_1a02a8299cc67ba5c97469cad502d3666e" kindref="member">ccsds::generateCADU::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/generateCADU.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="279">
+        <label>gr::ccsds::generateCADU</label>
+        <link refid="classgr_1_1ccsds_1_1generateCADU"/>
+        <childnode refid="280" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="280">
+        <label>sync_block</label>
+      </node>
+      <node id="281">
+        <label>gr::ccsds::generateCADU_impl</label>
+        <link refid="classgr_1_1ccsds_1_1generateCADU__impl"/>
+        <childnode refid="279" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="282">
+        <label>gr::ccsds::generateCADU</label>
+        <link refid="classgr_1_1ccsds_1_1generateCADU"/>
+        <childnode refid="283" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="283">
+        <label>sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/generateCADU.h" line="37" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/generateCADU.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ccsds_1_1generateCADU_1a02a8299cc67ba5c97469cad502d3666e" prot="public" virt="non-virtual"><scope>gr::ccsds::generateCADU</scope><name>make</name></member>
+      <member refid="classgr_1_1ccsds_1_1generateCADU_1a24201a7614f15cfbde8b3f538e4221f2" prot="public" virt="non-virtual"><scope>gr::ccsds::generateCADU</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

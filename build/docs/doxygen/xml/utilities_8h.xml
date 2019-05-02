@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="utilities_8h" kind="file" language="C++">
+    <compoundname>utilities.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <incdepgraph>
+      <node id="1219">
+        <label>utilities.h</label>
+        <link refid="utilities.h"/>
+        <childnode refid="1220" relation="include">
+        </childnode>
+      </node>
+      <node id="1220">
+        <label>stdio.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="utilities_8h_1a09156515d5b59b76511f32374c2e61a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void print_array_int</definition>
+        <argsstring>(int *array, int length)</argsstring>
+        <name>print_array_int</name>
+        <param>
+          <type>int *</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/utilities.h" line="9" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="utilities_8h_1a3b2179d5fab3b22c51102d8f4babfc99" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void print_array</definition>
+        <argsstring>(double *array, int length)</argsstring>
+        <name>print_array</name>
+        <param>
+          <type>double *</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/utilities.h" line="11" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="utilities_8h_1ad4b3f6f9b3c4bdb66e86d6f1931ea0bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double *</type>
+        <definition>double* randn</definition>
+        <argsstring>(double mean, double variance, unsigned int length)</argsstring>
+        <name>randn</name>
+        <param>
+          <type>double</type>
+          <declname>mean</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>variance</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/utilities.h" line="13" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/comm.h" bodystart="19" bodyend="37"/>
+        <referencedby refid="comm_8h_1ae1645e345e20f1fb29d0606856df8c73" compoundref="comm_8h" startline="48" endline="59">awgn_channel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="utilities_8h_1a2f37d118c4fb7e082254b23b9004fad3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int *</type>
+        <definition>int* randbits</definition>
+        <argsstring>(unsigned int length)</argsstring>
+        <name>randbits</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/utilities.h" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="utilities_8h_1a90b6f6f7f022577be564dfc7aeb7252a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double *</type>
+        <definition>double* linspace</definition>
+        <argsstring>(double start, double end, unsigned int size)</argsstring>
+        <name>linspace</name>
+        <param>
+          <type>double</type>
+          <declname>start</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>end</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/utilities.h" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="utilities_8h_1a84e3fe4ca25d600aa8f4e1cb09c384e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double *</type>
+        <definition>double* add_arrays</definition>
+        <argsstring>(double *one, double *two, unsigned int length)</argsstring>
+        <name>add_arrays</name>
+        <param>
+          <type>double *</type>
+          <declname>one</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>two</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/utilities.h" line="19" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="utilities_8h_1acedb454da9317e0cf8026e5ba904083e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double mean</definition>
+        <argsstring>(double *input, unsigned int length)</argsstring>
+        <name>mean</name>
+        <param>
+          <type>double *</type>
+          <declname>input</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/utilities.h" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="utilities_8h_1aa44685aae4b332f622cedaab1cd58206" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double *</type>
+        <definition>double* scalar_multiply</definition>
+        <argsstring>(double *array, unsigned int length, double scalar)</argsstring>
+        <name>scalar_multiply</name>
+        <param>
+          <type>double *</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>length</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>scalar</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/utilities.h" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="utilities_8h_1af0ac10cf58942dd19c960fce428a1ff2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int save_data</definition>
+        <argsstring>(double *x, double *y, double *z, char *header[], unsigned int length, FILE *file)</argsstring>
+        <name>save_data</name>
+        <param>
+          <type>double *</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>y</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>z</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>header</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>length</declname>
+        </param>
+        <param>
+          <type>FILE *</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/utilities.h" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="utilities_8h_1a567b6b40e66a327088ba67008f608900" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double max_array</definition>
+        <argsstring>(double *array, int size)</argsstring>
+        <name>max_array</name>
+        <param>
+          <type>double *</type>
+          <declname>array</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/utilities.h" line="27" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/utilities.h"/>
+  </compounddef>
+</doxygen>

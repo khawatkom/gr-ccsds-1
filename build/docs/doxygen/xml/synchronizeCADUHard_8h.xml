@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="synchronizeCADUHard_8h" kind="file" language="C++">
+    <compoundname>synchronizeCADUHard.h</compoundname>
+    <includes refid="api_8h" local="no">ccsds/api.h</includes>
+    <includes local="no">gnuradio/sync_block.h</includes>
+    <includedby refid="synchronizeCADUHard__impl_8h" local="no">synchronizeCADUHard_impl.h</includedby>
+    <incdepgraph>
+      <node id="1192">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="1191">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="1190">
+        <label>ccsds/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="1191" relation="include">
+        </childnode>
+      </node>
+      <node id="1189">
+        <label>synchronizeCADUHard.h</label>
+        <link refid="synchronizeCADUHard.h"/>
+        <childnode refid="1190" relation="include">
+        </childnode>
+        <childnode refid="1192" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1194">
+        <label>synchronizeCADUHard_impl.h</label>
+        <link refid="synchronizeCADUHard__impl_8h"/>
+      </node>
+      <node id="1193">
+        <label>synchronizeCADUHard.h</label>
+        <link refid="synchronizeCADUHard.h"/>
+        <childnode refid="1194" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1ccsds_1_1synchronizeCADUHard" prot="public">gr::ccsds::synchronizeCADUHard</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1ccsds">gr::ccsds</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/synchronizeCADUHard.h"/>
+  </compounddef>
+</doxygen>

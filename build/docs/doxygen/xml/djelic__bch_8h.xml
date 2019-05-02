@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="djelic__bch_8h" kind="file" language="C++">
+    <compoundname>djelic_bch.h</compoundname>
+    <includes local="yes">djelic/include/linux/bch.h</includes>
+    <incdepgraph>
+      <node id="871">
+        <label>djelic/include/linux/bch.h</label>
+      </node>
+      <node id="870">
+        <label>djelic_bch.h</label>
+        <link refid="djelic_bch.h"/>
+        <childnode refid="871" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/EZPWD/ezpwd-reed-solomon/djelic_bch.h"/>
+  </compounddef>
+</doxygen>

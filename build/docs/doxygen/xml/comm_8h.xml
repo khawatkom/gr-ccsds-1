@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="comm_8h" kind="file" language="C++">
+    <compoundname>comm.h</compoundname>
+    <includes local="no">vector</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="no">cstdlib</includes>
+    <incdepgraph>
+      <node id="720">
+        <label>comm.h</label>
+        <link refid="comm.h"/>
+        <childnode refid="721" relation="include">
+        </childnode>
+        <childnode refid="722" relation="include">
+        </childnode>
+        <childnode refid="723" relation="include">
+        </childnode>
+      </node>
+      <node id="721">
+        <label>vector</label>
+      </node>
+      <node id="723">
+        <label>cstdlib</label>
+      </node>
+      <node id="722">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="comm_8h_1a0989d79a2d9f94861b24724c8f5a1387" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; unsigned char &gt;</type>
+        <definition>std::vector&lt;unsigned char&gt; data_gen</definition>
+        <argsstring>(unsigned int nBits)</argsstring>
+        <name>data_gen</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>nBits</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/comm.h" line="7" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/comm.h" bodystart="7" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="comm_8h_1aa91f196de678698e4223fff94cf4a475" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; randn</definition>
+        <argsstring>(double mean, double variance, unsigned int length)</argsstring>
+        <name>randn</name>
+        <param>
+          <type>double</type>
+          <declname>mean</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>variance</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/comm.h" line="19" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/comm.h" bodystart="19" bodyend="37"/>
+        <referencedby refid="comm_8h_1ae1645e345e20f1fb29d0606856df8c73" compoundref="comm_8h" startline="48" endline="59">awgn_channel</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="comm_8h_1a35f3bda22ceb0421697affd6cb6bbd59" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; bpsk</definition>
+        <argsstring>(std::vector&lt; unsigned char &gt; data)</argsstring>
+        <name>bpsk</name>
+        <param>
+          <type>std::vector&lt; unsigned char &gt;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/comm.h" line="40" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/comm.h" bodystart="40" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="comm_8h_1ae1645e345e20f1fb29d0606856df8c73" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; awgn_channel</definition>
+        <argsstring>(std::vector&lt; double &gt; signal, double snr, double code_rate, double &amp;sigma)</argsstring>
+        <name>awgn_channel</name>
+        <param>
+          <type>std::vector&lt; double &gt;</type>
+          <declname>signal</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>snr</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>code_rate</declname>
+        </param>
+        <param>
+          <type>double &amp;</type>
+          <declname>sigma</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/comm.h" line="48" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/comm.h" bodystart="48" bodyend="59"/>
+        <references refid="comm_8h_1aa91f196de678698e4223fff94cf4a475" compoundref="comm_8h" startline="19" endline="37">randn</references>
+      </memberdef>
+      <memberdef kind="function" id="comm_8h_1afe961adbacc1ff0286313db6be034826" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ber</definition>
+        <argsstring>(std::vector&lt; unsigned char &gt; tx, std::vector&lt; unsigned char &gt; rx)</argsstring>
+        <name>ber</name>
+        <param>
+          <type>std::vector&lt; unsigned char &gt;</type>
+          <declname>tx</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; unsigned char &gt;</type>
+          <declname>rx</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/comm.h" line="61" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/comm.h" bodystart="61" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="comm_8h_1a747d6f6e53229bf6b585e021ab63bbad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; unsigned char &gt;</type>
+        <definition>std::vector&lt;unsigned char&gt; sliceLogAPP</definition>
+        <argsstring>(std::vector&lt; double &gt; logapp)</argsstring>
+        <name>sliceLogAPP</name>
+        <param>
+          <type>std::vector&lt; double &gt;</type>
+          <declname>logapp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/comm.h" line="73" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/comm.h" bodystart="73" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/comm.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ccsds_1_1generateCADU__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ccsds::generateCADU_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ccsds_1_1generateCADU" prot="public" virt="non-virtual">gr::ccsds::generateCADU</basecompoundref>
+    <includes refid="generateCADU__impl_8h" local="no">generateCADU_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1generateCADU__impl_1a558705b4a168aecf73d5538648799675" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::generateCADU_impl::d_frameLength</definition>
+        <argsstring></argsstring>
+        <name>d_frameLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCADU_impl.h" line="33" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCADU_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1generateCADU__impl_1a3f27f915f0e97aaf4a2f780b9e1b5633" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::ccsds::generateCADU_impl::d_scramble</definition>
+        <argsstring></argsstring>
+        <name>d_scramble</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCADU_impl.h" line="34" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCADU_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1generateCADU__impl_1abeb2d02acf15b7bafafc4ca056863dc2" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::ccsds::generateCADU_impl::d_rs</definition>
+        <argsstring></argsstring>
+        <name>d_rs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCADU_impl.h" line="35" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCADU_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1generateCADU__impl_1aacd719288ba6b3da747383913763adfc" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::ccsds::generateCADU_impl::d_basis</definition>
+        <argsstring></argsstring>
+        <name>d_basis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCADU_impl.h" line="36" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCADU_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1generateCADU__impl_1a421632a06e9b98434b612a908152f89e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::generateCADU_impl::d_intDepth</definition>
+        <argsstring></argsstring>
+        <name>d_intDepth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCADU_impl.h" line="37" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCADU_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1generateCADU__impl_1a911ec70e91e1659bebed95a0dfdd26a9" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; unsigned char &gt;</type>
+        <definition>std::vector&lt;unsigned char&gt; gr::ccsds::generateCADU_impl::d_sync</definition>
+        <argsstring></argsstring>
+        <name>d_sync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCADU_impl.h" line="38" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCADU_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1generateCADU__impl_1ad1bd68543b9a61c70e4a2c73fa1f0910" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ccsds::generateCADU_impl::generateCADU_impl</definition>
+        <argsstring>(int frameLength, std::string sync, int scramble, int rs, int intDepth)</argsstring>
+        <name>generateCADU_impl</name>
+        <param>
+          <type>int</type>
+          <declname>frameLength</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>sync</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>scramble</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>intDepth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCADU_impl.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1generateCADU__impl_1aafc9d14d244e824fc5a3c3cf34e71659" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ccsds::generateCADU_impl::~generateCADU_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~generateCADU_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCADU_impl.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1generateCADU__impl_1a5a5a087a5a02364f45a83ffa01171c37" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ccsds::generateCADU_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCADU_impl.h" line="47" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="285">
+        <label>gr::ccsds::generateCADU</label>
+        <link refid="classgr_1_1ccsds_1_1generateCADU"/>
+        <childnode refid="286" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="286">
+        <label>sync_block</label>
+      </node>
+      <node id="284">
+        <label>gr::ccsds::generateCADU_impl</label>
+        <link refid="classgr_1_1ccsds_1_1generateCADU__impl"/>
+        <childnode refid="285" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="288">
+        <label>gr::ccsds::generateCADU</label>
+        <link refid="classgr_1_1ccsds_1_1generateCADU"/>
+        <childnode refid="289" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="289">
+        <label>sync_block</label>
+      </node>
+      <node id="287">
+        <label>gr::ccsds::generateCADU_impl</label>
+        <link refid="classgr_1_1ccsds_1_1generateCADU__impl"/>
+        <childnode refid="288" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCADU_impl.h" line="31" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCADU_impl.h" bodystart="30" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ccsds_1_1generateCADU__impl_1aacd719288ba6b3da747383913763adfc" prot="private" virt="non-virtual"><scope>gr::ccsds::generateCADU_impl</scope><name>d_basis</name></member>
+      <member refid="classgr_1_1ccsds_1_1generateCADU__impl_1a558705b4a168aecf73d5538648799675" prot="private" virt="non-virtual"><scope>gr::ccsds::generateCADU_impl</scope><name>d_frameLength</name></member>
+      <member refid="classgr_1_1ccsds_1_1generateCADU__impl_1a421632a06e9b98434b612a908152f89e" prot="private" virt="non-virtual"><scope>gr::ccsds::generateCADU_impl</scope><name>d_intDepth</name></member>
+      <member refid="classgr_1_1ccsds_1_1generateCADU__impl_1abeb2d02acf15b7bafafc4ca056863dc2" prot="private" virt="non-virtual"><scope>gr::ccsds::generateCADU_impl</scope><name>d_rs</name></member>
+      <member refid="classgr_1_1ccsds_1_1generateCADU__impl_1a3f27f915f0e97aaf4a2f780b9e1b5633" prot="private" virt="non-virtual"><scope>gr::ccsds::generateCADU_impl</scope><name>d_scramble</name></member>
+      <member refid="classgr_1_1ccsds_1_1generateCADU__impl_1a911ec70e91e1659bebed95a0dfdd26a9" prot="private" virt="non-virtual"><scope>gr::ccsds::generateCADU_impl</scope><name>d_sync</name></member>
+      <member refid="classgr_1_1ccsds_1_1generateCADU__impl_1ad1bd68543b9a61c70e4a2c73fa1f0910" prot="public" virt="non-virtual"><scope>gr::ccsds::generateCADU_impl</scope><name>generateCADU_impl</name></member>
+      <member refid="classgr_1_1ccsds_1_1generateCADU_1a02a8299cc67ba5c97469cad502d3666e" prot="public" virt="non-virtual"><scope>gr::ccsds::generateCADU_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ccsds_1_1generateCADU_1a24201a7614f15cfbde8b3f538e4221f2" prot="public" virt="non-virtual"><scope>gr::ccsds::generateCADU_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ccsds_1_1generateCADU__impl_1a5a5a087a5a02364f45a83ffa01171c37" prot="public" virt="non-virtual"><scope>gr::ccsds::generateCADU_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1ccsds_1_1generateCADU__impl_1aafc9d14d244e824fc5a3c3cf34e71659" prot="public" virt="non-virtual"><scope>gr::ccsds::generateCADU_impl</scope><name>~generateCADU_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

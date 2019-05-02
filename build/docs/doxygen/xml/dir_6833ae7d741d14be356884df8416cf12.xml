@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_6833ae7d741d14be356884df8416cf12" kind="dir">
+    <compoundname>backup</compoundname>
+    <innerfile refid="backup_2libconvcodes_8h">backup/libconvcodes.h</innerfile>
+    <innerfile refid="backup_2libturbocodes_8h">backup/libturbocodes.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/backup/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,328 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classcheckNode" kind="class" language="C++" prot="public">
+    <compoundname>checkNode</compoundname>
+    <includes refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2checknode_8h" local="no">checknode.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcheckNode_1a7ba13c59c573187db14da68a18c60d35" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt; int &gt; checkNode::d_varNodeIndicies</definition>
+        <argsstring></argsstring>
+        <name>d_varNodeIndicies</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/checknode.h" line="9" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/checknode.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcheckNode_1a0f31faae9530224ef363a8194afa67d5" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt; double &gt; checkNode::d_Lq</definition>
+        <argsstring></argsstring>
+        <name>d_Lq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/checknode.h" line="10" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/checknode.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcheckNode_1a23dcf567bc201fa4b740c9b9d4188c6f" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt; double &gt; checkNode::d_Lr</definition>
+        <argsstring></argsstring>
+        <name>d_Lr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/checknode.h" line="11" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/checknode.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcheckNode_1ae209ffea9a1b67de76f6393481065059" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double checkNode::calculateLr</definition>
+        <argsstring>(std::vector&lt; double &gt; lq, int index)</argsstring>
+        <name>calculateLr</name>
+        <param>
+          <type>std::vector&lt; double &gt;</type>
+          <declname>lq</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/checknode.h" line="12" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classcheckNode_1ae209ffea9a1b67de76f6393481065059" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double checkNode::calculateLr</definition>
+        <argsstring>(std::vector&lt; double &gt; lq, int index)</argsstring>
+        <name>calculateLr</name>
+        <param>
+          <type>std::vector&lt; double &gt;</type>
+          <declname>lq</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/checknode.h" line="12" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcheckNode_1aba82730b9985a4d8ac582cd3fe2861ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkNode::checkNode</definition>
+        <argsstring>(std::vector&lt; int &gt; indicies)</argsstring>
+        <name>checkNode</name>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>indicies</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/checknode.h" line="14" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classcheckNode_1a457d79cd363754288c094baef3c164b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void checkNode::updateLr</definition>
+        <argsstring>()</argsstring>
+        <name>updateLr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/checknode.h" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classcheckNode_1aa520387593fa628df102dd34e58c0c8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void checkNode::updateLq</definition>
+        <argsstring>(double newLq)</argsstring>
+        <name>updateLq</name>
+        <param>
+          <type>double</type>
+          <declname>newLq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/checknode.h" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classcheckNode_1abc899d0479fac736ae071b3e32c233ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double checkNode::getLr</definition>
+        <argsstring>(int index)</argsstring>
+        <name>getLr</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/checknode.h" line="17" column="1"/>
+        <referencedby refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h_1a579eb6891791f74a1529c4763198b0da" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h" startline="70" endline="78">printChkNodeLr</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcheckNode_1abe27b591ea754a1dbb1748e81be1cbbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; checkNode::getVarNodes</definition>
+        <argsstring>()</argsstring>
+        <name>getVarNodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/checknode.h" line="18" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/checknode.h" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classcheckNode_1a8fe6373c51f5f4d867cc1a65cec480d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; checkNode::getLq</definition>
+        <argsstring>()</argsstring>
+        <name>getLq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/checknode.h" line="19" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/checknode.h" bodystart="19" bodyend="19"/>
+        <referencedby refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h_1aa09a5a20b91663e493a7448c7dd1c58d" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h" startline="60" endline="68">printChkNodeLq</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcheckNode_1aeacdd0252d4694bbff0ce065aa928632" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; checkNode::getLr</definition>
+        <argsstring>()</argsstring>
+        <name>getLr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/checknode.h" line="20" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/checknode.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="classcheckNode_1aba82730b9985a4d8ac582cd3fe2861ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>checkNode::checkNode</definition>
+        <argsstring>(std::vector&lt; int &gt; indicies)</argsstring>
+        <name>checkNode</name>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>indicies</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/checknode.h" line="14" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classcheckNode_1a457d79cd363754288c094baef3c164b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void checkNode::updateLr</definition>
+        <argsstring>()</argsstring>
+        <name>updateLr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/checknode.h" line="15" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classcheckNode_1aa520387593fa628df102dd34e58c0c8f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void checkNode::updateLq</definition>
+        <argsstring>(double newLq)</argsstring>
+        <name>updateLq</name>
+        <param>
+          <type>double</type>
+          <declname>newLq</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/checknode.h" line="16" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classcheckNode_1abc899d0479fac736ae071b3e32c233ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double checkNode::getLr</definition>
+        <argsstring>(int index)</argsstring>
+        <name>getLr</name>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/checknode.h" line="17" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classcheckNode_1abe27b591ea754a1dbb1748e81be1cbbb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; checkNode::getVarNodes</definition>
+        <argsstring>()</argsstring>
+        <name>getVarNodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/checknode.h" line="18" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/checknode.h" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="classcheckNode_1a8fe6373c51f5f4d867cc1a65cec480d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; checkNode::getLq</definition>
+        <argsstring>()</argsstring>
+        <name>getLq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/checknode.h" line="19" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/checknode.h" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="function" id="classcheckNode_1aeacdd0252d4694bbff0ce065aa928632" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>std::vector&lt; double &gt;</type>
+        <definition>std::vector&lt;double&gt; checkNode::getLr</definition>
+        <argsstring>()</argsstring>
+        <name>getLr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/checknode.h" line="20" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/checknode.h" bodystart="20" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/checknode.h" line="7" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/checknode.h" bodystart="6" bodyend="21"/>
+    <listofallmembers>
+      <member refid="classcheckNode_1ae209ffea9a1b67de76f6393481065059" prot="private" virt="non-virtual"><scope>checkNode</scope><name>calculateLr</name></member>
+      <member refid="classcheckNode_1ae209ffea9a1b67de76f6393481065059" prot="private" virt="non-virtual"><scope>checkNode</scope><name>calculateLr</name></member>
+      <member refid="classcheckNode_1aba82730b9985a4d8ac582cd3fe2861ba" prot="public" virt="non-virtual"><scope>checkNode</scope><name>checkNode</name></member>
+      <member refid="classcheckNode_1aba82730b9985a4d8ac582cd3fe2861ba" prot="public" virt="non-virtual"><scope>checkNode</scope><name>checkNode</name></member>
+      <member refid="classcheckNode_1a0f31faae9530224ef363a8194afa67d5" prot="private" virt="non-virtual"><scope>checkNode</scope><name>d_Lq</name></member>
+      <member refid="classcheckNode_1a23dcf567bc201fa4b740c9b9d4188c6f" prot="private" virt="non-virtual"><scope>checkNode</scope><name>d_Lr</name></member>
+      <member refid="classcheckNode_1a7ba13c59c573187db14da68a18c60d35" prot="private" virt="non-virtual"><scope>checkNode</scope><name>d_varNodeIndicies</name></member>
+      <member refid="classcheckNode_1a8fe6373c51f5f4d867cc1a65cec480d9" prot="public" virt="non-virtual"><scope>checkNode</scope><name>getLq</name></member>
+      <member refid="classcheckNode_1a8fe6373c51f5f4d867cc1a65cec480d9" prot="public" virt="non-virtual"><scope>checkNode</scope><name>getLq</name></member>
+      <member refid="classcheckNode_1abc899d0479fac736ae071b3e32c233ce" prot="public" virt="non-virtual"><scope>checkNode</scope><name>getLr</name></member>
+      <member refid="classcheckNode_1aeacdd0252d4694bbff0ce065aa928632" prot="public" virt="non-virtual"><scope>checkNode</scope><name>getLr</name></member>
+      <member refid="classcheckNode_1abc899d0479fac736ae071b3e32c233ce" prot="public" virt="non-virtual"><scope>checkNode</scope><name>getLr</name></member>
+      <member refid="classcheckNode_1aeacdd0252d4694bbff0ce065aa928632" prot="public" virt="non-virtual"><scope>checkNode</scope><name>getLr</name></member>
+      <member refid="classcheckNode_1abe27b591ea754a1dbb1748e81be1cbbb" prot="public" virt="non-virtual"><scope>checkNode</scope><name>getVarNodes</name></member>
+      <member refid="classcheckNode_1abe27b591ea754a1dbb1748e81be1cbbb" prot="public" virt="non-virtual"><scope>checkNode</scope><name>getVarNodes</name></member>
+      <member refid="classcheckNode_1aa520387593fa628df102dd34e58c0c8f" prot="public" virt="non-virtual"><scope>checkNode</scope><name>updateLq</name></member>
+      <member refid="classcheckNode_1aa520387593fa628df102dd34e58c0c8f" prot="public" virt="non-virtual"><scope>checkNode</scope><name>updateLq</name></member>
+      <member refid="classcheckNode_1a457d79cd363754288c094baef3c164b7" prot="public" virt="non-virtual"><scope>checkNode</scope><name>updateLr</name></member>
+      <member refid="classcheckNode_1a457d79cd363754288c094baef3c164b7" prot="public" virt="non-virtual"><scope>checkNode</scope><name>updateLr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

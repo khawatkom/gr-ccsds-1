@@ -1,0 +1,407 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ccsds_1_1decodeLDPC__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ccsds::decodeLDPC_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ccsds_1_1decodeLDPC" prot="public" virt="non-virtual">gr::ccsds::decodeLDPC</basecompoundref>
+    <includes refid="decodeLDPC__impl_8h" local="no">decodeLDPC_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1decodeLDPC__impl_1abc619bba2f19b8de19690e3754b49373" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::decodeLDPC_impl::d_iterations</definition>
+        <argsstring></argsstring>
+        <name>d_iterations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" line="37" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1decodeLDPC__impl_1afb43b850f640c1d125dace9495cc41e4" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::ccsds::decodeLDPC_impl::d_sigma</definition>
+        <argsstring></argsstring>
+        <name>d_sigma</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" line="38" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1decodeLDPC__impl_1a7eab914eb2b9785e768327ef5c690714" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::decodeLDPC_impl::d_update_sigma</definition>
+        <argsstring></argsstring>
+        <name>d_update_sigma</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" line="39" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1decodeLDPC__impl_1ae964ea3f606aab0cd0d580dd8221ca89" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::decodeLDPC_impl::d_code_type</definition>
+        <argsstring></argsstring>
+        <name>d_code_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" line="40" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1decodeLDPC__impl_1a2700a8209274a85931685d1bbca614ed" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::ccsds::decodeLDPC_impl::d_pack</definition>
+        <argsstring></argsstring>
+        <name>d_pack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" line="41" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1decodeLDPC__impl_1a856c371575d2b65239b5233b12cfb8a2" prot="private" static="no" mutable="no">
+        <type>blocks::kernel::pack_k_bits *</type>
+        <definition>blocks::kernel::pack_k_bits* gr::ccsds::decodeLDPC_impl::d_pack_8</definition>
+        <argsstring></argsstring>
+        <name>d_pack_8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" line="42" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1decodeLDPC__impl_1a50db816a64740f7346641c5116d2c472" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::decodeLDPC_impl::punct</definition>
+        <argsstring></argsstring>
+        <name>punct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" line="43" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1decodeLDPC__impl_1a4f91ce0ac8eab73d21451898c7a5ce21" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string gr::ccsds::decodeLDPC_impl::d_file</definition>
+        <argsstring></argsstring>
+        <name>d_file</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" line="44" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1decodeLDPC__impl_1a9d26f009a558cad80a9cfd341f3cc747" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::ccsds::decodeLDPC_impl::d_in_port</definition>
+        <argsstring></argsstring>
+        <name>d_in_port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" line="45" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1decodeLDPC__impl_1a6f1da50dece145a152037d5a68beefba" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::ccsds::decodeLDPC_impl::d_out_port</definition>
+        <argsstring></argsstring>
+        <name>d_out_port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" line="46" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1decodeLDPC__impl_1a40efaf7eaf1308065ef7a2b84ae6d040" prot="private" static="no" mutable="no">
+        <type>int **</type>
+        <definition>int** gr::ccsds::decodeLDPC_impl::H</definition>
+        <argsstring></argsstring>
+        <name>H</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" line="47" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1decodeLDPC__impl_1a4646a83d3923dd9cdf11218949a544e9" prot="private" static="no" mutable="no">
+        <type><ref refid="classldpc" kindref="compound">ldpc</ref> *</type>
+        <definition>ldpc* gr::ccsds::decodeLDPC_impl::ccsdsLDPC</definition>
+        <argsstring></argsstring>
+        <name>ccsdsLDPC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" line="49" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1decodeLDPC__impl_1a30ea04d062c32e2beb29f29f72fc34fb" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; unsigned char &gt;(decodeLDPC_impl::*</type>
+        <definition>std::vector&lt;unsigned char&gt;(decodeLDPC_impl::* gr::ccsds::decodeLDPC_impl::ldpcDecode) (std::vector&lt; float &gt; input)</definition>
+        <argsstring>)(std::vector&lt; float &gt; input)</argsstring>
+        <name>ldpcDecode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" line="52" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1decodeLDPC__impl_1a9e05acc3ca778e5c1b6032d8b80ab6c3" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; unsigned char &gt;</type>
+        <definition>std::vector&lt;unsigned char&gt; gr::ccsds::decodeLDPC_impl::decodeFullC2</definition>
+        <argsstring>(std::vector&lt; float &gt; softBits)</argsstring>
+        <name>decodeFullC2</name>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>softBits</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1decodeLDPC__impl_1aea53b28bc7216ae69f777b5902d90cba" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; unsigned char &gt;</type>
+        <definition>std::vector&lt;unsigned char&gt; gr::ccsds::decodeLDPC_impl::decodeExpC2</definition>
+        <argsstring>(std::vector&lt; float &gt; softBits)</argsstring>
+        <name>decodeExpC2</name>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>softBits</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1decodeLDPC__impl_1a7031f13de69b6cd8cdb03447bddae126" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; unsigned char &gt;</type>
+        <definition>std::vector&lt;unsigned char&gt; gr::ccsds::decodeLDPC_impl::decodeAR4JA</definition>
+        <argsstring>(std::vector&lt; float &gt; softBits)</argsstring>
+        <name>decodeAR4JA</name>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>softBits</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1decodeLDPC__impl_1aae8a311688382b5e5f2f0713313a4415" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; unsigned char &gt;</type>
+        <definition>std::vector&lt;unsigned char&gt; gr::ccsds::decodeLDPC_impl::slice</definition>
+        <argsstring>(std::vector&lt; float &gt; logapp)</argsstring>
+        <name>slice</name>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>logapp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" line="54" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1decodeLDPC__impl_1a3cbe1e492a4837e6d318ca12b4f2054d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ccsds::decodeLDPC_impl::decodeLDPC_impl</definition>
+        <argsstring>(std::string alist_file, int code_type, int iterations, float sigma, int update_sigma, int pack)</argsstring>
+        <name>decodeLDPC_impl</name>
+        <param>
+          <type>std::string</type>
+          <declname>alist_file</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>code_type</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iterations</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>sigma</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>update_sigma</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pack</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" line="57" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1decodeLDPC__impl_1ac3b454b9eb74d828679ab5aa3ec24625" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ccsds::decodeLDPC_impl::~decodeLDPC_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~decodeLDPC_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" line="58" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1decodeLDPC__impl_1a1dd714e221fb4e8e9ce8ab1ed3ad4d21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ccsds::decodeLDPC_impl::decode</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>decode</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1decodeLDPC__impl_1a0b678db1966c9fac1766f5f57df20d8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ccsds::decodeLDPC_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" line="62" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="197">
+        <label>gr::ccsds::decodeLDPC</label>
+        <link refid="classgr_1_1ccsds_1_1decodeLDPC"/>
+        <childnode refid="198" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="198">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="196">
+        <label>gr::ccsds::decodeLDPC_impl</label>
+        <link refid="classgr_1_1ccsds_1_1decodeLDPC__impl"/>
+        <childnode refid="197" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="200">
+        <label>gr::ccsds::decodeLDPC</label>
+        <link refid="classgr_1_1ccsds_1_1decodeLDPC"/>
+        <childnode refid="201" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="201">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="199">
+        <label>gr::ccsds::decodeLDPC_impl</label>
+        <link refid="classgr_1_1ccsds_1_1decodeLDPC__impl"/>
+        <childnode refid="200" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" line="35" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.h" bodystart="34" bodyend="65"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ccsds_1_1decodeLDPC__impl_1a4646a83d3923dd9cdf11218949a544e9" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeLDPC_impl</scope><name>ccsdsLDPC</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeLDPC__impl_1ae964ea3f606aab0cd0d580dd8221ca89" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeLDPC_impl</scope><name>d_code_type</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeLDPC__impl_1a4f91ce0ac8eab73d21451898c7a5ce21" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeLDPC_impl</scope><name>d_file</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeLDPC__impl_1a9d26f009a558cad80a9cfd341f3cc747" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeLDPC_impl</scope><name>d_in_port</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeLDPC__impl_1abc619bba2f19b8de19690e3754b49373" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeLDPC_impl</scope><name>d_iterations</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeLDPC__impl_1a6f1da50dece145a152037d5a68beefba" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeLDPC_impl</scope><name>d_out_port</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeLDPC__impl_1a2700a8209274a85931685d1bbca614ed" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeLDPC_impl</scope><name>d_pack</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeLDPC__impl_1a856c371575d2b65239b5233b12cfb8a2" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeLDPC_impl</scope><name>d_pack_8</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeLDPC__impl_1afb43b850f640c1d125dace9495cc41e4" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeLDPC_impl</scope><name>d_sigma</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeLDPC__impl_1a7eab914eb2b9785e768327ef5c690714" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeLDPC_impl</scope><name>d_update_sigma</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeLDPC__impl_1a1dd714e221fb4e8e9ce8ab1ed3ad4d21" prot="public" virt="non-virtual"><scope>gr::ccsds::decodeLDPC_impl</scope><name>decode</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeLDPC__impl_1a7031f13de69b6cd8cdb03447bddae126" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeLDPC_impl</scope><name>decodeAR4JA</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeLDPC__impl_1aea53b28bc7216ae69f777b5902d90cba" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeLDPC_impl</scope><name>decodeExpC2</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeLDPC__impl_1a9e05acc3ca778e5c1b6032d8b80ab6c3" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeLDPC_impl</scope><name>decodeFullC2</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeLDPC__impl_1a3cbe1e492a4837e6d318ca12b4f2054d" prot="public" virt="non-virtual"><scope>gr::ccsds::decodeLDPC_impl</scope><name>decodeLDPC_impl</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeLDPC__impl_1a40efaf7eaf1308065ef7a2b84ae6d040" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeLDPC_impl</scope><name>H</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeLDPC__impl_1a30ea04d062c32e2beb29f29f72fc34fb" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeLDPC_impl</scope><name>ldpcDecode</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeLDPC_1a08fc7df2b3ef6b248bdb15a07465fcbd" prot="public" virt="non-virtual"><scope>gr::ccsds::decodeLDPC_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeLDPC__impl_1a50db816a64740f7346641c5116d2c472" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeLDPC_impl</scope><name>punct</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeLDPC__impl_1aae8a311688382b5e5f2f0713313a4415" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeLDPC_impl</scope><name>slice</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeLDPC_1ab2f8e57b759df633d938d48495aae2fb" prot="public" virt="non-virtual"><scope>gr::ccsds::decodeLDPC_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeLDPC__impl_1a0b678db1966c9fac1766f5f57df20d8e" prot="public" virt="non-virtual"><scope>gr::ccsds::decodeLDPC_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeLDPC__impl_1ac3b454b9eb74d828679ab5aa3ec24625" prot="public" virt="non-virtual"><scope>gr::ccsds::decodeLDPC_impl</scope><name>~decodeLDPC_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

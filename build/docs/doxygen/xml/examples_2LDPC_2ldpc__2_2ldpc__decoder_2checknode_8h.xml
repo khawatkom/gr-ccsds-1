@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="examples_2LDPC_2ldpc__2_2ldpc__decoder_2checknode_8h" kind="file" language="C++">
+    <compoundname>examples/LDPC/ldpc_2/ldpc_decoder/checknode.h</compoundname>
+    <includes local="no">vector</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="no">cmath</includes>
+    <includedby refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2ldpc_8h" local="yes">ldpc.h</includedby>
+    <incdepgraph>
+      <node id="701">
+        <label>cmath</label>
+      </node>
+      <node id="698">
+        <label>checknode.h</label>
+        <link refid="examples/LDPC/ldpc_2/ldpc_decoder/checknode.h"/>
+        <childnode refid="699" relation="include">
+        </childnode>
+        <childnode refid="700" relation="include">
+        </childnode>
+        <childnode refid="701" relation="include">
+        </childnode>
+      </node>
+      <node id="699">
+        <label>vector</label>
+      </node>
+      <node id="700">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="704">
+        <label>debug.h</label>
+        <link refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h_source"/>
+      </node>
+      <node id="702">
+        <label>checknode.h</label>
+        <link refid="examples/LDPC/ldpc_2/ldpc_decoder/checknode.h"/>
+        <childnode refid="703" relation="include">
+        </childnode>
+      </node>
+      <node id="703">
+        <label>ldpc.h</label>
+        <link refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2ldpc_8h"/>
+        <childnode refid="704" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classcheckNode" prot="public">checkNode</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/checknode.h"/>
+  </compounddef>
+</doxygen>

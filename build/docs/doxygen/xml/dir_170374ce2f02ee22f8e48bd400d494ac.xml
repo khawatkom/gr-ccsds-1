@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_170374ce2f02ee22f8e48bd400d494ac" kind="dir">
+    <compoundname>rs</compoundname>
+    <innerfile refid="basis_8h">basis.h</innerfile>
+    <innerfile refid="reedsolomon_8h">reedsolomon.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/rs/"/>
+  </compounddef>
+</doxygen>

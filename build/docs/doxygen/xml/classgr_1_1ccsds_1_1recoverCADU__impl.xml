@@ -1,0 +1,326 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ccsds_1_1recoverCADU__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ccsds::recoverCADU_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ccsds_1_1recoverCADU" prot="public" virt="non-virtual">gr::ccsds::recoverCADU</basecompoundref>
+    <includes refid="recoverCADU__impl_8h" local="no">recoverCADU_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1recoverCADU__impl_1a6edd5f13e72f99c0067502b070f561d4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::recoverCADU_impl::d_frame_length</definition>
+        <argsstring></argsstring>
+        <name>d_frame_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" line="33" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1recoverCADU__impl_1a91e25ec3822b9cdad51e5e2a09e61928" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::ccsds::recoverCADU_impl::d_scramble</definition>
+        <argsstring></argsstring>
+        <name>d_scramble</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" line="34" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1recoverCADU__impl_1a81a6dbf9169443b1535d2493aec563f2" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; tag_t &gt;</type>
+        <definition>std::vector&lt;tag_t&gt; gr::ccsds::recoverCADU_impl::d_tags</definition>
+        <argsstring></argsstring>
+        <name>d_tags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" line="35" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1recoverCADU__impl_1ae298a8192194b9ee6583892306221a93" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; tag_t &gt;::iterator</type>
+        <definition>std::vector&lt;tag_t&gt;::iterator gr::ccsds::recoverCADU_impl::d_tags_itr</definition>
+        <argsstring></argsstring>
+        <name>d_tags_itr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" line="36" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1recoverCADU__impl_1aebc878871b6ebcf5d81369110cdce4db" prot="private" static="no" mutable="no">
+        <type>blocks::kernel::pack_k_bits *</type>
+        <definition>blocks::kernel::pack_k_bits* gr::ccsds::recoverCADU_impl::d_pack</definition>
+        <argsstring></argsstring>
+        <name>d_pack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" line="37" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1recoverCADU__impl_1ad509e2b7e899322909d91d1570cc5b85" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::ccsds::recoverCADU_impl::key</definition>
+        <argsstring></argsstring>
+        <name>key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" line="38" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1recoverCADU__impl_1a78b967987797ab564bc9b076899cba7f" prot="private" static="no" mutable="no">
+        <type><ref refid="classScrambler" kindref="compound">Scrambler</ref> *</type>
+        <definition>Scrambler* gr::ccsds::recoverCADU_impl::S</definition>
+        <argsstring></argsstring>
+        <name>S</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" line="39" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1recoverCADU__impl_1aa14b19885de1059cf4fc7470049debad" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; unsigned char &gt;</type>
+        <definition>std::vector&lt;unsigned char&gt; gr::ccsds::recoverCADU_impl::frameBuffer</definition>
+        <argsstring></argsstring>
+        <name>frameBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" line="40" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1recoverCADU__impl_1a9c0deab5761805a18d042ad1ad3b1c5d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::recoverCADU_impl::d_ambiguity</definition>
+        <argsstring></argsstring>
+        <name>d_ambiguity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" line="41" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1recoverCADU__impl_1a674a9eae4a137f9e31911864237a523a" prot="private" static="no" mutable="no">
+        <type>unsigned char</type>
+        <definition>unsigned char gr::ccsds::recoverCADU_impl::IQSWAP[256]</definition>
+        <argsstring>[256]</argsstring>
+        <name>IQSWAP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" line="44" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1recoverCADU__impl_1a149116d8baaea86ac4c862f4bfff11ec" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned char</type>
+        <definition>unsigned char gr::ccsds::recoverCADU_impl::swap</definition>
+        <argsstring>(unsigned char oct)</argsstring>
+        <name>swap</name>
+        <param>
+          <type>unsigned char</type>
+          <declname>oct</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" line="42" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1recoverCADU__impl_1a55c542d9138cccc68be983b54828b8bc" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>unsigned char</type>
+        <definition>unsigned char gr::ccsds::recoverCADU_impl::swapIQ</definition>
+        <argsstring>(unsigned char in)</argsstring>
+        <name>swapIQ</name>
+        <param>
+          <type>unsigned char</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" line="43" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1recoverCADU__impl_1ae4108161a48af6f91c37a2e255871860" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ccsds::recoverCADU_impl::recoverCADU_impl</definition>
+        <argsstring>(int frame_length, int scramble, std::string tag_name)</argsstring>
+        <name>recoverCADU_impl</name>
+        <param>
+          <type>int</type>
+          <declname>frame_length</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>scramble</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>tag_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1recoverCADU__impl_1a406ced93ca80956d3aca9acd90ae3636" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ccsds::recoverCADU_impl::~recoverCADU_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~recoverCADU_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1recoverCADU__impl_1aa4255fddc98c7f1b55e7244e0c45d57b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ccsds::recoverCADU_impl::ambResolution</definition>
+        <argsstring>(int ambiguity, unsigned char frame_data[], int frame_length)</argsstring>
+        <name>ambResolution</name>
+        <param>
+          <type>int</type>
+          <declname>ambiguity</declname>
+        </param>
+        <param>
+          <type>unsigned char</type>
+          <declname>frame_data</declname>
+          <array>[]</array>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>frame_length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" line="50" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1recoverCADU__impl_1ad9f2347da0304bab9ba748e78a7fc266" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ccsds::recoverCADU_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" line="53" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="329">
+        <label>sync_block</label>
+      </node>
+      <node id="327">
+        <label>gr::ccsds::recoverCADU_impl</label>
+        <link refid="classgr_1_1ccsds_1_1recoverCADU__impl"/>
+        <childnode refid="328" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="328">
+        <label>gr::ccsds::recoverCADU</label>
+        <link refid="classgr_1_1ccsds_1_1recoverCADU"/>
+        <childnode refid="329" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="332">
+        <label>sync_block</label>
+      </node>
+      <node id="330">
+        <label>gr::ccsds::recoverCADU_impl</label>
+        <link refid="classgr_1_1ccsds_1_1recoverCADU__impl"/>
+        <childnode refid="331" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="331">
+        <label>gr::ccsds::recoverCADU</label>
+        <link refid="classgr_1_1ccsds_1_1recoverCADU"/>
+        <childnode refid="332" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" line="31" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.h" bodystart="30" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ccsds_1_1recoverCADU__impl_1aa4255fddc98c7f1b55e7244e0c45d57b" prot="public" virt="non-virtual"><scope>gr::ccsds::recoverCADU_impl</scope><name>ambResolution</name></member>
+      <member refid="classgr_1_1ccsds_1_1recoverCADU__impl_1a9c0deab5761805a18d042ad1ad3b1c5d" prot="private" virt="non-virtual"><scope>gr::ccsds::recoverCADU_impl</scope><name>d_ambiguity</name></member>
+      <member refid="classgr_1_1ccsds_1_1recoverCADU__impl_1a6edd5f13e72f99c0067502b070f561d4" prot="private" virt="non-virtual"><scope>gr::ccsds::recoverCADU_impl</scope><name>d_frame_length</name></member>
+      <member refid="classgr_1_1ccsds_1_1recoverCADU__impl_1aebc878871b6ebcf5d81369110cdce4db" prot="private" virt="non-virtual"><scope>gr::ccsds::recoverCADU_impl</scope><name>d_pack</name></member>
+      <member refid="classgr_1_1ccsds_1_1recoverCADU__impl_1a91e25ec3822b9cdad51e5e2a09e61928" prot="private" virt="non-virtual"><scope>gr::ccsds::recoverCADU_impl</scope><name>d_scramble</name></member>
+      <member refid="classgr_1_1ccsds_1_1recoverCADU__impl_1a81a6dbf9169443b1535d2493aec563f2" prot="private" virt="non-virtual"><scope>gr::ccsds::recoverCADU_impl</scope><name>d_tags</name></member>
+      <member refid="classgr_1_1ccsds_1_1recoverCADU__impl_1ae298a8192194b9ee6583892306221a93" prot="private" virt="non-virtual"><scope>gr::ccsds::recoverCADU_impl</scope><name>d_tags_itr</name></member>
+      <member refid="classgr_1_1ccsds_1_1recoverCADU__impl_1aa14b19885de1059cf4fc7470049debad" prot="private" virt="non-virtual"><scope>gr::ccsds::recoverCADU_impl</scope><name>frameBuffer</name></member>
+      <member refid="classgr_1_1ccsds_1_1recoverCADU__impl_1a674a9eae4a137f9e31911864237a523a" prot="private" virt="non-virtual"><scope>gr::ccsds::recoverCADU_impl</scope><name>IQSWAP</name></member>
+      <member refid="classgr_1_1ccsds_1_1recoverCADU__impl_1ad509e2b7e899322909d91d1570cc5b85" prot="private" virt="non-virtual"><scope>gr::ccsds::recoverCADU_impl</scope><name>key</name></member>
+      <member refid="classgr_1_1ccsds_1_1recoverCADU_1acf69239da54dc9c7c33aa30a17e114f2" prot="public" virt="non-virtual"><scope>gr::ccsds::recoverCADU_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ccsds_1_1recoverCADU__impl_1ae4108161a48af6f91c37a2e255871860" prot="public" virt="non-virtual"><scope>gr::ccsds::recoverCADU_impl</scope><name>recoverCADU_impl</name></member>
+      <member refid="classgr_1_1ccsds_1_1recoverCADU__impl_1a78b967987797ab564bc9b076899cba7f" prot="private" virt="non-virtual"><scope>gr::ccsds::recoverCADU_impl</scope><name>S</name></member>
+      <member refid="classgr_1_1ccsds_1_1recoverCADU_1aed789b2a028f4047eeb0142d1b951c31" prot="public" virt="non-virtual"><scope>gr::ccsds::recoverCADU_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ccsds_1_1recoverCADU__impl_1a149116d8baaea86ac4c862f4bfff11ec" prot="private" virt="non-virtual"><scope>gr::ccsds::recoverCADU_impl</scope><name>swap</name></member>
+      <member refid="classgr_1_1ccsds_1_1recoverCADU__impl_1a55c542d9138cccc68be983b54828b8bc" prot="private" virt="non-virtual"><scope>gr::ccsds::recoverCADU_impl</scope><name>swapIQ</name></member>
+      <member refid="classgr_1_1ccsds_1_1recoverCADU__impl_1ad9f2347da0304bab9ba748e78a7fc266" prot="public" virt="non-virtual"><scope>gr::ccsds::recoverCADU_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1ccsds_1_1recoverCADU__impl_1a406ced93ca80956d3aca9acd90ae3636" prot="public" virt="non-virtual"><scope>gr::ccsds::recoverCADU_impl</scope><name>~recoverCADU_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

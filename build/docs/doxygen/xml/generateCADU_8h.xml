@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="generateCADU_8h" kind="file" language="C++">
+    <compoundname>generateCADU.h</compoundname>
+    <includes refid="api_8h" local="no">ccsds/api.h</includes>
+    <includes local="no">gnuradio/sync_block.h</includes>
+    <includedby refid="generateCADU__impl_8h" local="no">generateCADU_impl.h</includedby>
+    <incdepgraph>
+      <node id="960">
+        <label>generateCADU.h</label>
+        <link refid="generateCADU.h"/>
+        <childnode refid="961" relation="include">
+        </childnode>
+        <childnode refid="963" relation="include">
+        </childnode>
+      </node>
+      <node id="963">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="962">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="961">
+        <label>ccsds/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="962" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="964">
+        <label>generateCADU.h</label>
+        <link refid="generateCADU.h"/>
+        <childnode refid="965" relation="include">
+        </childnode>
+      </node>
+      <node id="965">
+        <label>generateCADU_impl.h</label>
+        <link refid="generateCADU__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classgr_1_1ccsds_1_1generateCADU" prot="public">gr::ccsds::generateCADU</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1ccsds">gr::ccsds</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/generateCADU.h"/>
+  </compounddef>
+</doxygen>

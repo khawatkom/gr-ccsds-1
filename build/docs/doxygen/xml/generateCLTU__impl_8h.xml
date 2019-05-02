@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="generateCLTU__impl_8h" kind="file" language="C++">
+    <compoundname>generateCLTU_impl.h</compoundname>
+    <includes refid="generateCLTU_8h" local="no">ccsds/generateCLTU.h</includes>
+    <includes refid="Scrambler_8h" local="yes">fec/Scrambler/Scrambler.h</includes>
+    <incdepgraph>
+      <node id="981">
+        <label>ccsds/generateCLTU.h</label>
+        <link refid="generateCLTU_8h"/>
+        <childnode refid="982" relation="include">
+        </childnode>
+        <childnode refid="984" relation="include">
+        </childnode>
+      </node>
+      <node id="984">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="983">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="982">
+        <label>ccsds/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="983" relation="include">
+        </childnode>
+      </node>
+      <node id="980">
+        <label>generateCLTU_impl.h</label>
+        <link refid="generateCLTU_impl.h"/>
+        <childnode refid="981" relation="include">
+        </childnode>
+        <childnode refid="985" relation="include">
+        </childnode>
+      </node>
+      <node id="986">
+        <label>vector</label>
+      </node>
+      <node id="987">
+        <label>algorithm</label>
+      </node>
+      <node id="985">
+        <label>fec/Scrambler/Scrambler.h</label>
+        <link refid="Scrambler_8h"/>
+        <childnode refid="986" relation="include">
+        </childnode>
+        <childnode refid="987" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1ccsds_1_1generateCLTU__impl" prot="public">gr::ccsds::generateCLTU_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1ccsds">gr::ccsds</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="generateCLTU__impl_8h_1a243744ce5fed4cf6561398a3ae577ff4" prot="public" static="no">
+        <name>BCH_INFORMATION_BLOCK</name>
+        <initializer>7</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" line="26" column="11" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="generateCLTU__impl_8h_1a241aeeb764887ae5e3de58b98f04b16d" prot="public" static="no">
+        <name>WIDTH</name>
+        <initializer>(8 * sizeof(<ref refid="generateCLTU__impl_8h_1a5a49b6beff09dd1cc45b3c8715415a22" kindref="member">crc</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" line="29" column="9" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="generateCLTU__impl_8h_1a118ad552670dbefa1df0ba72d147f5e1" prot="public" static="no">
+        <name>TOPBIT</name>
+        <initializer>(1 &lt;&lt; (<ref refid="generateCLTU__impl_8h_1a241aeeb764887ae5e3de58b98f04b16d" kindref="member">WIDTH</ref> - 1))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" line="30" column="9" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="generateCLTU__impl_8h_1ae13d91fe6e514f0aa1caba701ef1ff92" prot="public" static="no">
+        <name>POLYNOMIAL</name>
+        <initializer>0x8A</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" line="31" column="9" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="generateCLTU__impl_8h_1acce5b79e1a8ad8ffe40fb9f7d63b2fdc" prot="public" static="no">
+        <name>INITIAL_REMAINDER</name>
+        <initializer>0x00</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" line="32" column="9" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="generateCLTU__impl_8h_1aba7bc1797add20fe3efdf37ced1182c5" prot="public" static="no">
+        <type>unsigned char</type>
+        <definition>typedef unsigned char uint8_t</definition>
+        <argsstring></argsstring>
+        <name>uint8_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" line="27" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="generateCLTU__impl_8h_1a5a49b6beff09dd1cc45b3c8715415a22" prot="public" static="no">
+        <type>unsigned char</type>
+        <definition>typedef unsigned char crc</definition>
+        <argsstring></argsstring>
+        <name>crc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" line="28" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h"/>
+  </compounddef>
+</doxygen>

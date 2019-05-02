@@ -1,0 +1,555 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ccsds::synchronizeCADUHard_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ccsds_1_1synchronizeCADUHard" prot="public" virt="non-virtual">gr::ccsds::synchronizeCADUHard</basecompoundref>
+    <includes refid="synchronizeCADUHard__impl_8h" local="no">synchronizeCADUHard_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1ac5b30845f7e305e20c402fef17cd48a6" prot="private" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string gr::ccsds::synchronizeCADUHard_impl::d_sync</definition>
+        <argsstring></argsstring>
+        <name>d_sync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="32" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1afd56a9c5c9be6b955295cd1ec5056fd3" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::synchronizeCADUHard_impl::d_stl</definition>
+        <argsstring></argsstring>
+        <name>d_stl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="33" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1aa4a873fb37a203c2441cc8fc45175e9f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::synchronizeCADUHard_impl::d_lts</definition>
+        <argsstring></argsstring>
+        <name>d_lts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="34" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a967d7041130e1bf05fd73e2d37b79a61" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::synchronizeCADUHard_impl::d_tin</definition>
+        <argsstring></argsstring>
+        <name>d_tin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="35" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1ae1fcaf5198cd6ad12b1efb4d6e43edee" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::synchronizeCADUHard_impl::d_ambiguity</definition>
+        <argsstring></argsstring>
+        <name>d_ambiguity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="36" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a479469f90509e9c93660270c636ea874" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::synchronizeCADUHard_impl::d_frame_size</definition>
+        <argsstring></argsstring>
+        <name>d_frame_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="37" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1af850b34dc63fb9a3c3885437a647b3f0" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::ccsds::synchronizeCADUHard_impl::d_verbose</definition>
+        <argsstring></argsstring>
+        <name>d_verbose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="38" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1ab303a605b9183dc36de4c7128bc2e4ea" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::ccsds::synchronizeCADUHard_impl::d_access_code_0</definition>
+        <argsstring></argsstring>
+        <name>d_access_code_0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="39" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a849dac14b47a7351ca5a7275650c0d04" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::ccsds::synchronizeCADUHard_impl::d_access_code_1</definition>
+        <argsstring></argsstring>
+        <name>d_access_code_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="40" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1ad018f20936aef67f653d4d107efa9b7d" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::ccsds::synchronizeCADUHard_impl::d_access_code_2</definition>
+        <argsstring></argsstring>
+        <name>d_access_code_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="41" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a4d4703bfe7b355e529343d1b9142709a" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::ccsds::synchronizeCADUHard_impl::d_access_code_3</definition>
+        <argsstring></argsstring>
+        <name>d_access_code_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="42" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a2e290d62751767492ac4dae494f4e618" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; uint64_t &gt;</type>
+        <definition>std::vector&lt;uint64_t&gt; gr::ccsds::synchronizeCADUHard_impl::d_wrong_bits</definition>
+        <argsstring></argsstring>
+        <name>d_wrong_bits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="43" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1ade8fa6bfbd4463ac7d1e2e718cf55de0" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; uint64_t &gt;</type>
+        <definition>std::vector&lt;uint64_t&gt; gr::ccsds::synchronizeCADUHard_impl::d_nwrong</definition>
+        <argsstring></argsstring>
+        <name>d_nwrong</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="44" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1ae8a2ac2611fc54833cff349bf19679be" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::ccsds::synchronizeCADUHard_impl::d_data_reg</definition>
+        <argsstring></argsstring>
+        <name>d_data_reg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="45" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1ae1e734a2fc21c7782283e876f2d0a212" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::ccsds::synchronizeCADUHard_impl::d_mask</definition>
+        <argsstring></argsstring>
+        <name>d_mask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="46" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a9c6fa149cc3e14fd27e71f0afef5eeaf" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::ccsds::synchronizeCADUHard_impl::d_threshold</definition>
+        <argsstring></argsstring>
+        <name>d_threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="48" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a8fec07a7321e0d8c9f5b7da0361bbc29" prot="private" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int gr::ccsds::synchronizeCADUHard_impl::d_len</definition>
+        <argsstring></argsstring>
+        <name>d_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="49" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a1a7b26e1561036ce261526e254479714" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::ccsds::synchronizeCADUHard_impl::d_key</definition>
+        <argsstring></argsstring>
+        <name>d_key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="51" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a2b4d64de340b1a60f5eab574136d8697" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::ccsds::synchronizeCADUHard_impl::d_me</definition>
+        <argsstring></argsstring>
+        <name>d_me</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="51" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a8664b7d266d8feed40a36ca5940d581c" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::ccsds::synchronizeCADUHard_impl::abs_out_sample_cnt_last</definition>
+        <argsstring></argsstring>
+        <name>abs_out_sample_cnt_last</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="57" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1adc2b9d439c36e220327d70ecf097ffae" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::ccsds::synchronizeCADUHard_impl::abs_out_sample_cnt_now</definition>
+        <argsstring></argsstring>
+        <name>abs_out_sample_cnt_now</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="58" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a5f99e3a99813262a116dff8af47fc896" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::ccsds::synchronizeCADUHard_impl::d_consec_sync</definition>
+        <argsstring></argsstring>
+        <name>d_consec_sync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="59" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a1ed4217ae0342e33d27fafee9d6c4da9" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::ccsds::synchronizeCADUHard_impl::d_consec_loss</definition>
+        <argsstring></argsstring>
+        <name>d_consec_loss</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="60" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1af07decde24f0f3af49b66a43c983b56d" prot="private" static="no" mutable="no">
+        <type><ref refid="synchronizeCADUHard__impl_8h_1adc6e5733fc3c22f0a7b2914188c49c90" kindref="member">state</ref></type>
+        <definition>state gr::ccsds::synchronizeCADUHard_impl::d_state</definition>
+        <argsstring></argsstring>
+        <name>d_state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="61" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a1f1dfbabc855cc8c0dd8bad3db6bf2ab" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* gr::ccsds::synchronizeCADUHard_impl::hex_char_to_bin</definition>
+        <argsstring>(char c)</argsstring>
+        <name>hex_char_to_bin</name>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1ae7f074258a5a7a8d0b21981bb563e490" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string gr::ccsds::synchronizeCADUHard_impl::hex_str_to_bin_str</definition>
+        <argsstring>(const std::string &amp;hex)</argsstring>
+        <name>hex_str_to_bin_str</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>hex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="53" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a8a8195e6f45761d0fda4cb1efb653bb9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ccsds::synchronizeCADUHard_impl::add_tag</definition>
+        <argsstring>(int id, uint64_t pos, pmt::pmt_t key)</argsstring>
+        <name>add_tag</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>uint64_t</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="54" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a4c34f35ff867729ec6702a61039673ab" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::ccsds::synchronizeCADUHard_impl::set_access_code</definition>
+        <argsstring>(const std::string &amp;access_code)</argsstring>
+        <name>set_access_code</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>access_code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="55" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1ae6f24283ff8d095a1ee1857946223902" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ccsds::synchronizeCADUHard_impl::synchronizeCADUHard_impl</definition>
+        <argsstring>(std::string sync, int stl, int lts, int tin, int ambiguity, int frame_size, int verbose)</argsstring>
+        <name>synchronizeCADUHard_impl</name>
+        <param>
+          <type>std::string</type>
+          <declname>sync</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>stl</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lts</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ambiguity</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>frame_size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>verbose</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="63" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a228f507a3966ef51716f0efa5f4dfe3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ccsds::synchronizeCADUHard_impl::~synchronizeCADUHard_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~synchronizeCADUHard_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="64" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a0b6c48367387899b99007c73b2253e6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ccsds::synchronizeCADUHard_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="67" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="383">
+        <label>gr::ccsds::synchronizeCADUHard</label>
+        <link refid="classgr_1_1ccsds_1_1synchronizeCADUHard"/>
+        <childnode refid="384" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="384">
+        <label>sync_block</label>
+      </node>
+      <node id="382">
+        <label>gr::ccsds::synchronizeCADUHard_impl</label>
+        <link refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl"/>
+        <childnode refid="383" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="386">
+        <label>gr::ccsds::synchronizeCADUHard</label>
+        <link refid="classgr_1_1ccsds_1_1synchronizeCADUHard"/>
+        <childnode refid="387" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="387">
+        <label>sync_block</label>
+      </node>
+      <node id="385">
+        <label>gr::ccsds::synchronizeCADUHard_impl</label>
+        <link refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl"/>
+        <childnode refid="386" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" line="30" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.h" bodystart="29" bodyend="70"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a8664b7d266d8feed40a36ca5940d581c" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>abs_out_sample_cnt_last</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1adc2b9d439c36e220327d70ecf097ffae" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>abs_out_sample_cnt_now</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a8a8195e6f45761d0fda4cb1efb653bb9" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>add_tag</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1ab303a605b9183dc36de4c7128bc2e4ea" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>d_access_code_0</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a849dac14b47a7351ca5a7275650c0d04" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>d_access_code_1</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1ad018f20936aef67f653d4d107efa9b7d" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>d_access_code_2</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a4d4703bfe7b355e529343d1b9142709a" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>d_access_code_3</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1ae1fcaf5198cd6ad12b1efb4d6e43edee" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>d_ambiguity</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a1ed4217ae0342e33d27fafee9d6c4da9" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>d_consec_loss</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a5f99e3a99813262a116dff8af47fc896" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>d_consec_sync</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1ae8a2ac2611fc54833cff349bf19679be" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>d_data_reg</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a479469f90509e9c93660270c636ea874" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>d_frame_size</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a1a7b26e1561036ce261526e254479714" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>d_key</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a8fec07a7321e0d8c9f5b7da0361bbc29" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>d_len</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1aa4a873fb37a203c2441cc8fc45175e9f" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>d_lts</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1ae1e734a2fc21c7782283e876f2d0a212" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>d_mask</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a2b4d64de340b1a60f5eab574136d8697" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>d_me</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1ade8fa6bfbd4463ac7d1e2e718cf55de0" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>d_nwrong</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1af07decde24f0f3af49b66a43c983b56d" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>d_state</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1afd56a9c5c9be6b955295cd1ec5056fd3" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>d_stl</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1ac5b30845f7e305e20c402fef17cd48a6" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>d_sync</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a9c6fa149cc3e14fd27e71f0afef5eeaf" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>d_threshold</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a967d7041130e1bf05fd73e2d37b79a61" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>d_tin</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1af850b34dc63fb9a3c3885437a647b3f0" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>d_verbose</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a2e290d62751767492ac4dae494f4e618" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>d_wrong_bits</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a1f1dfbabc855cc8c0dd8bad3db6bf2ab" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>hex_char_to_bin</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1ae7f074258a5a7a8d0b21981bb563e490" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>hex_str_to_bin_str</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard_1a15b901b617c28a1050c5ad1e3450ccc3" prot="public" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a4c34f35ff867729ec6702a61039673ab" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>set_access_code</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard_1a90c40b2582961a57c920934ba3b30992" prot="public" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1ae6f24283ff8d095a1ee1857946223902" prot="public" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>synchronizeCADUHard_impl</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a0b6c48367387899b99007c73b2253e6d" prot="public" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl_1a228f507a3966ef51716f0efa5f4dfe3d" prot="public" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard_impl</scope><name>~synchronizeCADUHard_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/libconvcodes.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+libconvcodes.h
+/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/libconvcodes.h
+
+/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/libconvcodes.h
+
+/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/libturbocodes.c
+libturbocodes.h
+/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/libturbocodes.h
+stdlib.h
+-
+math.h
+-
+
+/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/libturbocodes.h
+libconvcodes.h
+/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/libconvcodes.h
+

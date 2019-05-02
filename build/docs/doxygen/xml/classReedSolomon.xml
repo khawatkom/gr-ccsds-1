@@ -1,0 +1,598 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classReedSolomon" kind="class" language="C++" prot="public">
+    <compoundname>ReedSolomon</compoundname>
+    <includes refid="older_2ReedSolomon_8h" local="no">ReedSolomon.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classReedSolomon_1a8ceea2a7e70365789484fef90675ac08" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool ReedSolomon::dual</definition>
+        <argsstring></argsstring>
+        <name>dual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" line="94" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classReedSolomon_1a56bbdf470b051e416605daff586f05f0" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ReedSolomon::MM</definition>
+        <argsstring></argsstring>
+        <name>MM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" line="95" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classReedSolomon_1a3f8aa96fba68f6b086dc1923e0834dee" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ReedSolomon::NN</definition>
+        <argsstring></argsstring>
+        <name>NN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" line="96" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classReedSolomon_1a236354d46a47ceeac7d26a32b6792c24" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ReedSolomon::NROOTS</definition>
+        <argsstring></argsstring>
+        <name>NROOTS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" line="97" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classReedSolomon_1a6e8a1c2b290d147818f3ce0016a65101" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ReedSolomon::FCR</definition>
+        <argsstring></argsstring>
+        <name>FCR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" line="98" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classReedSolomon_1aa1049fc8a0cb7a2612c5d285445ac69f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ReedSolomon::PRIM</definition>
+        <argsstring></argsstring>
+        <name>PRIM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" line="99" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classReedSolomon_1a60ce53bee2f928fe4535ef3626457702" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ReedSolomon::IPRIM</definition>
+        <argsstring></argsstring>
+        <name>IPRIM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" line="100" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classReedSolomon_1a4a9837b4be8906f64f32dde3ab81fd58" prot="private" static="no" mutable="no">
+        <type><ref refid="rs_8h_1ab5408669505a929bd1eeb2d619145df6" kindref="member">data_t</ref></type>
+        <definition>data_t ReedSolomon::A0</definition>
+        <argsstring></argsstring>
+        <name>A0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" line="101" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classReedSolomon_1a7c70a887b7d2d12f7a20b79fd0cc8749" prot="private" static="no" mutable="no">
+        <type><ref refid="rs_8h_1ab5408669505a929bd1eeb2d619145df6" kindref="member">data_t</ref> *</type>
+        <definition>data_t * ReedSolomon::ALPHA_TO</definition>
+        <argsstring></argsstring>
+        <name>ALPHA_TO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" line="102" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classReedSolomon_1a9a18aa06339b160a8e95b9b18a25dfb6" prot="private" static="no" mutable="no">
+        <type><ref refid="rs_8h_1ab5408669505a929bd1eeb2d619145df6" kindref="member">data_t</ref> *</type>
+        <definition>data_t * ReedSolomon::INDEX_OF</definition>
+        <argsstring></argsstring>
+        <name>INDEX_OF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" line="103" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classReedSolomon_1a8f70738dca6528c96b8e910d1b26fef0" prot="private" static="no" mutable="no">
+        <type><ref refid="rs_8h_1ab5408669505a929bd1eeb2d619145df6" kindref="member">data_t</ref> *</type>
+        <definition>data_t * ReedSolomon::GENPOLY</definition>
+        <argsstring></argsstring>
+        <name>GENPOLY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" line="104" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classReedSolomon_1a8bf0bef2a22ea8df4cebdbd6babd85e1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ReedSolomon::interleave_depth</definition>
+        <argsstring></argsstring>
+        <name>interleave_depth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/ReedSolomon.h" line="103" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/ReedSolomon.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classReedSolomon_1a4c90b2fbfce324d984ca5f5e9426f8d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ReedSolomon::ReedSolomon</definition>
+        <argsstring>(int E, int I, bool D)</argsstring>
+        <name>ReedSolomon</name>
+        <param>
+          <type>int</type>
+          <declname>E</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>I</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>D</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classReedSolomon_1af9b9e5d0def144dc95ce80b6375c2110" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ReedSolomon::~ReedSolomon</definition>
+        <argsstring>()</argsstring>
+        <name>~ReedSolomon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" line="66" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classReedSolomon_1a9afac5e27d37270f69a62ef533ef6793" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReedSolomon::Encode_RS</definition>
+        <argsstring>(std::vector&lt; unsigned char &gt; &amp;data)</argsstring>
+        <name>Encode_RS</name>
+        <param>
+          <type>std::vector&lt; unsigned char &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" line="75" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classReedSolomon_1a454bcf47c3cb47738604b83143e4d146" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReedSolomon::Decode_RS</definition>
+        <argsstring>(std::vector&lt; unsigned char &gt; &amp;data, int &amp;num_errors)</argsstring>
+        <name>Decode_RS</name>
+        <param>
+          <type>std::vector&lt; unsigned char &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>num_errors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classReedSolomon_1a4c90b2fbfce324d984ca5f5e9426f8d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ReedSolomon::ReedSolomon</definition>
+        <argsstring>(int E, int I, bool D)</argsstring>
+        <name>ReedSolomon</name>
+        <param>
+          <type>int</type>
+          <declname>E</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>I</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>D</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/ReedSolomon.h" line="59" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classReedSolomon_1af9b9e5d0def144dc95ce80b6375c2110" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>ReedSolomon::~ReedSolomon</definition>
+        <argsstring>()</argsstring>
+        <name>~ReedSolomon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/ReedSolomon.h" line="66" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classReedSolomon_1a9afac5e27d37270f69a62ef533ef6793" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReedSolomon::Encode_RS</definition>
+        <argsstring>(std::vector&lt; unsigned char &gt; &amp;data)</argsstring>
+        <name>Encode_RS</name>
+        <param>
+          <type>std::vector&lt; unsigned char &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/ReedSolomon.h" line="74" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classReedSolomon_1a9b3d68b03ab5d59e32f7bb48fb8cf76c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReedSolomon::Decode_RS</definition>
+        <argsstring>(std::vector&lt; unsigned char &gt; &amp;data, std::vector&lt; int &gt; &amp;num_errors)</argsstring>
+        <name>Decode_RS</name>
+        <param>
+          <type>std::vector&lt; unsigned char &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; int &gt; &amp;</type>
+          <declname>num_errors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/ReedSolomon.h" line="82" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classReedSolomon_1a95a66229d40add9af1fd0aa33b9767b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool ReedSolomon::Success</definition>
+        <argsstring>(std::vector&lt; int &gt; errors)</argsstring>
+        <name>Success</name>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>errors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/ReedSolomon.h" line="89" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classReedSolomon_1a2fd5a778b9d37a75a86833b71340553e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReedSolomon::vector_encode_rs_8</definition>
+        <argsstring>(std::vector&lt; unsigned char &gt; &amp;data)</argsstring>
+        <name>vector_encode_rs_8</name>
+        <param>
+          <type>std::vector&lt; unsigned char &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/ReedSolomon.h" line="93" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classReedSolomon_1ac354d32e939f668ad81e752d3bd75d71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReedSolomon::vector_decode_rs_8</definition>
+        <argsstring>(std::vector&lt; unsigned char &gt; &amp;data, int &amp;num_errors)</argsstring>
+        <name>vector_decode_rs_8</name>
+        <param>
+          <type>std::vector&lt; unsigned char &gt; &amp;</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>num_errors</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/ReedSolomon.h" line="94" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classReedSolomon_1a305939cca492b63b3d5ec09f95ab99e1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReedSolomon::encode_rs_8</definition>
+        <argsstring>(data_t *data, data_t *parity, int pad)</argsstring>
+        <name>encode_rs_8</name>
+        <param>
+          <type><ref refid="rs_8h_1ab5408669505a929bd1eeb2d619145df6" kindref="member">data_t</ref> *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="rs_8h_1ab5408669505a929bd1eeb2d619145df6" kindref="member">data_t</ref> *</type>
+          <declname>parity</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pad</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/ReedSolomon.h" line="96" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classReedSolomon_1a98794bc94c267b39a4236ebdce28116f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ReedSolomon::decode_rs_8</definition>
+        <argsstring>(data_t *data, int *eras_pos, int no_eras, int pad)</argsstring>
+        <name>decode_rs_8</name>
+        <param>
+          <type><ref refid="rs_8h_1ab5408669505a929bd1eeb2d619145df6" kindref="member">data_t</ref> *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>eras_pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>no_eras</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pad</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/ReedSolomon.h" line="97" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classReedSolomon_1aa35974764853c4a5f46566678baba561" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ReedSolomon::MODNN</definition>
+        <argsstring>(int x)</argsstring>
+        <name>MODNN</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/ReedSolomon.h" line="99" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classReedSolomon_1a960fa0712faad31f173112730d80e9d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ReedSolomon::MINNN</definition>
+        <argsstring>(int a, int b)</argsstring>
+        <name>MINNN</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/ReedSolomon.h" line="100" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classReedSolomon_1a305939cca492b63b3d5ec09f95ab99e1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ReedSolomon::encode_rs_8</definition>
+        <argsstring>(data_t *data, data_t *parity, int pad)</argsstring>
+        <name>encode_rs_8</name>
+        <param>
+          <type><ref refid="rs_8h_1ab5408669505a929bd1eeb2d619145df6" kindref="member">data_t</ref> *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type><ref refid="rs_8h_1ab5408669505a929bd1eeb2d619145df6" kindref="member">data_t</ref> *</type>
+          <declname>parity</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pad</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" line="89" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classReedSolomon_1a98794bc94c267b39a4236ebdce28116f" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ReedSolomon::decode_rs_8</definition>
+        <argsstring>(data_t *data, int *eras_pos, int no_eras, int pad)</argsstring>
+        <name>decode_rs_8</name>
+        <param>
+          <type><ref refid="rs_8h_1ab5408669505a929bd1eeb2d619145df6" kindref="member">data_t</ref> *</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>eras_pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>no_eras</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pad</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" line="90" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classReedSolomon_1aa35974764853c4a5f46566678baba561" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ReedSolomon::MODNN</definition>
+        <argsstring>(int x)</argsstring>
+        <name>MODNN</name>
+        <param>
+          <type>int</type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" line="91" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classReedSolomon_1a960fa0712faad31f173112730d80e9d5" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ReedSolomon::MINNN</definition>
+        <argsstring>(int a, int b)</argsstring>
+        <name>MINNN</name>
+        <param>
+          <type>int</type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" line="92" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" line="42" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ReedSolomon/older/ReedSolomon.h" bodystart="42" bodyend="105"/>
+    <listofallmembers>
+      <member refid="classReedSolomon_1a4a9837b4be8906f64f32dde3ab81fd58" prot="private" virt="non-virtual"><scope>ReedSolomon</scope><name>A0</name></member>
+      <member refid="classReedSolomon_1a7c70a887b7d2d12f7a20b79fd0cc8749" prot="private" virt="non-virtual"><scope>ReedSolomon</scope><name>ALPHA_TO</name></member>
+      <member refid="classReedSolomon_1a454bcf47c3cb47738604b83143e4d146" prot="public" virt="non-virtual"><scope>ReedSolomon</scope><name>Decode_RS</name></member>
+      <member refid="classReedSolomon_1a9b3d68b03ab5d59e32f7bb48fb8cf76c" prot="public" virt="non-virtual"><scope>ReedSolomon</scope><name>Decode_RS</name></member>
+      <member refid="classReedSolomon_1a98794bc94c267b39a4236ebdce28116f" prot="protected" virt="non-virtual"><scope>ReedSolomon</scope><name>decode_rs_8</name></member>
+      <member refid="classReedSolomon_1a98794bc94c267b39a4236ebdce28116f" prot="public" virt="non-virtual"><scope>ReedSolomon</scope><name>decode_rs_8</name></member>
+      <member refid="classReedSolomon_1a8ceea2a7e70365789484fef90675ac08" prot="private" virt="non-virtual"><scope>ReedSolomon</scope><name>dual</name></member>
+      <member refid="classReedSolomon_1a9afac5e27d37270f69a62ef533ef6793" prot="public" virt="non-virtual"><scope>ReedSolomon</scope><name>Encode_RS</name></member>
+      <member refid="classReedSolomon_1a9afac5e27d37270f69a62ef533ef6793" prot="public" virt="non-virtual"><scope>ReedSolomon</scope><name>Encode_RS</name></member>
+      <member refid="classReedSolomon_1a305939cca492b63b3d5ec09f95ab99e1" prot="protected" virt="non-virtual"><scope>ReedSolomon</scope><name>encode_rs_8</name></member>
+      <member refid="classReedSolomon_1a305939cca492b63b3d5ec09f95ab99e1" prot="public" virt="non-virtual"><scope>ReedSolomon</scope><name>encode_rs_8</name></member>
+      <member refid="classReedSolomon_1a6e8a1c2b290d147818f3ce0016a65101" prot="private" virt="non-virtual"><scope>ReedSolomon</scope><name>FCR</name></member>
+      <member refid="classReedSolomon_1a8f70738dca6528c96b8e910d1b26fef0" prot="private" virt="non-virtual"><scope>ReedSolomon</scope><name>GENPOLY</name></member>
+      <member refid="classReedSolomon_1a9a18aa06339b160a8e95b9b18a25dfb6" prot="private" virt="non-virtual"><scope>ReedSolomon</scope><name>INDEX_OF</name></member>
+      <member refid="classReedSolomon_1a8bf0bef2a22ea8df4cebdbd6babd85e1" prot="private" virt="non-virtual"><scope>ReedSolomon</scope><name>interleave_depth</name></member>
+      <member refid="classReedSolomon_1a60ce53bee2f928fe4535ef3626457702" prot="private" virt="non-virtual"><scope>ReedSolomon</scope><name>IPRIM</name></member>
+      <member refid="classReedSolomon_1a960fa0712faad31f173112730d80e9d5" prot="protected" virt="non-virtual"><scope>ReedSolomon</scope><name>MINNN</name></member>
+      <member refid="classReedSolomon_1a960fa0712faad31f173112730d80e9d5" prot="public" virt="non-virtual"><scope>ReedSolomon</scope><name>MINNN</name></member>
+      <member refid="classReedSolomon_1a56bbdf470b051e416605daff586f05f0" prot="private" virt="non-virtual"><scope>ReedSolomon</scope><name>MM</name></member>
+      <member refid="classReedSolomon_1aa35974764853c4a5f46566678baba561" prot="protected" virt="non-virtual"><scope>ReedSolomon</scope><name>MODNN</name></member>
+      <member refid="classReedSolomon_1aa35974764853c4a5f46566678baba561" prot="public" virt="non-virtual"><scope>ReedSolomon</scope><name>MODNN</name></member>
+      <member refid="classReedSolomon_1a3f8aa96fba68f6b086dc1923e0834dee" prot="private" virt="non-virtual"><scope>ReedSolomon</scope><name>NN</name></member>
+      <member refid="classReedSolomon_1a236354d46a47ceeac7d26a32b6792c24" prot="private" virt="non-virtual"><scope>ReedSolomon</scope><name>NROOTS</name></member>
+      <member refid="classReedSolomon_1aa1049fc8a0cb7a2612c5d285445ac69f" prot="private" virt="non-virtual"><scope>ReedSolomon</scope><name>PRIM</name></member>
+      <member refid="classReedSolomon_1a4c90b2fbfce324d984ca5f5e9426f8d5" prot="public" virt="non-virtual"><scope>ReedSolomon</scope><name>ReedSolomon</name></member>
+      <member refid="classReedSolomon_1a4c90b2fbfce324d984ca5f5e9426f8d5" prot="public" virt="non-virtual"><scope>ReedSolomon</scope><name>ReedSolomon</name></member>
+      <member refid="classReedSolomon_1a95a66229d40add9af1fd0aa33b9767b4" prot="public" virt="non-virtual"><scope>ReedSolomon</scope><name>Success</name></member>
+      <member refid="classReedSolomon_1ac354d32e939f668ad81e752d3bd75d71" prot="public" virt="non-virtual"><scope>ReedSolomon</scope><name>vector_decode_rs_8</name></member>
+      <member refid="classReedSolomon_1a2fd5a778b9d37a75a86833b71340553e" prot="public" virt="non-virtual"><scope>ReedSolomon</scope><name>vector_encode_rs_8</name></member>
+      <member refid="classReedSolomon_1af9b9e5d0def144dc95ce80b6375c2110" prot="public" virt="non-virtual"><scope>ReedSolomon</scope><name>~ReedSolomon</name></member>
+      <member refid="classReedSolomon_1af9b9e5d0def144dc95ce80b6375c2110" prot="public" virt="non-virtual"><scope>ReedSolomon</scope><name>~ReedSolomon</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

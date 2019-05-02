@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<block>
+  <name>decodeRS</name>
+  <key>ccsds_decodeRS</key>
+  <category>[ccsds]</category>
+  <import>import ccsds</import>
+  <make>ccsds.decodeRS($code, $intDepth,$pass_all,$fert,$wert)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>RS code</name>
+    <key>code</key>
+    <value>1</value>
+	<type>enum</type>
+	<option>
+		<name>RS(255,223) Conventional</name>
+		<key>1</key>
+	</option>
+	<option>
+		<name>RS(255,223) Dual-basis</name>
+		<key>2</key>
+	</option>
+	<option>
+		<name>RS(255,239) Conventional</name>
+		<key>3</key>
+	</option>
+	<option>
+		<name>RS(255,239) Dual-basis</name>
+		<key>4</key>
+	</option>
+  </param>
+
+  <param>
+    <name>Int depth</name>
+    <key>intDepth</key>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Pass All</name>
+    <key>pass_all</key>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>FERT</name>
+    <key>fert</key>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>WERT</name>
+    <key>wert</key>
+    <type>int</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>cadu</name>
+    <type>message</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>vcdu</name>
+    <type>message</type>
+  </source>
+<doc>
+Code : Reed-Solomon Options
+ 1 - RS(255,223) + Conv
+ 2 - RS(255,223) + Dual basis
+ 3 - RS(255,239) + Conv
+ 4 - RS(255,239) + Dual basis 
+Int depth      : Standard CCSDS values (1,2,3,4,5,8)
+Pass all :
+ 0 : Don't pass erroneous vcds
+ 1 : Pass all
+</doc>
+</block>

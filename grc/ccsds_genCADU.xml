@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<block>
+  <name>genCADU</name>
+  <key>ccsds_genCADU</key>
+  <category>[ccsds]</category>
+  <import>import ccsds</import>
+  <make>ccsds.genCADU($frameLength, $sync, $scramble, $rs, $intDepth, $len_tag_key)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Frame Length</name>
+    <key>frameLength</key>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Sync Word</name>
+    <key>sync</key>
+    <type>string</type>
+   <!-- <value>1ACFFC1D</value> -->
+  </param>
+
+  <param>
+    <name>Scramble</name>
+    <key>scramble</key>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Reed-Solomon</name>
+    <key>rs</key>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Interleave Depth</name>
+    <key>intDepth</key>
+    <type>int</type>   
+  </param>
+
+  <param>
+    <name>Length Tag</name>
+    <key>len_tag_key</key>
+    <type>string</type>
+   <!-- <value>1ACFFC1D</value> -->
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+<doc>
+Frame size   : Must be multiple of interleave depth (if RS is used)
+Sync word    : Any hexadecimal string (without 0x prefix)
+Scramble     : 0 - No scramble
+               1 - Scramble
+Reed-Solomon Options
+ 0 - No Reed-Solomon
+ 1 - RS(255,223) + Conv
+ 2 - RS(255,223) + Dual basis
+ 3 - RS(255,239) + Conv
+ 4 - RS(255,239) + Dual basis 
+      
+Int depth    : Standard CCSDS values (1,2,3,4,5,8)
+</doc>
+</block>

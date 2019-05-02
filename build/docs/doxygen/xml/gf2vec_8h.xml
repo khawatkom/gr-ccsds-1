@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="gf2vec_8h" kind="file" language="C++">
+    <compoundname>gf2vec.h</compoundname>
+    <includes local="no">vector</includes>
+    <includedby refid="gf2mat_8h" local="yes">gf2mat.h</includedby>
+    <incdepgraph>
+      <node id="994">
+        <label>gf2vec.h</label>
+        <link refid="gf2vec.h"/>
+        <childnode refid="995" relation="include">
+        </childnode>
+      </node>
+      <node id="995">
+        <label>vector</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="997">
+        <label>gf2mat.h</label>
+        <link refid="gf2mat_8h"/>
+      </node>
+      <node id="996">
+        <label>gf2vec.h</label>
+        <link refid="gf2vec.h"/>
+        <childnode refid="997" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classGF2Vec" prot="public">GF2Vec</innerclass>
+    <briefdescription>
+<para>Definition of a class for GF2 vector algebra. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Manu T S <hruler/>
+</para></simplesect>
+Copyright 2013 IIT Bombay.</para><para>This is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3, or (at your option) any later version.</para><para>This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</para><para>You should have received a copy of the GNU General Public License along with this software; see the file COPYING. If not, write to the Free Software Foundation, Inc., 51 Franklin Street, Boston, MA 02110-1301, USA. <hruler/>
+</para><para>This is a class for handling GF2 vectors. </para>    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/gf2vec.h"/>
+  </compounddef>
+</doxygen>

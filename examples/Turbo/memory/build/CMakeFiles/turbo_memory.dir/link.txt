@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/turbo_memory.dir/turbo_memory.cc.o  -o turbo_memory -lgnuradio-runtime -lgnuradio-blocks -lgnuradio-digital -lgnuradio-ccsds -lgnuradio-tdd -lgnuradio-pmt /usr/lib/x86_64-linux-gnu/libboost_filesystem.so /usr/lib/x86_64-linux-gnu/libboost_system.so 

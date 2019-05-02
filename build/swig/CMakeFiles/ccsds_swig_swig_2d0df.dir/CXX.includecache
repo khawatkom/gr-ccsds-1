@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/swig/ccsds_swig_swig_2d0df.cpp
+

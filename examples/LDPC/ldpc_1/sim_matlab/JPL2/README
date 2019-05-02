@@ -1,0 +1,93 @@
+Jon Hamkins
+06/02/09
+
+Each file in this directory contains a circulant-based protogaph LDPC
+code definition, consisting of k, n, m, M, punc, chk, var, E, Gmini, and
+edgelist.  The file would be more compact in a binary format, but it was
+kept as ASCII for human readability.
+
+Each file is of the form:
+
+--------------------------
+k=<value of k>
+n=<value of n>
+m=<value of m>
+M=<value of M>
+punc=<value of punc>
+chk=<value of chk>
+var=<value of var>
+E=<value of E>
+Gmini=
+<values of Gmini in 1st row>
+<values of Gmini in 2nd row>
+...
+edgelist=
+<variable,check,offset>
+<variable,check,offset>
+...
+--------------------------
+
+Definitions:
+
+k: input length of code
+n: output length of (punctured) code
+m: circulant size.
+M: submatrix size (For AR4JA, M = 4m, i.e., prelift by 4, then use circulants)
+punc: Number of punctured symbols (at end of codeword) (for AR4JA punc = M)
+chk: Number of check nodes in protograph (after pre-lifting, if any)
+var: Number of variable nodes in protograph (after pre-lifting, if any)
+E: Number of edges in protograph
+Gmini: A k/m x n-k mini-version of G (which is k x (n+punc)), formed from G by:
+   o Removing the systematic part (first k columns)
+   o Removing the punctured part, if any
+   o Removing all rows except first row of each circulant i.e., only rows
+      1, m+1, 2m+1, ... are kept.
+edgelist: This describes the parity check matrix.  Each triplet contains
+   the variable node index, check node index, and circulant offset
+   numbered from 0.
+
+These are the sizes of the matrices for the unpunctured codes:
+
+                              G             H         m     n
+AR4JA,r=1_2,k=1024.dat   1024 x  2560  1536 x  2560  128  2048
+AR4JA,r=2_3,k=1024.dat   1024 x  1792   768 x  1792   64  1536
+AR4JA,r=4_5,k=1024.dat   1024 x  1408   384 x  1408   32  1280
+AR4JA,r=1_2,k=4096.dat   4096 x 10240  6144 x 10240  512  8192
+AR4JA,r=2_3,k=4096.dat   4096 x  7168  3072 x  7168  256  6144
+AR4JA,r=4_5,k=4096.dat   4096 x  5632  1536 x  5632  128  5120
+AR4JA,r=1_2,k=16384.dat 16384 x 40960 24576 x 40960 2048 32768
+AR4JA,r=2_3,k=16384.dat 16384 x 28672 12288 x 28672 1024 24576
+AR4JA,r=4_5,k=16384.dat 16384 x 22528  6144 x 22528  512 20480
+C2.dat                   7154 x  8176  1022 x  8176  511  8176
+binary,r=1_2,k=64.dat      64 x   128    64 x   128   16   128
+binary,r=1_2,k=128.dat    128 x   256   128 x   256   32   256
+binary,r=1_2,k=256.dat    256 x   512   256 x   512   64   512
+
+For encoding, one need not store the full G matrix.  The systematic and
+punctured parts need not be stored.  For the largest AR4JA G, (16384,
+1/2), this brings G down to 16384 x 16384.  Stored 1 element per char (a
+byte, the smallest data type in C), this takes 2^14 x 2^14 bytes = 256
+MB (under the definition 1 MB = 2^20 bytes), which is doable on typical
+desktops.
+
+One can save memory by encoding one message bit at a time using Gmini
+directly, without explicitly computing G.  This cuts the memory by
+almost a factor of the circulant size, but requires regenerating columns
+of G on demand.
+
+Or, one can pack the full size G into long ints, which are typically
+64-bits (8 bytes) long on typical desktops.  Using 8 bytes instead of 64
+bytes to store 64 elements of G is a factor of 8 reduction in memory.
+E.g., the (16384, 1/2) AR4JA code requires storage of 16384 * 16384 / 8
+= 32 MB.  Such a Gcompact also makes encoding much faster, as one 64-bit
+operation is much faster than 64 1-byte operations.  
+
+Special note about C2: the generator and parity check matrix for the C2
+code is for the (8176,7154) version of the code.  The recommended
+(8160,7136) C2 code is encoded by prepending 18 zeroes to 7136
+infomation bits, encoding using the (8176,7154) generator, discarding
+the first 18 systematic (zero) bits, and adding 2 zeroes to the end of
+the codeword.  The code is decoded by discarding the bit LLRs
+corresponding to the 2 zeroes at the end, setting and pinning the LLRs
+for the missing 18 (zero) bits, and decoding using the parity check
+matrix for the (8176,7154) code.

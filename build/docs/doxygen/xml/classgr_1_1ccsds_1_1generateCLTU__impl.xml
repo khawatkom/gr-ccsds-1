@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ccsds_1_1generateCLTU__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ccsds::generateCLTU_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ccsds_1_1generateCLTU" prot="public" virt="non-virtual">gr::ccsds::generateCLTU</basecompoundref>
+    <includes refid="generateCLTU__impl_8h" local="no">generateCLTU_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1generateCLTU__impl_1a59b2edc84df9dff866f7e849d935880e" prot="private" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* gr::ccsds::generateCLTU_impl::crcTable</definition>
+        <argsstring></argsstring>
+        <name>crcTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" line="39" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1generateCLTU__impl_1a72c2eb55a2e0e9cbded46073b2cc8cf8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::ccsds::generateCLTU_impl::d_scramble</definition>
+        <argsstring></argsstring>
+        <name>d_scramble</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" line="42" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1generateCLTU__impl_1a1f5e1a9a5e9d6d4d029f594b3611821b" prot="private" static="no" mutable="no">
+        <type><ref refid="classScrambler" kindref="compound">Scrambler</ref></type>
+        <definition>Scrambler gr::ccsds::generateCLTU_impl::S</definition>
+        <argsstring></argsstring>
+        <name>S</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" line="43" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1generateCLTU__impl_1a61284ba0cc3a92dd2b5905e2df42a2c5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ccsds::generateCLTU_impl::crcInit</definition>
+        <argsstring>()</argsstring>
+        <name>crcInit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1generateCLTU__impl_1a992d75f3ebceec3220dc255f8a5194b8" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ccsds::generateCLTU_impl::cltu</definition>
+        <argsstring>(pmt::pmt_t pmt_msg)</argsstring>
+        <name>cltu</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>pmt_msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" line="41" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1generateCLTU__impl_1aafa35d0d36012312035e30015b6e3fc4" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ccsds::generateCLTU_impl::bchEncoder</definition>
+        <argsstring>(std::vector&lt; unsigned char &gt; &amp;message)</argsstring>
+        <name>bchEncoder</name>
+        <param>
+          <type>std::vector&lt; unsigned char &gt; &amp;</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1generateCLTU__impl_1a36b621ea333ffabc0fa557bfa24dc4a6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ccsds::generateCLTU_impl::crcEncoder</definition>
+        <argsstring>(std::vector&lt; unsigned char &gt; &amp;message, const crc initial_remainder)</argsstring>
+        <name>crcEncoder</name>
+        <param>
+          <type>std::vector&lt; unsigned char &gt; &amp;</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>const <ref refid="generateCLTU__impl_8h_1a5a49b6beff09dd1cc45b3c8715415a22" kindref="member">crc</ref></type>
+          <declname>initial_remainder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" line="45" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1generateCLTU__impl_1a9dd0fb40be9b94e5db7da4b77bcb3052" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ccsds::generateCLTU_impl::generateCLTU_impl</definition>
+        <argsstring>(int scramble)</argsstring>
+        <name>generateCLTU_impl</name>
+        <param>
+          <type>int</type>
+          <declname>scramble</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1generateCLTU__impl_1a9d4cfade2780a37a8feb499d123d8c7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ccsds::generateCLTU_impl::~generateCLTU_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~generateCLTU_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1generateCLTU__impl_1ab7dcf97e59c9173b3ff69a370f99b4dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ccsds::generateCLTU_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" line="51" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="296">
+        <label>gr::ccsds::generateCLTU</label>
+        <link refid="classgr_1_1ccsds_1_1generateCLTU"/>
+        <childnode refid="297" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="297">
+        <label>sync_block</label>
+      </node>
+      <node id="295">
+        <label>gr::ccsds::generateCLTU_impl</label>
+        <link refid="classgr_1_1ccsds_1_1generateCLTU__impl"/>
+        <childnode refid="296" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="299">
+        <label>gr::ccsds::generateCLTU</label>
+        <link refid="classgr_1_1ccsds_1_1generateCLTU"/>
+        <childnode refid="300" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="300">
+        <label>sync_block</label>
+      </node>
+      <node id="298">
+        <label>gr::ccsds::generateCLTU_impl</label>
+        <link refid="classgr_1_1ccsds_1_1generateCLTU__impl"/>
+        <childnode refid="299" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" line="37" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.h" bodystart="36" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ccsds_1_1generateCLTU__impl_1aafa35d0d36012312035e30015b6e3fc4" prot="private" virt="non-virtual"><scope>gr::ccsds::generateCLTU_impl</scope><name>bchEncoder</name></member>
+      <member refid="classgr_1_1ccsds_1_1generateCLTU__impl_1a992d75f3ebceec3220dc255f8a5194b8" prot="private" virt="non-virtual"><scope>gr::ccsds::generateCLTU_impl</scope><name>cltu</name></member>
+      <member refid="classgr_1_1ccsds_1_1generateCLTU__impl_1a36b621ea333ffabc0fa557bfa24dc4a6" prot="private" virt="non-virtual"><scope>gr::ccsds::generateCLTU_impl</scope><name>crcEncoder</name></member>
+      <member refid="classgr_1_1ccsds_1_1generateCLTU__impl_1a61284ba0cc3a92dd2b5905e2df42a2c5" prot="private" virt="non-virtual"><scope>gr::ccsds::generateCLTU_impl</scope><name>crcInit</name></member>
+      <member refid="classgr_1_1ccsds_1_1generateCLTU__impl_1a59b2edc84df9dff866f7e849d935880e" prot="private" virt="non-virtual"><scope>gr::ccsds::generateCLTU_impl</scope><name>crcTable</name></member>
+      <member refid="classgr_1_1ccsds_1_1generateCLTU__impl_1a72c2eb55a2e0e9cbded46073b2cc8cf8" prot="private" virt="non-virtual"><scope>gr::ccsds::generateCLTU_impl</scope><name>d_scramble</name></member>
+      <member refid="classgr_1_1ccsds_1_1generateCLTU__impl_1a9dd0fb40be9b94e5db7da4b77bcb3052" prot="public" virt="non-virtual"><scope>gr::ccsds::generateCLTU_impl</scope><name>generateCLTU_impl</name></member>
+      <member refid="classgr_1_1ccsds_1_1generateCLTU_1a86d51a923b70c123fbd411350f5e5c08" prot="public" virt="non-virtual"><scope>gr::ccsds::generateCLTU_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ccsds_1_1generateCLTU__impl_1a1f5e1a9a5e9d6d4d029f594b3611821b" prot="private" virt="non-virtual"><scope>gr::ccsds::generateCLTU_impl</scope><name>S</name></member>
+      <member refid="classgr_1_1ccsds_1_1generateCLTU_1adb5d2495f8927d73312427d8bfcf5f4c" prot="public" virt="non-virtual"><scope>gr::ccsds::generateCLTU_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ccsds_1_1generateCLTU__impl_1ab7dcf97e59c9173b3ff69a370f99b4dd" prot="public" virt="non-virtual"><scope>gr::ccsds::generateCLTU_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1ccsds_1_1generateCLTU__impl_1a9d4cfade2780a37a8feb499d123d8c7b" prot="public" virt="non-virtual"><scope>gr::ccsds::generateCLTU_impl</scope><name>~generateCLTU_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

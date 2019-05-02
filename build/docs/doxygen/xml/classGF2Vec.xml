@@ -1,0 +1,265 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classGF2Vec" kind="class" language="C++" prot="public">
+    <compoundname>GF2Vec</compoundname>
+    <includes refid="gf2vec_8h" local="no">gf2vec.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classGF2Vec_1a757923f7ffc2dbfcaa48269454edf542" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; char &gt;</type>
+        <definition>std::vector&lt;char&gt; GF2Vec::vec</definition>
+        <argsstring></argsstring>
+        <name>vec</name>
+        <briefdescription>
+<para>The vector vec. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/gf2vec.h" line="38" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/gf2vec.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classGF2Vec_1a8906f8a506eae916c3c6e862cb3b119e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GF2Vec::resize</definition>
+        <argsstring>(int size)</argsstring>
+        <name>resize</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Resize the vector. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/gf2vec.h" line="41" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classGF2Vec_1a68e30d99a6bc3f2cc12e6a1fe1909bc9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GF2Vec::GF2Vec</definition>
+        <argsstring>()</argsstring>
+        <name>GF2Vec</name>
+        <briefdescription>
+<para>Default constructor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/gf2vec.h" line="46" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/gf2vec.h" bodystart="46" bodyend="46"/>
+        <references refid="classGF2Vec_1a725d592502673b9caa9de6be28dcce34">get_vec</references>
+        <references refid="classGF2Vec_1afa790b5b3f5dcc773e61117adc24fa36">operator*</references>
+        <references refid="classGF2Vec_1a27c25177ab17706613c97db2da05bad2">operator+</references>
+        <references refid="classGF2Vec_1ad4681bf180403ea8071dd2d3925f598e">operator=</references>
+        <references refid="classGF2Vec_1aa7254609af426b08bad712761fcaf457">operator[]</references>
+        <references refid="classGF2Vec_1a95410e945a06d2a7325d3cefe9bf4b72">print_vec</references>
+        <references refid="classGF2Vec_1a6c4258121faf58a6eefaa4c83dc1e1d4">set_vec</references>
+        <references refid="classGF2Vec_1a0333d28a24c6930adfc2cec14846d78a">size</references>
+        <references refid="classGF2Vec_1a33556180b01b2cca550218ea0bf1610b">sub_vector</references>
+      </memberdef>
+      <memberdef kind="function" id="classGF2Vec_1a5d807869243b2328acdcd0a1c1b80ccc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GF2Vec::GF2Vec</definition>
+        <argsstring>(int size)</argsstring>
+        <name>GF2Vec</name>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a vector of length &quot;size&quot; with all 0 entries. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/gf2vec.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classGF2Vec_1a725d592502673b9caa9de6be28dcce34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; char &gt;</type>
+        <definition>std::vector&lt;char&gt; GF2Vec::get_vec</definition>
+        <argsstring>()</argsstring>
+        <name>get_vec</name>
+        <briefdescription>
+<para>Returns the vector. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/gf2vec.h" line="52" column="1"/>
+        <referencedby refid="classGF2Vec_1a68e30d99a6bc3f2cc12e6a1fe1909bc9" compoundref="gf2vec_8h" startline="46" endline="46">GF2Vec</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classGF2Vec_1a0333d28a24c6930adfc2cec14846d78a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int GF2Vec::size</definition>
+        <argsstring>()</argsstring>
+        <name>size</name>
+        <briefdescription>
+<para>Returns the size of the vector. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/gf2vec.h" line="55" column="1"/>
+        <referencedby refid="classGF2Vec_1a68e30d99a6bc3f2cc12e6a1fe1909bc9" compoundref="gf2vec_8h" startline="46" endline="46">GF2Vec</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classGF2Vec_1a6c4258121faf58a6eefaa4c83dc1e1d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GF2Vec::set_vec</definition>
+        <argsstring>(std::vector&lt; char &gt;)</argsstring>
+        <name>set_vec</name>
+        <param>
+          <type>std::vector&lt; char &gt;</type>
+        </param>
+        <briefdescription>
+<para>Resets the vector with the given input. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/gf2vec.h" line="58" column="1"/>
+        <referencedby refid="classGF2Vec_1a68e30d99a6bc3f2cc12e6a1fe1909bc9" compoundref="gf2vec_8h" startline="46" endline="46">GF2Vec</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classGF2Vec_1aa7254609af426b08bad712761fcaf457" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>char &amp;</type>
+        <definition>char&amp; GF2Vec::operator[]</definition>
+        <argsstring>(int i)</argsstring>
+        <name>operator[]</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+<para>Access the ith element. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/gf2vec.h" line="61" column="1"/>
+        <referencedby refid="classGF2Vec_1a68e30d99a6bc3f2cc12e6a1fe1909bc9" compoundref="gf2vec_8h" startline="46" endline="46">GF2Vec</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classGF2Vec_1ad4681bf180403ea8071dd2d3925f598e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GF2Vec::operator=</definition>
+        <argsstring>(GF2Vec x)</argsstring>
+        <name>operator=</name>
+        <param>
+          <type><ref refid="classGF2Vec" kindref="compound">GF2Vec</ref></type>
+          <declname>x</declname>
+        </param>
+        <briefdescription>
+<para>Overloading the operator &apos;=&apos;. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/gf2vec.h" line="64" column="1"/>
+        <referencedby refid="classGF2Vec_1a68e30d99a6bc3f2cc12e6a1fe1909bc9" compoundref="gf2vec_8h" startline="46" endline="46">GF2Vec</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classGF2Vec_1a33556180b01b2cca550218ea0bf1610b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classGF2Vec" kindref="compound">GF2Vec</ref></type>
+        <definition>GF2Vec GF2Vec::sub_vector</definition>
+        <argsstring>(int i, int j)</argsstring>
+        <name>sub_vector</name>
+        <param>
+          <type>int</type>
+          <declname>i</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>j</declname>
+        </param>
+        <briefdescription>
+<para>Obtain a subvector between the indices i to j. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/gf2vec.h" line="67" column="1"/>
+        <referencedby refid="classGF2Vec_1a68e30d99a6bc3f2cc12e6a1fe1909bc9" compoundref="gf2vec_8h" startline="46" endline="46">GF2Vec</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classGF2Vec_1a95410e945a06d2a7325d3cefe9bf4b72" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GF2Vec::print_vec</definition>
+        <argsstring>()</argsstring>
+        <name>print_vec</name>
+        <briefdescription>
+<para>Prints the vector. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/gf2vec.h" line="76" column="1"/>
+        <referencedby refid="classGF2Vec_1a68e30d99a6bc3f2cc12e6a1fe1909bc9" compoundref="gf2vec_8h" startline="46" endline="46">GF2Vec</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classGF2Vec_1a27c25177ab17706613c97db2da05bad2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend <ref refid="classGF2Vec" kindref="compound">GF2Vec</ref></type>
+        <definition>GF2Vec operator+</definition>
+        <argsstring>(GF2Vec a, GF2Vec b)</argsstring>
+        <name>operator+</name>
+        <param>
+          <type><ref refid="classGF2Vec" kindref="compound">GF2Vec</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classGF2Vec" kindref="compound">GF2Vec</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Overloading the operator &apos;+&apos;. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/gf2vec.h" line="70" column="1"/>
+        <referencedby refid="classGF2Vec_1a68e30d99a6bc3f2cc12e6a1fe1909bc9" compoundref="gf2vec_8h" startline="46" endline="46">GF2Vec</referencedby>
+      </memberdef>
+      <memberdef kind="friend" id="classGF2Vec_1afa790b5b3f5dcc773e61117adc24fa36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend char</type>
+        <definition>char operator*</definition>
+        <argsstring>(GF2Vec a, GF2Vec b)</argsstring>
+        <name>operator*</name>
+        <param>
+          <type><ref refid="classGF2Vec" kindref="compound">GF2Vec</ref></type>
+          <declname>a</declname>
+        </param>
+        <param>
+          <type><ref refid="classGF2Vec" kindref="compound">GF2Vec</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+<para>Overloading the operator &apos;*&apos;. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/gf2vec.h" line="73" column="1"/>
+        <referencedby refid="classGF2Vec_1a68e30d99a6bc3f2cc12e6a1fe1909bc9" compoundref="gf2vec_8h" startline="46" endline="46">GF2Vec</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/gf2vec.h" line="36" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/gf2vec.h" bodystart="35" bodyend="77"/>
+    <listofallmembers>
+      <member refid="classGF2Vec_1a725d592502673b9caa9de6be28dcce34" prot="public" virt="non-virtual"><scope>GF2Vec</scope><name>get_vec</name></member>
+      <member refid="classGF2Vec_1a68e30d99a6bc3f2cc12e6a1fe1909bc9" prot="public" virt="non-virtual"><scope>GF2Vec</scope><name>GF2Vec</name></member>
+      <member refid="classGF2Vec_1a5d807869243b2328acdcd0a1c1b80ccc" prot="public" virt="non-virtual"><scope>GF2Vec</scope><name>GF2Vec</name></member>
+      <member refid="classGF2Vec_1afa790b5b3f5dcc773e61117adc24fa36" prot="public" virt="non-virtual"><scope>GF2Vec</scope><name>operator*</name></member>
+      <member refid="classGF2Vec_1a27c25177ab17706613c97db2da05bad2" prot="public" virt="non-virtual"><scope>GF2Vec</scope><name>operator+</name></member>
+      <member refid="classGF2Vec_1ad4681bf180403ea8071dd2d3925f598e" prot="public" virt="non-virtual"><scope>GF2Vec</scope><name>operator=</name></member>
+      <member refid="classGF2Vec_1aa7254609af426b08bad712761fcaf457" prot="public" virt="non-virtual"><scope>GF2Vec</scope><name>operator[]</name></member>
+      <member refid="classGF2Vec_1a95410e945a06d2a7325d3cefe9bf4b72" prot="public" virt="non-virtual"><scope>GF2Vec</scope><name>print_vec</name></member>
+      <member refid="classGF2Vec_1a8906f8a506eae916c3c6e862cb3b119e" prot="private" virt="non-virtual"><scope>GF2Vec</scope><name>resize</name></member>
+      <member refid="classGF2Vec_1a6c4258121faf58a6eefaa4c83dc1e1d4" prot="public" virt="non-virtual"><scope>GF2Vec</scope><name>set_vec</name></member>
+      <member refid="classGF2Vec_1a0333d28a24c6930adfc2cec14846d78a" prot="public" virt="non-virtual"><scope>GF2Vec</scope><name>size</name></member>
+      <member refid="classGF2Vec_1a33556180b01b2cca550218ea0bf1610b" prot="public" virt="non-virtual"><scope>GF2Vec</scope><name>sub_vector</name></member>
+      <member refid="classGF2Vec_1a757923f7ffc2dbfcaa48269454edf542" prot="private" virt="non-virtual"><scope>GF2Vec</scope><name>vec</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

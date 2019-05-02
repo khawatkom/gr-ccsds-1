@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_5c1be23bef192637b61191e59134f0e6" kind="dir">
+    <compoundname>deepspace-turbo</compoundname>
+    <innerfile refid="colors_8h">colors.h</innerfile>
+    <innerfile refid="deepspace-turbo_2libconvcodes_8h">deepspace-turbo/libconvcodes.h</innerfile>
+    <innerfile refid="deepspace-turbo_2libturbocodes_8h">deepspace-turbo/libturbocodes.h</innerfile>
+    <innerfile refid="utilities_8h">utilities.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/turbo/deepspace-turbo/"/>
+  </compounddef>
+</doxygen>

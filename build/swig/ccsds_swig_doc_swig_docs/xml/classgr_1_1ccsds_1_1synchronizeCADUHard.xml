@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ccsds_1_1synchronizeCADUHard" kind="class" language="C++" prot="public">
+    <compoundname>gr::ccsds::synchronizeCADUHard</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <includes refid="synchronizeCADUHard_8h" local="no">synchronizeCADUHard.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ccsds_1_1synchronizeCADUHard_1a90c40b2582961a57c920934ba3b30992" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1ccsds_1_1synchronizeCADUHard" kindref="compound">synchronizeCADUHard</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;synchronizeCADUHard&gt; gr::ccsds::synchronizeCADUHard::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/synchronizeCADUHard.h" line="39" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/synchronizeCADUHard.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1synchronizeCADUHard_1a15b901b617c28a1050c5ad1e3450ccc3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ccsds_1_1synchronizeCADUHard_1a90c40b2582961a57c920934ba3b30992" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ccsds::synchronizeCADUHard::make</definition>
+        <argsstring>(std::string sync, int stl, int lts, int tin, int ambiguity, int frame_size, int verbose)</argsstring>
+        <name>make</name>
+        <param>
+          <type>std::string</type>
+          <declname>sync</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>stl</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>lts</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>tin</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ambiguity</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>frame_size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>verbose</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1ccsds_1_1synchronizeCADUHard" kindref="compound">ccsds::synchronizeCADUHard</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1ccsds_1_1synchronizeCADUHard" kindref="compound">ccsds::synchronizeCADUHard</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1ccsds_1_1synchronizeCADUHard_1a15b901b617c28a1050c5ad1e3450ccc3" kindref="member">ccsds::synchronizeCADUHard::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/synchronizeCADUHard.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="76">
+        <label>gr::ccsds::synchronizeCADUHard</label>
+        <link refid="classgr_1_1ccsds_1_1synchronizeCADUHard"/>
+        <childnode refid="77" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="78">
+        <label>gr::ccsds::synchronizeCADUHard</label>
+        <link refid="classgr_1_1ccsds_1_1synchronizeCADUHard"/>
+        <childnode refid="79" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="79">
+        <label>sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/synchronizeCADUHard.h" line="37" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/synchronizeCADUHard.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard_1a15b901b617c28a1050c5ad1e3450ccc3" prot="public" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard</scope><name>make</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard_1a90c40b2582961a57c920934ba3b30992" prot="public" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUHard</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

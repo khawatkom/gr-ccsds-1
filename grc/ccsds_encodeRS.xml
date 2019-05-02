@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<block>
+  <name>encodeRS</name>
+  <key>ccsds_encodeRS</key>
+  <category>[ccsds]</category>
+  <import>import ccsds</import>
+  <make>ccsds.encodeRS($code, $cbSize, $intDepth, $out_tag_key, $len_tag_key)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>RS code</name>
+    <key>code</key>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Codeblock size</name>
+    <key>cbSize</key>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Int depth</name>
+    <key>intDepth</key>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Out Tag</name>
+    <key>out_tag_key</key>
+    <type>string</type>
+  </param>
+
+  <param>
+    <name>Length Tag</name>
+    <key>len_tag_key</key>
+    <type>string</type>
+  </param>
+
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+<doc>
+Code : Reed-Solomon Options
+ 1 - RS(255,223) + Conv
+ 2 - RS(255,223) + Dual basis
+ 3 - RS(255,239) + Conv
+ 4 - RS(255,239) + Dual basis 
+Codeblock size : Must be multiple of interleave depth    
+Int depth      : Standard CCSDS values (1,2,3,4,5,8)
+Out tag key    : Name of output tag key
+Length Tag     : Tag with packet length
+</doc>
+</block>

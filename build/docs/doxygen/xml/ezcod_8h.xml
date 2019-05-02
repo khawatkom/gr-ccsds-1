@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="ezcod_8h" kind="file" language="C++">
+    <compoundname>ezcod.h</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="ezcod_8h_1aaf2facb7557e184a6cb470e9dc0efacf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ezcod_3_10_encode</definition>
+        <argsstring>(double lat, double lon, char *enc, size_t siz, size_t pre)</argsstring>
+        <name>ezcod_3_10_encode</name>
+        <param>
+          <type>double</type>
+          <declname>lat</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>enc</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>siz</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>pre</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/EZPWD/ezpwd-reed-solomon/ezcod.h" line="18" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="ezcod_8h_1afb5a69490c2451ced8a88ba95bb06140" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ezcod_3_10_decode</definition>
+        <argsstring>(char *dec, size_t siz, double *lat, double *lon, double *acc)</argsstring>
+        <name>ezcod_3_10_decode</name>
+        <param>
+          <type>char *</type>
+          <declname>dec</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>siz</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>lat</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>lon</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>acc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/EZPWD/ezpwd-reed-solomon/ezcod.h" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="ezcod_8h_1a288e6e97890eb979cbce743c3f12f408" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ezcod_3_11_encode</definition>
+        <argsstring>(double lat, double lon, char *enc, size_t siz, size_t pre)</argsstring>
+        <name>ezcod_3_11_encode</name>
+        <param>
+          <type>double</type>
+          <declname>lat</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>enc</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>siz</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>pre</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/EZPWD/ezpwd-reed-solomon/ezcod.h" line="31" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="ezcod_8h_1a841bc1630fa64c1fe43cca7601909bab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ezcod_3_11_decode</definition>
+        <argsstring>(char *dec, size_t siz, double *lat, double *lon, double *acc)</argsstring>
+        <name>ezcod_3_11_decode</name>
+        <param>
+          <type>char *</type>
+          <declname>dec</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>siz</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>lat</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>lon</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>acc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/EZPWD/ezpwd-reed-solomon/ezcod.h" line="37" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="ezcod_8h_1ab096cc78983844f786095ed58be1466c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ezcod_3_12_encode</definition>
+        <argsstring>(double lat, double lon, char *enc, size_t siz, size_t pre)</argsstring>
+        <name>ezcod_3_12_encode</name>
+        <param>
+          <type>double</type>
+          <declname>lat</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>lon</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>enc</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>siz</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>pre</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/EZPWD/ezpwd-reed-solomon/ezcod.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="ezcod_8h_1a39b0a787da02bc060bdc476b59255af7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int ezcod_3_12_decode</definition>
+        <argsstring>(char *dec, size_t siz, double *lat, double *lon, double *acc)</argsstring>
+        <name>ezcod_3_12_decode</name>
+        <param>
+          <type>char *</type>
+          <declname>dec</declname>
+        </param>
+        <param>
+          <type>size_t</type>
+          <declname>siz</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>lat</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>lon</declname>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>acc</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/EZPWD/ezpwd-reed-solomon/ezcod.h" line="50" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/EZPWD/ezpwd-reed-solomon/ezcod.h"/>
+  </compounddef>
+</doxygen>

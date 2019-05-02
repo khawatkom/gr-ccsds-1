@@ -1,0 +1,407 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ccsds_1_1encodeTurbo__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ccsds::encodeTurbo_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ccsds_1_1encodeTurbo" prot="public" virt="non-virtual">gr::ccsds::encodeTurbo</basecompoundref>
+    <includes refid="encodeTurbo__impl_8h" local="no">encodeTurbo_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1encodeTurbo__impl_1ad1bd76057321ad19c48cdc2ab83aea6c" prot="private" static="no" mutable="no">
+        <type>blocks::kernel::pack_k_bits *</type>
+        <definition>blocks::kernel::pack_k_bits* gr::ccsds::encodeTurbo_impl::d_pack</definition>
+        <argsstring></argsstring>
+        <name>d_pack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" line="38" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1encodeTurbo__impl_1a7a7ae36a14960c82870ce93707f1850b" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::ccsds::encodeTurbo_impl::d_in_port</definition>
+        <argsstring></argsstring>
+        <name>d_in_port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" line="39" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1encodeTurbo__impl_1ade397081a32f0ce26a341325436f6469" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::ccsds::encodeTurbo_impl::d_out_port</definition>
+        <argsstring></argsstring>
+        <name>d_out_port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" line="40" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1encodeTurbo__impl_1af60914f1beba321a66185802a416fca4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::encodeTurbo_impl::d_base</definition>
+        <argsstring></argsstring>
+        <name>d_base</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" line="41" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1encodeTurbo__impl_1a3c29af99887be4bd5eb10ff2e8faac12" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::encodeTurbo_impl::d_octets</definition>
+        <argsstring></argsstring>
+        <name>d_octets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" line="42" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1encodeTurbo__impl_1a734b2e8e000d7e3b935142cc1d10f20e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::encodeTurbo_impl::d_code_type</definition>
+        <argsstring></argsstring>
+        <name>d_code_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" line="43" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1encodeTurbo__impl_1a98fa5d8f182506d61e2f4c2d028c258b" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::ccsds::encodeTurbo_impl::d_rate</definition>
+        <argsstring></argsstring>
+        <name>d_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" line="45" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1encodeTurbo__impl_1a3a91e2058ffc2afacf68897af361bc4e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::encodeTurbo_impl::d_info_length</definition>
+        <argsstring></argsstring>
+        <name>d_info_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" line="46" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1encodeTurbo__impl_1a6a42b99894daab3e369ea128ce66c49e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::encodeTurbo_impl::d_encoded_length</definition>
+        <argsstring></argsstring>
+        <name>d_encoded_length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" line="47" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1encodeTurbo__impl_1a23bad22e83034dd1c5efb55891987892" prot="private" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* gr::ccsds::encodeTurbo_impl::d_pi</definition>
+        <argsstring></argsstring>
+        <name>d_pi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" line="49" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1encodeTurbo__impl_1a971c0d32fc33b76a8a21d0ad34e51da1" prot="private" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* gr::ccsds::encodeTurbo_impl::d_forward_upper[MAX_COMPONENTS]</definition>
+        <argsstring>[MAX_COMPONENTS]</argsstring>
+        <name>d_forward_upper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" line="50" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1encodeTurbo__impl_1ac15a531a29241ee27200ecc5f07e3e06" prot="private" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* gr::ccsds::encodeTurbo_impl::d_forward_lower[MAX_COMPONENTS]</definition>
+        <argsstring>[MAX_COMPONENTS]</argsstring>
+        <name>d_forward_lower</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" line="51" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1encodeTurbo__impl_1a94b8ae769740a7c8294addd7f1615887" prot="private" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* gr::ccsds::encodeTurbo_impl::d_backward</definition>
+        <argsstring></argsstring>
+        <name>d_backward</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" line="52" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1encodeTurbo__impl_1a2d218a2a478edf88103f3b5c97ea848d" prot="private" static="no" mutable="no">
+        <type><ref refid="backup_2libconvcodes_8h_1aafb522000da615a123694bdb6d40d0c5" kindref="member">t_convcode</ref></type>
+        <definition>t_convcode gr::ccsds::encodeTurbo_impl::d_code1</definition>
+        <argsstring></argsstring>
+        <name>d_code1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" line="53" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1encodeTurbo__impl_1a19d97a2737361d39049f17937e53dc4a" prot="private" static="no" mutable="no">
+        <type><ref refid="backup_2libconvcodes_8h_1aafb522000da615a123694bdb6d40d0c5" kindref="member">t_convcode</ref></type>
+        <definition>t_convcode gr::ccsds::encodeTurbo_impl::d_code2</definition>
+        <argsstring></argsstring>
+        <name>d_code2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" line="54" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1encodeTurbo__impl_1a7be13ca5622d245c6e77574b08b08920" prot="private" static="no" mutable="no">
+        <type><ref refid="backup_2libturbocodes_8h_1ae41dea5c438222d86c0642417d7fdf47" kindref="member">t_turbocode</ref></type>
+        <definition>t_turbocode gr::ccsds::encodeTurbo_impl::d_turbo</definition>
+        <argsstring></argsstring>
+        <name>d_turbo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" line="55" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1encodeTurbo__impl_1ab1d2e874751925658d4cf13a48aadf18" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ccsds::encodeTurbo_impl::pmt_in_callback</definition>
+        <argsstring>(pmt::pmt_t msg)</argsstring>
+        <name>pmt_in_callback</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" line="58" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1encodeTurbo__impl_1a8eb370bbfdf77b189a05c4abe26de6ac" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ccsds::encodeTurbo_impl::puncturing</definition>
+        <argsstring>(int k)</argsstring>
+        <name>puncturing</name>
+        <param>
+          <type>int</type>
+          <declname>k</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" line="59" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1encodeTurbo__impl_1a3023f6f69dc71eda10484ff5f9626f52" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ccsds::encodeTurbo_impl::calculate_output_stream_length</definition>
+        <argsstring>(const gr_vector_int &amp;ninput_items)</argsstring>
+        <name>calculate_output_stream_length</name>
+        <param>
+          <type>const gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" line="62" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1encodeTurbo__impl_1af3a5b55f27635c8f7f3b29cac96d3574" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ccsds::encodeTurbo_impl::encodeTurbo_impl</definition>
+        <argsstring>(int base, int type, std::string len_tag_key)</argsstring>
+        <name>encodeTurbo_impl</name>
+        <param>
+          <type>int</type>
+          <declname>base</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>len_tag_key</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1encodeTurbo__impl_1ade1e7aef33bf4fd380be41f7d053b142" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ccsds::encodeTurbo_impl::~encodeTurbo_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~encodeTurbo_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" line="66" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1encodeTurbo__impl_1a9ff8a109c5077f2e56b56d6de40fdf88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ccsds::encodeTurbo_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" line="69" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="251">
+        <label>gr::ccsds::encodeTurbo_impl</label>
+        <link refid="classgr_1_1ccsds_1_1encodeTurbo__impl"/>
+        <childnode refid="252" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="253">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="252">
+        <label>gr::ccsds::encodeTurbo</label>
+        <link refid="classgr_1_1ccsds_1_1encodeTurbo"/>
+        <childnode refid="253" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="254">
+        <label>gr::ccsds::encodeTurbo_impl</label>
+        <link refid="classgr_1_1ccsds_1_1encodeTurbo__impl"/>
+        <childnode refid="255" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="256">
+        <label>tagged_stream_block</label>
+      </node>
+      <node id="255">
+        <label>gr::ccsds::encodeTurbo</label>
+        <link refid="classgr_1_1ccsds_1_1encodeTurbo"/>
+        <childnode refid="256" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" line="36" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.h" bodystart="35" bodyend="73"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ccsds_1_1encodeTurbo__impl_1a3023f6f69dc71eda10484ff5f9626f52" prot="protected" virt="non-virtual"><scope>gr::ccsds::encodeTurbo_impl</scope><name>calculate_output_stream_length</name></member>
+      <member refid="classgr_1_1ccsds_1_1encodeTurbo__impl_1a94b8ae769740a7c8294addd7f1615887" prot="private" virt="non-virtual"><scope>gr::ccsds::encodeTurbo_impl</scope><name>d_backward</name></member>
+      <member refid="classgr_1_1ccsds_1_1encodeTurbo__impl_1af60914f1beba321a66185802a416fca4" prot="private" virt="non-virtual"><scope>gr::ccsds::encodeTurbo_impl</scope><name>d_base</name></member>
+      <member refid="classgr_1_1ccsds_1_1encodeTurbo__impl_1a2d218a2a478edf88103f3b5c97ea848d" prot="private" virt="non-virtual"><scope>gr::ccsds::encodeTurbo_impl</scope><name>d_code1</name></member>
+      <member refid="classgr_1_1ccsds_1_1encodeTurbo__impl_1a19d97a2737361d39049f17937e53dc4a" prot="private" virt="non-virtual"><scope>gr::ccsds::encodeTurbo_impl</scope><name>d_code2</name></member>
+      <member refid="classgr_1_1ccsds_1_1encodeTurbo__impl_1a734b2e8e000d7e3b935142cc1d10f20e" prot="private" virt="non-virtual"><scope>gr::ccsds::encodeTurbo_impl</scope><name>d_code_type</name></member>
+      <member refid="classgr_1_1ccsds_1_1encodeTurbo__impl_1a6a42b99894daab3e369ea128ce66c49e" prot="private" virt="non-virtual"><scope>gr::ccsds::encodeTurbo_impl</scope><name>d_encoded_length</name></member>
+      <member refid="classgr_1_1ccsds_1_1encodeTurbo__impl_1ac15a531a29241ee27200ecc5f07e3e06" prot="private" virt="non-virtual"><scope>gr::ccsds::encodeTurbo_impl</scope><name>d_forward_lower</name></member>
+      <member refid="classgr_1_1ccsds_1_1encodeTurbo__impl_1a971c0d32fc33b76a8a21d0ad34e51da1" prot="private" virt="non-virtual"><scope>gr::ccsds::encodeTurbo_impl</scope><name>d_forward_upper</name></member>
+      <member refid="classgr_1_1ccsds_1_1encodeTurbo__impl_1a7a7ae36a14960c82870ce93707f1850b" prot="private" virt="non-virtual"><scope>gr::ccsds::encodeTurbo_impl</scope><name>d_in_port</name></member>
+      <member refid="classgr_1_1ccsds_1_1encodeTurbo__impl_1a3a91e2058ffc2afacf68897af361bc4e" prot="private" virt="non-virtual"><scope>gr::ccsds::encodeTurbo_impl</scope><name>d_info_length</name></member>
+      <member refid="classgr_1_1ccsds_1_1encodeTurbo__impl_1a3c29af99887be4bd5eb10ff2e8faac12" prot="private" virt="non-virtual"><scope>gr::ccsds::encodeTurbo_impl</scope><name>d_octets</name></member>
+      <member refid="classgr_1_1ccsds_1_1encodeTurbo__impl_1ade397081a32f0ce26a341325436f6469" prot="private" virt="non-virtual"><scope>gr::ccsds::encodeTurbo_impl</scope><name>d_out_port</name></member>
+      <member refid="classgr_1_1ccsds_1_1encodeTurbo__impl_1ad1bd76057321ad19c48cdc2ab83aea6c" prot="private" virt="non-virtual"><scope>gr::ccsds::encodeTurbo_impl</scope><name>d_pack</name></member>
+      <member refid="classgr_1_1ccsds_1_1encodeTurbo__impl_1a23bad22e83034dd1c5efb55891987892" prot="private" virt="non-virtual"><scope>gr::ccsds::encodeTurbo_impl</scope><name>d_pi</name></member>
+      <member refid="classgr_1_1ccsds_1_1encodeTurbo__impl_1a98fa5d8f182506d61e2f4c2d028c258b" prot="private" virt="non-virtual"><scope>gr::ccsds::encodeTurbo_impl</scope><name>d_rate</name></member>
+      <member refid="classgr_1_1ccsds_1_1encodeTurbo__impl_1a7be13ca5622d245c6e77574b08b08920" prot="private" virt="non-virtual"><scope>gr::ccsds::encodeTurbo_impl</scope><name>d_turbo</name></member>
+      <member refid="classgr_1_1ccsds_1_1encodeTurbo__impl_1af3a5b55f27635c8f7f3b29cac96d3574" prot="public" virt="non-virtual"><scope>gr::ccsds::encodeTurbo_impl</scope><name>encodeTurbo_impl</name></member>
+      <member refid="classgr_1_1ccsds_1_1encodeTurbo_1a3a2bdcbfebb3e0146d2305bc939326db" prot="public" virt="non-virtual"><scope>gr::ccsds::encodeTurbo_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ccsds_1_1encodeTurbo__impl_1ab1d2e874751925658d4cf13a48aadf18" prot="private" virt="non-virtual"><scope>gr::ccsds::encodeTurbo_impl</scope><name>pmt_in_callback</name></member>
+      <member refid="classgr_1_1ccsds_1_1encodeTurbo__impl_1a8eb370bbfdf77b189a05c4abe26de6ac" prot="private" virt="non-virtual"><scope>gr::ccsds::encodeTurbo_impl</scope><name>puncturing</name></member>
+      <member refid="classgr_1_1ccsds_1_1encodeTurbo_1a2552b132020d65b3aebf98d7aa41525a" prot="public" virt="non-virtual"><scope>gr::ccsds::encodeTurbo_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ccsds_1_1encodeTurbo__impl_1a9ff8a109c5077f2e56b56d6de40fdf88" prot="public" virt="non-virtual"><scope>gr::ccsds::encodeTurbo_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1ccsds_1_1encodeTurbo__impl_1ade1e7aef33bf4fd380be41f7d053b142" prot="public" virt="non-virtual"><scope>gr::ccsds::encodeTurbo_impl</scope><name>~encodeTurbo_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<block>
+  <name>decodeLDPC</name>
+  <key>ccsds_decodeLDPC</key>
+  <category>[ccsds]</category>
+  <import>import ccsds</import>
+  <make>ccsds.decodeLDPC($alist_file,$code_type,$iterations, $sigma, $update_sigma,$pack)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+       <callback>open($file)</callback>
+	<param>
+		<name>Alist File</name>
+                <key>alist_file</key>
+		<value></value>
+		<type>file_open</type>
+	</param>
+  
+  <param>
+    <name>Code Type</name>
+    <key>code_type</key>
+    <value>0</value>
+    <type>enum</type>
+	<option>
+		<name>CCSDS C2(8176,7154)</name>
+		<key>0</key>
+	</option>
+	<option>
+		<name>CCSDS C2(8160,7136)</name>
+		<key>1</key>
+	</option>
+        <option>
+		<name>AR4JA_r12_k1024n LDPC(2048,1024)</name>
+		<key>2</key>
+	</option>
+  </param>
+
+
+  <param>
+    <name>Iterations</name>
+    <key>iterations</key>
+    <value>2</value>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Sigma</name>
+    <key>sigma</key>
+    <value>0.707</value>
+    <type>float</type>
+  </param>
+  <param>
+    <name>Update Sigma</name>
+    <key>update_sigma</key>
+    <value>true</value>
+    <type>enum</type>
+    <option>
+	<name>ON</name>
+	<key>1</key>
+    </option>
+    <option>
+	<name>OFF</name>
+	<key>0</key>
+    </option>
+  </param>
+
+  <param>
+    <name>Pack</name>
+    <key>pack</key>
+    <value>true</value>
+    <type>enum</type>
+    <option>
+	<name>True</name>
+	<key>1</key>
+    </option>
+    <option>
+	<name>False</name>
+	<key>0</key>
+    </option>
+  </param>
+ 
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>message</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>message</type>
+  </source>
+</block>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="errno_8h" kind="file" language="C++">
+    <compoundname>errno.h</compoundname>
+    <includes refid="errno_8h" local="no">errno.h</includes>
+    <includedby refid="errno_8h" local="no">errno.h</includedby>
+    <incdepgraph>
+      <node id="922">
+        <label>errno.h</label>
+        <link refid="errno.h"/>
+        <childnode refid="922" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="923">
+        <label>errno.h</label>
+        <link refid="errno.h"/>
+        <childnode refid="923" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/EZPWD/ezpwd-reed-solomon/standalone/linux/errno.h"/>
+  </compounddef>
+</doxygen>

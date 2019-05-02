@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_7997be11df3508456308dcb1a0f2f46c" kind="dir">
+    <compoundname>include</compoundname>
+    <innerfile refid="bch_2libcrc-2_80_2include_2checksum_8h">bch/libcrc-2.0/include/checksum.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/bch/libcrc-2.0/include/"/>
+  </compounddef>
+</doxygen>

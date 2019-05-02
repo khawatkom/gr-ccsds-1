@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="gf2mat_8h" kind="file" language="C++">
+    <compoundname>gf2mat.h</compoundname>
+    <includes local="no">vector</includes>
+    <includes refid="gf2vec_8h" local="yes">gf2vec.h</includes>
+    <includes local="yes">alist.h</includes>
+    <incdepgraph>
+      <node id="989">
+        <label>gf2mat.h</label>
+        <link refid="gf2mat.h"/>
+        <childnode refid="990" relation="include">
+        </childnode>
+        <childnode refid="991" relation="include">
+        </childnode>
+        <childnode refid="992" relation="include">
+        </childnode>
+      </node>
+      <node id="991">
+        <label>gf2vec.h</label>
+        <link refid="gf2vec_8h"/>
+        <childnode refid="990" relation="include">
+        </childnode>
+      </node>
+      <node id="990">
+        <label>vector</label>
+      </node>
+      <node id="992">
+        <label>alist.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classGF2Mat" prot="public">GF2Mat</innerclass>
+    <briefdescription>
+<para>Definition of a class for GF2 matrix algebra. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Manu T S <hruler/>
+</para></simplesect>
+Copyright 2013 IIT Bombay.</para><para>This is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3, or (at your option) any later version.</para><para>This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</para><para>You should have received a copy of the GNU General Public License along with this software; see the file COPYING. If not, write to the Free Software Foundation, Inc., 51 Franklin Street, Boston, MA 02110-1301, USA. <hruler/>
+</para><para>This is a class for handling GF2 matrices. </para>    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/gf2mat.h"/>
+  </compounddef>
+</doxygen>

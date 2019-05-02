@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structLDPC_1_1VariableNode" kind="struct" language="C++" prot="private">
+    <compoundname>LDPC::VariableNode</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structLDPC_1_1VariableNode_1a7ee8f82c091e3201abb43b427d1fe03e" prot="public" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* LDPC::VariableNode::checkNodes</definition>
+        <argsstring></argsstring>
+        <name>checkNodes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/soft_decoder.h" line="28" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/soft_decoder.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structLDPC_1_1VariableNode_1a1543432e6ee77a3361345a6f47ee8d73" prot="public" static="no" mutable="no">
+        <type>double *</type>
+        <definition>double* LDPC::VariableNode::values</definition>
+        <argsstring></argsstring>
+        <name>values</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/soft_decoder.h" line="29" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/soft_decoder.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structLDPC_1_1VariableNode_1a57eff4a79d00a4358ceec4f5b73ec160" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int LDPC::VariableNode::size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/soft_decoder.h" line="30" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/soft_decoder.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/soft_decoder.h" line="27" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/soft_decoder.h" bodystart="27" bodyend="31"/>
+    <listofallmembers>
+      <member refid="structLDPC_1_1VariableNode_1a7ee8f82c091e3201abb43b427d1fe03e" prot="public" virt="non-virtual"><scope>LDPC::VariableNode</scope><name>checkNodes</name></member>
+      <member refid="structLDPC_1_1VariableNode_1a57eff4a79d00a4358ceec4f5b73ec160" prot="public" virt="non-virtual"><scope>LDPC::VariableNode</scope><name>size</name></member>
+      <member refid="structLDPC_1_1VariableNode_1a1543432e6ee77a3361345a6f47ee8d73" prot="public" virt="non-virtual"><scope>LDPC::VariableNode</scope><name>values</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

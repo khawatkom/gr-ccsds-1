@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacegr_1_1ccsds" kind="namespace" language="C++">
+    <compoundname>gr::ccsds</compoundname>
+    <innerclass refid="classgr_1_1ccsds_1_1cc__depuncture" prot="public">gr::ccsds::cc_depuncture</innerclass>
+    <innerclass refid="classgr_1_1ccsds_1_1convDecoder" prot="public">gr::ccsds::convDecoder</innerclass>
+    <innerclass refid="classgr_1_1ccsds_1_1convEncoder" prot="public">gr::ccsds::convEncoder</innerclass>
+    <innerclass refid="classgr_1_1ccsds_1_1createCADU" prot="public">gr::ccsds::createCADU</innerclass>
+    <innerclass refid="classgr_1_1ccsds_1_1decodeLDPC" prot="public">gr::ccsds::decodeLDPC</innerclass>
+    <innerclass refid="classgr_1_1ccsds_1_1decodeRS" prot="public">gr::ccsds::decodeRS</innerclass>
+    <innerclass refid="classgr_1_1ccsds_1_1decodeTurbo" prot="public">gr::ccsds::decodeTurbo</innerclass>
+    <innerclass refid="classgr_1_1ccsds_1_1encodeLDPC" prot="public">gr::ccsds::encodeLDPC</innerclass>
+    <innerclass refid="classgr_1_1ccsds_1_1encodeRS" prot="public">gr::ccsds::encodeRS</innerclass>
+    <innerclass refid="classgr_1_1ccsds_1_1encodeTurbo" prot="public">gr::ccsds::encodeTurbo</innerclass>
+    <innerclass refid="classgr_1_1ccsds_1_1extractCADU" prot="public">gr::ccsds::extractCADU</innerclass>
+    <innerclass refid="classgr_1_1ccsds_1_1genCADU" prot="public">gr::ccsds::genCADU</innerclass>
+    <innerclass refid="classgr_1_1ccsds_1_1generateCADU" prot="public">gr::ccsds::generateCADU</innerclass>
+    <innerclass refid="classgr_1_1ccsds_1_1generateCLTU" prot="public">gr::ccsds::generateCLTU</innerclass>
+    <innerclass refid="classgr_1_1ccsds_1_1processCADU" prot="public">gr::ccsds::processCADU</innerclass>
+    <innerclass refid="classgr_1_1ccsds_1_1recoverCADU" prot="public">gr::ccsds::recoverCADU</innerclass>
+    <innerclass refid="classgr_1_1ccsds_1_1recoverCADUSoft" prot="public">gr::ccsds::recoverCADUSoft</innerclass>
+    <innerclass refid="classgr_1_1ccsds_1_1simplifiedPLOP1" prot="public">gr::ccsds::simplifiedPLOP1</innerclass>
+    <innerclass refid="classgr_1_1ccsds_1_1synchronizeCADU" prot="public">gr::ccsds::synchronizeCADU</innerclass>
+    <innerclass refid="classgr_1_1ccsds_1_1synchronizeCADUHard" prot="public">gr::ccsds::synchronizeCADUHard</innerclass>
+    <innerclass refid="classgr_1_1ccsds_1_1synchronizeCADUSoft" prot="public">gr::ccsds::synchronizeCADUSoft</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/cc_depuncture.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

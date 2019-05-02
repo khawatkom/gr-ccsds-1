@@ -1,0 +1,311 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ccsds_1_1processCADU__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ccsds::processCADU_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ccsds_1_1processCADU" prot="public" virt="non-virtual">gr::ccsds::processCADU</basecompoundref>
+    <includes refid="processCADU__impl_8h" local="no">processCADU_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1processCADU__impl_1a4bc857adb5fb65a22d67254bd3b3ccc5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::processCADU_impl::d_frameLength</definition>
+        <argsstring></argsstring>
+        <name>d_frameLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" line="36" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1processCADU__impl_1ac7fa917180545d14087673b4fdf9cb80" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::ccsds::processCADU_impl::d_scramble</definition>
+        <argsstring></argsstring>
+        <name>d_scramble</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" line="37" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1processCADU__impl_1adc57e9b61daacac290881e7d02b58072" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::processCADU_impl::d_rs</definition>
+        <argsstring></argsstring>
+        <name>d_rs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" line="38" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1processCADU__impl_1a02f399a7e9987dd5200ce3646c47f9fe" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::processCADU_impl::d_basis</definition>
+        <argsstring></argsstring>
+        <name>d_basis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" line="39" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1processCADU__impl_1aa15510f89d180e64471e8f58bda4c8e4" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::processCADU_impl::d_type</definition>
+        <argsstring></argsstring>
+        <name>d_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" line="40" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1processCADU__impl_1a1e8d6dc47f06851c15f9fa24565d0314" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::processCADU_impl::d_intDepth</definition>
+        <argsstring></argsstring>
+        <name>d_intDepth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" line="41" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1processCADU__impl_1a8c3e50db8016f3fdcd32630259311fc7" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; tag_t &gt;</type>
+        <definition>std::vector&lt;tag_t&gt; gr::ccsds::processCADU_impl::d_tags</definition>
+        <argsstring></argsstring>
+        <name>d_tags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" line="42" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1processCADU__impl_1a643a84b3dc6b20192402f75957b4d342" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; tag_t &gt;::iterator</type>
+        <definition>std::vector&lt;tag_t&gt;::iterator gr::ccsds::processCADU_impl::d_tags_itr</definition>
+        <argsstring></argsstring>
+        <name>d_tags_itr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" line="43" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1processCADU__impl_1a4c72f54be9543a80aa20ba40d8faaced" prot="private" static="no" mutable="no">
+        <type>blocks::kernel::pack_k_bits *</type>
+        <definition>blocks::kernel::pack_k_bits* gr::ccsds::processCADU_impl::d_pack</definition>
+        <argsstring></argsstring>
+        <name>d_pack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" line="44" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1processCADU__impl_1ac081bbd09e1c1f814bc363266603e0ba" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::ccsds::processCADU_impl::key</definition>
+        <argsstring></argsstring>
+        <name>key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" line="45" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1processCADU__impl_1a9d4d9634ad87ff8a233fd665b709bc3c" prot="private" static="no" mutable="no">
+        <type><ref refid="classScrambler" kindref="compound">Scrambler</ref> *</type>
+        <definition>Scrambler* gr::ccsds::processCADU_impl::S</definition>
+        <argsstring></argsstring>
+        <name>S</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" line="47" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1processCADU__impl_1ac47028daf20a9457267d19163796171d" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; unsigned char &gt;</type>
+        <definition>std::vector&lt;unsigned char&gt; gr::ccsds::processCADU_impl::frameBuffer</definition>
+        <argsstring></argsstring>
+        <name>frameBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" line="48" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1processCADU__impl_1a08ea64ea0ef67e4ec32815f99cd6ea4c" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; int &gt;</type>
+        <definition>std::vector&lt;int&gt; gr::ccsds::processCADU_impl::errors</definition>
+        <argsstring></argsstring>
+        <name>errors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" line="49" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1processCADU__impl_1a5ce90e387bc6be6004c81ae2166f840a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ccsds::processCADU_impl::processCADU_impl</definition>
+        <argsstring>(int frameLength, int scramble, int rs, int intDepth, std::string tagName)</argsstring>
+        <name>processCADU_impl</name>
+        <param>
+          <type>int</type>
+          <declname>frameLength</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>scramble</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>intDepth</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>tagName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1processCADU__impl_1a79d572e6b277b3bda41afa3dcd10af3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ccsds::processCADU_impl::~processCADU_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~processCADU_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" line="52" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1processCADU__impl_1a963cfaf24c4dfafca1c7eeed5cb4f72c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ccsds::processCADU_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" line="55" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="317">
+        <label>gr::ccsds::processCADU</label>
+        <link refid="classgr_1_1ccsds_1_1processCADU"/>
+        <childnode refid="318" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="316">
+        <label>gr::ccsds::processCADU_impl</label>
+        <link refid="classgr_1_1ccsds_1_1processCADU__impl"/>
+        <childnode refid="317" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="318">
+        <label>sync_block</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="320">
+        <label>gr::ccsds::processCADU</label>
+        <link refid="classgr_1_1ccsds_1_1processCADU"/>
+        <childnode refid="321" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="319">
+        <label>gr::ccsds::processCADU_impl</label>
+        <link refid="classgr_1_1ccsds_1_1processCADU__impl"/>
+        <childnode refid="320" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="321">
+        <label>sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" line="34" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.h" bodystart="33" bodyend="58"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ccsds_1_1processCADU__impl_1a02f399a7e9987dd5200ce3646c47f9fe" prot="private" virt="non-virtual"><scope>gr::ccsds::processCADU_impl</scope><name>d_basis</name></member>
+      <member refid="classgr_1_1ccsds_1_1processCADU__impl_1a4bc857adb5fb65a22d67254bd3b3ccc5" prot="private" virt="non-virtual"><scope>gr::ccsds::processCADU_impl</scope><name>d_frameLength</name></member>
+      <member refid="classgr_1_1ccsds_1_1processCADU__impl_1a1e8d6dc47f06851c15f9fa24565d0314" prot="private" virt="non-virtual"><scope>gr::ccsds::processCADU_impl</scope><name>d_intDepth</name></member>
+      <member refid="classgr_1_1ccsds_1_1processCADU__impl_1a4c72f54be9543a80aa20ba40d8faaced" prot="private" virt="non-virtual"><scope>gr::ccsds::processCADU_impl</scope><name>d_pack</name></member>
+      <member refid="classgr_1_1ccsds_1_1processCADU__impl_1adc57e9b61daacac290881e7d02b58072" prot="private" virt="non-virtual"><scope>gr::ccsds::processCADU_impl</scope><name>d_rs</name></member>
+      <member refid="classgr_1_1ccsds_1_1processCADU__impl_1ac7fa917180545d14087673b4fdf9cb80" prot="private" virt="non-virtual"><scope>gr::ccsds::processCADU_impl</scope><name>d_scramble</name></member>
+      <member refid="classgr_1_1ccsds_1_1processCADU__impl_1a8c3e50db8016f3fdcd32630259311fc7" prot="private" virt="non-virtual"><scope>gr::ccsds::processCADU_impl</scope><name>d_tags</name></member>
+      <member refid="classgr_1_1ccsds_1_1processCADU__impl_1a643a84b3dc6b20192402f75957b4d342" prot="private" virt="non-virtual"><scope>gr::ccsds::processCADU_impl</scope><name>d_tags_itr</name></member>
+      <member refid="classgr_1_1ccsds_1_1processCADU__impl_1aa15510f89d180e64471e8f58bda4c8e4" prot="private" virt="non-virtual"><scope>gr::ccsds::processCADU_impl</scope><name>d_type</name></member>
+      <member refid="classgr_1_1ccsds_1_1processCADU__impl_1a08ea64ea0ef67e4ec32815f99cd6ea4c" prot="private" virt="non-virtual"><scope>gr::ccsds::processCADU_impl</scope><name>errors</name></member>
+      <member refid="classgr_1_1ccsds_1_1processCADU__impl_1ac47028daf20a9457267d19163796171d" prot="private" virt="non-virtual"><scope>gr::ccsds::processCADU_impl</scope><name>frameBuffer</name></member>
+      <member refid="classgr_1_1ccsds_1_1processCADU__impl_1ac081bbd09e1c1f814bc363266603e0ba" prot="private" virt="non-virtual"><scope>gr::ccsds::processCADU_impl</scope><name>key</name></member>
+      <member refid="classgr_1_1ccsds_1_1processCADU_1a51887fb99f716768048398b537b3b235" prot="public" virt="non-virtual"><scope>gr::ccsds::processCADU_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ccsds_1_1processCADU__impl_1a5ce90e387bc6be6004c81ae2166f840a" prot="public" virt="non-virtual"><scope>gr::ccsds::processCADU_impl</scope><name>processCADU_impl</name></member>
+      <member refid="classgr_1_1ccsds_1_1processCADU__impl_1a9d4d9634ad87ff8a233fd665b709bc3c" prot="private" virt="non-virtual"><scope>gr::ccsds::processCADU_impl</scope><name>S</name></member>
+      <member refid="classgr_1_1ccsds_1_1processCADU_1a01b0d024c98fbfc57ed34afe12bf980e" prot="public" virt="non-virtual"><scope>gr::ccsds::processCADU_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ccsds_1_1processCADU__impl_1a963cfaf24c4dfafca1c7eeed5cb4f72c" prot="public" virt="non-virtual"><scope>gr::ccsds::processCADU_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1ccsds_1_1processCADU__impl_1a79d572e6b277b3bda41afa3dcd10af3a" prot="public" virt="non-virtual"><scope>gr::ccsds::processCADU_impl</scope><name>~processCADU_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

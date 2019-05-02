@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_308eb3c1c3d7b5021a8e4c0f1430931f" kind="dir">
+    <compoundname>EZPWD</compoundname>
+    <innerdir refid="dir_403f6692dd2748be5bda1ee3709f3e76">ezpwd-reed-solomon</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/EZPWD/"/>
+  </compounddef>
+</doxygen>

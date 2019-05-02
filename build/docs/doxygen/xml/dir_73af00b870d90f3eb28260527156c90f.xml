@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_73af00b870d90f3eb28260527156c90f" kind="dir">
+    <compoundname>fec</compoundname>
+    <innerdir refid="dir_41f69392a78b649fd6618ea6cadeecbf">bch</innerdir>
+    <innerdir refid="dir_fe9fffd1d06d53546b75dbca3c98e3d3">BCH_BASE</innerdir>
+    <innerdir refid="dir_308eb3c1c3d7b5021a8e4c0f1430931f">EZPWD</innerdir>
+    <innerdir refid="dir_1225992ac671d7ca149c545e97c1b0a7">ldpc</innerdir>
+    <innerdir refid="dir_7ccd3acde8adc92b50ad81d39bda6c2b">ReedSolomon</innerdir>
+    <innerdir refid="dir_170374ce2f02ee22f8e48bd400d494ac">rs</innerdir>
+    <innerdir refid="dir_b12743340ad16aaec2dcbba1e794e4e9">Scrambler</innerdir>
+    <innerdir refid="dir_1ec9ffcedf03af6fb0db0d73c6dbcd7f">turbo</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="soft__decoder_8h" kind="file" language="C++">
+    <compoundname>soft_decoder.h</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">iomanip</includes>
+    <includes local="no">math.h</includes>
+    <incdepgraph>
+      <node id="1174">
+        <label>iomanip</label>
+      </node>
+      <node id="1173">
+        <label>stdlib.h</label>
+      </node>
+      <node id="1175">
+        <label>math.h</label>
+      </node>
+      <node id="1172">
+        <label>iostream</label>
+      </node>
+      <node id="1171">
+        <label>soft_decoder.h</label>
+        <link refid="soft_decoder.h"/>
+        <childnode refid="1172" relation="include">
+        </childnode>
+        <childnode refid="1173" relation="include">
+        </childnode>
+        <childnode refid="1174" relation="include">
+        </childnode>
+        <childnode refid="1175" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classLDPC" prot="public">LDPC</innerclass>
+    <innerclass refid="structLDPC_1_1CheckNode" prot="private">LDPC::CheckNode</innerclass>
+    <innerclass refid="structLDPC_1_1VariableNode" prot="private">LDPC::VariableNode</innerclass>
+    <innerclass refid="classLDPC__H__Matrix" prot="public">LDPC_H_Matrix</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/Alpha/soft_decoder.h"/>
+  </compounddef>
+</doxygen>

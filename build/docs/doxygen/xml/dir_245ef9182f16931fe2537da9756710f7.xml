@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_245ef9182f16931fe2537da9756710f7" kind="dir">
+    <compoundname>libcrc-2.0</compoundname>
+    <innerdir refid="dir_0173cd96fa42824173a31296b2437ff2">include</innerdir>
+    <innerdir refid="dir_818433cc3b0e7c1f440adc238e025585">test</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/BCH_BASE/CRC/libcrc-2.0/"/>
+  </compounddef>
+</doxygen>

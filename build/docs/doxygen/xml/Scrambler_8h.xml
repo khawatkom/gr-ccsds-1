@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="Scrambler_8h" kind="file" language="C++">
+    <compoundname>Scrambler.h</compoundname>
+    <includes local="no">vector</includes>
+    <includes local="no">algorithm</includes>
+    <includedby refid="createCADU__impl_8h" local="yes">createCADU_impl.h</includedby>
+    <includedby refid="genCADU__impl_8h" local="yes">genCADU_impl.h</includedby>
+    <includedby refid="generateCLTU__impl_8h" local="yes">generateCLTU_impl.h</includedby>
+    <includedby refid="processCADU__impl_8h" local="yes">processCADU_impl.h</includedby>
+    <includedby refid="recoverCADU__impl_8h" local="yes">recoverCADU_impl.h</includedby>
+    <includedby refid="recoverCADUSoft__impl_8h" local="yes">recoverCADUSoft_impl.h</includedby>
+    <incdepgraph>
+      <node id="1146">
+        <label>vector</label>
+      </node>
+      <node id="1147">
+        <label>algorithm</label>
+      </node>
+      <node id="1145">
+        <label>Scrambler.h</label>
+        <link refid="Scrambler.h"/>
+        <childnode refid="1146" relation="include">
+        </childnode>
+        <childnode refid="1147" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1154">
+        <label>recoverCADUSoft_impl.h</label>
+        <link refid="recoverCADUSoft__impl_8h"/>
+      </node>
+      <node id="1149">
+        <label>createCADU_impl.h</label>
+        <link refid="createCADU__impl_8h"/>
+      </node>
+      <node id="1151">
+        <label>generateCLTU_impl.h</label>
+        <link refid="generateCLTU__impl_8h"/>
+      </node>
+      <node id="1150">
+        <label>genCADU_impl.h</label>
+        <link refid="genCADU__impl_8h"/>
+      </node>
+      <node id="1152">
+        <label>processCADU_impl.h</label>
+        <link refid="processCADU__impl_8h"/>
+      </node>
+      <node id="1153">
+        <label>recoverCADU_impl.h</label>
+        <link refid="recoverCADU__impl_8h"/>
+      </node>
+      <node id="1148">
+        <label>Scrambler.h</label>
+        <link refid="Scrambler.h"/>
+        <childnode refid="1149" relation="include">
+        </childnode>
+        <childnode refid="1150" relation="include">
+        </childnode>
+        <childnode refid="1151" relation="include">
+        </childnode>
+        <childnode refid="1152" relation="include">
+        </childnode>
+        <childnode refid="1153" relation="include">
+        </childnode>
+        <childnode refid="1154" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classScrambler" prot="public">Scrambler</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="Scrambler_8h_1a70b903cffd376111f56f48455558aedb" prot="public" static="no">
+        <name>SCRAMBLER_POLY_LEN</name>
+        <initializer>255</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/Scrambler/Scrambler.h" line="18" column="9" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/Scrambler/Scrambler.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="Scrambler_8h_1ae91c9d70e1e2c8b657e51de1fff60ada" prot="public" static="no">
+        <type>unsigned char</type>
+        <definition>typedef unsigned char data_t</definition>
+        <argsstring></argsstring>
+        <name>data_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/Scrambler/Scrambler.h" line="20" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/Scrambler/Scrambler.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="Scrambler_8h_1a4930711126646f6ad61516d3d8a27232" prot="public" static="no">
+        <type>std::vector&lt; unsigned char &gt;</type>
+        <definition>typedef std::vector&lt;unsigned char&gt; BYTEARRAY</definition>
+        <argsstring></argsstring>
+        <name>BYTEARRAY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/Scrambler/Scrambler.h" line="21" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/Scrambler/Scrambler.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/Scrambler/Scrambler.h"/>
+  </compounddef>
+</doxygen>

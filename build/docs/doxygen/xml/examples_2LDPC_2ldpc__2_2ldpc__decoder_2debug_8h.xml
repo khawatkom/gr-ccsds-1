@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h" kind="file" language="C++">
+    <compoundname>examples/LDPC/ldpc_2/ldpc_decoder/debug.h</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">string</includes>
+    <includes refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2ldpc_8h" local="yes">ldpc.h</includes>
+    <incdepgraph>
+      <node id="767">
+        <label>debug.h</label>
+        <link refid="examples/LDPC/ldpc_2/ldpc_decoder/debug.h"/>
+        <childnode refid="768" relation="include">
+        </childnode>
+        <childnode refid="769" relation="include">
+        </childnode>
+        <childnode refid="770" relation="include">
+        </childnode>
+      </node>
+      <node id="780">
+        <label>stdlib.h</label>
+      </node>
+      <node id="775">
+        <label>cmath</label>
+      </node>
+      <node id="773">
+        <label>cassert</label>
+      </node>
+      <node id="769">
+        <label>string</label>
+      </node>
+      <node id="777">
+        <label>alist.h</label>
+        <link refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h"/>
+        <childnode refid="768" relation="include">
+        </childnode>
+        <childnode refid="778" relation="include">
+        </childnode>
+        <childnode refid="779" relation="include">
+        </childnode>
+        <childnode refid="771" relation="include">
+        </childnode>
+        <childnode refid="780" relation="include">
+        </childnode>
+      </node>
+      <node id="774">
+        <label>checknode.h</label>
+        <link refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2checknode_8h"/>
+        <childnode refid="771" relation="include">
+        </childnode>
+        <childnode refid="772" relation="include">
+        </childnode>
+        <childnode refid="775" relation="include">
+        </childnode>
+      </node>
+      <node id="778">
+        <label>fstream</label>
+      </node>
+      <node id="771">
+        <label>vector</label>
+      </node>
+      <node id="779">
+        <label>sstream</label>
+      </node>
+      <node id="776">
+        <label>variablenode.h</label>
+        <link refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2variablenode_8h"/>
+        <childnode refid="771" relation="include">
+        </childnode>
+        <childnode refid="772" relation="include">
+        </childnode>
+        <childnode refid="768" relation="include">
+        </childnode>
+      </node>
+      <node id="770">
+        <label>ldpc.h</label>
+        <link refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2ldpc_8h"/>
+        <childnode refid="771" relation="include">
+        </childnode>
+        <childnode refid="772" relation="include">
+        </childnode>
+        <childnode refid="769" relation="include">
+        </childnode>
+        <childnode refid="773" relation="include">
+        </childnode>
+        <childnode refid="774" relation="include">
+        </childnode>
+        <childnode refid="776" relation="include">
+        </childnode>
+        <childnode refid="777" relation="include">
+        </childnode>
+      </node>
+      <node id="768">
+        <label>iostream</label>
+      </node>
+      <node id="772">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h_1a46c20eb2a26abeb1e934cd66e1dd6484" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <initializer>= &quot;/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/<ref refid="classLDPC" kindref="compound">LDPC</ref>/ldpc_2/&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/debug.h" line="9" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/debug.h" bodystart="9" bodyend="-1"/>
+        <referencedby refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h_1af0aad916698756c6196deadda392d0f2" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h" startline="92" endline="132">readAlist</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h_1acbd808deaf13106f7119914f63965424" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void printRow</definition>
+        <argsstring>(std::vector&lt; int &gt; row)</argsstring>
+        <name>printRow</name>
+        <param>
+          <type>std::vector&lt; int &gt;</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/debug.h" line="12" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/debug.h" bodystart="12" bodyend="19"/>
+        <referencedby refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h_1a235b56dee83c338451b3059a2acf2a3a" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h" startline="20" endline="29">printParity</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h_1a235b56dee83c338451b3059a2acf2a3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void printParity</definition>
+        <argsstring>(std::vector&lt; std::vector&lt; int &gt; &gt; parity)</argsstring>
+        <name>printParity</name>
+        <param>
+          <type>std::vector&lt; std::vector&lt; int &gt; &gt;</type>
+          <declname>parity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/debug.h" line="20" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/debug.h" bodystart="20" bodyend="29"/>
+        <references refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h_1acbd808deaf13106f7119914f63965424" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h" startline="12" endline="19">printRow</references>
+      </memberdef>
+      <memberdef kind="function" id="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h_1a3d6772561a24fdabcf39843c1b3c0977" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>std::vector&lt; T &gt;</type>
+        <definition>std::vector&lt;T&gt; getCol</definition>
+        <argsstring>(std::vector&lt; std::vector&lt; T &gt; &gt; mat2D, int index)</argsstring>
+        <name>getCol</name>
+        <param>
+          <type>std::vector&lt; std::vector&lt; T &gt; &gt;</type>
+          <declname>mat2D</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/debug.h" line="34" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/debug.h" bodystart="34" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h_1a4f574b6ace58ccebb2a0573c2e39bc27" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <templateparamlist>
+          <param>
+            <type>class T</type>
+          </param>
+        </templateparamlist>
+        <type>std::vector&lt; T &gt;</type>
+        <definition>std::vector&lt;T&gt; getRow</definition>
+        <argsstring>(std::vector&lt; std::vector&lt; T &gt; &gt; mat2D, int index)</argsstring>
+        <name>getRow</name>
+        <param>
+          <type>std::vector&lt; std::vector&lt; T &gt; &gt;</type>
+          <declname>mat2D</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>index</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/debug.h" line="45" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/debug.h" bodystart="45" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h_1a8ba01acb0a84e022a06cf3eabf95970b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void printVarNodeLq</definition>
+        <argsstring>(variableNode node)</argsstring>
+        <name>printVarNodeLq</name>
+        <param>
+          <type><ref refid="classvariableNode" kindref="compound">variableNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/debug.h" line="50" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/debug.h" bodystart="50" bodyend="58"/>
+        <references refid="classvariableNode_1aa2e19691a5f955200458d407caf95e50" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2variablenode_8h" startline="21" endline="21">variableNode::getLq</references>
+      </memberdef>
+      <memberdef kind="function" id="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h_1aa09a5a20b91663e493a7448c7dd1c58d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void printChkNodeLq</definition>
+        <argsstring>(checkNode node)</argsstring>
+        <name>printChkNodeLq</name>
+        <param>
+          <type><ref refid="classcheckNode" kindref="compound">checkNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/debug.h" line="60" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/debug.h" bodystart="60" bodyend="68"/>
+        <references refid="classcheckNode_1a8fe6373c51f5f4d867cc1a65cec480d9" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2checknode_8h" startline="19" endline="19">checkNode::getLq</references>
+      </memberdef>
+      <memberdef kind="function" id="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h_1a579eb6891791f74a1529c4763198b0da" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void printChkNodeLr</definition>
+        <argsstring>(checkNode node)</argsstring>
+        <name>printChkNodeLr</name>
+        <param>
+          <type><ref refid="classcheckNode" kindref="compound">checkNode</ref></type>
+          <declname>node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/debug.h" line="70" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/debug.h" bodystart="70" bodyend="78"/>
+        <references refid="classcheckNode_1abc899d0479fac736ae071b3e32c233ce">checkNode::getLr</references>
+      </memberdef>
+      <memberdef kind="function" id="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h_1abff757fc707999be567a9e96a70ea8b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void printVarNodeLogAPP</definition>
+        <argsstring>(std::vector&lt; variableNode &gt; v)</argsstring>
+        <name>printVarNodeLogAPP</name>
+        <param>
+          <type>std::vector&lt; <ref refid="classvariableNode" kindref="compound">variableNode</ref> &gt;</type>
+          <declname>v</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/debug.h" line="80" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/debug.h" bodystart="80" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h_1af0aad916698756c6196deadda392d0f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; std::vector&lt; int &gt; &gt;</type>
+        <definition>std::vector&lt; std::vector&lt;int&gt; &gt; readAlist</definition>
+        <argsstring>(string filename, std::vector&lt; std::vector&lt; int &gt; &gt; &amp;m_list, std::vector&lt; std::vector&lt; int &gt; &gt; &amp;n_list)</argsstring>
+        <name>readAlist</name>
+        <param>
+          <type>string</type>
+          <declname>filename</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::vector&lt; int &gt; &gt; &amp;</type>
+          <declname>m_list</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; std::vector&lt; int &gt; &gt; &amp;</type>
+          <declname>n_list</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/debug.h" line="92" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/debug.h" bodystart="92" bodyend="132"/>
+        <references refid="classalist_1ad2392cffaa3530cea5fb08678ad0b4ea">alist::get_matrix</references>
+        <references refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h_1a46c20eb2a26abeb1e934cd66e1dd6484" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h" startline="9">path</references>
+      </memberdef>
+      <memberdef kind="function" id="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h_1ae02b1f32b3074f499e599dc5656b4847" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ldpcTDD</definition>
+        <argsstring>()</argsstring>
+        <name>ldpcTDD</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/debug.h" line="134" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/debug.h" bodystart="134" bodyend="144"/>
+        <references refid="classldpc_1ae5e0881e0b7e3f6d38c210e22c30190b">ldpc::decode</references>
+        <references refid="classldpc_1aae1a993984eafbf3b5cbb858a9b13b1d" compoundref="examples_2LDPC_2ldpc__2_2ldpc__decoder_2ldpc_8h" startline="23" endline="23">ldpc::getCodeRate</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/debug.h"/>
+  </compounddef>
+</doxygen>

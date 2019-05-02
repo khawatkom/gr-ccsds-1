@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ccsds_1_1decodeTurbo" kind="class" language="C++" prot="public">
+    <compoundname>gr::ccsds::decodeTurbo</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <derivedcompoundref refid="classgr_1_1ccsds_1_1decodeTurbo__impl" prot="public" virt="non-virtual">gr::ccsds::decodeTurbo_impl</derivedcompoundref>
+    <includes refid="decodeTurbo_8h" local="no">decodeTurbo.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ccsds_1_1decodeTurbo_1ae108d72206e7d530ea629760fbe02199" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1ccsds_1_1decodeTurbo" kindref="compound">decodeTurbo</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;decodeTurbo&gt; gr::ccsds::decodeTurbo::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/decodeTurbo.h" line="39" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/decodeTurbo.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1decodeTurbo_1aba2a27be268d6f98be7f926c0b3b36bd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ccsds_1_1decodeTurbo_1ae108d72206e7d530ea629760fbe02199" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ccsds::decodeTurbo::make</definition>
+        <argsstring>(int base, int octets, int code_type, int iterations, float sigma, uint8_t update_sigma)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>base</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>octets</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>code_type</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>iterations</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>sigma</declname>
+        </param>
+        <param>
+          <type><ref refid="generateCLTU__impl_8h_1aba7bc1797add20fe3efdf37ced1182c5" kindref="member">uint8_t</ref></type>
+          <declname>update_sigma</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1ccsds_1_1decodeTurbo" kindref="compound">ccsds::decodeTurbo</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1ccsds_1_1decodeTurbo" kindref="compound">ccsds::decodeTurbo</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1ccsds_1_1decodeTurbo_1aba2a27be268d6f98be7f926c0b3b36bd" kindref="member">ccsds::decodeTurbo::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/decodeTurbo.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="213">
+        <label>gr::ccsds::decodeTurbo</label>
+        <link refid="classgr_1_1ccsds_1_1decodeTurbo"/>
+        <childnode refid="214" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="214">
+        <label>sync_block</label>
+      </node>
+      <node id="215">
+        <label>gr::ccsds::decodeTurbo_impl</label>
+        <link refid="classgr_1_1ccsds_1_1decodeTurbo__impl"/>
+        <childnode refid="213" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="216">
+        <label>gr::ccsds::decodeTurbo</label>
+        <link refid="classgr_1_1ccsds_1_1decodeTurbo"/>
+        <childnode refid="217" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="217">
+        <label>sync_block</label>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/decodeTurbo.h" line="37" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/decodeTurbo.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ccsds_1_1decodeTurbo_1aba2a27be268d6f98be7f926c0b3b36bd" prot="public" virt="non-virtual"><scope>gr::ccsds::decodeTurbo</scope><name>make</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeTurbo_1ae108d72206e7d530ea629760fbe02199" prot="public" virt="non-virtual"><scope>gr::ccsds::decodeTurbo</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

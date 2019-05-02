@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ccsds_1_1recoverCADU" kind="class" language="C++" prot="public">
+    <compoundname>gr::ccsds::recoverCADU</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <includes refid="recoverCADU_8h" local="no">recoverCADU.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1ccsds_1_1recoverCADU_1aed789b2a028f4047eeb0142d1b951c31" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1ccsds_1_1recoverCADU" kindref="compound">recoverCADU</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;recoverCADU&gt; gr::ccsds::recoverCADU::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/recoverCADU.h" line="39" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/recoverCADU.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1recoverCADU_1acf69239da54dc9c7c33aa30a17e114f2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1ccsds_1_1recoverCADU_1aed789b2a028f4047eeb0142d1b951c31" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::ccsds::recoverCADU::make</definition>
+        <argsstring>(int frame_length, int scramble, std::string tag_name)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>frame_length</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>scramble</declname>
+        </param>
+        <param>
+          <type>std::string</type>
+          <declname>tag_name</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1ccsds_1_1recoverCADU" kindref="compound">ccsds::recoverCADU</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1ccsds_1_1recoverCADU" kindref="compound">ccsds::recoverCADU</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1ccsds_1_1recoverCADU_1acf69239da54dc9c7c33aa30a17e114f2" kindref="member">ccsds::recoverCADU::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/recoverCADU.h" line="49" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="61">
+        <label>sync_block</label>
+      </node>
+      <node id="60">
+        <label>gr::ccsds::recoverCADU</label>
+        <link refid="classgr_1_1ccsds_1_1recoverCADU"/>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="63">
+        <label>sync_block</label>
+      </node>
+      <node id="62">
+        <label>gr::ccsds::recoverCADU</label>
+        <link refid="classgr_1_1ccsds_1_1recoverCADU"/>
+        <childnode refid="63" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/recoverCADU.h" line="37" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/recoverCADU.h" bodystart="36" bodyend="50"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ccsds_1_1recoverCADU_1acf69239da54dc9c7c33aa30a17e114f2" prot="public" virt="non-virtual"><scope>gr::ccsds::recoverCADU</scope><name>make</name></member>
+      <member refid="classgr_1_1ccsds_1_1recoverCADU_1aed789b2a028f4047eeb0142d1b951c31" prot="public" virt="non-virtual"><scope>gr::ccsds::recoverCADU</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

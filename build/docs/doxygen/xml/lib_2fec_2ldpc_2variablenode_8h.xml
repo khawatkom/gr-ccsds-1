@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="lib_2fec_2ldpc_2variablenode_8h" kind="file" language="C++">
+    <compoundname>lib/fec/ldpc/variablenode.h</compoundname>
+    <includes local="no">vector</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="no">iostream</includes>
+    <includedby refid="decodeLDPC__impl_8h" local="yes">decodeLDPC_impl.h</includedby>
+    <includedby refid="lib_2fec_2ldpc_2ldpc_8h" local="yes">ldpc.h</includedby>
+    <incdepgraph>
+      <node id="1229">
+        <label>variablenode.h</label>
+        <link refid="lib/fec/ldpc/variablenode.h"/>
+        <childnode refid="1230" relation="include">
+        </childnode>
+        <childnode refid="1231" relation="include">
+        </childnode>
+        <childnode refid="1232" relation="include">
+        </childnode>
+      </node>
+      <node id="1230">
+        <label>vector</label>
+      </node>
+      <node id="1232">
+        <label>iostream</label>
+      </node>
+      <node id="1231">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1233">
+        <label>variablenode.h</label>
+        <link refid="lib/fec/ldpc/variablenode.h"/>
+        <childnode refid="1234" relation="include">
+        </childnode>
+        <childnode refid="1235" relation="include">
+        </childnode>
+      </node>
+      <node id="1235">
+        <label>ldpc.h</label>
+        <link refid="lib_2fec_2ldpc_2ldpc_8h"/>
+        <childnode refid="1234" relation="include">
+        </childnode>
+      </node>
+      <node id="1234">
+        <label>decodeLDPC_impl.h</label>
+        <link refid="decodeLDPC__impl_8h"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classvariableNode" prot="public">variableNode</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/variablenode.h"/>
+  </compounddef>
+</doxygen>

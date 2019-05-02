@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<block>
+  <name>recoverCADU</name>
+  <key>ccsds_recoverCADU</key>
+  <category>[ccsds]</category>
+  <import>import ccsds</import>
+  <make>ccsds.recoverCADU($frame_length, $scramble, $tag_name)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Frame Length</name>
+    <key>frame_length</key>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Scramble</name>
+    <key>scramble</key>
+    <value>0</value>
+    <type>enum</type>
+	<option>
+		<name>False</name>
+		<key>0</key>
+	</option>
+	<option>
+		<name>True</name>
+		<key>1</key>
+	</option>
+  </param>
+
+  <param>
+    <name>Tag Name</name>
+    <key>tag_name</key>
+    <type>string</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>cadu</name>
+    <type>message</type>
+  </source>
+</block>

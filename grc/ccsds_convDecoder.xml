@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<block>
+  <name>convDecoder</name>
+  <key>ccsds_convDecoder</key>
+  <category>[ccsds]</category>
+  <import>import ccsds</import>
+  <make>ccsds.convDecoder($frame_size, $polys, $mode, $pad)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Frame Size</name>
+    <key>frame_size</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Polynomials</name>
+    <key>polys</key>
+    <type>real_vector</type>
+  </param>
+  <param>
+    <name>Mode</name>
+    <key>mode</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Pad</name>
+    <key>pad</key>
+    <type>int</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>float</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

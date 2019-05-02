@@ -1,0 +1,319 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ccsds_1_1decodeRS__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ccsds::decodeRS_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ccsds_1_1decodeRS" prot="public" virt="non-virtual">gr::ccsds::decodeRS</basecompoundref>
+    <includes refid="decodeRS__impl_8h" local="no">decodeRS_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1decodeRS__impl_1a30bd47079e597496aaa9cae92f64852b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::decodeRS_impl::d_basis</definition>
+        <argsstring></argsstring>
+        <name>d_basis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" line="33" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1decodeRS__impl_1a02763649ae0bc0269b6aa2feb698d87a" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::decodeRS_impl::d_type</definition>
+        <argsstring></argsstring>
+        <name>d_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" line="34" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1decodeRS__impl_1a642634a8e92311639c80019d983fb9f8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::decodeRS_impl::d_intDepth</definition>
+        <argsstring></argsstring>
+        <name>d_intDepth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" line="35" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1decodeRS__impl_1ac57bf2e702a01970215e1bc7cbe97067" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::ccsds::decodeRS_impl::d_pass_all</definition>
+        <argsstring></argsstring>
+        <name>d_pass_all</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" line="36" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1decodeRS__impl_1a6f736c7707d75149e235fd6de98ff768" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::ccsds::decodeRS_impl::d_fert</definition>
+        <argsstring></argsstring>
+        <name>d_fert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" line="37" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1decodeRS__impl_1aaed21ef58fa0f5abdf4f5f1f25bc9f23" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::ccsds::decodeRS_impl::d_rx_cnt</definition>
+        <argsstring></argsstring>
+        <name>d_rx_cnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" line="38" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1decodeRS__impl_1a4c40dbf7f44791111fedaef04c51825d" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::ccsds::decodeRS_impl::d_valid_cnt</definition>
+        <argsstring></argsstring>
+        <name>d_valid_cnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" line="39" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1decodeRS__impl_1aad608a1e0d7649602bbab541b4fce2e8" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool gr::ccsds::decodeRS_impl::d_wert</definition>
+        <argsstring></argsstring>
+        <name>d_wert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" line="40" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1decodeRS__impl_1aef95b1bb0c21a5dd771fe1fd14601bc8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::decodeRS_impl::d_wer</definition>
+        <argsstring></argsstring>
+        <name>d_wer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" line="41" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1decodeRS__impl_1aa1477ff3f8429a17bbed0f5503caa269" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::ccsds::decodeRS_impl::d_rx_wer_cnt</definition>
+        <argsstring></argsstring>
+        <name>d_rx_wer_cnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" line="42" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1decodeRS__impl_1a6815db1ab9ed728a6db0a7a8d3caaece" prot="private" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t gr::ccsds::decodeRS_impl::d_wrong_wer_cnt</definition>
+        <argsstring></argsstring>
+        <name>d_wrong_wer_cnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" line="43" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1decodeRS__impl_1aa83c21383dd1b614e5e211b32c68afaf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ccsds::decodeRS_impl::decodeRS_impl</definition>
+        <argsstring>(int code, int intDepth, int pass_all, int fert, int wert)</argsstring>
+        <name>decodeRS_impl</name>
+        <param>
+          <type>int</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>intDepth</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pass_all</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>fert</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>wert</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1decodeRS__impl_1a309bb8965a263ecb87385ca310a134dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ccsds::decodeRS_impl::~decodeRS_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~decodeRS_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" line="47" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1decodeRS__impl_1aac883b66aaa8cd0f73c05e1668d8d883" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ccsds::decodeRS_impl::rsdecode</definition>
+        <argsstring>(pmt::pmt_t pmt_msg)</argsstring>
+        <name>rsdecode</name>
+        <param>
+          <type>pmt::pmt_t</type>
+          <declname>pmt_msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1decodeRS__impl_1a186a92d19db39837d8aa52d0a5c3bf24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool gr::ccsds::decodeRS_impl::crc_ccitt</definition>
+        <argsstring>(std::vector&lt; unsigned char &gt; frame)</argsstring>
+        <name>crc_ccitt</name>
+        <param>
+          <type>std::vector&lt; unsigned char &gt;</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1decodeRS__impl_1aa6ba7263ba899d1eee6cdc67cbbe8a82" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ccsds::decodeRS_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" line="53" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="207">
+        <label>gr::ccsds::decodeRS_impl</label>
+        <link refid="classgr_1_1ccsds_1_1decodeRS__impl"/>
+        <childnode refid="208" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="209">
+        <label>sync_block</label>
+      </node>
+      <node id="208">
+        <label>gr::ccsds::decodeRS</label>
+        <link refid="classgr_1_1ccsds_1_1decodeRS"/>
+        <childnode refid="209" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="210">
+        <label>gr::ccsds::decodeRS_impl</label>
+        <link refid="classgr_1_1ccsds_1_1decodeRS__impl"/>
+        <childnode refid="211" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="212">
+        <label>sync_block</label>
+      </node>
+      <node id="211">
+        <label>gr::ccsds::decodeRS</label>
+        <link refid="classgr_1_1ccsds_1_1decodeRS"/>
+        <childnode refid="212" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" line="31" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h" bodystart="30" bodyend="56"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ccsds_1_1decodeRS__impl_1a186a92d19db39837d8aa52d0a5c3bf24" prot="public" virt="non-virtual"><scope>gr::ccsds::decodeRS_impl</scope><name>crc_ccitt</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeRS__impl_1a30bd47079e597496aaa9cae92f64852b" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeRS_impl</scope><name>d_basis</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeRS__impl_1a6f736c7707d75149e235fd6de98ff768" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeRS_impl</scope><name>d_fert</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeRS__impl_1a642634a8e92311639c80019d983fb9f8" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeRS_impl</scope><name>d_intDepth</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeRS__impl_1ac57bf2e702a01970215e1bc7cbe97067" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeRS_impl</scope><name>d_pass_all</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeRS__impl_1aaed21ef58fa0f5abdf4f5f1f25bc9f23" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeRS_impl</scope><name>d_rx_cnt</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeRS__impl_1aa1477ff3f8429a17bbed0f5503caa269" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeRS_impl</scope><name>d_rx_wer_cnt</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeRS__impl_1a02763649ae0bc0269b6aa2feb698d87a" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeRS_impl</scope><name>d_type</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeRS__impl_1a4c40dbf7f44791111fedaef04c51825d" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeRS_impl</scope><name>d_valid_cnt</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeRS__impl_1aef95b1bb0c21a5dd771fe1fd14601bc8" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeRS_impl</scope><name>d_wer</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeRS__impl_1aad608a1e0d7649602bbab541b4fce2e8" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeRS_impl</scope><name>d_wert</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeRS__impl_1a6815db1ab9ed728a6db0a7a8d3caaece" prot="private" virt="non-virtual"><scope>gr::ccsds::decodeRS_impl</scope><name>d_wrong_wer_cnt</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeRS__impl_1aa83c21383dd1b614e5e211b32c68afaf" prot="public" virt="non-virtual"><scope>gr::ccsds::decodeRS_impl</scope><name>decodeRS_impl</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeRS_1a064573297eae7e5dbaad2e3c4c47976f" prot="public" virt="non-virtual"><scope>gr::ccsds::decodeRS_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeRS__impl_1aac883b66aaa8cd0f73c05e1668d8d883" prot="public" virt="non-virtual"><scope>gr::ccsds::decodeRS_impl</scope><name>rsdecode</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeRS_1a3e144ca9a55ea0301487ffe9a4d7799c" prot="public" virt="non-virtual"><scope>gr::ccsds::decodeRS_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeRS__impl_1aa6ba7263ba899d1eee6cdc67cbbe8a82" prot="public" virt="non-virtual"><scope>gr::ccsds::decodeRS_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1ccsds_1_1decodeRS__impl_1a309bb8965a263ecb87385ca310a134dc" prot="public" virt="non-virtual"><scope>gr::ccsds::decodeRS_impl</scope><name>~decodeRS_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

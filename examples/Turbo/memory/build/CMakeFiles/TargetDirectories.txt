@@ -1,0 +1,3 @@
+/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/Turbo/memory/build/CMakeFiles/edit_cache.dir
+/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/Turbo/memory/build/CMakeFiles/rebuild_cache.dir
+/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/Turbo/memory/build/CMakeFiles/turbo_memory.dir

@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1ccsds_1_1cc__depuncture__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::ccsds::cc_depuncture_impl</compoundname>
+    <basecompoundref refid="classgr_1_1ccsds_1_1cc__depuncture" prot="public" virt="non-virtual">gr::ccsds::cc_depuncture</basecompoundref>
+    <includes refid="cc__depuncture__impl_8h" local="no">cc_depuncture_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1cc__depuncture__impl_1a9c31e52db9b91806d1cec22e25d48d1b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::cc_depuncture_impl::d_puncsize</definition>
+        <argsstring></argsstring>
+        <name>d_puncsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/cc_depuncture_impl.h" line="32" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/cc_depuncture_impl.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1cc__depuncture__impl_1aa0ab9287cf0896d27ca46151a5107603" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::cc_depuncture_impl::d_delay</definition>
+        <argsstring></argsstring>
+        <name>d_delay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/cc_depuncture_impl.h" line="33" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/cc_depuncture_impl.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1cc__depuncture__impl_1a3463431958e53411ff68e0c6f7600479" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::cc_depuncture_impl::d_puncholes</definition>
+        <argsstring></argsstring>
+        <name>d_puncholes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/cc_depuncture_impl.h" line="34" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/cc_depuncture_impl.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1cc__depuncture__impl_1a4f3436b5e253d01040f6f364db40d231" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::ccsds::cc_depuncture_impl::d_puncpat</definition>
+        <argsstring></argsstring>
+        <name>d_puncpat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/cc_depuncture_impl.h" line="35" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/cc_depuncture_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1cc__depuncture__impl_1a012713dce649fe801cb0ce92315414f2" prot="private" static="no" mutable="no">
+        <type>char</type>
+        <definition>char gr::ccsds::cc_depuncture_impl::d_sym</definition>
+        <argsstring></argsstring>
+        <name>d_sym</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/cc_depuncture_impl.h" line="36" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/cc_depuncture_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1cc__depuncture__impl_1ab335603eaed83f5734110475a8213262" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ccsds::cc_depuncture_impl::cc_depuncture_impl</definition>
+        <argsstring>(int puncsize, int puncpat, int delay, char symbol)</argsstring>
+        <name>cc_depuncture_impl</name>
+        <param>
+          <type>int</type>
+          <declname>puncsize</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>puncpat</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>delay</declname>
+        </param>
+        <param>
+          <type>char</type>
+          <declname>symbol</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/cc_depuncture_impl.h" line="39" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1cc__depuncture__impl_1ae90fe37984b67ff0f2e9d6783c2b3096" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::ccsds::cc_depuncture_impl::~cc_depuncture_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~cc_depuncture_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/cc_depuncture_impl.h" line="40" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1cc__depuncture__impl_1a7679dcdc871c00c4e2d95b19c188f222" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::ccsds::cc_depuncture_impl::forecast</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items_required)</argsstring>
+        <name>forecast</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items_required</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/cc_depuncture_impl.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1cc__depuncture__impl_1a0a523726a487a9c7c35bda64be512260" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ccsds::cc_depuncture_impl::fixed_rate_ninput_to_noutput</definition>
+        <argsstring>(int ninput)</argsstring>
+        <name>fixed_rate_ninput_to_noutput</name>
+        <param>
+          <type>int</type>
+          <declname>ninput</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/cc_depuncture_impl.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1cc__depuncture__impl_1a8e226b1b228326ce0fd67cb3b2572c0c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ccsds::cc_depuncture_impl::fixed_rate_noutput_to_ninput</definition>
+        <argsstring>(int noutput)</argsstring>
+        <name>fixed_rate_noutput_to_ninput</name>
+        <param>
+          <type>int</type>
+          <declname>noutput</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/cc_depuncture_impl.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1ccsds_1_1cc__depuncture__impl_1a7cd51d60304c578886c380a5a43476eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::ccsds::cc_depuncture_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/cc_depuncture_impl.h" line="47" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="150">
+        <label>gr::block</label>
+      </node>
+      <node id="148">
+        <label>gr::ccsds::cc_depuncture_impl</label>
+        <link refid="classgr_1_1ccsds_1_1cc__depuncture__impl"/>
+        <childnode refid="149" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="149">
+        <label>gr::ccsds::cc_depuncture</label>
+        <link refid="classgr_1_1ccsds_1_1cc__depuncture"/>
+        <childnode refid="150" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="153">
+        <label>gr::block</label>
+      </node>
+      <node id="151">
+        <label>gr::ccsds::cc_depuncture_impl</label>
+        <link refid="classgr_1_1ccsds_1_1cc__depuncture__impl"/>
+        <childnode refid="152" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="152">
+        <label>gr::ccsds::cc_depuncture</label>
+        <link refid="classgr_1_1ccsds_1_1cc__depuncture"/>
+        <childnode refid="153" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/cc_depuncture_impl.h" line="30" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/cc_depuncture_impl.h" bodystart="29" bodyend="51"/>
+    <listofallmembers>
+      <member refid="classgr_1_1ccsds_1_1cc__depuncture__impl_1ab335603eaed83f5734110475a8213262" prot="public" virt="non-virtual"><scope>gr::ccsds::cc_depuncture_impl</scope><name>cc_depuncture_impl</name></member>
+      <member refid="classgr_1_1ccsds_1_1cc__depuncture__impl_1aa0ab9287cf0896d27ca46151a5107603" prot="private" virt="non-virtual"><scope>gr::ccsds::cc_depuncture_impl</scope><name>d_delay</name></member>
+      <member refid="classgr_1_1ccsds_1_1cc__depuncture__impl_1a3463431958e53411ff68e0c6f7600479" prot="private" virt="non-virtual"><scope>gr::ccsds::cc_depuncture_impl</scope><name>d_puncholes</name></member>
+      <member refid="classgr_1_1ccsds_1_1cc__depuncture__impl_1a4f3436b5e253d01040f6f364db40d231" prot="private" virt="non-virtual"><scope>gr::ccsds::cc_depuncture_impl</scope><name>d_puncpat</name></member>
+      <member refid="classgr_1_1ccsds_1_1cc__depuncture__impl_1a9c31e52db9b91806d1cec22e25d48d1b" prot="private" virt="non-virtual"><scope>gr::ccsds::cc_depuncture_impl</scope><name>d_puncsize</name></member>
+      <member refid="classgr_1_1ccsds_1_1cc__depuncture__impl_1a012713dce649fe801cb0ce92315414f2" prot="private" virt="non-virtual"><scope>gr::ccsds::cc_depuncture_impl</scope><name>d_sym</name></member>
+      <member refid="classgr_1_1ccsds_1_1cc__depuncture__impl_1a0a523726a487a9c7c35bda64be512260" prot="public" virt="non-virtual"><scope>gr::ccsds::cc_depuncture_impl</scope><name>fixed_rate_ninput_to_noutput</name></member>
+      <member refid="classgr_1_1ccsds_1_1cc__depuncture__impl_1a8e226b1b228326ce0fd67cb3b2572c0c" prot="public" virt="non-virtual"><scope>gr::ccsds::cc_depuncture_impl</scope><name>fixed_rate_noutput_to_ninput</name></member>
+      <member refid="classgr_1_1ccsds_1_1cc__depuncture__impl_1a7679dcdc871c00c4e2d95b19c188f222" prot="public" virt="non-virtual"><scope>gr::ccsds::cc_depuncture_impl</scope><name>forecast</name></member>
+      <member refid="classgr_1_1ccsds_1_1cc__depuncture__impl_1a7cd51d60304c578886c380a5a43476eb" prot="public" virt="non-virtual"><scope>gr::ccsds::cc_depuncture_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1ccsds_1_1cc__depuncture_1a54eae8fef9e276124e17753e3194b5e9" prot="public" virt="non-virtual"><scope>gr::ccsds::cc_depuncture_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1ccsds_1_1cc__depuncture_1a6f5c904502ac145a278b343b1932e45c" prot="public" virt="non-virtual"><scope>gr::ccsds::cc_depuncture_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1ccsds_1_1cc__depuncture__impl_1ae90fe37984b67ff0f2e9d6783c2b3096" prot="public" virt="non-virtual"><scope>gr::ccsds::cc_depuncture_impl</scope><name>~cc_depuncture_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

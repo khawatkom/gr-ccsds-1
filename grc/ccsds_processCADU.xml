@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<block>
+  <name>processCADU</name>
+  <key>ccsds_processCADU</key>
+  <category>[ccsds]</category>
+  <import>import ccsds</import>
+  <make>ccsds.processCADU($frameLength, $scramble, $rs, $intDepth, $tagName)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Frame Length</name>
+    <key>frameLength</key>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Scramble</name>
+    <key>scramble</key>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Reed-Solomon</name>
+    <key>rs</key>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Interleave Depth</name>
+    <key>intDepth</key>
+    <type>int</type>
+  </param>
+  <param>
+    <name>Tag Name</name>
+    <key>tagName</key>
+    <type>string</type>
+  </param>
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>message</type>
+  </source>
+<doc>
+Frame size   : Must be multiple of interleave depth (if RS is used)
+Sync word    : Any hexadecimal string (without 0x prefix)
+Scramble     : 0 - No scramble
+               1 - Scramble
+Reed-Solomon : 0 - No Reed-Solomon
+               1 - RS + conventional 
+               2 - RS + dual basis
+Int depth    : Standard CCSDS values (1,2,3,4,5,8)
+Tag Name     : Must match tag name in synchronizeCADU
+</doc>
+</block>

@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="decodeRS__impl_8h" kind="file" language="C++">
+    <compoundname>decodeRS_impl.h</compoundname>
+    <includes refid="decodeRS_8h" local="no">ccsds/decodeRS.h</includes>
+    <includes refid="reedsolomon_8h" local="yes">fec/rs/reedsolomon.h</includes>
+    <includes local="yes">/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/rs/rs_base</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="no">array</includes>
+    <includes local="no">cstdint</includes>
+    <includes local="no">cstring</includes>
+    <includes local="no">iostream</includes>
+    <includes local="no">type_traits</includes>
+    <includes local="no">vector</includes>
+    <incdepgraph>
+      <node id="840">
+        <label>ccsds/decodeRS.h</label>
+        <link refid="decodeRS_8h"/>
+        <childnode refid="841" relation="include">
+        </childnode>
+        <childnode refid="843" relation="include">
+        </childnode>
+      </node>
+      <node id="851">
+        <label>cstdint</label>
+      </node>
+      <node id="843">
+        <label>gnuradio/sync_block.h</label>
+      </node>
+      <node id="847">
+        <label>string</label>
+      </node>
+      <node id="842">
+        <label>gnuradio/attributes.h</label>
+      </node>
+      <node id="841">
+        <label>ccsds/api.h</label>
+        <link refid="api_8h"/>
+        <childnode refid="842" relation="include">
+        </childnode>
+      </node>
+      <node id="845">
+        <label>vector</label>
+      </node>
+      <node id="839">
+        <label>decodeRS_impl.h</label>
+        <link refid="decodeRS_impl.h"/>
+        <childnode refid="840" relation="include">
+        </childnode>
+        <childnode refid="844" relation="include">
+        </childnode>
+        <childnode refid="849" relation="include">
+        </childnode>
+        <childnode refid="846" relation="include">
+        </childnode>
+        <childnode refid="850" relation="include">
+        </childnode>
+        <childnode refid="851" relation="include">
+        </childnode>
+        <childnode refid="852" relation="include">
+        </childnode>
+        <childnode refid="853" relation="include">
+        </childnode>
+        <childnode refid="854" relation="include">
+        </childnode>
+        <childnode refid="845" relation="include">
+        </childnode>
+      </node>
+      <node id="850">
+        <label>array</label>
+      </node>
+      <node id="853">
+        <label>iostream</label>
+      </node>
+      <node id="854">
+        <label>type_traits</label>
+      </node>
+      <node id="844">
+        <label>fec/rs/reedsolomon.h</label>
+        <link refid="reedsolomon_8h"/>
+        <childnode refid="845" relation="include">
+        </childnode>
+        <childnode refid="846" relation="include">
+        </childnode>
+        <childnode refid="847" relation="include">
+        </childnode>
+        <childnode refid="848" relation="include">
+        </childnode>
+      </node>
+      <node id="846">
+        <label>algorithm</label>
+      </node>
+      <node id="848">
+        <label>rs</label>
+      </node>
+      <node id="849">
+        <label>/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/rs/rs_base</label>
+      </node>
+      <node id="852">
+        <label>cstring</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="classgr_1_1ccsds_1_1decodeRS__impl" prot="public">gr::ccsds::decodeRS_impl</innerclass>
+    <innernamespace refid="namespacegr">gr</innernamespace>
+    <innernamespace refid="namespacegr_1_1ccsds">gr::ccsds</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.h"/>
+  </compounddef>
+</doxygen>
