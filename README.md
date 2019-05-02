@@ -6,7 +6,7 @@ This GNU Radio OOT implements CCSDS FEC codes as specified by the CCSDS TM Synch
 - CC(7,1/2)
 - RS(255,223) and RS(255,239)
 - LDPC(8176,8154) and LDPC(8160,7136) [aka C2]
-- Turbo Codes
+- Turbo Codes [based on Gianluca's deepspace-turbo code and gr-dslwp]
 - Frame sync, with automatic ambiguity resolution
 
 ## Dependencies
