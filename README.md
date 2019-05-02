@@ -10,9 +10,13 @@ This GNU Radio OOT has blocks that implement CCSDS FEC codes as specified by the
 
 ## Dependencies
 The flowgraphs use the gr-mapper OOT to evaluate BER performance.
+
 git clone https://github.com/gr-vt/gr-mapper.git
+
 mkdir build && cd build
+
 cmake .. && make
+
 sudo make install && sudo ldconfig
 
 ## Installation
@@ -28,7 +32,7 @@ sudo make install && sudo ldconfig
 See examples folder. 
 Configuration of LDPC Encoder and Decoder
 - The LDPC encoder uses circulants to create the generator matrix. The circulant file is under /lib/fec/ldpc/gmini/C2.txt
--T he LDPC decoder uses alist file to create the parity check matrix. The alist file is under /lib/fec/ldpc/alist/C2_alist.a
+- The LDPC decoder uses alist file to create the parity check matrix. The alist file is under /lib/fec/ldpc/alist/C2_alist.a
 
 ## Issues
 - Memory leaks with LDPC Decoder (See examples/LDPC/ldpc_bit_error_rate)
