@@ -17,8 +17,11 @@ sudo make install && sudo ldconfig
 
 ## Installation
 git clone https://github.com/mbkitine/gr-ccsds.git
+
 mkdir build && cd build
+
 cmake .. && make
+
 sudo make install && sudo ldconfig
 
 ## Usage
