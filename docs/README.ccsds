@@ -1,11 +1,33 @@
-This is the ccsds-write-a-block package meant as a guide to building
-out-of-tree packages. To use the ccsds blocks, the Python namespaces
-is in 'ccsds', which is imported as:
+# CCSDS FEC Codes Stack
+This GNU Radio OOT has blocks that implement CCSDS FEC codes as specified by the CCSDS TM Synchonization and Channel Coding 
+(CCSDS 131.0-B-2, August 2011).
 
-    import ccsds
+## FEC Codes Supported
+- CC(7,1/2)
+- RS(255,223) and RS(255,239)
+- LDPC(8176,8154) and LDPC(8160,7136) [aka C2]
+- Turbo Codes
 
-See the Doxygen documentation for details about the blocks available
-in this package. A quick listing of the details can be found in Python
-after importing by using:
+## Dependencies
+The flowgraphs use the gr-mapper OOT to evaluate BER performance.
+git clone https://github.com/gr-vt/gr-mapper.git
+mkdir build && cd build
+cmake .. && make
+sudo make install && sudo ldconfig
 
-    help(ccsds)
+## Installation
+git clone https://github.com/mbkitine/gr-ccsds.git
+mkdir build && cd build
+cmake .. && make
+sudo make install && sudo ldconfig
+
+## Usage
+See examples folder. 
+Configuration of LDPC Encoder and Decoder
+-The LDPC encoder uses circulants to create the generator matrix. The circulant file is under /lib/fec/ldpc/gmini/C2.txt
+-The LDPC decoder uses alist file to create the parity check matrix. The alist file is under /lib/fec/ldpc/alist/C2_alist.a
+
+## Issues
+-Memory leaks with LDPC Decoder (See examples/LDPC/ldpc_bit_error_rate)
+-Memory leaks with Turbo Decoder (See examples/Turbo/turbo_bit_error_rate)
+
