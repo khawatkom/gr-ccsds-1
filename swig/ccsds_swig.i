@@ -29,6 +29,7 @@
 #include "ccsds/synchronizeCADUHard.h"
 #include "ccsds/encodeLDPC.h"
 #include "ccsds/decodeLDPC.h"
+#include "ccsds/synchronizeCADUArgMax.h"
 %}
 
 
@@ -79,3 +80,5 @@ GR_SWIG_BLOCK_MAGIC2(ccsds, synchronizeCADUHard);
 GR_SWIG_BLOCK_MAGIC2(ccsds, encodeLDPC);
 %include "ccsds/decodeLDPC.h"
 GR_SWIG_BLOCK_MAGIC2(ccsds, decodeLDPC);
+%include "ccsds/synchronizeCADUArgMax.h"
+GR_SWIG_BLOCK_MAGIC2(ccsds, synchronizeCADUArgMax);

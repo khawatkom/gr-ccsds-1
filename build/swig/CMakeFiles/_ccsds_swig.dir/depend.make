@@ -21,6 +21,7 @@ swig/CMakeFiles/_ccsds_swig.dir/ccsds_swigPYTHON_wrap.cxx.o: ../include/ccsds/re
 swig/CMakeFiles/_ccsds_swig.dir/ccsds_swigPYTHON_wrap.cxx.o: ../include/ccsds/recoverCADUSoft.h
 swig/CMakeFiles/_ccsds_swig.dir/ccsds_swigPYTHON_wrap.cxx.o: ../include/ccsds/simplifiedPLOP1.h
 swig/CMakeFiles/_ccsds_swig.dir/ccsds_swigPYTHON_wrap.cxx.o: ../include/ccsds/synchronizeCADU.h
+swig/CMakeFiles/_ccsds_swig.dir/ccsds_swigPYTHON_wrap.cxx.o: ../include/ccsds/synchronizeCADUArgMax.h
 swig/CMakeFiles/_ccsds_swig.dir/ccsds_swigPYTHON_wrap.cxx.o: ../include/ccsds/synchronizeCADUHard.h
 swig/CMakeFiles/_ccsds_swig.dir/ccsds_swigPYTHON_wrap.cxx.o: ../include/ccsds/synchronizeCADUSoft.h
 swig/CMakeFiles/_ccsds_swig.dir/ccsds_swigPYTHON_wrap.cxx.o: swig/ccsds_swigPYTHON_wrap.cxx

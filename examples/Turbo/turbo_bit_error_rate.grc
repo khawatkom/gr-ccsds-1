@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<?grc format='1' created='3.7.11'?>
+<?grc format='1' created='3.7.12'?>
 <flow_graph>
   <timestamp>Fri Nov 17 12:41:06 2017</timestamp>
   <block>
@@ -73,12 +73,20 @@
       <value>True</value>
     </param>
     <param>
+      <key>sizing_mode</key>
+      <value>fixed</value>
+    </param>
+    <param>
       <key>thread_safe_setters</key>
       <value></value>
     </param>
     <param>
       <key>title</key>
       <value></value>
+    </param>
+    <param>
+      <key>placement</key>
+      <value>(0,0)</value>
     </param>
   </block>
   <block>
@@ -93,7 +101,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(792, 420)</value>
+      <value>(824, 380)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -201,7 +209,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(696, 420)</value>
+      <value>(728, 388)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -615,7 +623,7 @@
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(664, 556)</value>
+      <value>(688, 556)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1177,69 +1185,6 @@
     </param>
   </block>
   <block>
-    <key>dslwp_ccsds_turbo_decode</key>
-    <param>
-      <key>base</key>
-      <value>223</value>
-    </param>
-    <param>
-      <key>alias</key>
-      <value></value>
-    </param>
-    <param>
-      <key>code_type</key>
-      <value>4</value>
-    </param>
-    <param>
-      <key>comment</key>
-      <value></value>
-    </param>
-    <param>
-      <key>affinity</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(64, 528)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>id</key>
-      <value>dslwp_ccsds_turbo_decode_0</value>
-    </param>
-    <param>
-      <key>iterations</key>
-      <value>2</value>
-    </param>
-    <param>
-      <key>maxoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>minoutbuf</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>octets</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>sigma</key>
-      <value>0.707</value>
-    </param>
-    <param>
-      <key>update_sigma</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
     <key>import</key>
     <param>
       <key>alias</key>
@@ -1671,6 +1616,10 @@
       <value>samp_rate</value>
     </param>
     <param>
+      <key>stemplot</key>
+      <value>False</value>
+    </param>
+    <param>
       <key>tr_chan</key>
       <value>0</value>
     </param>
@@ -1754,12 +1703,51 @@
       <value></value>
     </param>
     <param>
+      <key>hide</key>
+      <value>none</value>
+    </param>
+    <param>
       <key>type</key>
       <value>string</value>
     </param>
     <param>
       <key>value</key>
       <value>"1ACFFC1D"</value>
+    </param>
+  </block>
+  <block>
+    <key>tdd_nullMsgSink</key>
+    <param>
+      <key>alias</key>
+      <value></value>
+    </param>
+    <param>
+      <key>comment</key>
+      <value></value>
+    </param>
+    <param>
+      <key>affinity</key>
+      <value></value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(864, 512)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>id</key>
+      <value>tdd_nullMsgSink_0</value>
+    </param>
+    <param>
+      <key>meta</key>
+      <value>0</value>
     </param>
   </block>
   <connection>
@@ -1835,6 +1823,12 @@
     <sink_key>pdus</sink_key>
   </connection>
   <connection>
+    <source_block_id>ccsds_decodeTurbo_0</source_block_id>
+    <sink_block_id>tdd_nullMsgSink_0</sink_block_id>
+    <source_key>out</source_key>
+    <sink_key>in</sink_key>
+  </connection>
+  <connection>
     <source_block_id>ccsds_encodeTurbo_0</source_block_id>
     <sink_block_id>blocks_stream_to_tagged_stream_0_0</sink_block_id>
     <source_key>0</source_key>
@@ -1843,12 +1837,6 @@
   <connection>
     <source_block_id>ccsds_recoverCADUSoft_0</source_block_id>
     <sink_block_id>ccsds_decodeTurbo_0</sink_block_id>
-    <source_key>cadu</source_key>
-    <sink_key>in</sink_key>
-  </connection>
-  <connection>
-    <source_block_id>ccsds_recoverCADUSoft_0</source_block_id>
-    <sink_block_id>dslwp_ccsds_turbo_decode_0</sink_block_id>
     <source_key>cadu</source_key>
     <sink_key>in</sink_key>
   </connection>

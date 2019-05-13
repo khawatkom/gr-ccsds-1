@@ -52,30 +52,30 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="248">
+      <node id="107">
         <label>gr::ccsds::encodeTurbo_impl</label>
         <link refid="classgr_1_1ccsds_1_1encodeTurbo__impl"/>
-        <childnode refid="246" relation="public-inheritance">
+        <childnode refid="105" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="247">
+      <node id="106">
         <label>tagged_stream_block</label>
       </node>
-      <node id="246">
+      <node id="105">
         <label>gr::ccsds::encodeTurbo</label>
         <link refid="classgr_1_1ccsds_1_1encodeTurbo"/>
-        <childnode refid="247" relation="public-inheritance">
+        <childnode refid="106" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="250">
+      <node id="109">
         <label>tagged_stream_block</label>
       </node>
-      <node id="249">
+      <node id="108">
         <label>gr::ccsds::encodeTurbo</label>
         <link refid="classgr_1_1ccsds_1_1encodeTurbo"/>
-        <childnode refid="250" relation="public-inheritance">
+        <childnode refid="109" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

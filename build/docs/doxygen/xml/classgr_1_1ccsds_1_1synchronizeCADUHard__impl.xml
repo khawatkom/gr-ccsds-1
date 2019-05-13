@@ -482,36 +482,36 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="383">
+      <node id="245">
         <label>gr::ccsds::synchronizeCADUHard</label>
         <link refid="classgr_1_1ccsds_1_1synchronizeCADUHard"/>
-        <childnode refid="384" relation="public-inheritance">
+        <childnode refid="246" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="384">
+      <node id="246">
         <label>sync_block</label>
       </node>
-      <node id="382">
+      <node id="244">
         <label>gr::ccsds::synchronizeCADUHard_impl</label>
         <link refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl"/>
-        <childnode refid="383" relation="public-inheritance">
+        <childnode refid="245" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="386">
+      <node id="248">
         <label>gr::ccsds::synchronizeCADUHard</label>
         <link refid="classgr_1_1ccsds_1_1synchronizeCADUHard"/>
-        <childnode refid="387" relation="public-inheritance">
+        <childnode refid="249" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="387">
+      <node id="249">
         <label>sync_block</label>
       </node>
-      <node id="385">
+      <node id="247">
         <label>gr::ccsds::synchronizeCADUHard_impl</label>
         <link refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl"/>
-        <childnode refid="386" relation="public-inheritance">
+        <childnode refid="248" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

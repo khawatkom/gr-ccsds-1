@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Top Block
-# Generated: Thu May  2 11:19:46 2019
+# Generated: Thu May  9 18:51:07 2019
 ##################################################
 
 if __name__ == '__main__':
@@ -61,6 +61,7 @@ class top_block(gr.top_block, Qt.QWidget):
         self.settings = Qt.QSettings("GNU Radio", "top_block")
         self.restoreGeometry(self.settings.value("geometry").toByteArray())
 
+
         ##################################################
         # Variables
         ##################################################
@@ -105,6 +106,7 @@ class top_block(gr.top_block, Qt.QWidget):
         self.qtgui_time_sink_x_0.enable_grid(False)
         self.qtgui_time_sink_x_0.enable_axis_labels(True)
         self.qtgui_time_sink_x_0.enable_control_panel(False)
+        self.qtgui_time_sink_x_0.enable_stem_plot(False)
 
         if not True:
           self.qtgui_time_sink_x_0.disable_legend()
@@ -134,7 +136,7 @@ class top_block(gr.top_block, Qt.QWidget):
             self.qtgui_time_sink_x_0.set_line_alpha(i, alphas[i])
 
         self._qtgui_time_sink_x_0_win = sip.wrapinstance(self.qtgui_time_sink_x_0.pyqwidget(), Qt.QWidget)
-        self.top_layout.addWidget(self._qtgui_time_sink_x_0_win)
+        self.top_grid_layout.addWidget(self._qtgui_time_sink_x_0_win)
         self.mapper_prbs_source_b_0 = mapper.prbs_source_b("PRBS31", K)
         self.mapper_prbs_sink_b_0 = mapper.prbs_sink_b("PRBS31", K)
         self.fir_filter_xxx_0 = filter.fir_filter_ccc(sps, (taps))
@@ -143,7 +145,7 @@ class top_block(gr.top_block, Qt.QWidget):
         self.ccsds_synchronizeCADUSoft_0 = ccsds.synchronizeCADUSoft('1ACFFC1D',1,7,0,N + 32,0,0,'sync')
         self.ccsds_recoverCADUSoft_0 = ccsds.recoverCADUSoft(N, 1, 'sync')
         self.ccsds_encodeLDPC_0 = ccsds.encodeLDPC('/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/gmini/C2.txt',0,'cadu_len',"vcdu_len",0)
-        self.ccsds_decodeLDPC_0 = ccsds.decodeLDPC('/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/alist/C2_Alist.a',0,7, sigma, 0,0)
+        self.ccsds_decodeLDPC_0 = ccsds.decodeLDPC('/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/alist/C2_Alist.a',0,10, sigma, 0,0)
         self.ccsds_createCADU_0 = ccsds.createCADU(cadu_size, '1ACFFC1D', 1, 'cadu_len')
         self.blocks_unpack_k_bits_bb_0 = blocks.unpack_k_bits_bb(8)
         self.blocks_throttle_0 = blocks.throttle(gr.sizeof_char*1, samp_rate,True)
@@ -157,6 +159,8 @@ class top_block(gr.top_block, Qt.QWidget):
         self.blocks_char_to_float_0 = blocks.char_to_float(1, 1)
         self.blocks_add_xx_0 = blocks.add_vcc(1)
         self.analog_noise_source_x_0 = analog.noise_source_c(analog.GR_GAUSSIAN, (math.sqrt(2)/math.sqrt(2*Rm*Rc*math.pow(10.0,EbNo/10.0)))/math.sqrt(sps), 0)
+
+
 
         ##################################################
         # Connections

@@ -64,30 +64,30 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="269">
+      <node id="128">
         <label>tagged_stream_block</label>
       </node>
-      <node id="270">
+      <node id="129">
         <label>gr::ccsds::genCADU_impl</label>
         <link refid="classgr_1_1ccsds_1_1genCADU__impl"/>
-        <childnode refid="268" relation="public-inheritance">
+        <childnode refid="127" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="268">
+      <node id="127">
         <label>gr::ccsds::genCADU</label>
         <link refid="classgr_1_1ccsds_1_1genCADU"/>
-        <childnode refid="269" relation="public-inheritance">
+        <childnode refid="128" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="272">
+      <node id="131">
         <label>tagged_stream_block</label>
       </node>
-      <node id="271">
+      <node id="130">
         <label>gr::ccsds::genCADU</label>
         <link refid="classgr_1_1ccsds_1_1genCADU"/>
-        <childnode refid="272" relation="public-inheritance">
+        <childnode refid="131" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

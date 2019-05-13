@@ -1,6 +1,0 @@
-<map id="debug.h" name="debug.h">
-<area shape="rect" id="node4" href="$examples_2LDPC_2ldpc__2_2ldpc__decoder_2ldpc_8h.html" title="ldpc.h" alt="" coords="318,80,375,107"/>
-<area shape="rect" id="node8" href="$examples_2LDPC_2ldpc__2_2ldpc__decoder_2checknode_8h.html" title="checknode.h" alt="" coords="37,155,133,181"/>
-<area shape="rect" id="node10" href="$examples_2LDPC_2ldpc__2_2ldpc__decoder_2variablenode_8h.html" title="variablenode.h" alt="" coords="248,155,355,181"/>
-<area shape="rect" id="node11" href="$examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h.html" title="Definition of a class to hold sparse matrices in alist&#45;format. " alt="" coords="430,155,487,181"/>
-</map>

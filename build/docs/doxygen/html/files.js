@@ -107,12 +107,6 @@ var files =
       [ "generateCLTU", "classgr_1_1ccsds_1_1generateCLTU.html", "classgr_1_1ccsds_1_1generateCLTU" ]
     ] ],
     [ "generateCLTU_impl.h", "generateCLTU__impl_8h.html", "generateCLTU__impl_8h" ],
-    [ "gf2mat.h", "gf2mat_8h.html", [
-      [ "GF2Mat", "classGF2Mat.html", "classGF2Mat" ]
-    ] ],
-    [ "gf2vec.h", "gf2vec_8h.html", [
-      [ "GF2Vec", "classGF2Vec.html", "classGF2Vec" ]
-    ] ],
     [ "examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h", "examples_2LDPC_2ldpc__2_2ldpc__decoder_2ldpc_8h.html", [
       [ "ldpc", "classldpc.html", "classldpc" ]
     ] ],
@@ -168,15 +162,17 @@ var files =
     [ "simplifiedPLOP1_impl.h", "simplifiedPLOP1__impl_8h.html", [
       [ "simplifiedPLOP1_impl", "classgr_1_1ccsds_1_1simplifiedPLOP1__impl.html", "classgr_1_1ccsds_1_1simplifiedPLOP1__impl" ]
     ] ],
-    [ "soft_decoder.h", "soft__decoder_8h.html", [
-      [ "LDPC", "classLDPC.html", "classLDPC" ],
-      [ "LDPC_H_Matrix", "classLDPC__H__Matrix.html", "classLDPC__H__Matrix" ]
-    ] ],
     [ "synchronizeCADU.h", "synchronizeCADU_8h.html", [
       [ "synchronizeCADU", "classgr_1_1ccsds_1_1synchronizeCADU.html", "classgr_1_1ccsds_1_1synchronizeCADU" ]
     ] ],
     [ "synchronizeCADU_impl.h", "synchronizeCADU__impl_8h.html", [
       [ "synchronizeCADU_impl", "classgr_1_1ccsds_1_1synchronizeCADU__impl.html", "classgr_1_1ccsds_1_1synchronizeCADU__impl" ]
+    ] ],
+    [ "synchronizeCADUArgMax.h", "synchronizeCADUArgMax_8h.html", [
+      [ "synchronizeCADUArgMax", "classgr_1_1ccsds_1_1synchronizeCADUArgMax.html", "classgr_1_1ccsds_1_1synchronizeCADUArgMax" ]
+    ] ],
+    [ "synchronizeCADUArgMax_impl.h", "synchronizeCADUArgMax__impl_8h.html", [
+      [ "synchronizeCADUArgMax_impl", "classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl.html", "classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl" ]
     ] ],
     [ "synchronizeCADUHard.h", "synchronizeCADUHard_8h.html", [
       [ "synchronizeCADUHard", "classgr_1_1ccsds_1_1synchronizeCADUHard.html", "classgr_1_1ccsds_1_1synchronizeCADUHard" ]

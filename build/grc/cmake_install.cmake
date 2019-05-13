@@ -55,6 +55,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/grc/ccsds_synchronizeCADUHard.xml"
     "/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/grc/ccsds_encodeLDPC.xml"
     "/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/grc/ccsds_decodeLDPC.xml"
+    "/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/grc/ccsds_synchronizeCADUArgMax.xml"
     )
 endif()
 

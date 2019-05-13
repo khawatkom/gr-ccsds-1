@@ -6,23 +6,23 @@
     <includes local="no">algorithm</includes>
     <includes local="no">cstdlib</includes>
     <incdepgraph>
-      <node id="720">
+      <node id="103">
         <label>comm.h</label>
         <link refid="comm.h"/>
-        <childnode refid="721" relation="include">
+        <childnode refid="104" relation="include">
         </childnode>
-        <childnode refid="722" relation="include">
+        <childnode refid="105" relation="include">
         </childnode>
-        <childnode refid="723" relation="include">
+        <childnode refid="106" relation="include">
         </childnode>
       </node>
-      <node id="721">
+      <node id="104">
         <label>vector</label>
       </node>
-      <node id="723">
+      <node id="106">
         <label>cstdlib</label>
       </node>
-      <node id="722">
+      <node id="105">
         <label>algorithm</label>
       </node>
     </incdepgraph>

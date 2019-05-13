@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Turbo Verification V4
-# Generated: Thu May  2 11:13:51 2019
+# Generated: Thu May  9 16:15:39 2019
 ##################################################
 
 if __name__ == '__main__':
@@ -28,6 +28,7 @@ import ccsds
 import mapper
 import math, numpy, os
 import sys
+import tdd
 from gnuradio import qtgui
 
 
@@ -57,6 +58,7 @@ class turbo_verification_v4(gr.top_block, Qt.QWidget):
         self.settings = Qt.QSettings("GNU Radio", "turbo_verification_v4")
         self.restoreGeometry(self.settings.value("geometry").toByteArray())
 
+
         ##################################################
         # Parameters
         ##################################################
@@ -77,6 +79,7 @@ class turbo_verification_v4(gr.top_block, Qt.QWidget):
         ##################################################
         # Blocks
         ##################################################
+        self.tdd_nullMsgSink_0 = tdd.nullMsgSink(0)
         self.mapper_prbs_source_b_0 = mapper.prbs_source_b("PRBS31", reset*8)
         self.mapper_prbs_sink_b_0 = mapper.prbs_sink_b("PRBS31", reset*8)
         self.digital_map_bb_0_0 = digital.map_bb((-1,1))
@@ -95,10 +98,13 @@ class turbo_verification_v4(gr.top_block, Qt.QWidget):
         self.blocks_pack_k_bits_bb_0 = blocks.pack_k_bits_bb(8)
         self.blocks_char_to_float_0_0 = blocks.char_to_float(1, 1.0)
 
+
+
         ##################################################
         # Connections
         ##################################################
         self.msg_connect((self.ccsds_decodeTurbo_0, 'out'), (self.blocks_pdu_to_tagged_stream_0_1, 'pdus'))
+        self.msg_connect((self.ccsds_decodeTurbo_0, 'out'), (self.tdd_nullMsgSink_0, 'in'))
         self.msg_connect((self.ccsds_recoverCADUSoft_0, 'cadu'), (self.ccsds_decodeTurbo_0, 'in'))
         self.connect((self.blocks_char_to_float_0_0, 0), (self.ccsds_synchronizeCADUSoft_0, 0))
         self.connect((self.blocks_pack_k_bits_bb_0, 0), (self.blocks_stream_to_tagged_stream_0, 0))

@@ -7,8 +7,6 @@ var hierarchy =
       ] ]
     ] ],
     [ "checkNode", "classcheckNode.html", null ],
-    [ "GF2Mat", "classGF2Mat.html", null ],
-    [ "GF2Vec", "classGF2Vec.html", null ],
     [ "hier_block2", null, [
       [ "gr::ccsds::convDecoder", "classgr_1_1ccsds_1_1convDecoder.html", [
         [ "gr::ccsds::convDecoder_impl", "classgr_1_1ccsds_1_1convDecoder__impl.html", null ]
@@ -21,8 +19,6 @@ var hierarchy =
       ] ]
     ] ],
     [ "ldpc", "classldpc.html", null ],
-    [ "LDPC", "classLDPC.html", null ],
-    [ "LDPC_H_Matrix", "classLDPC__H__Matrix.html", null ],
     [ "ReedSolomon", "classReedSolomon.html", null ],
     [ "reedSolomon", "classreedSolomon.html", null ],
     [ "Scrambler", "classScrambler.html", null ],
@@ -55,6 +51,9 @@ var hierarchy =
       ] ],
       [ "gr::ccsds::simplifiedPLOP1", "classgr_1_1ccsds_1_1simplifiedPLOP1.html", [
         [ "gr::ccsds::simplifiedPLOP1_impl", "classgr_1_1ccsds_1_1simplifiedPLOP1__impl.html", null ]
+      ] ],
+      [ "gr::ccsds::synchronizeCADUArgMax", "classgr_1_1ccsds_1_1synchronizeCADUArgMax.html", [
+        [ "gr::ccsds::synchronizeCADUArgMax_impl", "classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl.html", null ]
       ] ],
       [ "gr::ccsds::synchronizeCADUHard", "classgr_1_1ccsds_1_1synchronizeCADUHard.html", [
         [ "gr::ccsds::synchronizeCADUHard_impl", "classgr_1_1ccsds_1_1synchronizeCADUHard__impl.html", null ]

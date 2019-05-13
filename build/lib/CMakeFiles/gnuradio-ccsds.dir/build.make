@@ -753,6 +753,30 @@ lib/CMakeFiles/gnuradio-ccsds.dir/decodeLDPC_impl.cc.o.provides: lib/CMakeFiles/
 lib/CMakeFiles/gnuradio-ccsds.dir/decodeLDPC_impl.cc.o.provides.build: lib/CMakeFiles/gnuradio-ccsds.dir/decodeLDPC_impl.cc.o
 
 
+lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o: lib/CMakeFiles/gnuradio-ccsds.dir/flags.make
+lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o: ../lib/synchronizeCADUArgMax_impl.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o"
+	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o -c /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.cc
+
+lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.i"
+	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.cc > CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.i
+
+lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.s"
+	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.cc -o CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.s
+
+lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o.requires:
+
+.PHONY : lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o.requires
+
+lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o.provides: lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o.requires
+	$(MAKE) -f lib/CMakeFiles/gnuradio-ccsds.dir/build.make lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o.provides.build
+.PHONY : lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o.provides
+
+lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o.provides.build: lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o
+
+
 # Object files for target gnuradio-ccsds
 gnuradio__ccsds_OBJECTS = \
 "CMakeFiles/gnuradio-ccsds.dir/fec/ReedSolomon/ReedSolomon.cc.o" \
@@ -783,7 +807,8 @@ gnuradio__ccsds_OBJECTS = \
 "CMakeFiles/gnuradio-ccsds.dir/decodeTurbo_impl.cc.o" \
 "CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUHard_impl.cc.o" \
 "CMakeFiles/gnuradio-ccsds.dir/encodeLDPC_impl.cc.o" \
-"CMakeFiles/gnuradio-ccsds.dir/decodeLDPC_impl.cc.o"
+"CMakeFiles/gnuradio-ccsds.dir/decodeLDPC_impl.cc.o" \
+"CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o"
 
 # External object files for target gnuradio-ccsds
 gnuradio__ccsds_EXTERNAL_OBJECTS =
@@ -817,6 +842,7 @@ lib/libgnuradio-ccsds-1.0.0git.so.0.0.0: lib/CMakeFiles/gnuradio-ccsds.dir/decod
 lib/libgnuradio-ccsds-1.0.0git.so.0.0.0: lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUHard_impl.cc.o
 lib/libgnuradio-ccsds-1.0.0git.so.0.0.0: lib/CMakeFiles/gnuradio-ccsds.dir/encodeLDPC_impl.cc.o
 lib/libgnuradio-ccsds-1.0.0git.so.0.0.0: lib/CMakeFiles/gnuradio-ccsds.dir/decodeLDPC_impl.cc.o
+lib/libgnuradio-ccsds-1.0.0git.so.0.0.0: lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o
 lib/libgnuradio-ccsds-1.0.0git.so.0.0.0: lib/CMakeFiles/gnuradio-ccsds.dir/build.make
 lib/libgnuradio-ccsds-1.0.0git.so.0.0.0: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
 lib/libgnuradio-ccsds-1.0.0git.so.0.0.0: /usr/lib/x86_64-linux-gnu/libboost_system.so
@@ -831,7 +857,7 @@ lib/libgnuradio-ccsds-1.0.0git.so.0.0.0: /usr/local/lib/libgnuradio-fec.so
 lib/libgnuradio-ccsds-1.0.0git.so.0.0.0: /usr/local/lib/libgnuradio-filter.so
 lib/libgnuradio-ccsds-1.0.0git.so.0.0.0: /usr/local/lib/libgnuradio-fft.so
 lib/libgnuradio-ccsds-1.0.0git.so.0.0.0: lib/CMakeFiles/gnuradio-ccsds.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX shared library libgnuradio-ccsds-1.0.0git.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX shared library libgnuradio-ccsds-1.0.0git.so"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gnuradio-ccsds.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && $(CMAKE_COMMAND) -E cmake_symlink_library libgnuradio-ccsds-1.0.0git.so.0.0.0 libgnuradio-ccsds-1.0.0git.so.0.0.0 libgnuradio-ccsds-1.0.0git.so
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/cmake -E create_symlink libgnuradio-ccsds-1.0.0git.so.0.0.0 /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib/libgnuradio-ccsds.so
@@ -875,6 +901,7 @@ lib/CMakeFiles/gnuradio-ccsds.dir/requires: lib/CMakeFiles/gnuradio-ccsds.dir/de
 lib/CMakeFiles/gnuradio-ccsds.dir/requires: lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUHard_impl.cc.o.requires
 lib/CMakeFiles/gnuradio-ccsds.dir/requires: lib/CMakeFiles/gnuradio-ccsds.dir/encodeLDPC_impl.cc.o.requires
 lib/CMakeFiles/gnuradio-ccsds.dir/requires: lib/CMakeFiles/gnuradio-ccsds.dir/decodeLDPC_impl.cc.o.requires
+lib/CMakeFiles/gnuradio-ccsds.dir/requires: lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o.requires
 
 .PHONY : lib/CMakeFiles/gnuradio-ccsds.dir/requires
 

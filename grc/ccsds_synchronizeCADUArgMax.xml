@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<block>
+  <name>synchronizeCADUArgMax</name>
+  <key>ccsds_synchronizeCADUArgMax</key>
+  <category>[ccsds]</category>
+  <import>import ccsds</import>
+  <make>ccsds.synchronizeCADUArgMax($sync, $size, $mtxFunction, $ambiguity, $fec, $verbose, $tagName)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI.
+       Sub-nodes:
+       * name
+       * key (makes the value accessible as $keyname, e.g. in the make node)
+       * type -->
+  <param>
+    <name>Sync Word</name>
+    <key>sync</key>
+    <type>string</type>
+  </param>
+
+  <param>
+    <name>Size (CADU + Sync) bits</name>
+    <key>size</key>
+    <type>int</type>
+  </param>
+
+  <param>
+    <name>Matching Function</name>
+    <key>mtxFunction</key>
+    <value>0</value>
+	<type>enum</type>
+	<option>
+		<name>Hard Correlator</name>
+		<key>0</key>
+	</option>
+	<option>
+		<name>Soft Correlator</name>
+		<key>1</key>
+	</option>
+	<option>
+		<name>Massey</name>
+		<key>2</key>
+	</option>
+  </param>
+
+  <param>
+    <name>Ambiguity</name>
+    <key>ambiguity</key>
+    <value>0</value>
+	<type>enum</type>
+	<option>
+		<name>None</name>
+		<key>0</key>
+	</option>
+	<option>
+		<name>90 (QPSK)</name>
+		<key>1</key>
+	</option>
+	<option>
+		<name>180 (BPSK, oQPSK)</name>
+		<key>2</key>
+	</option>
+  </param>
+
+  <param>
+    <name>FEC</name>
+    <key>fec</key>
+    <value>0</value>
+	<type>enum</type>
+	<option>
+		<name>None, RS, Turbo, LDPC</name>
+		<key>0</key>
+	</option>
+	<option>
+		<name>CC(7,1/2) Normal</name>
+		<key>1</key>
+	</option>
+	<option>
+		<name>CC(7,1/2) Inv G1</name>
+		<key>2</key>
+	</option>
+	<option>
+		<name>CC(7,1/2) Inv G2</name>
+		<key>3</key>
+	</option>
+  </param>
+
+  <param>
+    <name>Verbose</name>
+    <key>verbose</key>
+    <value>0</value>
+	<type>enum</type>
+	<option>
+		<name>OFF</name>
+		<key>0</key>
+	</option>
+	<option>
+		<name>ON</name>
+		<key>1</key>
+	</option>
+  </param>
+
+   <param>
+    <name>Tag Name</name>
+    <key>tag_name</key>
+    <type>string</type>
+  </param>
+
+  <!-- Make one 'sink' node per input. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <sink>
+    <name>in</name>
+    <type>byte</type>
+  </sink>
+
+  <!-- Make one 'source' node per output. Sub-nodes:
+       * name (an identifier for the GUI)
+       * type
+       * vlen
+       * optional (set to 1 for optional inputs) -->
+  <source>
+    <name>out</name>
+    <type>byte</type>
+  </source>
+</block>

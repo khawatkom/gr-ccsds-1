@@ -94,36 +94,36 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="175">
+      <node id="34">
         <label>gr::ccsds::convEncoder</label>
         <link refid="classgr_1_1ccsds_1_1convEncoder"/>
-        <childnode refid="176" relation="public-inheritance">
+        <childnode refid="35" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="174">
+      <node id="33">
         <label>gr::ccsds::convEncoder_impl</label>
         <link refid="classgr_1_1ccsds_1_1convEncoder__impl"/>
-        <childnode refid="175" relation="public-inheritance">
+        <childnode refid="34" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="176">
+      <node id="35">
         <label>gr::sync_interpolator</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="178">
+      <node id="37">
         <label>gr::ccsds::convEncoder</label>
         <link refid="classgr_1_1ccsds_1_1convEncoder"/>
-        <childnode refid="179" relation="public-inheritance">
+        <childnode refid="38" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="177">
+      <node id="36">
         <label>gr::ccsds::convEncoder_impl</label>
         <link refid="classgr_1_1ccsds_1_1convEncoder__impl"/>
-        <childnode refid="178" relation="public-inheritance">
+        <childnode refid="37" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="179">
+      <node id="38">
         <label>gr::sync_interpolator</label>
       </node>
     </collaborationgraph>

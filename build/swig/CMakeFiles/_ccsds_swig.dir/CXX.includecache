@@ -124,6 +124,12 @@ ccsds/api.h
 gnuradio/hier_block2.h
 -
 
+../include/ccsds/synchronizeCADUArgMax.h
+ccsds/api.h
+-
+gnuradio/sync_block.h
+-
+
 ../include/ccsds/synchronizeCADUHard.h
 ccsds/api.h
 -
@@ -223,6 +229,8 @@ ccsds/encodeLDPC.h
 /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/swig/ccsds/encodeLDPC.h
 ccsds/decodeLDPC.h
 /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/swig/ccsds/decodeLDPC.h
+ccsds/synchronizeCADUArgMax.h
+/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/swig/ccsds/synchronizeCADUArgMax.h
 float.h
 -
 math.h
@@ -795,6 +803,8 @@ pmt/pmt.h
 -
 
 /usr/local/include/gnuradio/py_feval.h
+Python.h
+-
 pmt/pmt.h
 -
 gnuradio/feval.h

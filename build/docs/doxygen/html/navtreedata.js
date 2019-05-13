@@ -10,8 +10,7 @@ var NAVTREE =
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
         [ "Variables", "functions_vars.html", null ],
-        [ "Typedefs", "functions_type.html", null ],
-        [ "Related Functions", "functions_rela.html", null ]
+        [ "Typedefs", "functions_type.html", null ]
       ] ]
     ] ],
     [ "Files", null, [
@@ -32,9 +31,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "BCH__BASE_2CRC_2libcrc-2_80_2include_2checksum_8h.html",
-"classalist.html#abc1c3d86e688208532900d6550927e58",
-"colors_8h.html#aa4ef051614aa0bd503b0a18ee158c5d7",
-"libconvcodes_8h.html"
+"classgr_1_1ccsds_1_1convEncoder__impl.html#ac71dfe5d61a8130ceaec8afc5471e830",
+"decodeTurbo_8h.html",
+"recoverCADUSoft__impl_8h.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

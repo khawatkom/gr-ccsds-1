@@ -64,30 +64,30 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="259">
+      <node id="118">
         <label>gr::ccsds::extractCADU_impl</label>
         <link refid="classgr_1_1ccsds_1_1extractCADU__impl"/>
-        <childnode refid="257" relation="public-inheritance">
+        <childnode refid="116" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="258">
+      <node id="117">
         <label>gr::hier_block2</label>
       </node>
-      <node id="257">
+      <node id="116">
         <label>gr::ccsds::extractCADU</label>
         <link refid="classgr_1_1ccsds_1_1extractCADU"/>
-        <childnode refid="258" relation="public-inheritance">
+        <childnode refid="117" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="261">
+      <node id="120">
         <label>gr::hier_block2</label>
       </node>
-      <node id="260">
+      <node id="119">
         <label>gr::ccsds::extractCADU</label>
         <link refid="classgr_1_1ccsds_1_1extractCADU"/>
-        <childnode refid="261" relation="public-inheritance">
+        <childnode refid="120" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

@@ -22,273 +22,286 @@
     <includedby refid="recoverCADUSoft_8h" local="no">recoverCADUSoft.h</includedby>
     <includedby refid="simplifiedPLOP1_8h" local="no">simplifiedPLOP1.h</includedby>
     <includedby refid="synchronizeCADU_8h" local="no">synchronizeCADU.h</includedby>
+    <includedby refid="synchronizeCADUArgMax_8h" local="no">synchronizeCADUArgMax.h</includedby>
     <includedby refid="synchronizeCADUHard_8h" local="no">synchronizeCADUHard.h</includedby>
     <includedby refid="synchronizeCADUSoft_8h" local="no">synchronizeCADUSoft.h</includedby>
     <incdepgraph>
-      <node id="638">
+      <node id="19">
         <label>gnuradio/attributes.h</label>
       </node>
-      <node id="637">
+      <node id="18">
         <label>api.h</label>
         <link refid="api.h"/>
-        <childnode refid="638" relation="include">
+        <childnode refid="19" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="643">
+      <node id="24">
         <label>convDecoder_impl.h</label>
         <link refid="convDecoder__impl_8h"/>
       </node>
-      <node id="650">
+      <node id="31">
         <label>decodeRS.h</label>
         <link refid="decodeRS_8h"/>
-        <childnode refid="651" relation="include">
+        <childnode refid="32" relation="include">
         </childnode>
       </node>
-      <node id="674">
+      <node id="55">
         <label>simplifiedPLOP1.h</label>
         <link refid="simplifiedPLOP1_8h"/>
-        <childnode refid="675" relation="include">
+        <childnode refid="56" relation="include">
         </childnode>
       </node>
-      <node id="645">
+      <node id="26">
         <label>convEncoder_impl.h</label>
         <link refid="convEncoder__impl_8h"/>
       </node>
-      <node id="658">
-        <label>encodeTurbo.h</label>
-        <link refid="encodeTurbo_8h"/>
-        <childnode refid="659" relation="include">
+      <node id="59">
+        <label>synchronizeCADUArgMax.h</label>
+        <link refid="synchronizeCADUArgMax_8h"/>
+        <childnode refid="60" relation="include">
         </childnode>
       </node>
-      <node id="657">
+      <node id="39">
+        <label>encodeTurbo.h</label>
+        <link refid="encodeTurbo_8h"/>
+        <childnode refid="40" relation="include">
+        </childnode>
+      </node>
+      <node id="38">
         <label>encodeRS_impl.h</label>
         <link refid="encodeRS__impl_8h"/>
       </node>
-      <node id="644">
+      <node id="25">
         <label>convEncoder.h</label>
         <link refid="convEncoder_8h"/>
-        <childnode refid="645" relation="include">
+        <childnode refid="26" relation="include">
         </childnode>
       </node>
-      <node id="664">
+      <node id="45">
         <label>generateCADU.h</label>
         <link refid="generateCADU_8h"/>
-        <childnode refid="665" relation="include">
+        <childnode refid="46" relation="include">
         </childnode>
       </node>
-      <node id="666">
+      <node id="47">
         <label>generateCLTU.h</label>
         <link refid="generateCLTU_8h"/>
-        <childnode refid="667" relation="include">
+        <childnode refid="48" relation="include">
         </childnode>
       </node>
-      <node id="673">
+      <node id="54">
         <label>recoverCADUSoft_impl.h</label>
         <link refid="recoverCADUSoft__impl_8h"/>
       </node>
-      <node id="656">
+      <node id="37">
         <label>encodeRS.h</label>
         <link refid="encodeRS_8h"/>
-        <childnode refid="657" relation="include">
+        <childnode refid="38" relation="include">
         </childnode>
       </node>
-      <node id="661">
+      <node id="60">
+        <label>synchronizeCADUArgMax_impl.h</label>
+        <link refid="synchronizeCADUArgMax__impl_8h"/>
+      </node>
+      <node id="42">
         <label>extractCADU_impl.h</label>
         <link refid="extractCADU__impl_8h"/>
       </node>
-      <node id="646">
+      <node id="27">
         <label>createCADU.h</label>
         <link refid="createCADU_8h"/>
-        <childnode refid="647" relation="include">
+        <childnode refid="28" relation="include">
         </childnode>
       </node>
-      <node id="642">
+      <node id="23">
         <label>convDecoder.h</label>
         <link refid="convDecoder_8h"/>
-        <childnode refid="643" relation="include">
+        <childnode refid="24" relation="include">
         </childnode>
       </node>
-      <node id="675">
+      <node id="56">
         <label>simplifiedPLOP1_impl.h</label>
         <link refid="simplifiedPLOP1__impl_8h"/>
       </node>
-      <node id="647">
+      <node id="28">
         <label>createCADU_impl.h</label>
         <link refid="createCADU__impl_8h"/>
       </node>
-      <node id="676">
+      <node id="57">
         <label>synchronizeCADU.h</label>
         <link refid="synchronizeCADU_8h"/>
-        <childnode refid="677" relation="include">
+        <childnode refid="58" relation="include">
         </childnode>
       </node>
-      <node id="660">
+      <node id="41">
         <label>extractCADU.h</label>
         <link refid="extractCADU_8h"/>
-        <childnode refid="661" relation="include">
+        <childnode refid="42" relation="include">
         </childnode>
       </node>
-      <node id="639">
+      <node id="20">
         <label>api.h</label>
         <link refid="api.h"/>
-        <childnode refid="640" relation="include">
+        <childnode refid="21" relation="include">
         </childnode>
-        <childnode refid="642" relation="include">
+        <childnode refid="23" relation="include">
         </childnode>
-        <childnode refid="644" relation="include">
+        <childnode refid="25" relation="include">
         </childnode>
-        <childnode refid="646" relation="include">
+        <childnode refid="27" relation="include">
         </childnode>
-        <childnode refid="648" relation="include">
+        <childnode refid="29" relation="include">
         </childnode>
-        <childnode refid="650" relation="include">
+        <childnode refid="31" relation="include">
         </childnode>
-        <childnode refid="652" relation="include">
+        <childnode refid="33" relation="include">
         </childnode>
-        <childnode refid="654" relation="include">
+        <childnode refid="35" relation="include">
         </childnode>
-        <childnode refid="656" relation="include">
+        <childnode refid="37" relation="include">
         </childnode>
-        <childnode refid="658" relation="include">
+        <childnode refid="39" relation="include">
         </childnode>
-        <childnode refid="660" relation="include">
+        <childnode refid="41" relation="include">
         </childnode>
-        <childnode refid="662" relation="include">
+        <childnode refid="43" relation="include">
         </childnode>
-        <childnode refid="664" relation="include">
+        <childnode refid="45" relation="include">
         </childnode>
-        <childnode refid="666" relation="include">
+        <childnode refid="47" relation="include">
         </childnode>
-        <childnode refid="668" relation="include">
+        <childnode refid="49" relation="include">
         </childnode>
-        <childnode refid="670" relation="include">
+        <childnode refid="51" relation="include">
         </childnode>
-        <childnode refid="672" relation="include">
+        <childnode refid="53" relation="include">
         </childnode>
-        <childnode refid="674" relation="include">
+        <childnode refid="55" relation="include">
         </childnode>
-        <childnode refid="676" relation="include">
+        <childnode refid="57" relation="include">
         </childnode>
-        <childnode refid="678" relation="include">
+        <childnode refid="59" relation="include">
         </childnode>
-        <childnode refid="680" relation="include">
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
         </childnode>
       </node>
-      <node id="667">
+      <node id="48">
         <label>generateCLTU_impl.h</label>
         <link refid="generateCLTU__impl_8h"/>
       </node>
-      <node id="663">
+      <node id="44">
         <label>genCADU_impl.h</label>
         <link refid="genCADU__impl_8h"/>
       </node>
-      <node id="659">
+      <node id="40">
         <label>encodeTurbo_impl.h</label>
         <link refid="encodeTurbo__impl_8h"/>
       </node>
-      <node id="648">
+      <node id="29">
         <label>decodeLDPC.h</label>
         <link refid="decodeLDPC_8h"/>
-        <childnode refid="649" relation="include">
+        <childnode refid="30" relation="include">
         </childnode>
       </node>
-      <node id="670">
+      <node id="51">
         <label>recoverCADU.h</label>
         <link refid="recoverCADU_8h"/>
-        <childnode refid="671" relation="include">
+        <childnode refid="52" relation="include">
         </childnode>
       </node>
-      <node id="662">
+      <node id="43">
         <label>genCADU.h</label>
         <link refid="genCADU_8h"/>
-        <childnode refid="663" relation="include">
+        <childnode refid="44" relation="include">
         </childnode>
       </node>
-      <node id="669">
+      <node id="50">
         <label>processCADU_impl.h</label>
         <link refid="processCADU__impl_8h"/>
       </node>
-      <node id="679">
+      <node id="62">
         <label>synchronizeCADUHard_impl.h</label>
         <link refid="synchronizeCADUHard__impl_8h"/>
       </node>
-      <node id="651">
+      <node id="32">
         <label>decodeRS_impl.h</label>
         <link refid="decodeRS__impl_8h"/>
       </node>
-      <node id="681">
+      <node id="64">
         <label>synchronizeCADUSoft_impl.h</label>
         <link refid="synchronizeCADUSoft__impl_8h"/>
       </node>
-      <node id="671">
+      <node id="52">
         <label>recoverCADU_impl.h</label>
         <link refid="recoverCADU__impl_8h"/>
       </node>
-      <node id="640">
+      <node id="21">
         <label>cc_depuncture.h</label>
         <link refid="cc__depuncture_8h"/>
-        <childnode refid="641" relation="include">
+        <childnode refid="22" relation="include">
         </childnode>
       </node>
-      <node id="680">
+      <node id="63">
         <label>synchronizeCADUSoft.h</label>
         <link refid="synchronizeCADUSoft_8h"/>
-        <childnode refid="681" relation="include">
+        <childnode refid="64" relation="include">
         </childnode>
       </node>
-      <node id="665">
+      <node id="46">
         <label>generateCADU_impl.h</label>
         <link refid="generateCADU__impl_8h"/>
       </node>
-      <node id="649">
+      <node id="30">
         <label>decodeLDPC_impl.h</label>
         <link refid="decodeLDPC__impl_8h"/>
       </node>
-      <node id="655">
+      <node id="36">
         <label>encodeLDPC_impl.h</label>
         <link refid="encodeLDPC__impl_8h"/>
       </node>
-      <node id="678">
+      <node id="61">
         <label>synchronizeCADUHard.h</label>
         <link refid="synchronizeCADUHard_8h"/>
-        <childnode refid="679" relation="include">
+        <childnode refid="62" relation="include">
         </childnode>
       </node>
-      <node id="641">
+      <node id="22">
         <label>cc_depuncture_impl.h</label>
         <link refid="cc__depuncture__impl_8h"/>
       </node>
-      <node id="654">
+      <node id="35">
         <label>encodeLDPC.h</label>
         <link refid="encodeLDPC_8h"/>
-        <childnode refid="655" relation="include">
+        <childnode refid="36" relation="include">
         </childnode>
       </node>
-      <node id="677">
+      <node id="58">
         <label>synchronizeCADU_impl.h</label>
         <link refid="synchronizeCADU__impl_8h"/>
       </node>
-      <node id="668">
+      <node id="49">
         <label>processCADU.h</label>
         <link refid="processCADU_8h"/>
-        <childnode refid="669" relation="include">
+        <childnode refid="50" relation="include">
         </childnode>
       </node>
-      <node id="652">
+      <node id="33">
         <label>decodeTurbo.h</label>
         <link refid="decodeTurbo_8h"/>
-        <childnode refid="653" relation="include">
+        <childnode refid="34" relation="include">
         </childnode>
       </node>
-      <node id="672">
+      <node id="53">
         <label>recoverCADUSoft.h</label>
         <link refid="recoverCADUSoft_8h"/>
-        <childnode refid="673" relation="include">
+        <childnode refid="54" relation="include">
         </childnode>
       </node>
-      <node id="653">
+      <node id="34">
         <label>decodeTurbo_impl.h</label>
         <link refid="decodeTurbo__impl_8h"/>
       </node>

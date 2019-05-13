@@ -21,6 +21,7 @@
     <innerclass refid="classgr_1_1ccsds_1_1recoverCADUSoft" prot="public">gr::ccsds::recoverCADUSoft</innerclass>
     <innerclass refid="classgr_1_1ccsds_1_1simplifiedPLOP1" prot="public">gr::ccsds::simplifiedPLOP1</innerclass>
     <innerclass refid="classgr_1_1ccsds_1_1synchronizeCADU" prot="public">gr::ccsds::synchronizeCADU</innerclass>
+    <innerclass refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax" prot="public">gr::ccsds::synchronizeCADUArgMax</innerclass>
     <innerclass refid="classgr_1_1ccsds_1_1synchronizeCADUHard" prot="public">gr::ccsds::synchronizeCADUHard</innerclass>
     <innerclass refid="classgr_1_1ccsds_1_1synchronizeCADUSoft" prot="public">gr::ccsds::synchronizeCADUSoft</innerclass>
     <briefdescription>

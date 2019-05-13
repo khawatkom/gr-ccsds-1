@@ -177,36 +177,36 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="296">
+      <node id="155">
         <label>gr::ccsds::generateCLTU</label>
         <link refid="classgr_1_1ccsds_1_1generateCLTU"/>
-        <childnode refid="297" relation="public-inheritance">
+        <childnode refid="156" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="297">
+      <node id="156">
         <label>sync_block</label>
       </node>
-      <node id="295">
+      <node id="154">
         <label>gr::ccsds::generateCLTU_impl</label>
         <link refid="classgr_1_1ccsds_1_1generateCLTU__impl"/>
-        <childnode refid="296" relation="public-inheritance">
+        <childnode refid="155" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="299">
+      <node id="158">
         <label>gr::ccsds::generateCLTU</label>
         <link refid="classgr_1_1ccsds_1_1generateCLTU"/>
-        <childnode refid="300" relation="public-inheritance">
+        <childnode refid="159" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="300">
+      <node id="159">
         <label>sync_block</label>
       </node>
-      <node id="298">
+      <node id="157">
         <label>gr::ccsds::generateCLTU_impl</label>
         <link refid="classgr_1_1ccsds_1_1generateCLTU__impl"/>
-        <childnode refid="299" relation="public-inheritance">
+        <childnode refid="158" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

@@ -64,30 +64,30 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="191">
+      <node id="50">
         <label>gr::ccsds::decodeLDPC</label>
         <link refid="classgr_1_1ccsds_1_1decodeLDPC"/>
-        <childnode refid="192" relation="public-inheritance">
+        <childnode refid="51" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="192">
+      <node id="51">
         <label>gr::sync_block</label>
       </node>
-      <node id="193">
+      <node id="52">
         <label>gr::ccsds::decodeLDPC_impl</label>
         <link refid="classgr_1_1ccsds_1_1decodeLDPC__impl"/>
-        <childnode refid="191" relation="public-inheritance">
+        <childnode refid="50" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="194">
+      <node id="53">
         <label>gr::ccsds::decodeLDPC</label>
         <link refid="classgr_1_1ccsds_1_1decodeLDPC"/>
-        <childnode refid="195" relation="public-inheritance">
+        <childnode refid="54" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="195">
+      <node id="54">
         <label>gr::sync_block</label>
       </node>
     </collaborationgraph>

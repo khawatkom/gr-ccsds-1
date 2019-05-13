@@ -22,6 +22,7 @@
     <innerfile refid="recoverCADUSoft_8h">recoverCADUSoft.h</innerfile>
     <innerfile refid="simplifiedPLOP1_8h">simplifiedPLOP1.h</innerfile>
     <innerfile refid="synchronizeCADU_8h">synchronizeCADU.h</innerfile>
+    <innerfile refid="synchronizeCADUArgMax_8h">synchronizeCADUArgMax.h</innerfile>
     <innerfile refid="synchronizeCADUHard_8h">synchronizeCADUHard.h</innerfile>
     <innerfile refid="synchronizeCADUSoft_8h">synchronizeCADUSoft.h</innerfile>
     <briefdescription>

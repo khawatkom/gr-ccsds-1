@@ -37,5 +37,6 @@ install(FILES
     ccsds_decodeTurbo.xml
     ccsds_synchronizeCADUHard.xml
     ccsds_encodeLDPC.xml
-    ccsds_decodeLDPC.xml DESTINATION share/gnuradio/grc/blocks
+    ccsds_decodeLDPC.xml
+    ccsds_synchronizeCADUArgMax.xml DESTINATION share/gnuradio/grc/blocks
 )

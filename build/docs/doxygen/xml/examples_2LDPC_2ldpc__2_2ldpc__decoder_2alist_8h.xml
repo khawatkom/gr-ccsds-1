@@ -9,51 +9,51 @@
     <includes local="no">stdlib.h</includes>
     <includedby refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2ldpc_8h" local="yes">ldpc.h</includedby>
     <incdepgraph>
-      <node id="623">
+      <node id="5">
         <label>stdlib.h</label>
       </node>
-      <node id="618">
+      <node id="0">
         <label>alist.h</label>
         <link refid="examples/LDPC/ldpc_2/ldpc_decoder/alist.h"/>
-        <childnode refid="619" relation="include">
+        <childnode refid="1" relation="include">
         </childnode>
-        <childnode refid="620" relation="include">
+        <childnode refid="2" relation="include">
         </childnode>
-        <childnode refid="621" relation="include">
+        <childnode refid="3" relation="include">
         </childnode>
-        <childnode refid="622" relation="include">
+        <childnode refid="4" relation="include">
         </childnode>
-        <childnode refid="623" relation="include">
+        <childnode refid="5" relation="include">
         </childnode>
       </node>
-      <node id="620">
+      <node id="2">
         <label>fstream</label>
       </node>
-      <node id="622">
+      <node id="4">
         <label>vector</label>
       </node>
-      <node id="621">
+      <node id="3">
         <label>sstream</label>
       </node>
-      <node id="619">
+      <node id="1">
         <label>iostream</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="626">
+      <node id="8">
         <label>debug.h</label>
         <link refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2debug_8h_source"/>
       </node>
-      <node id="624">
+      <node id="6">
         <label>alist.h</label>
         <link refid="examples/LDPC/ldpc_2/ldpc_decoder/alist.h"/>
-        <childnode refid="625" relation="include">
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
-      <node id="625">
+      <node id="7">
         <label>ldpc.h</label>
         <link refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2ldpc_8h"/>
-        <childnode refid="626" relation="include">
+        <childnode refid="8" relation="include">
         </childnode>
       </node>
     </invincdepgraph>
@@ -66,7 +66,7 @@
 Copyright 2013 IIT Bombay.</para><para>This is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3, or (at your option) any later version.</para><para>This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</para><para>You should have received a copy of the GNU General Public License along with this software; see the file COPYING. If not, write to the Free Software Foundation, Inc., 51 Franklin Street, Boston, MA 02110-1301, USA. <hruler/>
 </para><para>This class handles sparse matrices specified in alist-format. For details about alist format please visit the link below.<itemizedlist>
 <listitem><para><ulink url="http://www.inference.phy.cam.ac.uk/mackay/codes/alist.html">http://www.inference.phy.cam.ac.uk/mackay/codes/alist.html</ulink></para></listitem></itemizedlist>
-</para><para>Alist class is an efficient way of representing a sparse matrix the parity check matrix H of an <ref refid="classLDPC" kindref="compound">LDPC</ref> code for instance. </para>    </detaileddescription>
+</para><para>Alist class is an efficient way of representing a sparse matrix the parity check matrix H of an LDPC code for instance. </para>    </detaileddescription>
     <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist.h"/>
   </compounddef>
 </doxygen>

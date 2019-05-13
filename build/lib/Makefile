@@ -924,6 +924,33 @@ simplifiedPLOP1_impl.cc.s:
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ccsds.dir/build.make lib/CMakeFiles/gnuradio-ccsds.dir/simplifiedPLOP1_impl.cc.s
 .PHONY : simplifiedPLOP1_impl.cc.s
 
+synchronizeCADUArgMax_impl.o: synchronizeCADUArgMax_impl.cc.o
+
+.PHONY : synchronizeCADUArgMax_impl.o
+
+# target to build an object file
+synchronizeCADUArgMax_impl.cc.o:
+	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ccsds.dir/build.make lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o
+.PHONY : synchronizeCADUArgMax_impl.cc.o
+
+synchronizeCADUArgMax_impl.i: synchronizeCADUArgMax_impl.cc.i
+
+.PHONY : synchronizeCADUArgMax_impl.i
+
+# target to preprocess a source file
+synchronizeCADUArgMax_impl.cc.i:
+	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ccsds.dir/build.make lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.i
+.PHONY : synchronizeCADUArgMax_impl.cc.i
+
+synchronizeCADUArgMax_impl.s: synchronizeCADUArgMax_impl.cc.s
+
+.PHONY : synchronizeCADUArgMax_impl.s
+
+# target to generate assembly for a file
+synchronizeCADUArgMax_impl.cc.s:
+	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ccsds.dir/build.make lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.s
+.PHONY : synchronizeCADUArgMax_impl.cc.s
+
 synchronizeCADUHard_impl.o: synchronizeCADUHard_impl.cc.o
 
 .PHONY : synchronizeCADUHard_impl.o
@@ -1128,6 +1155,9 @@ help:
 	@echo "... simplifiedPLOP1_impl.o"
 	@echo "... simplifiedPLOP1_impl.i"
 	@echo "... simplifiedPLOP1_impl.s"
+	@echo "... synchronizeCADUArgMax_impl.o"
+	@echo "... synchronizeCADUArgMax_impl.i"
+	@echo "... synchronizeCADUArgMax_impl.s"
 	@echo "... synchronizeCADUHard_impl.o"
 	@echo "... synchronizeCADUHard_impl.i"
 	@echo "... synchronizeCADUHard_impl.s"

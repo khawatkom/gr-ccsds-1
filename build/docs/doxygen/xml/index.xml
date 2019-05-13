@@ -79,11 +79,6 @@
     <member refid="classcheckNode_1a8fe6373c51f5f4d867cc1a65cec480d9" kind="function"><name>getLq</name></member>
     <member refid="classcheckNode_1aeacdd0252d4694bbff0ce065aa928632" kind="function"><name>getLr</name></member>
   </compound>
-  <compound refid="structLDPC_1_1CheckNode" kind="struct"><name>LDPC::CheckNode</name>
-    <member refid="structLDPC_1_1CheckNode_1a116106e7706fd9e601ec57f81de05cfa" kind="variable"><name>variableNodes</name></member>
-    <member refid="structLDPC_1_1CheckNode_1add523ca7ba17a58a0227a926445fb0b5" kind="variable"><name>values</name></member>
-    <member refid="structLDPC_1_1CheckNode_1acb80ffa68047cd5dc0c21ee485526e42" kind="variable"><name>size</name></member>
-  </compound>
   <compound refid="classgr_1_1ccsds_1_1convDecoder" kind="class"><name>gr::ccsds::convDecoder</name>
     <member refid="classgr_1_1ccsds_1_1convDecoder_1abd8d55d819d0a17590c3e9f665edb24c" kind="typedef"><name>sptr</name></member>
     <member refid="classgr_1_1ccsds_1_1convDecoder_1ad2c9a7c3e86cb3d0bc0a04de1c7d3566" kind="function"><name>make</name></member>
@@ -335,45 +330,6 @@
     <member refid="classgr_1_1ccsds_1_1generateCLTU__impl_1a9d4cfade2780a37a8feb499d123d8c7b" kind="function"><name>~generateCLTU_impl</name></member>
     <member refid="classgr_1_1ccsds_1_1generateCLTU__impl_1ab7dcf97e59c9173b3ff69a370f99b4dd" kind="function"><name>work</name></member>
   </compound>
-  <compound refid="classGF2Mat" kind="class"><name>GF2Mat</name>
-    <member refid="classGF2Mat_1a63e734982dc12623f55ba614c458c3e8" kind="variable"><name>H</name></member>
-    <member refid="classGF2Mat_1af26d351480d5a0db9c685921daf6cf93" kind="variable"><name>M</name></member>
-    <member refid="classGF2Mat_1a5827d2221af7b1b446fdebe9d47d8999" kind="variable"><name>N</name></member>
-    <member refid="classGF2Mat_1acdbf97268c04656c7daa939e09aee199" kind="function"><name>GF2Mat</name></member>
-    <member refid="classGF2Mat_1a640dfa006c4111c9414de025b4ac3301" kind="function"><name>GF2Mat</name></member>
-    <member refid="classGF2Mat_1a4c51b66c5651b733aaf0751fbe3dd1d9" kind="function"><name>GF2Mat</name></member>
-    <member refid="classGF2Mat_1a94dfb09c69d95dae83ed6f668fbb8615" kind="function"><name>GF2Mat</name></member>
-    <member refid="classGF2Mat_1adaa2aec0b885a6147b3782098f1628e1" kind="function"><name>get_M</name></member>
-    <member refid="classGF2Mat_1ac1a5026f8b523b7203d77719d29a9a78" kind="function"><name>get_N</name></member>
-    <member refid="classGF2Mat_1a2c07bd3bddd8d0798acc8daadbf9aafd" kind="function"><name>set_element</name></member>
-    <member refid="classGF2Mat_1a087be2264b95bb9f240d8f9c0108876d" kind="function"><name>get_element</name></member>
-    <member refid="classGF2Mat_1a066d44b2a66517f5fb307b59ce07c47c" kind="function"><name>get_row</name></member>
-    <member refid="classGF2Mat_1af3bbe02b850eaf2a5d1749f79cb0ec38" kind="function"><name>get_col</name></member>
-    <member refid="classGF2Mat_1ab6045edd8f68140bbad843b18cceacfb" kind="function"><name>operator[]</name></member>
-    <member refid="classGF2Mat_1af3a80736e0cdf564542e58358163a5cc" kind="function"><name>print_matrix</name></member>
-    <member refid="classGF2Mat_1a4b48b53ff8253bbb3efcae21f629a43a" kind="function"><name>set_col</name></member>
-    <member refid="classGF2Mat_1aae2d11b924ec6d63606dec4beb7335ce" kind="function"><name>set_row</name></member>
-    <member refid="classGF2Mat_1af29f179123ef7ee95c58801e16dffdc5" kind="function"><name>swap_cols</name></member>
-    <member refid="classGF2Mat_1a27b3dc50ed39771d9089d893314c76d5" kind="function"><name>add_cols</name></member>
-    <member refid="classGF2Mat_1a81fb8d6ba12fa665ba238117aad305c8" kind="function"><name>add_rows</name></member>
-    <member refid="classGF2Mat_1ab5a5ffc04f456a648c5cb39e3d618aee" kind="function"><name>get_H</name></member>
-    <member refid="classGF2Mat_1ad13396c667510b4e496ba29e86b800bb" kind="function"><name>get_G</name></member>
-  </compound>
-  <compound refid="classGF2Vec" kind="class"><name>GF2Vec</name>
-    <member refid="classGF2Vec_1a757923f7ffc2dbfcaa48269454edf542" kind="variable"><name>vec</name></member>
-    <member refid="classGF2Vec_1a8906f8a506eae916c3c6e862cb3b119e" kind="function"><name>resize</name></member>
-    <member refid="classGF2Vec_1a68e30d99a6bc3f2cc12e6a1fe1909bc9" kind="function"><name>GF2Vec</name></member>
-    <member refid="classGF2Vec_1a5d807869243b2328acdcd0a1c1b80ccc" kind="function"><name>GF2Vec</name></member>
-    <member refid="classGF2Vec_1a725d592502673b9caa9de6be28dcce34" kind="function"><name>get_vec</name></member>
-    <member refid="classGF2Vec_1a0333d28a24c6930adfc2cec14846d78a" kind="function"><name>size</name></member>
-    <member refid="classGF2Vec_1a6c4258121faf58a6eefaa4c83dc1e1d4" kind="function"><name>set_vec</name></member>
-    <member refid="classGF2Vec_1aa7254609af426b08bad712761fcaf457" kind="function"><name>operator[]</name></member>
-    <member refid="classGF2Vec_1ad4681bf180403ea8071dd2d3925f598e" kind="function"><name>operator=</name></member>
-    <member refid="classGF2Vec_1a33556180b01b2cca550218ea0bf1610b" kind="function"><name>sub_vector</name></member>
-    <member refid="classGF2Vec_1a95410e945a06d2a7325d3cefe9bf4b72" kind="function"><name>print_vec</name></member>
-    <member refid="classGF2Vec_1a27c25177ab17706613c97db2da05bad2" kind="friend"><name>operator+</name></member>
-    <member refid="classGF2Vec_1afa790b5b3f5dcc773e61117adc24fa36" kind="friend"><name>operator*</name></member>
-  </compound>
   <compound refid="classldpc" kind="class"><name>ldpc</name>
     <member refid="classldpc_1a3dd263d0f2730be391d8ae3d45c03b66" kind="variable"><name>checkNodes</name></member>
     <member refid="classldpc_1af4c293873ff35e70568efccb8cb7258d" kind="variable"><name>varNodes</name></member>
@@ -393,32 +349,6 @@
     <member refid="classldpc_1abb9ab3bdd72e1cd54bdd654d7ca607ce" kind="function"><name>getCodeRate</name></member>
     <member refid="classldpc_1a66fb86de3c28bf3e0b09e203e7241a8a" kind="function"><name>getnumCheckNodes</name></member>
     <member refid="classldpc_1a014cf0db5947999fd7817b6a6bf4ae3b" kind="function"><name>getnumVarNodes</name></member>
-  </compound>
-  <compound refid="classLDPC" kind="class"><name>LDPC</name>
-    <member refid="classLDPC_1af352d840d1885a151dd45c18d0d3357b" kind="variable"><name>parityMatrix</name></member>
-    <member refid="classLDPC_1a0ffd80a39e2ce8a529563f5b1a389990" kind="variable"><name>inputData</name></member>
-    <member refid="classLDPC_1a57d88aa059b4392c7eb2df8b6573d090" kind="variable"><name>k</name></member>
-    <member refid="classLDPC_1ac9be065c7a2887edc4b9b21a7e53ee3d" kind="variable"><name>n</name></member>
-    <member refid="classLDPC_1a1d39f011ba0c83243a669e86fcbba454" kind="variable"><name>checkNodes</name></member>
-    <member refid="classLDPC_1a24a3db35cacc85129846eb964810f074" kind="variable"><name>variableNodes</name></member>
-    <member refid="classLDPC_1a5c11b9d8c135bf510b23dd805bc84159" kind="function"><name>LDPC</name></member>
-    <member refid="classLDPC_1ae040f06702c424b50d7d4d13bcfb0b38" kind="function"><name>~LDPC</name></member>
-    <member refid="classLDPC_1a216997624b9d6e0a87422ac4b2b42ba6" kind="function"><name>display</name></member>
-    <member refid="classLDPC_1a7c03cc1635659c5ee3a3d69e48a253a0" kind="function"><name>setVariableNodes</name></member>
-    <member refid="classLDPC_1a25a1fe2bf8c3b346aaa8ca98f5331d2f" kind="function"><name>setCheckNodes</name></member>
-    <member refid="classLDPC_1aae03c718b3b868bbe263baeb6087466c" kind="function"><name>getValueFromCheckNode</name></member>
-    <member refid="classLDPC_1a8262af0f1c74052c39a60c1d1f60a267" kind="function"><name>setNewInputValue</name></member>
-    <member refid="classLDPC_1a0d99f3cbaad1b69453c9c2795f0dd0a1" kind="function"><name>getValueFromVariableNode</name></member>
-  </compound>
-  <compound refid="classLDPC__H__Matrix" kind="class"><name>LDPC_H_Matrix</name>
-    <member refid="classLDPC__H__Matrix_1aefa318f770f578009b09f9782d38b28e" kind="variable"><name>parityMatrix</name></member>
-    <member refid="classLDPC__H__Matrix_1a3453efd8f10e1ede1df577e73dc0f426" kind="variable"><name>column_weight</name></member>
-    <member refid="classLDPC__H__Matrix_1ad468275abff2ddbf438ee4a82d4724e9" kind="variable"><name>row_weight</name></member>
-    <member refid="classLDPC__H__Matrix_1ab91300392e215d50e361e6d238a59eb4" kind="variable"><name>k</name></member>
-    <member refid="classLDPC__H__Matrix_1a76df4befe2fbdd38501920ee307afd8c" kind="variable"><name>n</name></member>
-    <member refid="classLDPC__H__Matrix_1a7c5eabd576b325c00385263b586b71a4" kind="function"><name>LDPC_H_Matrix</name></member>
-    <member refid="classLDPC__H__Matrix_1a00aadf2cbfcca3af26c216d5446fbfe5" kind="function"><name>createMatrix</name></member>
-    <member refid="classLDPC__H__Matrix_1a8fa432d59376b233a921a04aff065816" kind="function"><name>display</name></member>
   </compound>
   <compound refid="classgr_1_1ccsds_1_1processCADU" kind="class"><name>gr::ccsds::processCADU</name>
     <member refid="classgr_1_1ccsds_1_1processCADU_1a01b0d024c98fbfc57ed34afe12bf980e" kind="typedef"><name>sptr</name></member>
@@ -594,6 +524,22 @@
     <member refid="classgr_1_1ccsds_1_1synchronizeCADU__impl_1a0e5291ce9d6ec846e30fbeeaae84c656" kind="function"><name>synchronizeCADU_impl</name></member>
     <member refid="classgr_1_1ccsds_1_1synchronizeCADU__impl_1ab71c42f732574c4700cc88ac42f191e5" kind="function"><name>~synchronizeCADU_impl</name></member>
   </compound>
+  <compound refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax" kind="class"><name>gr::ccsds::synchronizeCADUArgMax</name>
+    <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax_1a7e700ad78e5e5244b7036d6188e2bf40" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax_1a129eb1d4b0816781354b49488d82fe87" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl" kind="class"><name>gr::ccsds::synchronizeCADUArgMax_impl</name>
+    <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a6aa76a1cf5adcfe30b1ae6c6df0ae608" kind="variable"><name>d_sync</name></member>
+    <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a1181678af22ec6a59cb9466742c88cac" kind="variable"><name>d_frame_size</name></member>
+    <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1ad0756f5f6ea74170544fd2b3d300a202" kind="variable"><name>d_mtxFunction</name></member>
+    <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a74e8f7eca43b2a4c1c7b09778ae40df2" kind="variable"><name>d_ambiguity</name></member>
+    <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a858c5186a6ebe9dce5a3055a9f0124a2" kind="variable"><name>d_fec</name></member>
+    <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1aa4587e36127a3d19be18319e009e6977" kind="variable"><name>d_verbose</name></member>
+    <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1ad93145dc69162d20182b2801d5dc575b" kind="variable"><name>d_tag_name</name></member>
+    <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a96308eb3744d4bc4d021ad81af974412" kind="function"><name>synchronizeCADUArgMax_impl</name></member>
+    <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1ac12be7034c99235fe990d6338a62872d" kind="function"><name>~synchronizeCADUArgMax_impl</name></member>
+    <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a35c460f1cda0020b793437d738371f77" kind="function"><name>work</name></member>
+  </compound>
   <compound refid="classgr_1_1ccsds_1_1synchronizeCADUHard" kind="class"><name>gr::ccsds::synchronizeCADUHard</name>
     <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard_1a90c40b2582961a57c920934ba3b30992" kind="typedef"><name>sptr</name></member>
     <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard_1a15b901b617c28a1050c5ad1e3450ccc3" kind="function"><name>make</name></member>
@@ -673,11 +619,6 @@
     <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a431110d785908f3d71e9972b091dc03f" kind="function"><name>~synchronizeCADUSoft_impl</name></member>
     <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1a8afee8c64df4dd47b4ce0a6c4e718637" kind="function"><name>work</name></member>
     <member refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl_1af4875994ddf0ceaac2364bd638155044" kind="function"><name>set_access_code</name></member>
-  </compound>
-  <compound refid="structLDPC_1_1VariableNode" kind="struct"><name>LDPC::VariableNode</name>
-    <member refid="structLDPC_1_1VariableNode_1a7ee8f82c091e3201abb43b427d1fe03e" kind="variable"><name>checkNodes</name></member>
-    <member refid="structLDPC_1_1VariableNode_1a1543432e6ee77a3361345a6f47ee8d73" kind="variable"><name>values</name></member>
-    <member refid="structLDPC_1_1VariableNode_1a57eff4a79d00a4358ceec4f5b73ec160" kind="variable"><name>size</name></member>
   </compound>
   <compound refid="classvariableNode" kind="class"><name>variableNode</name>
     <member refid="classvariableNode_1aeba27baedf6fcb7cd8c6a44b9615c2cf" kind="variable"><name>d_checkNodeIndicies</name></member>
@@ -944,10 +885,6 @@
     <member refid="generateCLTU__impl_8h_1aba7bc1797add20fe3efdf37ced1182c5" kind="typedef"><name>uint8_t</name></member>
     <member refid="generateCLTU__impl_8h_1a5a49b6beff09dd1cc45b3c8715415a22" kind="typedef"><name>crc</name></member>
   </compound>
-  <compound refid="gf2mat_8h" kind="file"><name>gf2mat.h</name>
-  </compound>
-  <compound refid="gf2vec_8h" kind="file"><name>gf2vec.h</name>
-  </compound>
   <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
   </compound>
   <compound refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2ldpc_8h" kind="file"><name>examples/LDPC/ldpc_2/ldpc_decoder/ldpc.h</name>
@@ -1157,11 +1094,13 @@
   </compound>
   <compound refid="simplifiedPLOP1__impl_8h" kind="file"><name>simplifiedPLOP1_impl.h</name>
   </compound>
-  <compound refid="soft__decoder_8h" kind="file"><name>soft_decoder.h</name>
-  </compound>
   <compound refid="synchronizeCADU_8h" kind="file"><name>synchronizeCADU.h</name>
   </compound>
   <compound refid="synchronizeCADU__impl_8h" kind="file"><name>synchronizeCADU_impl.h</name>
+  </compound>
+  <compound refid="synchronizeCADUArgMax_8h" kind="file"><name>synchronizeCADUArgMax.h</name>
+  </compound>
+  <compound refid="synchronizeCADUArgMax__impl_8h" kind="file"><name>synchronizeCADUArgMax_impl.h</name>
   </compound>
   <compound refid="synchronizeCADUHard_8h" kind="file"><name>synchronizeCADUHard.h</name>
   </compound>
@@ -1214,8 +1153,6 @@
   <compound refid="lib_2fec_2ldpc_2variablenode_8h" kind="file"><name>lib/fec/ldpc/variablenode.h</name>
   </compound>
   <compound refid="group__block" kind="group"><name>block</name>
-  </compound>
-  <compound refid="dir_fae23c42ba4d07d462178a624a3afbc0" kind="dir"><name>Alpha</name>
   </compound>
   <compound refid="dir_6833ae7d741d14be356884df8416cf12" kind="dir"><name>backup</name>
   </compound>

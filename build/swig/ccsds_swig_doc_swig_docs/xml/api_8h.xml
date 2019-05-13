@@ -22,6 +22,7 @@
     <includedby refid="recoverCADUSoft_8h" local="no">/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/recoverCADUSoft.h</includedby>
     <includedby refid="simplifiedPLOP1_8h" local="no">/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/simplifiedPLOP1.h</includedby>
     <includedby refid="synchronizeCADU_8h" local="no">/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/synchronizeCADU.h</includedby>
+    <includedby refid="synchronizeCADUArgMax_8h" local="no">/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/synchronizeCADUArgMax.h</includedby>
     <includedby refid="synchronizeCADUHard_8h" local="no">/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/synchronizeCADUHard.h</includedby>
     <includedby refid="synchronizeCADUSoft_8h" local="no">/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/synchronizeCADUSoft.h</includedby>
     <incdepgraph>
@@ -43,6 +44,10 @@
       <node id="20">
         <label>/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/simplifiedPLOP1.h</label>
         <link refid="simplifiedPLOP1_8h"/>
+      </node>
+      <node id="22">
+        <label>/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/synchronizeCADUArgMax.h</label>
+        <link refid="synchronizeCADUArgMax_8h"/>
       </node>
       <node id="12">
         <label>/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/encodeTurbo.h</label>
@@ -125,6 +130,8 @@
         </childnode>
         <childnode refid="23" relation="include">
         </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
       </node>
       <node id="7">
         <label>/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/decodeLDPC.h</label>
@@ -142,11 +149,11 @@
         <label>/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/cc_depuncture.h</label>
         <link refid="cc__depuncture_8h"/>
       </node>
-      <node id="23">
+      <node id="24">
         <label>/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/synchronizeCADUSoft.h</label>
         <link refid="synchronizeCADUSoft_8h"/>
       </node>
-      <node id="22">
+      <node id="23">
         <label>/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/include/ccsds/synchronizeCADUHard.h</label>
         <link refid="synchronizeCADUHard_8h"/>
       </node>

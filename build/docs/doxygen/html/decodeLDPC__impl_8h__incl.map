@@ -1,8 +1,0 @@
-<map id="decodeLDPC_impl.h" name="decodeLDPC_impl.h">
-<area shape="rect" id="node2" href="$decodeLDPC_8h.html" title="ccsds/decodeLDPC.h" alt="" coords="151,87,302,114"/>
-<area shape="rect" id="node6" href="$lib_2fec_2ldpc_2checknode_8h.html" title="fec/ldpc/checknode.h" alt="" coords="296,169,443,196"/>
-<area shape="rect" id="node10" href="$lib_2fec_2ldpc_2variablenode_8h.html" title="fec/ldpc/variablenode.h" alt="" coords="649,169,805,196"/>
-<area shape="rect" id="node12" href="$lib_2fec_2ldpc_2ldpc_8h.html" title="fec/ldpc/ldpc.h" alt="" coords="557,87,664,114"/>
-<area shape="rect" id="node3" href="$api_8h.html" title="ccsds/api.h" alt="" coords="182,169,271,196"/>
-<area shape="rect" id="node15" href="$lib_2fec_2ldpc_2alist_8h.html" title="Definition of a class to hold sparse matrices in alist&#45;format. " alt="" coords="829,169,886,196"/>
-</map>

@@ -204,36 +204,36 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="150">
+      <node id="11">
         <label>gr::block</label>
       </node>
-      <node id="148">
+      <node id="9">
         <label>gr::ccsds::cc_depuncture_impl</label>
         <link refid="classgr_1_1ccsds_1_1cc__depuncture__impl"/>
-        <childnode refid="149" relation="public-inheritance">
+        <childnode refid="10" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="149">
+      <node id="10">
         <label>gr::ccsds::cc_depuncture</label>
         <link refid="classgr_1_1ccsds_1_1cc__depuncture"/>
-        <childnode refid="150" relation="public-inheritance">
+        <childnode refid="11" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="153">
+      <node id="14">
         <label>gr::block</label>
       </node>
-      <node id="151">
+      <node id="12">
         <label>gr::ccsds::cc_depuncture_impl</label>
         <link refid="classgr_1_1ccsds_1_1cc__depuncture__impl"/>
-        <childnode refid="152" relation="public-inheritance">
+        <childnode refid="13" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="152">
+      <node id="13">
         <label>gr::ccsds::cc_depuncture</label>
         <link refid="classgr_1_1ccsds_1_1cc__depuncture"/>
-        <childnode refid="153" relation="public-inheritance">
+        <childnode refid="14" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

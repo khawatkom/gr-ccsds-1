@@ -8,58 +8,51 @@
     <includes local="no">vector</includes>
     <includes local="no">stdlib.h</includes>
     <includedby refid="lib_2fec_2ldpc_2ldpc_8h" local="yes">ldpc.h</includedby>
-    <includedby refid="gf2mat_8h" local="yes">gf2mat.h</includedby>
     <incdepgraph>
-      <node id="627">
+      <node id="9">
         <label>alist.h</label>
         <link refid="lib/fec/ldpc/alist.h"/>
-        <childnode refid="628" relation="include">
+        <childnode refid="10" relation="include">
         </childnode>
-        <childnode refid="629" relation="include">
+        <childnode refid="11" relation="include">
         </childnode>
-        <childnode refid="630" relation="include">
+        <childnode refid="12" relation="include">
         </childnode>
-        <childnode refid="631" relation="include">
+        <childnode refid="13" relation="include">
         </childnode>
-        <childnode refid="632" relation="include">
+        <childnode refid="14" relation="include">
         </childnode>
       </node>
-      <node id="632">
+      <node id="14">
         <label>stdlib.h</label>
       </node>
-      <node id="629">
+      <node id="11">
         <label>fstream</label>
       </node>
-      <node id="631">
+      <node id="13">
         <label>vector</label>
       </node>
-      <node id="630">
+      <node id="12">
         <label>sstream</label>
       </node>
-      <node id="628">
+      <node id="10">
         <label>iostream</label>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="636">
-        <label>gf2mat.h</label>
-        <link refid="gf2mat_8h"/>
-      </node>
-      <node id="633">
+      <node id="15">
         <label>alist.h</label>
         <link refid="lib/fec/ldpc/alist.h"/>
-        <childnode refid="634" relation="include">
-        </childnode>
-        <childnode refid="636" relation="include">
+        <childnode refid="16" relation="include">
         </childnode>
       </node>
-      <node id="634">
+      <node id="16">
         <label>ldpc.h</label>
         <link refid="lib_2fec_2ldpc_2ldpc_8h"/>
-        <childnode refid="635" relation="include">
+        <childnode refid="17" relation="include">
         </childnode>
       </node>
-      <node id="635">
+      <node id="17">
         <label>decodeLDPC_impl.h</label>
         <link refid="decodeLDPC__impl_8h"/>
       </node>
@@ -73,7 +66,7 @@
 Copyright 2013 IIT Bombay.</para><para>This is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3, or (at your option) any later version.</para><para>This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</para><para>You should have received a copy of the GNU General Public License along with this software; see the file COPYING. If not, write to the Free Software Foundation, Inc., 51 Franklin Street, Boston, MA 02110-1301, USA. <hruler/>
 </para><para>This class handles sparse matrices specified in alist-format. For details about alist format please visit the link below.<itemizedlist>
 <listitem><para><ulink url="http://www.inference.phy.cam.ac.uk/mackay/codes/alist.html">http://www.inference.phy.cam.ac.uk/mackay/codes/alist.html</ulink></para></listitem></itemizedlist>
-</para><para>Alist class is an efficient way of representing a sparse matrix the parity check matrix H of an <ref refid="classLDPC" kindref="compound">LDPC</ref> code for instance. </para>    </detaileddescription>
+</para><para>Alist class is an efficient way of representing a sparse matrix the parity check matrix H of an LDPC code for instance. </para>    </detaileddescription>
     <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/alist.h"/>
   </compounddef>
 </doxygen>

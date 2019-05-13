@@ -52,30 +52,30 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="368">
+      <node id="219">
         <label>gr::ccsds::synchronizeCADU_impl</label>
         <link refid="classgr_1_1ccsds_1_1synchronizeCADU__impl"/>
-        <childnode refid="366" relation="public-inheritance">
+        <childnode refid="217" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="367">
+      <node id="218">
         <label>hier_block2</label>
       </node>
-      <node id="366">
+      <node id="217">
         <label>gr::ccsds::synchronizeCADU</label>
         <link refid="classgr_1_1ccsds_1_1synchronizeCADU"/>
-        <childnode refid="367" relation="public-inheritance">
+        <childnode refid="218" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="370">
+      <node id="221">
         <label>hier_block2</label>
       </node>
-      <node id="369">
+      <node id="220">
         <label>gr::ccsds::synchronizeCADU</label>
         <link refid="classgr_1_1ccsds_1_1synchronizeCADU"/>
-        <childnode refid="370" relation="public-inheritance">
+        <childnode refid="221" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

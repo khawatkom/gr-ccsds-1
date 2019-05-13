@@ -414,36 +414,36 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="229">
+      <node id="88">
         <label>gr::ccsds::encodeLDPC_impl</label>
         <link refid="classgr_1_1ccsds_1_1encodeLDPC__impl"/>
-        <childnode refid="230" relation="public-inheritance">
+        <childnode refid="89" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="231">
+      <node id="90">
         <label>tagged_stream_block</label>
       </node>
-      <node id="230">
+      <node id="89">
         <label>gr::ccsds::encodeLDPC</label>
         <link refid="classgr_1_1ccsds_1_1encodeLDPC"/>
-        <childnode refid="231" relation="public-inheritance">
+        <childnode refid="90" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="232">
+      <node id="91">
         <label>gr::ccsds::encodeLDPC_impl</label>
         <link refid="classgr_1_1ccsds_1_1encodeLDPC__impl"/>
-        <childnode refid="233" relation="public-inheritance">
+        <childnode refid="92" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="234">
+      <node id="93">
         <label>tagged_stream_block</label>
       </node>
-      <node id="233">
+      <node id="92">
         <label>gr::ccsds::encodeLDPC</label>
         <link refid="classgr_1_1ccsds_1_1encodeLDPC"/>
-        <childnode refid="234" relation="public-inheritance">
+        <childnode refid="93" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

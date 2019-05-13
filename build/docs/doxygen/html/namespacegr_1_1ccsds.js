@@ -38,6 +38,8 @@ var namespacegr_1_1ccsds =
     [ "simplifiedPLOP1_impl", "classgr_1_1ccsds_1_1simplifiedPLOP1__impl.html", "classgr_1_1ccsds_1_1simplifiedPLOP1__impl" ],
     [ "synchronizeCADU", "classgr_1_1ccsds_1_1synchronizeCADU.html", "classgr_1_1ccsds_1_1synchronizeCADU" ],
     [ "synchronizeCADU_impl", "classgr_1_1ccsds_1_1synchronizeCADU__impl.html", "classgr_1_1ccsds_1_1synchronizeCADU__impl" ],
+    [ "synchronizeCADUArgMax", "classgr_1_1ccsds_1_1synchronizeCADUArgMax.html", "classgr_1_1ccsds_1_1synchronizeCADUArgMax" ],
+    [ "synchronizeCADUArgMax_impl", "classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl.html", "classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl" ],
     [ "synchronizeCADUHard", "classgr_1_1ccsds_1_1synchronizeCADUHard.html", "classgr_1_1ccsds_1_1synchronizeCADUHard" ],
     [ "synchronizeCADUHard_impl", "classgr_1_1ccsds_1_1synchronizeCADUHard__impl.html", "classgr_1_1ccsds_1_1synchronizeCADUHard__impl" ],
     [ "synchronizeCADUSoft", "classgr_1_1ccsds_1_1synchronizeCADUSoft.html", "classgr_1_1ccsds_1_1synchronizeCADUSoft" ],

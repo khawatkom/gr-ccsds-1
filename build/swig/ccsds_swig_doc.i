@@ -542,6 +542,40 @@ Args:
     tolerance : 
     tagName : "
 
+%feature("docstring") gr::ccsds::synchronizeCADUArgMax "<+description of block+>
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of ccsds::synchronizeCADUArgMax.
+
+To avoid accidental use of raw pointers, ccsds::synchronizeCADUArgMax's constructor is in a private implementation class. ccsds::synchronizeCADUArgMax::make is the public interface for creating new instances.
+
+Args:
+    sync : 
+    size : 
+    mtxFunction : 
+    ambiguity : 
+    fec : 
+    verbose : 
+    tagName : "
+
+%feature("docstring") gr::ccsds::synchronizeCADUArgMax::make "<+description of block+>
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of ccsds::synchronizeCADUArgMax.
+
+To avoid accidental use of raw pointers, ccsds::synchronizeCADUArgMax's constructor is in a private implementation class. ccsds::synchronizeCADUArgMax::make is the public interface for creating new instances.
+
+Args:
+    sync : 
+    size : 
+    mtxFunction : 
+    ambiguity : 
+    fec : 
+    verbose : 
+    tagName : "
+
 %feature("docstring") gr::ccsds::synchronizeCADUHard "<+description of block+>
 
 Constructor Specific Documentation:

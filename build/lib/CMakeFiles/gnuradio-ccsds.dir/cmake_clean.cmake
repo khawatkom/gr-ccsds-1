@@ -28,6 +28,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUHard_impl.cc.o"
   "CMakeFiles/gnuradio-ccsds.dir/encodeLDPC_impl.cc.o"
   "CMakeFiles/gnuradio-ccsds.dir/decodeLDPC_impl.cc.o"
+  "CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o"
   "libgnuradio-ccsds-1.0.0git.pdb"
   "libgnuradio-ccsds-1.0.0git.so"
   "libgnuradio-ccsds-1.0.0git.so.0.0.0"

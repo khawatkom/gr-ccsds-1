@@ -261,36 +261,36 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="207">
+      <node id="66">
         <label>gr::ccsds::decodeRS_impl</label>
         <link refid="classgr_1_1ccsds_1_1decodeRS__impl"/>
-        <childnode refid="208" relation="public-inheritance">
+        <childnode refid="67" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="209">
+      <node id="68">
         <label>sync_block</label>
       </node>
-      <node id="208">
+      <node id="67">
         <label>gr::ccsds::decodeRS</label>
         <link refid="classgr_1_1ccsds_1_1decodeRS"/>
-        <childnode refid="209" relation="public-inheritance">
+        <childnode refid="68" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="210">
+      <node id="69">
         <label>gr::ccsds::decodeRS_impl</label>
         <link refid="classgr_1_1ccsds_1_1decodeRS__impl"/>
-        <childnode refid="211" relation="public-inheritance">
+        <childnode refid="70" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="212">
+      <node id="71">
         <label>sync_block</label>
       </node>
-      <node id="211">
+      <node id="70">
         <label>gr::ccsds::decodeRS</label>
         <link refid="classgr_1_1ccsds_1_1decodeRS"/>
-        <childnode refid="212" relation="public-inheritance">
+        <childnode refid="71" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

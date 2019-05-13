@@ -1,8 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$classgr_1_1ccsds_1_1convDecoder.html" title="&lt;+description of block+&gt; " alt="" coords="157,5,319,32"/>
-<area shape="rect" id="node4" href="$classgr_1_1ccsds_1_1extractCADU.html" title="&lt;+description of block+&gt; " alt="" coords="157,56,319,83"/>
-<area shape="rect" id="node6" href="$classgr_1_1ccsds_1_1synchronizeCADU.html" title="&lt;+description of block+&gt; " alt="" coords="141,107,335,133"/>
-<area shape="rect" id="node3" href="$classgr_1_1ccsds_1_1convDecoder__impl.html" title="gr::ccsds::convDecoder_impl" alt="" coords="399,5,591,32"/>
-<area shape="rect" id="node5" href="$classgr_1_1ccsds_1_1extractCADU__impl.html" title="gr::ccsds::extractCADU_impl" alt="" coords="397,56,592,83"/>
-<area shape="rect" id="node7" href="$classgr_1_1ccsds_1_1synchronizeCADU__impl.html" title="gr::ccsds::synchronizeCADU_impl" alt="" coords="383,107,607,133"/>
-</map>

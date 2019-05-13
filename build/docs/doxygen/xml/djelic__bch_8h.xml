@@ -4,13 +4,13 @@
     <compoundname>djelic_bch.h</compoundname>
     <includes local="yes">djelic/include/linux/bch.h</includes>
     <incdepgraph>
-      <node id="871">
+      <node id="254">
         <label>djelic/include/linux/bch.h</label>
       </node>
-      <node id="870">
+      <node id="253">
         <label>djelic_bch.h</label>
         <link refid="djelic_bch.h"/>
-        <childnode refid="871" relation="include">
+        <childnode refid="254" relation="include">
         </childnode>
       </node>
     </incdepgraph>

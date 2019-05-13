@@ -53,7 +53,8 @@ list(APPEND ccsds_sources
     decodeTurbo_impl.cc
     synchronizeCADUHard_impl.cc
     encodeLDPC_impl.cc
-    decodeLDPC_impl.cc )
+    decodeLDPC_impl.cc
+    synchronizeCADUArgMax_impl.cc )
 
 set(ccsds_sources "${ccsds_sources}" PARENT_SCOPE)
 if(NOT ccsds_sources)

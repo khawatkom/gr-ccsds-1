@@ -76,6 +76,10 @@
     <member refid="classgr_1_1ccsds_1_1synchronizeCADU_1aa981e0fc01f2688bada1bee7da4ba438" kind="typedef"><name>sptr</name></member>
     <member refid="classgr_1_1ccsds_1_1synchronizeCADU_1ababd5e7161139abe4e85197bf4c75082" kind="function"><name>make</name></member>
   </compound>
+  <compound refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax" kind="class"><name>gr::ccsds::synchronizeCADUArgMax</name>
+    <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax_1a7e700ad78e5e5244b7036d6188e2bf40" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax_1a129eb1d4b0816781354b49488d82fe87" kind="function"><name>make</name></member>
+  </compound>
   <compound refid="classgr_1_1ccsds_1_1synchronizeCADUHard" kind="class"><name>gr::ccsds::synchronizeCADUHard</name>
     <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard_1a90c40b2582961a57c920934ba3b30992" kind="typedef"><name>sptr</name></member>
     <member refid="classgr_1_1ccsds_1_1synchronizeCADUHard_1a15b901b617c28a1050c5ad1e3450ccc3" kind="function"><name>make</name></member>
@@ -130,6 +134,8 @@
   <compound refid="simplifiedPLOP1_8h" kind="file"><name>simplifiedPLOP1.h</name>
   </compound>
   <compound refid="synchronizeCADU_8h" kind="file"><name>synchronizeCADU.h</name>
+  </compound>
+  <compound refid="synchronizeCADUArgMax_8h" kind="file"><name>synchronizeCADUArgMax.h</name>
   </compound>
   <compound refid="synchronizeCADUHard_8h" kind="file"><name>synchronizeCADUHard.h</name>
   </compound>

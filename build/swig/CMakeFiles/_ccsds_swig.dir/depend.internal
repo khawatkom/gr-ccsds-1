@@ -22,6 +22,7 @@ swig/CMakeFiles/_ccsds_swig.dir/ccsds_swigPYTHON_wrap.cxx.o
  ../include/ccsds/recoverCADUSoft.h
  ../include/ccsds/simplifiedPLOP1.h
  ../include/ccsds/synchronizeCADU.h
+ ../include/ccsds/synchronizeCADUArgMax.h
  ../include/ccsds/synchronizeCADUHard.h
  ../include/ccsds/synchronizeCADUSoft.h
  /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/swig/ccsds_swigPYTHON_wrap.cxx

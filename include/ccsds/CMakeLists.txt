@@ -42,5 +42,6 @@ install(FILES
     decodeTurbo.h
     synchronizeCADUHard.h
     encodeLDPC.h
-    decodeLDPC.h DESTINATION include/ccsds
+    decodeLDPC.h
+    synchronizeCADUArgMax.h DESTINATION include/ccsds
 )

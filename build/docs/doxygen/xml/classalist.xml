@@ -619,25 +619,25 @@
     <detaileddescription>
     </detaileddescription>
     <collaborationgraph>
-      <node id="140">
+      <node id="1">
         <label>alist</label>
         <link refid="classalist"/>
-        <childnode refid="141" relation="usage">
+        <childnode refid="2" relation="usage">
           <edgelabel>mlist</edgelabel>
           <edgelabel>nlist</edgelabel>
         </childnode>
-        <childnode refid="142" relation="usage">
+        <childnode refid="3" relation="usage">
           <edgelabel>num_mlist</edgelabel>
           <edgelabel>num_nlist</edgelabel>
         </childnode>
       </node>
-      <node id="141">
+      <node id="2">
         <label>std::vector&lt; std::vector&lt; int &gt; &gt;</label>
-        <childnode refid="142" relation="usage">
+        <childnode refid="3" relation="usage">
           <edgelabel>elements</edgelabel>
         </childnode>
       </node>
-      <node id="142">
+      <node id="3">
         <label>std::vector&lt; int &gt;</label>
       </node>
     </collaborationgraph>

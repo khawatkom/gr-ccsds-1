@@ -40,6 +40,8 @@
     <innerclass refid="classgr_1_1ccsds_1_1simplifiedPLOP1__impl" prot="public">gr::ccsds::simplifiedPLOP1_impl</innerclass>
     <innerclass refid="classgr_1_1ccsds_1_1synchronizeCADU" prot="public">gr::ccsds::synchronizeCADU</innerclass>
     <innerclass refid="classgr_1_1ccsds_1_1synchronizeCADU__impl" prot="public">gr::ccsds::synchronizeCADU_impl</innerclass>
+    <innerclass refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax" prot="public">gr::ccsds::synchronizeCADUArgMax</innerclass>
+    <innerclass refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl" prot="public">gr::ccsds::synchronizeCADUArgMax_impl</innerclass>
     <innerclass refid="classgr_1_1ccsds_1_1synchronizeCADUHard" prot="public">gr::ccsds::synchronizeCADUHard</innerclass>
     <innerclass refid="classgr_1_1ccsds_1_1synchronizeCADUHard__impl" prot="public">gr::ccsds::synchronizeCADUHard_impl</innerclass>
     <innerclass refid="classgr_1_1ccsds_1_1synchronizeCADUSoft" prot="public">gr::ccsds::synchronizeCADUSoft</innerclass>

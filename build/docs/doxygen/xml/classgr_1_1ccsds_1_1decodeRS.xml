@@ -60,30 +60,30 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="204">
+      <node id="63">
         <label>gr::ccsds::decodeRS_impl</label>
         <link refid="classgr_1_1ccsds_1_1decodeRS__impl"/>
-        <childnode refid="202" relation="public-inheritance">
+        <childnode refid="61" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="203">
+      <node id="62">
         <label>sync_block</label>
       </node>
-      <node id="202">
+      <node id="61">
         <label>gr::ccsds::decodeRS</label>
         <link refid="classgr_1_1ccsds_1_1decodeRS"/>
-        <childnode refid="203" relation="public-inheritance">
+        <childnode refid="62" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="206">
+      <node id="65">
         <label>sync_block</label>
       </node>
-      <node id="205">
+      <node id="64">
         <label>gr::ccsds::decodeRS</label>
         <link refid="classgr_1_1ccsds_1_1decodeRS"/>
-        <childnode refid="206" relation="public-inheritance">
+        <childnode refid="65" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
