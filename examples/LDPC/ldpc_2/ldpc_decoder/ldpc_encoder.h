@@ -2,13 +2,13 @@
 #define LDPC_ENCODER
 #include <vector>
 #include <algorithm>
-#include <itpp/itcomm.h>
+//#include <itpp/itcomm.h>
 
 
 #define N 8176
 #define K 7154
 #define P (N - K)
-using namespace itpp;
+//using namespace itpp;
 void
 leftrotate(string &s, int d)
 {

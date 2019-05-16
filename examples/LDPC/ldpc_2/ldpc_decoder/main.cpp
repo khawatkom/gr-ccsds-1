@@ -12,13 +12,13 @@
 #include "ldpc.h"
 
 using namespace std;
-
+//These variables control the std::cout debug output
 bool debug_level1 = false;
 bool debug_level2 = false;
 bool tracking = false;
 bool myparity = false;
 int iterations = 50;
-int numPackets = 10000000;
+int numPackets = 1000000;
 uint64_t total_pkts = 0;
 uint64_t total_errors = 0;
 double maxSNR = 7;
@@ -27,7 +27,17 @@ int main()
 {
     //C2_Parity();
 
-    ldpcTDD();
+    //ldpcTDD();
+    std::cout << "USAGE INFORMATION" << std::endl;
+    std::cout << "=================" << std::endl;
+    std::cout << "To enable debug information    : Set debug_level_1/debug_level_2 to true" << std::endl;
+    std::cout << "To enable tracking information : Set tracking to true" << std::endl;
+    std::cout << std::endl << std::endl;
+    std::cout << "Simulation Configuration" << std::endl;
+    std::cout << "========================" << std::endl;
+    std::cout << "Number of iterations : " << iterations << std::endl;
+    std::cout << "Number of packets    : " << numPackets << std::endl;
+    std::cout << std::endl;
 
     //const string filename = "/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/alist/C2_Alist.a";
     //const string filename = "/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/examples/LDPC/ldpc_2/ldpc_decoder/alist/C2_Alist.a";
@@ -69,7 +79,8 @@ int main()
             if (debug_level2)
                 std::cout << "Size of noisy_signal vector : " << noisy_signal.size() << std::endl;
 
-
+            if (tracking)
+                std::cout << "LDPC decoding for packet : " << x + 1 << std::endl;
             std::vector<double> logapp = myCode.decode(noisy_signal,iterations,sigma);
 
             //std::cout << "Size of logapp: " << logapp.size() << std::endl;

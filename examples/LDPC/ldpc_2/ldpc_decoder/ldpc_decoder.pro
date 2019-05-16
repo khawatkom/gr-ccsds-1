@@ -21,4 +21,4 @@ HEADERS += \
 
 
 
-unix:!macx: LIBS += -litpp
+#unix:!macx: LIBS += -litpp
