@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Ldpc Fert
-# Generated: Mon Apr 29 16:06:31 2019
+# GNU Radio version: 3.7.13.5
 ##################################################
 
 if __name__ == '__main__':
@@ -28,7 +28,6 @@ from gnuradio.filter import firdes
 from optparse import OptionParser
 import bpsk
 import ccsds
-import mapper
 import math, numpy
 import numpy
 import sys
@@ -61,6 +60,7 @@ class ldpc_fert(gr.top_block, Qt.QWidget):
 
         self.settings = Qt.QSettings("GNU Radio", "ldpc_fert")
         self.restoreGeometry(self.settings.value("geometry").toByteArray())
+
 
         ##################################################
         # Variables
@@ -101,47 +101,43 @@ class ldpc_fert(gr.top_block, Qt.QWidget):
         self.tdd_nullMsgSink_0 = tdd.nullMsgSink(1)
         self.tdd_ferMsgGen_0 = tdd.ferMsgGen(882, '', 'pkt_len')
         self.tdd_ferMsgCount_0 = tdd.ferMsgCount(1,0,1)
-        self.mapper_prbs_sink_b_0 = mapper.prbs_sink_b("PRBS31", 7056)
         self.fir_filter_xxx_0 = filter.fir_filter_ccc(sps, (taps))
         self.fir_filter_xxx_0.declare_sample_delay(0)
         self.ccsds_synchronizeCADUSoft_0 = ccsds.synchronizeCADUSoft('1ACFFC1D',1,7,0,N + 32,0,0,'sync')
         self.ccsds_recoverCADUSoft_0 = ccsds.recoverCADUSoft(N, 1, 'sync')
-        self.ccsds_encodeLDPC_0 = ccsds.encodeLDPC("empy.txt",1,'cadu_len',"vcdu_len",0)
-        self.ccsds_decodeLDPC_0 = ccsds.decodeLDPC("/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/alist/AR4JA_r12_k1024n.a",1,20, sigma, 1,1)
+        self.ccsds_encodeLDPC_0 = ccsds.encodeLDPC('/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/gmini/C2.txt',1,'cadu_len',"vcdu_len",0)
+        self.ccsds_decodeLDPC_0 = ccsds.decodeLDPC('/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/alist/C2_Alist.a',1,20, sigma, 1,1)
         self.ccsds_createCADU_0 = ccsds.createCADU(cadu_size, '1ACFFC1D', 1, 'cadu_len')
         self.bpsk_bpskSoftDecision_0 = bpsk.bpskSoftDecision(10, 2, 1)
         self.bpsk_bpskPulseshapeRRC_0 = bpsk.bpskPulseshapeRRC(sps, 1, samp_rate, symbol_rate, 0.35, ntaps)
         self.bpsk_bpskIQMap_0 = bpsk.bpskIQMap()
         self.blocks_unpack_k_bits_bb_2 = blocks.unpack_k_bits_bb(8)
-        self.blocks_unpack_k_bits_bb_1 = blocks.unpack_k_bits_bb(8)
         self.blocks_unpack_k_bits_bb_0 = blocks.unpack_k_bits_bb(8)
         self.blocks_throttle_0 = blocks.throttle(gr.sizeof_char*1, samp_rate,True)
         self.blocks_tag_debug_0 = blocks.tag_debug(gr.sizeof_float*1, '', ""); self.blocks_tag_debug_0.set_display(False)
         self.blocks_stream_to_tagged_stream_0_0 = blocks.stream_to_tagged_stream(gr.sizeof_char, 1, 7136, 'vcdu_len')
         self.blocks_stream_to_tagged_stream_0 = blocks.stream_to_tagged_stream(gr.sizeof_char, 1, 7056, 'pkt_len')
-        self.blocks_pdu_to_tagged_stream_0_0 = blocks.pdu_to_tagged_stream(blocks.byte_t, 'length_tag')
         self.blocks_pack_k_bits_bb_0 = blocks.pack_k_bits_bb(8)
         self.blocks_add_xx_0 = blocks.add_vcc(1)
         self.analog_random_source_x_0 = blocks.vector_source_b(map(int, numpy.random.randint(0, 2, 7056)), True)
         self.analog_noise_source_x_0 = analog.noise_source_c(analog.GR_GAUSSIAN, (math.sqrt(2)/math.sqrt(2*Rm*Rc*math.pow(10.0,EbNo/10.0)))/math.sqrt(sps), 0)
+
+
 
         ##################################################
         # Connections
         ##################################################
         self.msg_connect((self.ccsds_decodeLDPC_0, 'out'), (self.tdd_ferMsgCount_0, 'in'))
         self.msg_connect((self.ccsds_recoverCADUSoft_0, 'cadu'), (self.ccsds_decodeLDPC_0, 'in'))
-        self.msg_connect((self.tdd_ferMsgCount_0, 'out'), (self.blocks_pdu_to_tagged_stream_0_0, 'pdus'))
         self.msg_connect((self.tdd_ferMsgCount_0, 'out'), (self.tdd_nullMsgSink_0, 'in'))
         self.connect((self.analog_noise_source_x_0, 0), (self.blocks_add_xx_0, 1))
         self.connect((self.analog_random_source_x_0, 0), (self.blocks_throttle_0, 0))
         self.connect((self.blocks_add_xx_0, 0), (self.fir_filter_xxx_0, 0))
         self.connect((self.blocks_pack_k_bits_bb_0, 0), (self.tdd_ferMsgGen_0, 0))
-        self.connect((self.blocks_pdu_to_tagged_stream_0_0, 0), (self.blocks_unpack_k_bits_bb_1, 0))
         self.connect((self.blocks_stream_to_tagged_stream_0, 0), (self.blocks_pack_k_bits_bb_0, 0))
         self.connect((self.blocks_stream_to_tagged_stream_0_0, 0), (self.ccsds_encodeLDPC_0, 0))
         self.connect((self.blocks_throttle_0, 0), (self.blocks_stream_to_tagged_stream_0, 0))
         self.connect((self.blocks_unpack_k_bits_bb_0, 0), (self.bpsk_bpskPulseshapeRRC_0, 0))
-        self.connect((self.blocks_unpack_k_bits_bb_1, 0), (self.mapper_prbs_sink_b_0, 0))
         self.connect((self.blocks_unpack_k_bits_bb_2, 0), (self.blocks_stream_to_tagged_stream_0_0, 0))
         self.connect((self.bpsk_bpskIQMap_0, 0), (self.blocks_add_xx_0, 0))
         self.connect((self.bpsk_bpskPulseshapeRRC_0, 0), (self.bpsk_bpskIQMap_0, 0))

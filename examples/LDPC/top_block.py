@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Top Block
-# Generated: Thu May  9 18:51:07 2019
+# Generated: Wed May 15 02:02:12 2019
 ##################################################
 
 if __name__ == '__main__':
@@ -23,14 +23,12 @@ from gnuradio import digital
 from gnuradio import eng_notation
 from gnuradio import filter
 from gnuradio import gr
-from gnuradio import qtgui
 from gnuradio.eng_option import eng_option
 from gnuradio.filter import firdes
 from optparse import OptionParser
 import ccsds
 import mapper
 import math, numpy
-import sip
 import sys
 from gnuradio import qtgui
 
@@ -61,7 +59,6 @@ class top_block(gr.top_block, Qt.QWidget):
         self.settings = Qt.QSettings("GNU Radio", "top_block")
         self.restoreGeometry(self.settings.value("geometry").toByteArray())
 
-
         ##################################################
         # Variables
         ##################################################
@@ -89,70 +86,19 @@ class top_block(gr.top_block, Qt.QWidget):
         ##################################################
         self.root_raised_cosine_filter_0 = filter.interp_fir_filter_fff(sps, firdes.root_raised_cosine(
         	1, samp_rate, symbol_rate, 0.35, ntaps))
-        self.qtgui_time_sink_x_0 = qtgui.time_sink_f(
-        	1024, #size
-        	samp_rate, #samp_rate
-        	"", #name
-        	1 #number of inputs
-        )
-        self.qtgui_time_sink_x_0.set_update_time(0.10)
-        self.qtgui_time_sink_x_0.set_y_axis(-1, 1)
-
-        self.qtgui_time_sink_x_0.set_y_label('Amplitude', "")
-
-        self.qtgui_time_sink_x_0.enable_tags(-1, True)
-        self.qtgui_time_sink_x_0.set_trigger_mode(qtgui.TRIG_MODE_FREE, qtgui.TRIG_SLOPE_POS, 0.0, 0, 0, "")
-        self.qtgui_time_sink_x_0.enable_autoscale(False)
-        self.qtgui_time_sink_x_0.enable_grid(False)
-        self.qtgui_time_sink_x_0.enable_axis_labels(True)
-        self.qtgui_time_sink_x_0.enable_control_panel(False)
-        self.qtgui_time_sink_x_0.enable_stem_plot(False)
-
-        if not True:
-          self.qtgui_time_sink_x_0.disable_legend()
-
-        labels = ['', '', '', '', '',
-                  '', '', '', '', '']
-        widths = [1, 1, 1, 1, 1,
-                  1, 1, 1, 1, 1]
-        colors = ["blue", "red", "green", "black", "cyan",
-                  "magenta", "yellow", "dark red", "dark green", "blue"]
-        styles = [1, 1, 1, 1, 1,
-                  1, 1, 1, 1, 1]
-        markers = [-1, -1, -1, -1, -1,
-                   -1, -1, -1, -1, -1]
-        alphas = [1.0, 1.0, 1.0, 1.0, 1.0,
-                  1.0, 1.0, 1.0, 1.0, 1.0]
-
-        for i in xrange(1):
-            if len(labels[i]) == 0:
-                self.qtgui_time_sink_x_0.set_line_label(i, "Data {0}".format(i))
-            else:
-                self.qtgui_time_sink_x_0.set_line_label(i, labels[i])
-            self.qtgui_time_sink_x_0.set_line_width(i, widths[i])
-            self.qtgui_time_sink_x_0.set_line_color(i, colors[i])
-            self.qtgui_time_sink_x_0.set_line_style(i, styles[i])
-            self.qtgui_time_sink_x_0.set_line_marker(i, markers[i])
-            self.qtgui_time_sink_x_0.set_line_alpha(i, alphas[i])
-
-        self._qtgui_time_sink_x_0_win = sip.wrapinstance(self.qtgui_time_sink_x_0.pyqwidget(), Qt.QWidget)
-        self.top_grid_layout.addWidget(self._qtgui_time_sink_x_0_win)
         self.mapper_prbs_source_b_0 = mapper.prbs_source_b("PRBS31", K)
         self.mapper_prbs_sink_b_0 = mapper.prbs_sink_b("PRBS31", K)
         self.fir_filter_xxx_0 = filter.fir_filter_ccc(sps, (taps))
         self.fir_filter_xxx_0.declare_sample_delay(0)
         self.digital_map_bb_0 = digital.map_bb((-1,1))
-        self.ccsds_synchronizeCADUSoft_0 = ccsds.synchronizeCADUSoft('1ACFFC1D',1,7,0,N + 32,0,0,'sync')
-        self.ccsds_recoverCADUSoft_0 = ccsds.recoverCADUSoft(N, 1, 'sync')
         self.ccsds_encodeLDPC_0 = ccsds.encodeLDPC('/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/gmini/C2.txt',0,'cadu_len',"vcdu_len",0)
-        self.ccsds_decodeLDPC_0 = ccsds.decodeLDPC('/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/alist/C2_Alist.a',0,10, sigma, 0,0)
         self.ccsds_createCADU_0 = ccsds.createCADU(cadu_size, '1ACFFC1D', 1, 'cadu_len')
         self.blocks_unpack_k_bits_bb_0 = blocks.unpack_k_bits_bb(8)
         self.blocks_throttle_0 = blocks.throttle(gr.sizeof_char*1, samp_rate,True)
-        self.blocks_tag_debug_0 = blocks.tag_debug(gr.sizeof_float*1, '', ""); self.blocks_tag_debug_0.set_display(False)
+        self.blocks_tagged_stream_to_pdu_0 = blocks.tagged_stream_to_pdu(blocks.float_t, 'packet_len')
+        self.blocks_stream_to_tagged_stream_1 = blocks.stream_to_tagged_stream(gr.sizeof_float, 1, N, "packet_len")
         self.blocks_stream_to_tagged_stream_0 = blocks.stream_to_tagged_stream(gr.sizeof_char, 1, K, "vcdu_len")
         self.blocks_pdu_to_tagged_stream_0_0 = blocks.pdu_to_tagged_stream(blocks.byte_t, 'length_tag')
-        self.blocks_pdu_to_tagged_stream_0 = blocks.pdu_to_tagged_stream(blocks.float_t, 'packet_len')
         self.blocks_null_source_0 = blocks.null_source(gr.sizeof_float*1)
         self.blocks_float_to_complex_0 = blocks.float_to_complex(1)
         self.blocks_complex_to_real_0 = blocks.complex_to_real(1)
@@ -160,29 +106,23 @@ class top_block(gr.top_block, Qt.QWidget):
         self.blocks_add_xx_0 = blocks.add_vcc(1)
         self.analog_noise_source_x_0 = analog.noise_source_c(analog.GR_GAUSSIAN, (math.sqrt(2)/math.sqrt(2*Rm*Rc*math.pow(10.0,EbNo/10.0)))/math.sqrt(sps), 0)
 
-
-
         ##################################################
         # Connections
         ##################################################
-        self.msg_connect((self.ccsds_decodeLDPC_0, 'out'), (self.blocks_pdu_to_tagged_stream_0_0, 'pdus'))
-        self.msg_connect((self.ccsds_recoverCADUSoft_0, 'cadu'), (self.blocks_pdu_to_tagged_stream_0, 'pdus'))
-        self.msg_connect((self.ccsds_recoverCADUSoft_0, 'cadu'), (self.ccsds_decodeLDPC_0, 'in'))
+        self.msg_connect((self.blocks_tagged_stream_to_pdu_0, 'pdus'), (self.blocks_pdu_to_tagged_stream_0_0, 'pdus'))
         self.connect((self.analog_noise_source_x_0, 0), (self.blocks_add_xx_0, 1))
         self.connect((self.blocks_add_xx_0, 0), (self.fir_filter_xxx_0, 0))
         self.connect((self.blocks_char_to_float_0, 0), (self.root_raised_cosine_filter_0, 0))
-        self.connect((self.blocks_complex_to_real_0, 0), (self.ccsds_synchronizeCADUSoft_0, 0))
+        self.connect((self.blocks_complex_to_real_0, 0), (self.blocks_stream_to_tagged_stream_1, 0))
         self.connect((self.blocks_float_to_complex_0, 0), (self.blocks_add_xx_0, 0))
         self.connect((self.blocks_null_source_0, 0), (self.blocks_float_to_complex_0, 1))
-        self.connect((self.blocks_pdu_to_tagged_stream_0, 0), (self.qtgui_time_sink_x_0, 0))
         self.connect((self.blocks_pdu_to_tagged_stream_0_0, 0), (self.mapper_prbs_sink_b_0, 0))
         self.connect((self.blocks_stream_to_tagged_stream_0, 0), (self.ccsds_encodeLDPC_0, 0))
+        self.connect((self.blocks_stream_to_tagged_stream_1, 0), (self.blocks_tagged_stream_to_pdu_0, 0))
         self.connect((self.blocks_throttle_0, 0), (self.blocks_stream_to_tagged_stream_0, 0))
         self.connect((self.blocks_unpack_k_bits_bb_0, 0), (self.digital_map_bb_0, 0))
         self.connect((self.ccsds_createCADU_0, 0), (self.blocks_unpack_k_bits_bb_0, 0))
         self.connect((self.ccsds_encodeLDPC_0, 0), (self.ccsds_createCADU_0, 0))
-        self.connect((self.ccsds_synchronizeCADUSoft_0, 0), (self.blocks_tag_debug_0, 0))
-        self.connect((self.ccsds_synchronizeCADUSoft_0, 0), (self.ccsds_recoverCADUSoft_0, 0))
         self.connect((self.digital_map_bb_0, 0), (self.blocks_char_to_float_0, 0))
         self.connect((self.fir_filter_xxx_0, 0), (self.blocks_complex_to_real_0, 0))
         self.connect((self.mapper_prbs_source_b_0, 0), (self.blocks_throttle_0, 0))
@@ -216,7 +156,6 @@ class top_block(gr.top_block, Qt.QWidget):
     def set_samp_rate(self, samp_rate):
         self.samp_rate = samp_rate
         self.root_raised_cosine_filter_0.set_taps(firdes.root_raised_cosine(1, self.samp_rate, self.symbol_rate, 0.35, self.ntaps))
-        self.qtgui_time_sink_x_0.set_samp_rate(self.samp_rate)
         self.blocks_throttle_0.set_sample_rate(self.samp_rate)
 
     def get_ntaps(self):
@@ -233,6 +172,8 @@ class top_block(gr.top_block, Qt.QWidget):
         self.N = N
         self.set_cadu_size(self.N/8)
         self.set_Rc(self.K*1.0/self.N*1.0)
+        self.blocks_stream_to_tagged_stream_1.set_packet_len(self.N)
+        self.blocks_stream_to_tagged_stream_1.set_packet_len_pmt(self.N)
 
     def get_K(self):
         return self.K
