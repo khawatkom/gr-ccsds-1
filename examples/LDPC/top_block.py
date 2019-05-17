@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Top Block
-# Generated: Wed May 15 02:02:12 2019
+# GNU Radio version: 3.7.13.5
 ##################################################
 
 if __name__ == '__main__':
@@ -59,6 +59,7 @@ class top_block(gr.top_block, Qt.QWidget):
         self.settings = Qt.QSettings("GNU Radio", "top_block")
         self.restoreGeometry(self.settings.value("geometry").toByteArray())
 
+
         ##################################################
         # Variables
         ##################################################
@@ -68,7 +69,7 @@ class top_block(gr.top_block, Qt.QWidget):
         self.ntaps = ntaps = 10*sps
         self.N = N = 8160 + 18 - 2
         self.K = K = 7136 + 18
-        self.EbNo = EbNo = 4.0
+        self.EbNo = EbNo = 3.9
         self.vcdu_size = vcdu_size = 7136
         self.value = value = [0,1]
 
@@ -91,12 +92,13 @@ class top_block(gr.top_block, Qt.QWidget):
         self.fir_filter_xxx_0 = filter.fir_filter_ccc(sps, (taps))
         self.fir_filter_xxx_0.declare_sample_delay(0)
         self.digital_map_bb_0 = digital.map_bb((-1,1))
+        self.ccsds_synchronizeCADUSoft_0 = ccsds.synchronizeCADUSoft('1ACFFC1D',1,7,0,N + 32,0,0,'sync')
+        self.ccsds_recoverCADUSoft_0 = ccsds.recoverCADUSoft(N, 1, 'sync')
         self.ccsds_encodeLDPC_0 = ccsds.encodeLDPC('/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/gmini/C2.txt',0,'cadu_len',"vcdu_len",0)
+        self.ccsds_decodeLDPC_0 = ccsds.decodeLDPC('/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/alist/C2_Alist.a',0,50, sigma, 0,0)
         self.ccsds_createCADU_0 = ccsds.createCADU(cadu_size, '1ACFFC1D', 1, 'cadu_len')
         self.blocks_unpack_k_bits_bb_0 = blocks.unpack_k_bits_bb(8)
         self.blocks_throttle_0 = blocks.throttle(gr.sizeof_char*1, samp_rate,True)
-        self.blocks_tagged_stream_to_pdu_0 = blocks.tagged_stream_to_pdu(blocks.float_t, 'packet_len')
-        self.blocks_stream_to_tagged_stream_1 = blocks.stream_to_tagged_stream(gr.sizeof_float, 1, N, "packet_len")
         self.blocks_stream_to_tagged_stream_0 = blocks.stream_to_tagged_stream(gr.sizeof_char, 1, K, "vcdu_len")
         self.blocks_pdu_to_tagged_stream_0_0 = blocks.pdu_to_tagged_stream(blocks.byte_t, 'length_tag')
         self.blocks_null_source_0 = blocks.null_source(gr.sizeof_float*1)
@@ -106,23 +108,26 @@ class top_block(gr.top_block, Qt.QWidget):
         self.blocks_add_xx_0 = blocks.add_vcc(1)
         self.analog_noise_source_x_0 = analog.noise_source_c(analog.GR_GAUSSIAN, (math.sqrt(2)/math.sqrt(2*Rm*Rc*math.pow(10.0,EbNo/10.0)))/math.sqrt(sps), 0)
 
+
+
         ##################################################
         # Connections
         ##################################################
-        self.msg_connect((self.blocks_tagged_stream_to_pdu_0, 'pdus'), (self.blocks_pdu_to_tagged_stream_0_0, 'pdus'))
+        self.msg_connect((self.ccsds_decodeLDPC_0, 'out'), (self.blocks_pdu_to_tagged_stream_0_0, 'pdus'))
+        self.msg_connect((self.ccsds_recoverCADUSoft_0, 'cadu'), (self.ccsds_decodeLDPC_0, 'in'))
         self.connect((self.analog_noise_source_x_0, 0), (self.blocks_add_xx_0, 1))
         self.connect((self.blocks_add_xx_0, 0), (self.fir_filter_xxx_0, 0))
         self.connect((self.blocks_char_to_float_0, 0), (self.root_raised_cosine_filter_0, 0))
-        self.connect((self.blocks_complex_to_real_0, 0), (self.blocks_stream_to_tagged_stream_1, 0))
+        self.connect((self.blocks_complex_to_real_0, 0), (self.ccsds_synchronizeCADUSoft_0, 0))
         self.connect((self.blocks_float_to_complex_0, 0), (self.blocks_add_xx_0, 0))
         self.connect((self.blocks_null_source_0, 0), (self.blocks_float_to_complex_0, 1))
         self.connect((self.blocks_pdu_to_tagged_stream_0_0, 0), (self.mapper_prbs_sink_b_0, 0))
         self.connect((self.blocks_stream_to_tagged_stream_0, 0), (self.ccsds_encodeLDPC_0, 0))
-        self.connect((self.blocks_stream_to_tagged_stream_1, 0), (self.blocks_tagged_stream_to_pdu_0, 0))
         self.connect((self.blocks_throttle_0, 0), (self.blocks_stream_to_tagged_stream_0, 0))
         self.connect((self.blocks_unpack_k_bits_bb_0, 0), (self.digital_map_bb_0, 0))
         self.connect((self.ccsds_createCADU_0, 0), (self.blocks_unpack_k_bits_bb_0, 0))
         self.connect((self.ccsds_encodeLDPC_0, 0), (self.ccsds_createCADU_0, 0))
+        self.connect((self.ccsds_synchronizeCADUSoft_0, 0), (self.ccsds_recoverCADUSoft_0, 0))
         self.connect((self.digital_map_bb_0, 0), (self.blocks_char_to_float_0, 0))
         self.connect((self.fir_filter_xxx_0, 0), (self.blocks_complex_to_real_0, 0))
         self.connect((self.mapper_prbs_source_b_0, 0), (self.blocks_throttle_0, 0))
@@ -172,8 +177,6 @@ class top_block(gr.top_block, Qt.QWidget):
         self.N = N
         self.set_cadu_size(self.N/8)
         self.set_Rc(self.K*1.0/self.N*1.0)
-        self.blocks_stream_to_tagged_stream_1.set_packet_len(self.N)
-        self.blocks_stream_to_tagged_stream_1.set_packet_len_pmt(self.N)
 
     def get_K(self):
         return self.K
