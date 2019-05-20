@@ -4,13 +4,13 @@
     <compoundname>deepspace-turbo/libconvcodes.h</compoundname>
     <includedby refid="deepspace-turbo_2libturbocodes_8h" local="yes">libturbocodes.h</includedby>
     <invincdepgraph>
-      <node id="413">
+      <node id="1052">
         <label>libconvcodes.h</label>
         <link refid="deepspace-turbo/libconvcodes.h"/>
-        <childnode refid="414" relation="include">
+        <childnode refid="1053" relation="include">
         </childnode>
       </node>
-      <node id="414">
+      <node id="1053">
         <label>libturbocodes.h</label>
         <link refid="deepspace-turbo_2libturbocodes_8h"/>
       </node>

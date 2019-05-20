@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Top Block
-# GNU Radio version: 3.7.13.5
+# Generated: Mon May 20 13:39:22 2019
 ##################################################
 
 if __name__ == '__main__':
@@ -59,7 +59,6 @@ class top_block(gr.top_block, Qt.QWidget):
         self.settings = Qt.QSettings("GNU Radio", "top_block")
         self.restoreGeometry(self.settings.value("geometry").toByteArray())
 
-
         ##################################################
         # Variables
         ##################################################
@@ -107,8 +106,6 @@ class top_block(gr.top_block, Qt.QWidget):
         self.blocks_char_to_float_0 = blocks.char_to_float(1, 1)
         self.blocks_add_xx_0 = blocks.add_vcc(1)
         self.analog_noise_source_x_0 = analog.noise_source_c(analog.GR_GAUSSIAN, (math.sqrt(2)/math.sqrt(2*Rm*Rc*math.pow(10.0,EbNo/10.0)))/math.sqrt(sps), 0)
-
-
 
         ##################################################
         # Connections

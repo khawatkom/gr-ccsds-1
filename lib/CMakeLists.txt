@@ -33,6 +33,7 @@ list(APPEND ccsds_sources
     fec/ldpc/variablenode.cpp
     fec/ldpc/checknode.cpp
     fec/ldpc/ldpc.cpp
+    fec/frame_sync/argmax.cc
     convEncoder_impl.cc
     convDecoder_impl.cc
     generateCADU_impl.cc

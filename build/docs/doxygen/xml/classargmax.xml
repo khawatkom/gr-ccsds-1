@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classargmax" kind="class" language="C++" prot="public">
+    <compoundname>argmax</compoundname>
+    <includes refid="argmax_8h" local="no">argmax.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classargmax_1a3baeafef1720cdaf827bc8ad73de050a" prot="private" static="no" mutable="no">
+        <type>float(argmax::*</type>
+        <definition>float(argmax::* argmax::d_mtxFunction) (std::vector&lt; float &gt; in0, std::vector&lt; float &gt; in1)</definition>
+        <argsstring>)(std::vector&lt; float &gt; in0, std::vector&lt; float &gt; in1)</argsstring>
+        <name>d_mtxFunction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/frame_sync/argmax.h" line="18" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/frame_sync/argmax.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classargmax_1a36f1375c385d7084d3fc49b3a806e9fc" prot="private" static="no" mutable="no">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; argmax::d_sync</definition>
+        <argsstring></argsstring>
+        <name>d_sync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/frame_sync/argmax.h" line="19" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/frame_sync/argmax.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classargmax_1a55ccf43fe0478ccf49c15e7c3c6d8cde" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>argmax::argmax</definition>
+        <argsstring>(std::string syncword, int matchingFuntion, int ambiguity)</argsstring>
+        <name>argmax</name>
+        <param>
+          <type>std::string</type>
+          <declname>syncword</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>matchingFuntion</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ambiguity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/frame_sync/argmax.h" line="13" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classargmax_1a562ca6cfa8f8aeb69f84aef170d8e275" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void argmax::setSyncWord</definition>
+        <argsstring>(std::vector&lt; float &gt; sync)</argsstring>
+        <name>setSyncWord</name>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>sync</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/frame_sync/argmax.h" line="14" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classargmax_1a7d3765e3690caa113994bb98a53dff29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void argmax::argMaxSync</definition>
+        <argsstring>(float *in, int frame_length, float &amp;maxCorrelation, int &amp;indexMaxCorrelation)</argsstring>
+        <name>argMaxSync</name>
+        <param>
+          <type>float *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>frame_length</declname>
+        </param>
+        <param>
+          <type>float &amp;</type>
+          <declname>maxCorrelation</declname>
+        </param>
+        <param>
+          <type>int &amp;</type>
+          <declname>indexMaxCorrelation</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/frame_sync/argmax.h" line="15" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classargmax_1a415b031f48148445484ff3f840261fb6" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; float &gt;</type>
+        <definition>std::vector&lt;float&gt; argmax::extractSyncWord</definition>
+        <argsstring>(float *in, int pos, int length)</argsstring>
+        <name>extractSyncWord</name>
+        <param>
+          <type>float *</type>
+          <declname>in</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>length</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/frame_sync/argmax.h" line="20" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classargmax_1a717655ad35320b2e9c5b0eb19b2bcaa5" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void argmax::printVector</definition>
+        <argsstring>(std::vector&lt; float &gt; in)</argsstring>
+        <name>printVector</name>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/frame_sync/argmax.h" line="21" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classargmax_1ac38e1a3d26e9a455b6785cd6f7363741" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float argmax::hardCorr</definition>
+        <argsstring>(std::vector&lt; float &gt; in0, std::vector&lt; float &gt; in1)</argsstring>
+        <name>hardCorr</name>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>in0</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>in1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/frame_sync/argmax.h" line="22" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classargmax_1ad3b365b03cedc0206fd33d799a34cf5b" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float argmax::softCorr</definition>
+        <argsstring>(std::vector&lt; float &gt; in0, std::vector&lt; float &gt; in1)</argsstring>
+        <name>softCorr</name>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>in0</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>in1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/frame_sync/argmax.h" line="23" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classargmax_1a7556c8e4d4a32f7e5af5ff87963221b9" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float argmax::masseyCorr</definition>
+        <argsstring>(std::vector&lt; float &gt; in0, std::vector&lt; float &gt; in1)</argsstring>
+        <name>masseyCorr</name>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>in0</declname>
+        </param>
+        <param>
+          <type>std::vector&lt; float &gt;</type>
+          <declname>in1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/frame_sync/argmax.h" line="24" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classargmax_1a97d7b34104d22a4ec97fd532e780de14" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>float argmax::binarySlice</definition>
+        <argsstring>(float in)</argsstring>
+        <name>binarySlice</name>
+        <param>
+          <type>float</type>
+          <declname>in</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/frame_sync/argmax.h" line="25" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classargmax_1a248ebc74c3c31b3cd72bd5eb1192cd6e" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string argmax::hex_str_to_bin_str</definition>
+        <argsstring>(const std::string &amp;hex)</argsstring>
+        <name>hex_str_to_bin_str</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>hex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/frame_sync/argmax.h" line="26" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classargmax_1a306ac726d42669cf1eefa0eba25f11c2" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char* argmax::hex_char_to_bin</definition>
+        <argsstring>(char c)</argsstring>
+        <name>hex_char_to_bin</name>
+        <param>
+          <type>char</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/frame_sync/argmax.h" line="27" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/frame_sync/argmax.h" line="11" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/frame_sync/argmax.h" bodystart="10" bodyend="28"/>
+    <listofallmembers>
+      <member refid="classargmax_1a55ccf43fe0478ccf49c15e7c3c6d8cde" prot="public" virt="non-virtual"><scope>argmax</scope><name>argmax</name></member>
+      <member refid="classargmax_1a7d3765e3690caa113994bb98a53dff29" prot="public" virt="non-virtual"><scope>argmax</scope><name>argMaxSync</name></member>
+      <member refid="classargmax_1a97d7b34104d22a4ec97fd532e780de14" prot="private" virt="non-virtual"><scope>argmax</scope><name>binarySlice</name></member>
+      <member refid="classargmax_1a3baeafef1720cdaf827bc8ad73de050a" prot="private" virt="non-virtual"><scope>argmax</scope><name>d_mtxFunction</name></member>
+      <member refid="classargmax_1a36f1375c385d7084d3fc49b3a806e9fc" prot="private" virt="non-virtual"><scope>argmax</scope><name>d_sync</name></member>
+      <member refid="classargmax_1a415b031f48148445484ff3f840261fb6" prot="private" virt="non-virtual"><scope>argmax</scope><name>extractSyncWord</name></member>
+      <member refid="classargmax_1ac38e1a3d26e9a455b6785cd6f7363741" prot="private" virt="non-virtual"><scope>argmax</scope><name>hardCorr</name></member>
+      <member refid="classargmax_1a306ac726d42669cf1eefa0eba25f11c2" prot="private" virt="non-virtual"><scope>argmax</scope><name>hex_char_to_bin</name></member>
+      <member refid="classargmax_1a248ebc74c3c31b3cd72bd5eb1192cd6e" prot="private" virt="non-virtual"><scope>argmax</scope><name>hex_str_to_bin_str</name></member>
+      <member refid="classargmax_1a7556c8e4d4a32f7e5af5ff87963221b9" prot="private" virt="non-virtual"><scope>argmax</scope><name>masseyCorr</name></member>
+      <member refid="classargmax_1a717655ad35320b2e9c5b0eb19b2bcaa5" prot="private" virt="non-virtual"><scope>argmax</scope><name>printVector</name></member>
+      <member refid="classargmax_1a562ca6cfa8f8aeb69f84aef170d8e275" prot="public" virt="non-virtual"><scope>argmax</scope><name>setSyncWord</name></member>
+      <member refid="classargmax_1ad3b365b03cedc0206fd33d799a34cf5b" prot="private" virt="non-virtual"><scope>argmax</scope><name>softCorr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

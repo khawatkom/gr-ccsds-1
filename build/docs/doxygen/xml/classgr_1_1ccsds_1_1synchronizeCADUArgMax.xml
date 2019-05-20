@@ -68,30 +68,30 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="229">
+      <node id="373">
         <label>sync_block</label>
       </node>
-      <node id="228">
+      <node id="372">
         <label>gr::ccsds::synchronizeCADUArgMax</label>
         <link refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax"/>
-        <childnode refid="229" relation="public-inheritance">
+        <childnode refid="373" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="230">
+      <node id="374">
         <label>gr::ccsds::synchronizeCADUArgMax_impl</label>
         <link refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl"/>
-        <childnode refid="228" relation="public-inheritance">
+        <childnode refid="372" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="232">
+      <node id="376">
         <label>sync_block</label>
       </node>
-      <node id="231">
+      <node id="375">
         <label>gr::ccsds::synchronizeCADUArgMax</label>
         <link refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax"/>
-        <childnode refid="232" relation="public-inheritance">
+        <childnode refid="376" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

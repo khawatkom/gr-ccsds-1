@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="argmax_8h" kind="file" language="C++">
+    <compoundname>argmax.h</compoundname>
+    <includes local="no">iostream</includes>
+    <includes local="no">vector</includes>
+    <includes local="no">valarray</includes>
+    <includes local="no">algorithm</includes>
+    <includes local="no">cassert</includes>
+    <includes local="no">string</includes>
+    <includedby refid="synchronizeCADUArgMax__impl_8h" local="yes">synchronizeCADUArgMax_impl.h</includedby>
+    <incdepgraph>
+      <node id="699">
+        <label>valarray</label>
+      </node>
+      <node id="701">
+        <label>cassert</label>
+      </node>
+      <node id="702">
+        <label>string</label>
+      </node>
+      <node id="696">
+        <label>argmax.h</label>
+        <link refid="argmax.h"/>
+        <childnode refid="697" relation="include">
+        </childnode>
+        <childnode refid="698" relation="include">
+        </childnode>
+        <childnode refid="699" relation="include">
+        </childnode>
+        <childnode refid="700" relation="include">
+        </childnode>
+        <childnode refid="701" relation="include">
+        </childnode>
+        <childnode refid="702" relation="include">
+        </childnode>
+      </node>
+      <node id="698">
+        <label>vector</label>
+      </node>
+      <node id="697">
+        <label>iostream</label>
+      </node>
+      <node id="700">
+        <label>algorithm</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="704">
+        <label>synchronizeCADUArgMax_impl.h</label>
+        <link refid="synchronizeCADUArgMax__impl_8h"/>
+      </node>
+      <node id="703">
+        <label>argmax.h</label>
+        <link refid="argmax.h"/>
+        <childnode refid="704" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classargmax" prot="public">argmax</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/frame_sync/argmax.h"/>
+  </compounddef>
+</doxygen>

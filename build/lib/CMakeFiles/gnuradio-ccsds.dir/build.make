@@ -249,9 +249,33 @@ lib/CMakeFiles/gnuradio-ccsds.dir/fec/ldpc/ldpc.cpp.o.provides: lib/CMakeFiles/g
 lib/CMakeFiles/gnuradio-ccsds.dir/fec/ldpc/ldpc.cpp.o.provides.build: lib/CMakeFiles/gnuradio-ccsds.dir/fec/ldpc/ldpc.cpp.o
 
 
+lib/CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.o: lib/CMakeFiles/gnuradio-ccsds.dir/flags.make
+lib/CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.o: ../lib/fec/frame_sync/argmax.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.o"
+	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.o -c /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/frame_sync/argmax.cc
+
+lib/CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.i"
+	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/frame_sync/argmax.cc > CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.i
+
+lib/CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.s"
+	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/frame_sync/argmax.cc -o CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.s
+
+lib/CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.o.requires:
+
+.PHONY : lib/CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.o.requires
+
+lib/CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.o.provides: lib/CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.o.requires
+	$(MAKE) -f lib/CMakeFiles/gnuradio-ccsds.dir/build.make lib/CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.o.provides.build
+.PHONY : lib/CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.o.provides
+
+lib/CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.o.provides.build: lib/CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.o
+
+
 lib/CMakeFiles/gnuradio-ccsds.dir/convEncoder_impl.cc.o: lib/CMakeFiles/gnuradio-ccsds.dir/flags.make
 lib/CMakeFiles/gnuradio-ccsds.dir/convEncoder_impl.cc.o: ../lib/convEncoder_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/convEncoder_impl.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/convEncoder_impl.cc.o"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ccsds.dir/convEncoder_impl.cc.o -c /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/convEncoder_impl.cc
 
 lib/CMakeFiles/gnuradio-ccsds.dir/convEncoder_impl.cc.i: cmake_force
@@ -275,7 +299,7 @@ lib/CMakeFiles/gnuradio-ccsds.dir/convEncoder_impl.cc.o.provides.build: lib/CMak
 
 lib/CMakeFiles/gnuradio-ccsds.dir/convDecoder_impl.cc.o: lib/CMakeFiles/gnuradio-ccsds.dir/flags.make
 lib/CMakeFiles/gnuradio-ccsds.dir/convDecoder_impl.cc.o: ../lib/convDecoder_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/convDecoder_impl.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/convDecoder_impl.cc.o"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ccsds.dir/convDecoder_impl.cc.o -c /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/convDecoder_impl.cc
 
 lib/CMakeFiles/gnuradio-ccsds.dir/convDecoder_impl.cc.i: cmake_force
@@ -299,7 +323,7 @@ lib/CMakeFiles/gnuradio-ccsds.dir/convDecoder_impl.cc.o.provides.build: lib/CMak
 
 lib/CMakeFiles/gnuradio-ccsds.dir/generateCADU_impl.cc.o: lib/CMakeFiles/gnuradio-ccsds.dir/flags.make
 lib/CMakeFiles/gnuradio-ccsds.dir/generateCADU_impl.cc.o: ../lib/generateCADU_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/generateCADU_impl.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/generateCADU_impl.cc.o"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ccsds.dir/generateCADU_impl.cc.o -c /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCADU_impl.cc
 
 lib/CMakeFiles/gnuradio-ccsds.dir/generateCADU_impl.cc.i: cmake_force
@@ -323,7 +347,7 @@ lib/CMakeFiles/gnuradio-ccsds.dir/generateCADU_impl.cc.o.provides.build: lib/CMa
 
 lib/CMakeFiles/gnuradio-ccsds.dir/processCADU_impl.cc.o: lib/CMakeFiles/gnuradio-ccsds.dir/flags.make
 lib/CMakeFiles/gnuradio-ccsds.dir/processCADU_impl.cc.o: ../lib/processCADU_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/processCADU_impl.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/processCADU_impl.cc.o"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ccsds.dir/processCADU_impl.cc.o -c /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/processCADU_impl.cc
 
 lib/CMakeFiles/gnuradio-ccsds.dir/processCADU_impl.cc.i: cmake_force
@@ -347,7 +371,7 @@ lib/CMakeFiles/gnuradio-ccsds.dir/processCADU_impl.cc.o.provides.build: lib/CMak
 
 lib/CMakeFiles/gnuradio-ccsds.dir/extractCADU_impl.cc.o: lib/CMakeFiles/gnuradio-ccsds.dir/flags.make
 lib/CMakeFiles/gnuradio-ccsds.dir/extractCADU_impl.cc.o: ../lib/extractCADU_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/extractCADU_impl.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/extractCADU_impl.cc.o"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ccsds.dir/extractCADU_impl.cc.o -c /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/extractCADU_impl.cc
 
 lib/CMakeFiles/gnuradio-ccsds.dir/extractCADU_impl.cc.i: cmake_force
@@ -371,7 +395,7 @@ lib/CMakeFiles/gnuradio-ccsds.dir/extractCADU_impl.cc.o.provides.build: lib/CMak
 
 lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADU_impl.cc.o: lib/CMakeFiles/gnuradio-ccsds.dir/flags.make
 lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADU_impl.cc.o: ../lib/synchronizeCADU_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADU_impl.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADU_impl.cc.o"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ccsds.dir/synchronizeCADU_impl.cc.o -c /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADU_impl.cc
 
 lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADU_impl.cc.i: cmake_force
@@ -395,7 +419,7 @@ lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADU_impl.cc.o.provides.build: lib/
 
 lib/CMakeFiles/gnuradio-ccsds.dir/generateCLTU_impl.cc.o: lib/CMakeFiles/gnuradio-ccsds.dir/flags.make
 lib/CMakeFiles/gnuradio-ccsds.dir/generateCLTU_impl.cc.o: ../lib/generateCLTU_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/generateCLTU_impl.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/generateCLTU_impl.cc.o"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ccsds.dir/generateCLTU_impl.cc.o -c /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/generateCLTU_impl.cc
 
 lib/CMakeFiles/gnuradio-ccsds.dir/generateCLTU_impl.cc.i: cmake_force
@@ -419,7 +443,7 @@ lib/CMakeFiles/gnuradio-ccsds.dir/generateCLTU_impl.cc.o.provides.build: lib/CMa
 
 lib/CMakeFiles/gnuradio-ccsds.dir/genCADU_impl.cc.o: lib/CMakeFiles/gnuradio-ccsds.dir/flags.make
 lib/CMakeFiles/gnuradio-ccsds.dir/genCADU_impl.cc.o: ../lib/genCADU_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/genCADU_impl.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/genCADU_impl.cc.o"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ccsds.dir/genCADU_impl.cc.o -c /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/genCADU_impl.cc
 
 lib/CMakeFiles/gnuradio-ccsds.dir/genCADU_impl.cc.i: cmake_force
@@ -443,7 +467,7 @@ lib/CMakeFiles/gnuradio-ccsds.dir/genCADU_impl.cc.o.provides.build: lib/CMakeFil
 
 lib/CMakeFiles/gnuradio-ccsds.dir/simplifiedPLOP1_impl.cc.o: lib/CMakeFiles/gnuradio-ccsds.dir/flags.make
 lib/CMakeFiles/gnuradio-ccsds.dir/simplifiedPLOP1_impl.cc.o: ../lib/simplifiedPLOP1_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/simplifiedPLOP1_impl.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/simplifiedPLOP1_impl.cc.o"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ccsds.dir/simplifiedPLOP1_impl.cc.o -c /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/simplifiedPLOP1_impl.cc
 
 lib/CMakeFiles/gnuradio-ccsds.dir/simplifiedPLOP1_impl.cc.i: cmake_force
@@ -467,7 +491,7 @@ lib/CMakeFiles/gnuradio-ccsds.dir/simplifiedPLOP1_impl.cc.o.provides.build: lib/
 
 lib/CMakeFiles/gnuradio-ccsds.dir/cc_depuncture_impl.cc.o: lib/CMakeFiles/gnuradio-ccsds.dir/flags.make
 lib/CMakeFiles/gnuradio-ccsds.dir/cc_depuncture_impl.cc.o: ../lib/cc_depuncture_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/cc_depuncture_impl.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/cc_depuncture_impl.cc.o"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ccsds.dir/cc_depuncture_impl.cc.o -c /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/cc_depuncture_impl.cc
 
 lib/CMakeFiles/gnuradio-ccsds.dir/cc_depuncture_impl.cc.i: cmake_force
@@ -491,7 +515,7 @@ lib/CMakeFiles/gnuradio-ccsds.dir/cc_depuncture_impl.cc.o.provides.build: lib/CM
 
 lib/CMakeFiles/gnuradio-ccsds.dir/createCADU_impl.cc.o: lib/CMakeFiles/gnuradio-ccsds.dir/flags.make
 lib/CMakeFiles/gnuradio-ccsds.dir/createCADU_impl.cc.o: ../lib/createCADU_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/createCADU_impl.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/createCADU_impl.cc.o"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ccsds.dir/createCADU_impl.cc.o -c /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/createCADU_impl.cc
 
 lib/CMakeFiles/gnuradio-ccsds.dir/createCADU_impl.cc.i: cmake_force
@@ -515,7 +539,7 @@ lib/CMakeFiles/gnuradio-ccsds.dir/createCADU_impl.cc.o.provides.build: lib/CMake
 
 lib/CMakeFiles/gnuradio-ccsds.dir/recoverCADU_impl.cc.o: lib/CMakeFiles/gnuradio-ccsds.dir/flags.make
 lib/CMakeFiles/gnuradio-ccsds.dir/recoverCADU_impl.cc.o: ../lib/recoverCADU_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/recoverCADU_impl.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/recoverCADU_impl.cc.o"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ccsds.dir/recoverCADU_impl.cc.o -c /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADU_impl.cc
 
 lib/CMakeFiles/gnuradio-ccsds.dir/recoverCADU_impl.cc.i: cmake_force
@@ -539,7 +563,7 @@ lib/CMakeFiles/gnuradio-ccsds.dir/recoverCADU_impl.cc.o.provides.build: lib/CMak
 
 lib/CMakeFiles/gnuradio-ccsds.dir/encodeRS_impl.cc.o: lib/CMakeFiles/gnuradio-ccsds.dir/flags.make
 lib/CMakeFiles/gnuradio-ccsds.dir/encodeRS_impl.cc.o: ../lib/encodeRS_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/encodeRS_impl.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/encodeRS_impl.cc.o"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ccsds.dir/encodeRS_impl.cc.o -c /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeRS_impl.cc
 
 lib/CMakeFiles/gnuradio-ccsds.dir/encodeRS_impl.cc.i: cmake_force
@@ -563,7 +587,7 @@ lib/CMakeFiles/gnuradio-ccsds.dir/encodeRS_impl.cc.o.provides.build: lib/CMakeFi
 
 lib/CMakeFiles/gnuradio-ccsds.dir/decodeRS_impl.cc.o: lib/CMakeFiles/gnuradio-ccsds.dir/flags.make
 lib/CMakeFiles/gnuradio-ccsds.dir/decodeRS_impl.cc.o: ../lib/decodeRS_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/decodeRS_impl.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/decodeRS_impl.cc.o"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ccsds.dir/decodeRS_impl.cc.o -c /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeRS_impl.cc
 
 lib/CMakeFiles/gnuradio-ccsds.dir/decodeRS_impl.cc.i: cmake_force
@@ -587,7 +611,7 @@ lib/CMakeFiles/gnuradio-ccsds.dir/decodeRS_impl.cc.o.provides.build: lib/CMakeFi
 
 lib/CMakeFiles/gnuradio-ccsds.dir/encodeTurbo_impl.cc.o: lib/CMakeFiles/gnuradio-ccsds.dir/flags.make
 lib/CMakeFiles/gnuradio-ccsds.dir/encodeTurbo_impl.cc.o: ../lib/encodeTurbo_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/encodeTurbo_impl.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/encodeTurbo_impl.cc.o"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ccsds.dir/encodeTurbo_impl.cc.o -c /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeTurbo_impl.cc
 
 lib/CMakeFiles/gnuradio-ccsds.dir/encodeTurbo_impl.cc.i: cmake_force
@@ -611,7 +635,7 @@ lib/CMakeFiles/gnuradio-ccsds.dir/encodeTurbo_impl.cc.o.provides.build: lib/CMak
 
 lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUSoft_impl.cc.o: lib/CMakeFiles/gnuradio-ccsds.dir/flags.make
 lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUSoft_impl.cc.o: ../lib/synchronizeCADUSoft_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUSoft_impl.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUSoft_impl.cc.o"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUSoft_impl.cc.o -c /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUSoft_impl.cc
 
 lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUSoft_impl.cc.i: cmake_force
@@ -635,7 +659,7 @@ lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUSoft_impl.cc.o.provides.build: 
 
 lib/CMakeFiles/gnuradio-ccsds.dir/recoverCADUSoft_impl.cc.o: lib/CMakeFiles/gnuradio-ccsds.dir/flags.make
 lib/CMakeFiles/gnuradio-ccsds.dir/recoverCADUSoft_impl.cc.o: ../lib/recoverCADUSoft_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/recoverCADUSoft_impl.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/recoverCADUSoft_impl.cc.o"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ccsds.dir/recoverCADUSoft_impl.cc.o -c /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/recoverCADUSoft_impl.cc
 
 lib/CMakeFiles/gnuradio-ccsds.dir/recoverCADUSoft_impl.cc.i: cmake_force
@@ -659,7 +683,7 @@ lib/CMakeFiles/gnuradio-ccsds.dir/recoverCADUSoft_impl.cc.o.provides.build: lib/
 
 lib/CMakeFiles/gnuradio-ccsds.dir/decodeTurbo_impl.cc.o: lib/CMakeFiles/gnuradio-ccsds.dir/flags.make
 lib/CMakeFiles/gnuradio-ccsds.dir/decodeTurbo_impl.cc.o: ../lib/decodeTurbo_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/decodeTurbo_impl.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/decodeTurbo_impl.cc.o"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ccsds.dir/decodeTurbo_impl.cc.o -c /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeTurbo_impl.cc
 
 lib/CMakeFiles/gnuradio-ccsds.dir/decodeTurbo_impl.cc.i: cmake_force
@@ -683,7 +707,7 @@ lib/CMakeFiles/gnuradio-ccsds.dir/decodeTurbo_impl.cc.o.provides.build: lib/CMak
 
 lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUHard_impl.cc.o: lib/CMakeFiles/gnuradio-ccsds.dir/flags.make
 lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUHard_impl.cc.o: ../lib/synchronizeCADUHard_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUHard_impl.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUHard_impl.cc.o"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUHard_impl.cc.o -c /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.cc
 
 lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUHard_impl.cc.i: cmake_force
@@ -707,7 +731,7 @@ lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUHard_impl.cc.o.provides.build: 
 
 lib/CMakeFiles/gnuradio-ccsds.dir/encodeLDPC_impl.cc.o: lib/CMakeFiles/gnuradio-ccsds.dir/flags.make
 lib/CMakeFiles/gnuradio-ccsds.dir/encodeLDPC_impl.cc.o: ../lib/encodeLDPC_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/encodeLDPC_impl.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/encodeLDPC_impl.cc.o"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ccsds.dir/encodeLDPC_impl.cc.o -c /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/encodeLDPC_impl.cc
 
 lib/CMakeFiles/gnuradio-ccsds.dir/encodeLDPC_impl.cc.i: cmake_force
@@ -731,7 +755,7 @@ lib/CMakeFiles/gnuradio-ccsds.dir/encodeLDPC_impl.cc.o.provides.build: lib/CMake
 
 lib/CMakeFiles/gnuradio-ccsds.dir/decodeLDPC_impl.cc.o: lib/CMakeFiles/gnuradio-ccsds.dir/flags.make
 lib/CMakeFiles/gnuradio-ccsds.dir/decodeLDPC_impl.cc.o: ../lib/decodeLDPC_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/decodeLDPC_impl.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/decodeLDPC_impl.cc.o"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ccsds.dir/decodeLDPC_impl.cc.o -c /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/decodeLDPC_impl.cc
 
 lib/CMakeFiles/gnuradio-ccsds.dir/decodeLDPC_impl.cc.i: cmake_force
@@ -755,7 +779,7 @@ lib/CMakeFiles/gnuradio-ccsds.dir/decodeLDPC_impl.cc.o.provides.build: lib/CMake
 
 lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o: lib/CMakeFiles/gnuradio-ccsds.dir/flags.make
 lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o: ../lib/synchronizeCADUArgMax_impl.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o -c /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.cc
 
 lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.i: cmake_force
@@ -787,6 +811,7 @@ gnuradio__ccsds_OBJECTS = \
 "CMakeFiles/gnuradio-ccsds.dir/fec/ldpc/variablenode.cpp.o" \
 "CMakeFiles/gnuradio-ccsds.dir/fec/ldpc/checknode.cpp.o" \
 "CMakeFiles/gnuradio-ccsds.dir/fec/ldpc/ldpc.cpp.o" \
+"CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.o" \
 "CMakeFiles/gnuradio-ccsds.dir/convEncoder_impl.cc.o" \
 "CMakeFiles/gnuradio-ccsds.dir/convDecoder_impl.cc.o" \
 "CMakeFiles/gnuradio-ccsds.dir/generateCADU_impl.cc.o" \
@@ -821,6 +846,7 @@ lib/libgnuradio-ccsds-1.0.0git.so.0.0.0: lib/CMakeFiles/gnuradio-ccsds.dir/fec/t
 lib/libgnuradio-ccsds-1.0.0git.so.0.0.0: lib/CMakeFiles/gnuradio-ccsds.dir/fec/ldpc/variablenode.cpp.o
 lib/libgnuradio-ccsds-1.0.0git.so.0.0.0: lib/CMakeFiles/gnuradio-ccsds.dir/fec/ldpc/checknode.cpp.o
 lib/libgnuradio-ccsds-1.0.0git.so.0.0.0: lib/CMakeFiles/gnuradio-ccsds.dir/fec/ldpc/ldpc.cpp.o
+lib/libgnuradio-ccsds-1.0.0git.so.0.0.0: lib/CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.o
 lib/libgnuradio-ccsds-1.0.0git.so.0.0.0: lib/CMakeFiles/gnuradio-ccsds.dir/convEncoder_impl.cc.o
 lib/libgnuradio-ccsds-1.0.0git.so.0.0.0: lib/CMakeFiles/gnuradio-ccsds.dir/convDecoder_impl.cc.o
 lib/libgnuradio-ccsds-1.0.0git.so.0.0.0: lib/CMakeFiles/gnuradio-ccsds.dir/generateCADU_impl.cc.o
@@ -857,7 +883,7 @@ lib/libgnuradio-ccsds-1.0.0git.so.0.0.0: /usr/local/lib/libgnuradio-fec.so
 lib/libgnuradio-ccsds-1.0.0git.so.0.0.0: /usr/local/lib/libgnuradio-filter.so
 lib/libgnuradio-ccsds-1.0.0git.so.0.0.0: /usr/local/lib/libgnuradio-fft.so
 lib/libgnuradio-ccsds-1.0.0git.so.0.0.0: lib/CMakeFiles/gnuradio-ccsds.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX shared library libgnuradio-ccsds-1.0.0git.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX shared library libgnuradio-ccsds-1.0.0git.so"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gnuradio-ccsds.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && $(CMAKE_COMMAND) -E cmake_symlink_library libgnuradio-ccsds-1.0.0git.so.0.0.0 libgnuradio-ccsds-1.0.0git.so.0.0.0 libgnuradio-ccsds-1.0.0git.so
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib && /usr/bin/cmake -E create_symlink libgnuradio-ccsds-1.0.0git.so.0.0.0 /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/lib/libgnuradio-ccsds.so
@@ -880,6 +906,7 @@ lib/CMakeFiles/gnuradio-ccsds.dir/requires: lib/CMakeFiles/gnuradio-ccsds.dir/fe
 lib/CMakeFiles/gnuradio-ccsds.dir/requires: lib/CMakeFiles/gnuradio-ccsds.dir/fec/ldpc/variablenode.cpp.o.requires
 lib/CMakeFiles/gnuradio-ccsds.dir/requires: lib/CMakeFiles/gnuradio-ccsds.dir/fec/ldpc/checknode.cpp.o.requires
 lib/CMakeFiles/gnuradio-ccsds.dir/requires: lib/CMakeFiles/gnuradio-ccsds.dir/fec/ldpc/ldpc.cpp.o.requires
+lib/CMakeFiles/gnuradio-ccsds.dir/requires: lib/CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.o.requires
 lib/CMakeFiles/gnuradio-ccsds.dir/requires: lib/CMakeFiles/gnuradio-ccsds.dir/convEncoder_impl.cc.o.requires
 lib/CMakeFiles/gnuradio-ccsds.dir/requires: lib/CMakeFiles/gnuradio-ccsds.dir/convDecoder_impl.cc.o.requires
 lib/CMakeFiles/gnuradio-ccsds.dir/requires: lib/CMakeFiles/gnuradio-ccsds.dir/generateCADU_impl.cc.o.requires

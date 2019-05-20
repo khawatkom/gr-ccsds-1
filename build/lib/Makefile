@@ -546,6 +546,33 @@ fec/Scrambler/Scrambler.cc.s:
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ccsds.dir/build.make lib/CMakeFiles/gnuradio-ccsds.dir/fec/Scrambler/Scrambler.cc.s
 .PHONY : fec/Scrambler/Scrambler.cc.s
 
+fec/frame_sync/argmax.o: fec/frame_sync/argmax.cc.o
+
+.PHONY : fec/frame_sync/argmax.o
+
+# target to build an object file
+fec/frame_sync/argmax.cc.o:
+	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ccsds.dir/build.make lib/CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.o
+.PHONY : fec/frame_sync/argmax.cc.o
+
+fec/frame_sync/argmax.i: fec/frame_sync/argmax.cc.i
+
+.PHONY : fec/frame_sync/argmax.i
+
+# target to preprocess a source file
+fec/frame_sync/argmax.cc.i:
+	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ccsds.dir/build.make lib/CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.i
+.PHONY : fec/frame_sync/argmax.cc.i
+
+fec/frame_sync/argmax.s: fec/frame_sync/argmax.cc.s
+
+.PHONY : fec/frame_sync/argmax.s
+
+# target to generate assembly for a file
+fec/frame_sync/argmax.cc.s:
+	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build && $(MAKE) -f lib/CMakeFiles/gnuradio-ccsds.dir/build.make lib/CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.s
+.PHONY : fec/frame_sync/argmax.cc.s
+
 fec/ldpc/checknode.o: fec/ldpc/checknode.cpp.o
 
 .PHONY : fec/ldpc/checknode.o
@@ -1113,6 +1140,9 @@ help:
 	@echo "... fec/Scrambler/Scrambler.o"
 	@echo "... fec/Scrambler/Scrambler.i"
 	@echo "... fec/Scrambler/Scrambler.s"
+	@echo "... fec/frame_sync/argmax.o"
+	@echo "... fec/frame_sync/argmax.i"
+	@echo "... fec/frame_sync/argmax.s"
 	@echo "... fec/ldpc/checknode.o"
 	@echo "... fec/ldpc/checknode.i"
 	@echo "... fec/ldpc/checknode.s"

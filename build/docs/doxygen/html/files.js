@@ -7,6 +7,9 @@ var files =
       [ "alist", "classalist.html", "classalist" ]
     ] ],
     [ "api.h", "api_8h.html", "api_8h" ],
+    [ "argmax.h", "argmax_8h.html", [
+      [ "argmax", "classargmax.html", "classargmax" ]
+    ] ],
     [ "basis.h", "basis_8h.html", "basis_8h" ],
     [ "cc_depuncture.h", "cc__depuncture_8h.html", [
       [ "cc_depuncture", "classgr_1_1ccsds_1_1cc__depuncture.html", "classgr_1_1ccsds_1_1cc__depuncture" ]

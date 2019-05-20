@@ -4,13 +4,13 @@
     <compoundname>bch/libcrc-2.0/include/checksum.h</compoundname>
     <includes local="no">stdint.h</includes>
     <incdepgraph>
-      <node id="96">
+      <node id="736">
         <label>stdint.h</label>
       </node>
-      <node id="95">
+      <node id="735">
         <label>checksum.h</label>
         <link refid="bch/libcrc-2.0/include/checksum.h"/>
-        <childnode refid="96" relation="include">
+        <childnode refid="736" relation="include">
         </childnode>
       </node>
     </incdepgraph>

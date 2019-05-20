@@ -400,6 +400,24 @@ vector
 algorithm
 -
 
+/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/frame_sync/argmax.cc
+argmax.h
+/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/frame_sync/argmax.h
+
+/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/frame_sync/argmax.h
+iostream
+-
+vector
+-
+valarray
+-
+algorithm
+-
+cassert
+-
+string
+-
+
 /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/ldpc/alist.h
 iostream
 -
@@ -631,10 +649,14 @@ gnuradio/io_signature.h
 -
 synchronizeCADUArgMax_impl.h
 /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h
+sstream
+-
 
 /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h
 ccsds/synchronizeCADUArgMax.h
 -
+fec/frame_sync/argmax.h
+/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/fec/frame_sync/argmax.h
 
 /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUHard_impl.cc
 config.h
@@ -1128,8 +1150,6 @@ x86intrin.h
 complex
 -
 stdint.h
--
-tgmath.h
 -
 complex.h
 -

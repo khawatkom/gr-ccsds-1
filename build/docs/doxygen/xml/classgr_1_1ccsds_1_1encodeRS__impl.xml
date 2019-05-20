@@ -211,36 +211,36 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="100">
+      <node id="244">
         <label>gr::ccsds::encodeRS</label>
         <link refid="classgr_1_1ccsds_1_1encodeRS"/>
-        <childnode refid="101" relation="public-inheritance">
+        <childnode refid="245" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="101">
+      <node id="245">
         <label>gr::tagged_stream_block</label>
       </node>
-      <node id="99">
+      <node id="243">
         <label>gr::ccsds::encodeRS_impl</label>
         <link refid="classgr_1_1ccsds_1_1encodeRS__impl"/>
-        <childnode refid="100" relation="public-inheritance">
+        <childnode refid="244" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="103">
+      <node id="247">
         <label>gr::ccsds::encodeRS</label>
         <link refid="classgr_1_1ccsds_1_1encodeRS"/>
-        <childnode refid="104" relation="public-inheritance">
+        <childnode refid="248" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="104">
+      <node id="248">
         <label>gr::tagged_stream_block</label>
       </node>
-      <node id="102">
+      <node id="246">
         <label>gr::ccsds::encodeRS_impl</label>
         <link refid="classgr_1_1ccsds_1_1encodeRS__impl"/>
-        <childnode refid="103" relation="public-inheritance">
+        <childnode refid="247" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

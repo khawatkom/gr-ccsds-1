@@ -1,6 +1,7 @@
 var hierarchy =
 [
     [ "alist", "classalist.html", null ],
+    [ "argmax", "classargmax.html", null ],
     [ "block", null, [
       [ "gr::ccsds::cc_depuncture", "classgr_1_1ccsds_1_1cc__depuncture.html", [
         [ "gr::ccsds::cc_depuncture_impl", "classgr_1_1ccsds_1_1cc__depuncture__impl.html", null ]
@@ -19,8 +20,8 @@ var hierarchy =
       ] ]
     ] ],
     [ "ldpc", "classldpc.html", null ],
-    [ "ReedSolomon", "classReedSolomon.html", null ],
     [ "reedSolomon", "classreedSolomon.html", null ],
+    [ "ReedSolomon", "classReedSolomon.html", null ],
     [ "Scrambler", "classScrambler.html", null ],
     [ "str_convcode", "structstr__convcode.html", null ],
     [ "str_turbocode", "structstr__turbocode.html", null ],

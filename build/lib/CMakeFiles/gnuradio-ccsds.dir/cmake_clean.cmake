@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/gnuradio-ccsds.dir/fec/ldpc/variablenode.cpp.o"
   "CMakeFiles/gnuradio-ccsds.dir/fec/ldpc/checknode.cpp.o"
   "CMakeFiles/gnuradio-ccsds.dir/fec/ldpc/ldpc.cpp.o"
+  "CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.o"
   "CMakeFiles/gnuradio-ccsds.dir/convEncoder_impl.cc.o"
   "CMakeFiles/gnuradio-ccsds.dir/convDecoder_impl.cc.o"
   "CMakeFiles/gnuradio-ccsds.dir/generateCADU_impl.cc.o"

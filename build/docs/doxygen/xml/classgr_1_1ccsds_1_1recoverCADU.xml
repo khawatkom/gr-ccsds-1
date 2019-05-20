@@ -52,30 +52,30 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="174">
+      <node id="318">
         <label>sync_block</label>
       </node>
-      <node id="175">
+      <node id="319">
         <label>gr::ccsds::recoverCADU_impl</label>
         <link refid="classgr_1_1ccsds_1_1recoverCADU__impl"/>
-        <childnode refid="173" relation="public-inheritance">
+        <childnode refid="317" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="173">
+      <node id="317">
         <label>gr::ccsds::recoverCADU</label>
         <link refid="classgr_1_1ccsds_1_1recoverCADU"/>
-        <childnode refid="174" relation="public-inheritance">
+        <childnode refid="318" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="177">
+      <node id="321">
         <label>sync_block</label>
       </node>
-      <node id="176">
+      <node id="320">
         <label>gr::ccsds::recoverCADU</label>
         <link refid="classgr_1_1ccsds_1_1recoverCADU"/>
-        <childnode refid="177" relation="public-inheritance">
+        <childnode refid="321" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

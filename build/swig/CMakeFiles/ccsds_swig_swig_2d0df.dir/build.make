@@ -66,6 +66,7 @@ swig/ccsds_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/block_detail.i
 swig/ccsds_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/constants.i
 swig/ccsds_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/sync_block.i
 swig/ccsds_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/gr_shared_ptr.i
+swig/ccsds_swig_swig_2d0df.cpp: swig/ccsds_swig_doc.i
 swig/ccsds_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/block_gateway.i
 swig/ccsds_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/sync_interpolator.i
 swig/ccsds_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/gr_types.i
@@ -91,14 +92,23 @@ swig/ccsds_swig_swig_2d0df.cpp: /usr/local/include/gnuradio/swig/prefs.i
 swig/ccsds_swig_swig_2d0df.cpp: swig/ccsds_swig.tag
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/swig && /usr/bin/cmake -E copy /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/swig/ccsds_swig_swig_2d0df.cpp.in /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/swig/ccsds_swig_swig_2d0df.cpp
 
+swig/ccsds_swig_doc.i: swig/ccsds_swig_doc_swig_docs/xml/index.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating python docstrings for ccsds_swig_doc"
+	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/docs/doxygen && /usr/bin/python2 -B /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/docs/doxygen/swig_doc.py /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/swig/ccsds_swig_doc_swig_docs/xml /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/swig/ccsds_swig_doc.i
+
 swig/ccsds_swig.tag: swig/_ccsds_swig_swig_tag
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating ccsds_swig.tag"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating ccsds_swig.tag"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/swig && ./_ccsds_swig_swig_tag
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/swig && /usr/bin/cmake -E touch /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/swig/ccsds_swig.tag
 
+swig/ccsds_swig_doc_swig_docs/xml/index.xml: swig/_ccsds_swig_doc_tag
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating doxygen xml for ccsds_swig_doc docs"
+	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/swig && ./_ccsds_swig_doc_tag
+	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/swig && /usr/bin/doxygen /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/swig/ccsds_swig_doc_swig_docs/Doxyfile
+
 swig/CMakeFiles/ccsds_swig_swig_2d0df.dir/ccsds_swig_swig_2d0df.cpp.o: swig/CMakeFiles/ccsds_swig_swig_2d0df.dir/flags.make
 swig/CMakeFiles/ccsds_swig_swig_2d0df.dir/ccsds_swig_swig_2d0df.cpp.o: swig/ccsds_swig_swig_2d0df.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object swig/CMakeFiles/ccsds_swig_swig_2d0df.dir/ccsds_swig_swig_2d0df.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object swig/CMakeFiles/ccsds_swig_swig_2d0df.dir/ccsds_swig_swig_2d0df.cpp.o"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/swig && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ccsds_swig_swig_2d0df.dir/ccsds_swig_swig_2d0df.cpp.o -c /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/swig/ccsds_swig_swig_2d0df.cpp
 
 swig/CMakeFiles/ccsds_swig_swig_2d0df.dir/ccsds_swig_swig_2d0df.cpp.i: cmake_force
@@ -130,7 +140,7 @@ ccsds_swig_swig_2d0df_EXTERNAL_OBJECTS =
 swig/ccsds_swig_swig_2d0df: swig/CMakeFiles/ccsds_swig_swig_2d0df.dir/ccsds_swig_swig_2d0df.cpp.o
 swig/ccsds_swig_swig_2d0df: swig/CMakeFiles/ccsds_swig_swig_2d0df.dir/build.make
 swig/ccsds_swig_swig_2d0df: swig/CMakeFiles/ccsds_swig_swig_2d0df.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ccsds_swig_swig_2d0df"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ccsds_swig_swig_2d0df"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/swig && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ccsds_swig_swig_2d0df.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Swig source"
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/swig && /usr/bin/cmake -E make_directory /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/swig
@@ -150,7 +160,9 @@ swig/CMakeFiles/ccsds_swig_swig_2d0df.dir/clean:
 .PHONY : swig/CMakeFiles/ccsds_swig_swig_2d0df.dir/clean
 
 swig/CMakeFiles/ccsds_swig_swig_2d0df.dir/depend: swig/ccsds_swig_swig_2d0df.cpp
+swig/CMakeFiles/ccsds_swig_swig_2d0df.dir/depend: swig/ccsds_swig_doc.i
 swig/CMakeFiles/ccsds_swig_swig_2d0df.dir/depend: swig/ccsds_swig.tag
+swig/CMakeFiles/ccsds_swig_swig_2d0df.dir/depend: swig/ccsds_swig_doc_swig_docs/xml/index.xml
 	cd /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/swig /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/swig /home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/build/swig/CMakeFiles/ccsds_swig_swig_2d0df.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : swig/CMakeFiles/ccsds_swig_swig_2d0df.dir/depend
 

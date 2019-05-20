@@ -41,6 +41,21 @@
     <member refid="classalist_1aafa6a25107fde9ad12ed9834ba4e1830" kind="function"><name>print_mlist_i</name></member>
     <member refid="classalist_1ad2392cffaa3530cea5fb08678ad0b4ea" kind="function"><name>get_matrix</name></member>
   </compound>
+  <compound refid="classargmax" kind="class"><name>argmax</name>
+    <member refid="classargmax_1a3baeafef1720cdaf827bc8ad73de050a" kind="variable"><name>d_mtxFunction</name></member>
+    <member refid="classargmax_1a36f1375c385d7084d3fc49b3a806e9fc" kind="variable"><name>d_sync</name></member>
+    <member refid="classargmax_1a55ccf43fe0478ccf49c15e7c3c6d8cde" kind="function"><name>argmax</name></member>
+    <member refid="classargmax_1a562ca6cfa8f8aeb69f84aef170d8e275" kind="function"><name>setSyncWord</name></member>
+    <member refid="classargmax_1a7d3765e3690caa113994bb98a53dff29" kind="function"><name>argMaxSync</name></member>
+    <member refid="classargmax_1a415b031f48148445484ff3f840261fb6" kind="function"><name>extractSyncWord</name></member>
+    <member refid="classargmax_1a717655ad35320b2e9c5b0eb19b2bcaa5" kind="function"><name>printVector</name></member>
+    <member refid="classargmax_1ac38e1a3d26e9a455b6785cd6f7363741" kind="function"><name>hardCorr</name></member>
+    <member refid="classargmax_1ad3b365b03cedc0206fd33d799a34cf5b" kind="function"><name>softCorr</name></member>
+    <member refid="classargmax_1a7556c8e4d4a32f7e5af5ff87963221b9" kind="function"><name>masseyCorr</name></member>
+    <member refid="classargmax_1a97d7b34104d22a4ec97fd532e780de14" kind="function"><name>binarySlice</name></member>
+    <member refid="classargmax_1a248ebc74c3c31b3cd72bd5eb1192cd6e" kind="function"><name>hex_str_to_bin_str</name></member>
+    <member refid="classargmax_1a306ac726d42669cf1eefa0eba25f11c2" kind="function"><name>hex_char_to_bin</name></member>
+  </compound>
   <compound refid="classgr_1_1ccsds_1_1cc__depuncture" kind="class"><name>gr::ccsds::cc_depuncture</name>
     <member refid="classgr_1_1ccsds_1_1cc__depuncture_1a6f5c904502ac145a278b343b1932e45c" kind="typedef"><name>sptr</name></member>
     <member refid="classgr_1_1ccsds_1_1cc__depuncture_1a54eae8fef9e276124e17753e3194b5e9" kind="function"><name>make</name></member>
@@ -412,6 +427,35 @@
     <member refid="classgr_1_1ccsds_1_1recoverCADUSoft__impl_1a99f1d63cfb87070ba5beb8a58133b4fe" kind="function"><name>~recoverCADUSoft_impl</name></member>
     <member refid="classgr_1_1ccsds_1_1recoverCADUSoft__impl_1aa9a49e7958170dcd18c705f0eb5bfdce" kind="function"><name>work</name></member>
   </compound>
+  <compound refid="classreedSolomon" kind="class"><name>reedSolomon</name>
+    <member refid="classreedSolomon_1a37423ac4a69bec6b04a285232597570b" kind="variable"><name>encoder</name></member>
+    <member refid="classreedSolomon_1a8ca4f9a376ece8822108ca428216c21e" kind="variable"><name>decoder</name></member>
+    <member refid="classreedSolomon_1a8ad46eba715d5daffc102722000172b4" kind="variable"><name>d_rsType</name></member>
+    <member refid="classreedSolomon_1ad4c157add80eb15d8256196968164ef7" kind="variable"><name>d_depth</name></member>
+    <member refid="classreedSolomon_1a06ee118ac495f1b6c4fc1cf6aba3b38a" kind="variable"><name>d_basis</name></member>
+    <member refid="classreedSolomon_1ae1b3f0ff412dc43f368b6a8c7f7ffe89" kind="variable"><name>d_rsName</name></member>
+    <member refid="classreedSolomon_1af2447e2dba2cf8e025ac0fd1439600c1" kind="variable"><name>d_nRoots</name></member>
+    <member refid="classreedSolomon_1a948bda87d22aad6e4f024a997997f1b7" kind="variable"><name>errors</name></member>
+    <member refid="classreedSolomon_1a31bb9b8cf40c06663f966ce7281b1022" kind="variable"><name>rs223</name></member>
+    <member refid="classreedSolomon_1a479ea703368030785bc8f6b9b649c0d5" kind="variable"><name>rs239</name></member>
+    <member refid="classreedSolomon_1a41de62cd58db32cea07ae3d12b940d12" kind="function"><name>reedSolomon</name></member>
+    <member refid="classreedSolomon_1a8d25c886c7d3f74ad9ba2ff57fe20612" kind="function"><name>encodeRS223</name></member>
+    <member refid="classreedSolomon_1a1d015c63d6a66439b6b7ea6eb0c34d90" kind="function"><name>decodeRS223</name></member>
+    <member refid="classreedSolomon_1a607b4ee23078832e6fda4f88ed9ad63a" kind="function"><name>encodeRS239</name></member>
+    <member refid="classreedSolomon_1a716ab5fd3084c9be1e0f864fd998cdc7" kind="function"><name>decodeRS239</name></member>
+    <member refid="classreedSolomon_1aaa20a8e46c1ea44f3606b2ea122b0889" kind="function"><name>encode</name></member>
+    <member refid="classreedSolomon_1a3e00332bc405f600ad6fc689102d6403" kind="function"><name>decode</name></member>
+    <member refid="classreedSolomon_1aade671f0cca9d1b2d9e651023a81bb61" kind="function"><name>getRSType</name></member>
+    <member refid="classreedSolomon_1a0a61ddd74ab9759db883f49fa86cd949" kind="function"><name>getDepth</name></member>
+    <member refid="classreedSolomon_1a5535334b73cfed0f60de2ff94678d5d9" kind="function"><name>getBasis</name></member>
+    <member refid="classreedSolomon_1abdcbfff9f98b0428b5a93764c9e54c28" kind="function"><name>getRSName</name></member>
+    <member refid="classreedSolomon_1a32673e02922556e3cdc08a43242ab981" kind="function"><name>getnRoots</name></member>
+    <member refid="classreedSolomon_1a0ee96e56100f0d712db35cf9998884dc" kind="function"><name>setRSType</name></member>
+    <member refid="classreedSolomon_1a043ed0875aa25029f00c3afc20332edc" kind="function"><name>setDepth</name></member>
+    <member refid="classreedSolomon_1a029cd4ab14ad44c522c0ba0f66c2a8c5" kind="function"><name>setBasis</name></member>
+    <member refid="classreedSolomon_1a5e5126a77714ad11e13742ff84b025d2" kind="function"><name>basis2Conv</name></member>
+    <member refid="classreedSolomon_1a28eaeda93264ecf9ddf86ff486234026" kind="function"><name>conv2Basis</name></member>
+  </compound>
   <compound refid="classReedSolomon" kind="class"><name>ReedSolomon</name>
     <member refid="classReedSolomon_1a8ceea2a7e70365789484fef90675ac08" kind="variable"><name>dual</name></member>
     <member refid="classReedSolomon_1a56bbdf470b051e416605daff586f05f0" kind="variable"><name>MM</name></member>
@@ -444,35 +488,6 @@
     <member refid="classReedSolomon_1a98794bc94c267b39a4236ebdce28116f" kind="function"><name>decode_rs_8</name></member>
     <member refid="classReedSolomon_1aa35974764853c4a5f46566678baba561" kind="function"><name>MODNN</name></member>
     <member refid="classReedSolomon_1a960fa0712faad31f173112730d80e9d5" kind="function"><name>MINNN</name></member>
-  </compound>
-  <compound refid="classreedSolomon" kind="class"><name>reedSolomon</name>
-    <member refid="classreedSolomon_1a37423ac4a69bec6b04a285232597570b" kind="variable"><name>encoder</name></member>
-    <member refid="classreedSolomon_1a8ca4f9a376ece8822108ca428216c21e" kind="variable"><name>decoder</name></member>
-    <member refid="classreedSolomon_1a8ad46eba715d5daffc102722000172b4" kind="variable"><name>d_rsType</name></member>
-    <member refid="classreedSolomon_1ad4c157add80eb15d8256196968164ef7" kind="variable"><name>d_depth</name></member>
-    <member refid="classreedSolomon_1a06ee118ac495f1b6c4fc1cf6aba3b38a" kind="variable"><name>d_basis</name></member>
-    <member refid="classreedSolomon_1ae1b3f0ff412dc43f368b6a8c7f7ffe89" kind="variable"><name>d_rsName</name></member>
-    <member refid="classreedSolomon_1af2447e2dba2cf8e025ac0fd1439600c1" kind="variable"><name>d_nRoots</name></member>
-    <member refid="classreedSolomon_1a948bda87d22aad6e4f024a997997f1b7" kind="variable"><name>errors</name></member>
-    <member refid="classreedSolomon_1a31bb9b8cf40c06663f966ce7281b1022" kind="variable"><name>rs223</name></member>
-    <member refid="classreedSolomon_1a479ea703368030785bc8f6b9b649c0d5" kind="variable"><name>rs239</name></member>
-    <member refid="classreedSolomon_1a41de62cd58db32cea07ae3d12b940d12" kind="function"><name>reedSolomon</name></member>
-    <member refid="classreedSolomon_1a8d25c886c7d3f74ad9ba2ff57fe20612" kind="function"><name>encodeRS223</name></member>
-    <member refid="classreedSolomon_1a1d015c63d6a66439b6b7ea6eb0c34d90" kind="function"><name>decodeRS223</name></member>
-    <member refid="classreedSolomon_1a607b4ee23078832e6fda4f88ed9ad63a" kind="function"><name>encodeRS239</name></member>
-    <member refid="classreedSolomon_1a716ab5fd3084c9be1e0f864fd998cdc7" kind="function"><name>decodeRS239</name></member>
-    <member refid="classreedSolomon_1aaa20a8e46c1ea44f3606b2ea122b0889" kind="function"><name>encode</name></member>
-    <member refid="classreedSolomon_1a3e00332bc405f600ad6fc689102d6403" kind="function"><name>decode</name></member>
-    <member refid="classreedSolomon_1aade671f0cca9d1b2d9e651023a81bb61" kind="function"><name>getRSType</name></member>
-    <member refid="classreedSolomon_1a0a61ddd74ab9759db883f49fa86cd949" kind="function"><name>getDepth</name></member>
-    <member refid="classreedSolomon_1a5535334b73cfed0f60de2ff94678d5d9" kind="function"><name>getBasis</name></member>
-    <member refid="classreedSolomon_1abdcbfff9f98b0428b5a93764c9e54c28" kind="function"><name>getRSName</name></member>
-    <member refid="classreedSolomon_1a32673e02922556e3cdc08a43242ab981" kind="function"><name>getnRoots</name></member>
-    <member refid="classreedSolomon_1a0ee96e56100f0d712db35cf9998884dc" kind="function"><name>setRSType</name></member>
-    <member refid="classreedSolomon_1a043ed0875aa25029f00c3afc20332edc" kind="function"><name>setDepth</name></member>
-    <member refid="classreedSolomon_1a029cd4ab14ad44c522c0ba0f66c2a8c5" kind="function"><name>setBasis</name></member>
-    <member refid="classreedSolomon_1a5e5126a77714ad11e13742ff84b025d2" kind="function"><name>basis2Conv</name></member>
-    <member refid="classreedSolomon_1a28eaeda93264ecf9ddf86ff486234026" kind="function"><name>conv2Basis</name></member>
   </compound>
   <compound refid="classScrambler" kind="class"><name>Scrambler</name>
     <member refid="classScrambler_1a8ac651c6fc9dc271d63a483a9056c350" kind="variable"><name>POLY</name></member>
@@ -536,6 +551,9 @@
     <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a858c5186a6ebe9dce5a3055a9f0124a2" kind="variable"><name>d_fec</name></member>
     <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1aa4587e36127a3d19be18319e009e6977" kind="variable"><name>d_verbose</name></member>
     <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1ad93145dc69162d20182b2801d5dc575b" kind="variable"><name>d_tag_name</name></member>
+    <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a4df4be87a6d8e6c8f335f2f4f8f10a8c" kind="variable"><name>frameSync</name></member>
+    <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a11d3e8ed9908fdfb356452357cb1da9c" kind="variable"><name>d_key</name></member>
+    <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a6850efd0d0d6e2bfeaca54d3efad1e3d" kind="variable"><name>d_me</name></member>
     <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a96308eb3744d4bc4d021ad81af974412" kind="function"><name>synchronizeCADUArgMax_impl</name></member>
     <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1ac12be7034c99235fe990d6338a62872d" kind="function"><name>~synchronizeCADUArgMax_impl</name></member>
     <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a35c460f1cda0020b793437d738371f77" kind="function"><name>work</name></member>
@@ -653,8 +671,6 @@
   </compound>
   <compound refid="namespacegr_1_1ccsds" kind="namespace"><name>gr::ccsds</name>
   </compound>
-  <compound refid="namespaceitpp" kind="namespace"><name>itpp</name>
-  </compound>
   <compound refid="namespacestd" kind="namespace"><name>std</name>
   </compound>
   <compound refid="examples_2LDPC_2ldpc__2_2ldpc__decoder_2alist_8h" kind="file"><name>examples/LDPC/ldpc_2/ldpc_decoder/alist.h</name>
@@ -663,6 +679,8 @@
   </compound>
   <compound refid="api_8h" kind="file"><name>api.h</name>
     <member refid="api_8h_1a144137922962dd54ae2e8c1917a7e588" kind="define"><name>CCSDS_API</name></member>
+  </compound>
+  <compound refid="argmax_8h" kind="file"><name>argmax.h</name>
   </compound>
   <compound refid="basis_8h" kind="file"><name>basis.h</name>
     <member refid="basis_8h_1a7e12f330c127dc26909a5d3c07e79916" kind="variable"><name>Taltab</name></member>
@@ -1173,6 +1191,8 @@
   <compound refid="dir_403f6692dd2748be5bda1ee3709f3e76" kind="dir"><name>ezpwd-reed-solomon</name>
   </compound>
   <compound refid="dir_73af00b870d90f3eb28260527156c90f" kind="dir"><name>fec</name>
+  </compound>
+  <compound refid="dir_d833efc22b0fc02deab6ebe295cf995e" kind="dir"><name>frame_sync</name>
   </compound>
   <compound refid="dir_0173cd96fa42824173a31296b2437ff2" kind="dir"><name>include</name>
   </compound>

@@ -24,6 +24,7 @@
 
 #include <gnuradio/io_signature.h>
 #include "synchronizeCADUArgMax_impl.h"
+#include <sstream>
 
 namespace gr {
   namespace ccsds {
@@ -46,7 +47,12 @@ namespace gr {
         d_sync(sync),d_frame_size(size),d_mtxFunction(mtxFunction),d_ambiguity(ambiguity),d_fec(fec),
         d_verbose(verbose > 0),d_tag_name(tagName)
     {
-
+        frameSync = new argmax(sync,d_mtxFunction,0);
+        set_output_multiple(d_frame_size);
+        std::stringstream str;
+        str << name() << unique_id();
+        d_me = pmt::string_to_symbol(str.str());
+        d_key = pmt::string_to_symbol(d_tag_name);
     }
 
     /*
@@ -61,8 +67,25 @@ namespace gr {
         gr_vector_const_void_star &input_items,
         gr_vector_void_star &output_items)
     {
+        gr::thread::scoped_lock l(d_mutex_access_code);
       const float *in = (const float *) input_items[0];
       float *out = (float *) output_items[0];
+
+      float maxCorrelation;
+      int indexMaxCorrelation;
+
+      frameSync->argMaxSync((float*)in,d_frame_size,maxCorrelation,indexMaxCorrelation);
+
+
+
+      //Copying frame from input to output circular buffer
+      memcpy(out,in,d_frame_size*sizeof(float));
+
+      //Adding tag
+      uint64_t abs_out_sample_cnt = nitems_written(0);
+      add_item_tag(0,abs_out_sample_cnt + indexMaxCorrelation + 32,d_key,pmt::from_long(0),d_me);
+
+
 
       // Do <+signal processing+>
 

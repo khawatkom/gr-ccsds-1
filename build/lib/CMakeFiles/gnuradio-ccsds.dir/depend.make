@@ -442,6 +442,9 @@ lib/CMakeFiles/gnuradio-ccsds.dir/fec/ReedSolomon/ReedSolomon.cc.o: ../lib/fec/R
 lib/CMakeFiles/gnuradio-ccsds.dir/fec/Scrambler/Scrambler.cc.o: ../lib/fec/Scrambler/Scrambler.cc
 lib/CMakeFiles/gnuradio-ccsds.dir/fec/Scrambler/Scrambler.cc.o: ../lib/fec/Scrambler/Scrambler.h
 
+lib/CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.o: ../lib/fec/frame_sync/argmax.cc
+lib/CMakeFiles/gnuradio-ccsds.dir/fec/frame_sync/argmax.cc.o: ../lib/fec/frame_sync/argmax.h
+
 lib/CMakeFiles/gnuradio-ccsds.dir/fec/ldpc/checknode.cpp.o: ../lib/fec/ldpc/checknode.cpp
 lib/CMakeFiles/gnuradio-ccsds.dir/fec/ldpc/checknode.cpp.o: ../lib/fec/ldpc/checknode.h
 
@@ -725,6 +728,7 @@ lib/CMakeFiles/gnuradio-ccsds.dir/simplifiedPLOP1_impl.cc.o: /usr/local/include/
 
 lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o: ../include/ccsds/api.h
 lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o: ../include/ccsds/synchronizeCADUArgMax.h
+lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o: ../lib/fec/frame_sync/argmax.h
 lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o: ../lib/synchronizeCADUArgMax_impl.cc
 lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o: ../lib/synchronizeCADUArgMax_impl.h
 lib/CMakeFiles/gnuradio-ccsds.dir/synchronizeCADUArgMax_impl.cc.o: /usr/local/include/gnuradio/api.h

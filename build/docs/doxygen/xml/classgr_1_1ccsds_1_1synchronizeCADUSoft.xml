@@ -72,30 +72,30 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="250">
+      <node id="394">
         <label>gr::ccsds::synchronizeCADUSoft</label>
         <link refid="classgr_1_1ccsds_1_1synchronizeCADUSoft"/>
-        <childnode refid="251" relation="public-inheritance">
+        <childnode refid="395" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="251">
+      <node id="395">
         <label>sync_block</label>
       </node>
-      <node id="252">
+      <node id="396">
         <label>gr::ccsds::synchronizeCADUSoft_impl</label>
         <link refid="classgr_1_1ccsds_1_1synchronizeCADUSoft__impl"/>
-        <childnode refid="250" relation="public-inheritance">
+        <childnode refid="394" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="253">
+      <node id="397">
         <label>gr::ccsds::synchronizeCADUSoft</label>
         <link refid="classgr_1_1ccsds_1_1synchronizeCADUSoft"/>
-        <childnode refid="254" relation="public-inheritance">
+        <childnode refid="398" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="254">
+      <node id="398">
         <label>sync_block</label>
       </node>
     </collaborationgraph>

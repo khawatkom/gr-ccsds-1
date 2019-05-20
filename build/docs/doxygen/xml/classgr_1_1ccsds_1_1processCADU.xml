@@ -60,30 +60,30 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="162">
+      <node id="306">
         <label>gr::ccsds::processCADU</label>
         <link refid="classgr_1_1ccsds_1_1processCADU"/>
-        <childnode refid="163" relation="public-inheritance">
+        <childnode refid="307" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="164">
+      <node id="308">
         <label>gr::ccsds::processCADU_impl</label>
         <link refid="classgr_1_1ccsds_1_1processCADU__impl"/>
-        <childnode refid="162" relation="public-inheritance">
+        <childnode refid="306" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="163">
+      <node id="307">
         <label>sync_block</label>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="165">
+      <node id="309">
         <label>gr::ccsds::processCADU</label>
         <link refid="classgr_1_1ccsds_1_1processCADU"/>
-        <childnode refid="166" relation="public-inheritance">
+        <childnode refid="310" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="166">
+      <node id="310">
         <label>sync_block</label>
       </node>
     </collaborationgraph>

@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" line="32" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" bodystart="32" bodyend="-1"/>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" line="33" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" bodystart="33" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a1181678af22ec6a59cb9466742c88cac" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" line="33" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" bodystart="33" bodyend="-1"/>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" line="34" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" bodystart="34" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1ad0756f5f6ea74170544fd2b3d300a202" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -42,7 +42,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" line="34" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" bodystart="34" bodyend="-1"/>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" line="35" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" bodystart="35" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a74e8f7eca43b2a4c1c7b09778ae40df2" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -55,7 +55,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" line="35" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" bodystart="35" bodyend="-1"/>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" line="36" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" bodystart="36" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a858c5186a6ebe9dce5a3055a9f0124a2" prot="private" static="no" mutable="no">
         <type>int</type>
@@ -68,7 +68,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" line="36" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" bodystart="36" bodyend="-1"/>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" line="37" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" bodystart="37" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1aa4587e36127a3d19be18319e009e6977" prot="private" static="no" mutable="no">
         <type>bool</type>
@@ -81,7 +81,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" line="37" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" bodystart="37" bodyend="-1"/>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" line="38" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" bodystart="38" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1ad93145dc69162d20182b2801d5dc575b" prot="private" static="no" mutable="no">
         <type>std::string</type>
@@ -94,7 +94,46 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" line="38" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" bodystart="38" bodyend="-1"/>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" line="39" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a4df4be87a6d8e6c8f335f2f4f8f10a8c" prot="private" static="no" mutable="no">
+        <type><ref refid="classargmax" kindref="compound">argmax</ref> *</type>
+        <definition>argmax* gr::ccsds::synchronizeCADUArgMax_impl::frameSync</definition>
+        <argsstring></argsstring>
+        <name>frameSync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" line="40" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a11d3e8ed9908fdfb356452357cb1da9c" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::ccsds::synchronizeCADUArgMax_impl::d_key</definition>
+        <argsstring></argsstring>
+        <name>d_key</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" line="41" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a6850efd0d0d6e2bfeaca54d3efad1e3d" prot="private" static="no" mutable="no">
+        <type>pmt::pmt_t</type>
+        <definition>pmt::pmt_t gr::ccsds::synchronizeCADUArgMax_impl::d_me</definition>
+        <argsstring></argsstring>
+        <name>d_me</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" line="41" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" bodystart="41" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -137,7 +176,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" line="42" column="1"/>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" line="45" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1ac12be7034c99235fe990d6338a62872d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -150,7 +189,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" line="43" column="1"/>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" line="46" column="1"/>
       </memberdef>
       <memberdef kind="function" id="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a35c460f1cda0020b793437d738371f77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>int</type>
@@ -175,7 +214,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" line="46" column="1"/>
+        <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" line="49" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -183,48 +222,51 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="235">
+      <node id="379">
         <label>sync_block</label>
       </node>
-      <node id="234">
+      <node id="378">
         <label>gr::ccsds::synchronizeCADUArgMax</label>
         <link refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax"/>
-        <childnode refid="235" relation="public-inheritance">
+        <childnode refid="379" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="233">
+      <node id="377">
         <label>gr::ccsds::synchronizeCADUArgMax_impl</label>
         <link refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl"/>
-        <childnode refid="234" relation="public-inheritance">
+        <childnode refid="378" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="238">
+      <node id="382">
         <label>sync_block</label>
       </node>
-      <node id="237">
+      <node id="381">
         <label>gr::ccsds::synchronizeCADUArgMax</label>
         <link refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax"/>
-        <childnode refid="238" relation="public-inheritance">
+        <childnode refid="382" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="236">
+      <node id="380">
         <label>gr::ccsds::synchronizeCADUArgMax_impl</label>
         <link refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl"/>
-        <childnode refid="237" relation="public-inheritance">
+        <childnode refid="381" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" line="30" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" bodystart="29" bodyend="49"/>
+    <location file="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" line="31" column="1" bodyfile="/home/mbkitine/Dropbox/Lulea/GRC/DeepSpace/gr-ccsds/lib/synchronizeCADUArgMax_impl.h" bodystart="30" bodyend="52"/>
     <listofallmembers>
       <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a74e8f7eca43b2a4c1c7b09778ae40df2" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUArgMax_impl</scope><name>d_ambiguity</name></member>
       <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a858c5186a6ebe9dce5a3055a9f0124a2" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUArgMax_impl</scope><name>d_fec</name></member>
       <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a1181678af22ec6a59cb9466742c88cac" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUArgMax_impl</scope><name>d_frame_size</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a11d3e8ed9908fdfb356452357cb1da9c" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUArgMax_impl</scope><name>d_key</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a6850efd0d0d6e2bfeaca54d3efad1e3d" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUArgMax_impl</scope><name>d_me</name></member>
       <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1ad0756f5f6ea74170544fd2b3d300a202" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUArgMax_impl</scope><name>d_mtxFunction</name></member>
       <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a6aa76a1cf5adcfe30b1ae6c6df0ae608" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUArgMax_impl</scope><name>d_sync</name></member>
       <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1ad93145dc69162d20182b2801d5dc575b" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUArgMax_impl</scope><name>d_tag_name</name></member>
       <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1aa4587e36127a3d19be18319e009e6977" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUArgMax_impl</scope><name>d_verbose</name></member>
+      <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a4df4be87a6d8e6c8f335f2f4f8f10a8c" prot="private" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUArgMax_impl</scope><name>frameSync</name></member>
       <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax_1a129eb1d4b0816781354b49488d82fe87" prot="public" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUArgMax_impl</scope><name>make</name></member>
       <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax_1a7e700ad78e5e5244b7036d6188e2bf40" prot="public" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUArgMax_impl</scope><name>sptr</name></member>
       <member refid="classgr_1_1ccsds_1_1synchronizeCADUArgMax__impl_1a96308eb3744d4bc4d021ad81af974412" prot="public" virt="non-virtual"><scope>gr::ccsds::synchronizeCADUArgMax_impl</scope><name>synchronizeCADUArgMax_impl</name></member>

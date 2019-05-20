@@ -60,30 +60,30 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="94">
+      <node id="238">
         <label>gr::ccsds::encodeRS</label>
         <link refid="classgr_1_1ccsds_1_1encodeRS"/>
-        <childnode refid="95" relation="public-inheritance">
+        <childnode refid="239" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="95">
+      <node id="239">
         <label>gr::tagged_stream_block</label>
       </node>
-      <node id="96">
+      <node id="240">
         <label>gr::ccsds::encodeRS_impl</label>
         <link refid="classgr_1_1ccsds_1_1encodeRS__impl"/>
-        <childnode refid="94" relation="public-inheritance">
+        <childnode refid="238" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="97">
+      <node id="241">
         <label>gr::ccsds::encodeRS</label>
         <link refid="classgr_1_1ccsds_1_1encodeRS"/>
-        <childnode refid="98" relation="public-inheritance">
+        <childnode refid="242" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="98">
+      <node id="242">
         <label>gr::tagged_stream_block</label>
       </node>
     </collaborationgraph>

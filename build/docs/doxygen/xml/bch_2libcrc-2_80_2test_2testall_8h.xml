@@ -4,13 +4,13 @@
     <compoundname>bch/libcrc-2.0/test/testall.h</compoundname>
     <includes local="no">stdbool.h</includes>
     <incdepgraph>
-      <node id="594">
+      <node id="1240">
         <label>stdbool.h</label>
       </node>
-      <node id="593">
+      <node id="1239">
         <label>testall.h</label>
         <link refid="bch/libcrc-2.0/test/testall.h"/>
-        <childnode refid="594" relation="include">
+        <childnode refid="1240" relation="include">
         </childnode>
       </node>
     </incdepgraph>

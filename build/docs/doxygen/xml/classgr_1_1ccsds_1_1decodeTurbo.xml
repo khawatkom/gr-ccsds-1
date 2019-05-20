@@ -64,30 +64,30 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="72">
+      <node id="216">
         <label>gr::ccsds::decodeTurbo</label>
         <link refid="classgr_1_1ccsds_1_1decodeTurbo"/>
-        <childnode refid="73" relation="public-inheritance">
+        <childnode refid="217" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="73">
+      <node id="217">
         <label>sync_block</label>
       </node>
-      <node id="74">
+      <node id="218">
         <label>gr::ccsds::decodeTurbo_impl</label>
         <link refid="classgr_1_1ccsds_1_1decodeTurbo__impl"/>
-        <childnode refid="72" relation="public-inheritance">
+        <childnode refid="216" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="75">
+      <node id="219">
         <label>gr::ccsds::decodeTurbo</label>
         <link refid="classgr_1_1ccsds_1_1decodeTurbo"/>
-        <childnode refid="76" relation="public-inheritance">
+        <childnode refid="220" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="76">
+      <node id="220">
         <label>sync_block</label>
       </node>
     </collaborationgraph>

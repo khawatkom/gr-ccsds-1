@@ -56,30 +56,30 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="19">
+      <node id="163">
         <label>gr::ccsds::convDecoder_impl</label>
         <link refid="classgr_1_1ccsds_1_1convDecoder__impl"/>
-        <childnode refid="17" relation="public-inheritance">
+        <childnode refid="161" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="18">
+      <node id="162">
         <label>hier_block2</label>
       </node>
-      <node id="17">
+      <node id="161">
         <label>gr::ccsds::convDecoder</label>
         <link refid="classgr_1_1ccsds_1_1convDecoder"/>
-        <childnode refid="18" relation="public-inheritance">
+        <childnode refid="162" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="21">
+      <node id="165">
         <label>hier_block2</label>
       </node>
-      <node id="20">
+      <node id="164">
         <label>gr::ccsds::convDecoder</label>
         <link refid="classgr_1_1ccsds_1_1convDecoder"/>
-        <childnode refid="21" relation="public-inheritance">
+        <childnode refid="165" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

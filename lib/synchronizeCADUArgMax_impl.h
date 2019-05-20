@@ -22,6 +22,7 @@
 #define INCLUDED_CCSDS_SYNCHRONIZECADUARGMAX_IMPL_H
 
 #include <ccsds/synchronizeCADUArgMax.h>
+#include "fec/frame_sync/argmax.h"
 
 namespace gr {
   namespace ccsds {
@@ -36,6 +37,9 @@ namespace gr {
         int d_fec;
         bool d_verbose;
         std::string d_tag_name;
+        argmax *frameSync;
+        pmt::pmt_t d_key, d_me;
+        gr::thread::mutex d_mutex_access_code;
 
 
      public:

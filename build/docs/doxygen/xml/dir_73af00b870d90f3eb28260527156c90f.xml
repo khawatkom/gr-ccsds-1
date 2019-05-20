@@ -5,6 +5,7 @@
     <innerdir refid="dir_41f69392a78b649fd6618ea6cadeecbf">bch</innerdir>
     <innerdir refid="dir_fe9fffd1d06d53546b75dbca3c98e3d3">BCH_BASE</innerdir>
     <innerdir refid="dir_308eb3c1c3d7b5021a8e4c0f1430931f">EZPWD</innerdir>
+    <innerdir refid="dir_d833efc22b0fc02deab6ebe295cf995e">frame_sync</innerdir>
     <innerdir refid="dir_1225992ac671d7ca149c545e97c1b0a7">ldpc</innerdir>
     <innerdir refid="dir_7ccd3acde8adc92b50ad81d39bda6c2b">ReedSolomon</innerdir>
     <innerdir refid="dir_170374ce2f02ee22f8e48bd400d494ac">rs</innerdir>

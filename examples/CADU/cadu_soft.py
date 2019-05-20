@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Cadu Soft
-# Generated: Thu Apr 18 16:10:49 2019
+# Generated: Sat May 18 00:18:47 2019
 ##################################################
 
 if __name__ == '__main__':
@@ -20,7 +20,6 @@ from PyQt4 import Qt
 from gnuradio import blocks
 from gnuradio import digital
 from gnuradio import eng_notation
-from gnuradio import fec
 from gnuradio import filter
 from gnuradio import gr
 from gnuradio import qtgui
@@ -74,7 +73,7 @@ class cadu_soft(gr.top_block, Qt.QWidget):
         self.samp_rate = samp_rate = symbol_rate*sps
         self.p = p = 0.1
         self.ntaps = ntaps = 20*sps
-        self.frame_size = frame_size = 501
+        self.frame_size = frame_size = 1000
         self.SNR = SNR = 10.0
         self.value = value = [0,1]
         self.taps_2 = taps_2 = firdes.root_raised_cosine(1, samp_rate, (samp_rate/sps), 0.35, ntaps)
@@ -88,10 +87,6 @@ class cadu_soft(gr.top_block, Qt.QWidget):
         self.noise_original = noise_original = math.sqrt((1)/math.pow(10,(SNR )/10.0))
         self.linecode = linecode = 0
         self.intDepth = intDepth = 1
-
-
-        self.decoder = decoder = fec.cc_decoder.make((frame_size)*2*8 , 7, 2, ([79,109]), 107, -1, fec.CC_TRUNCATED, True)
-
         self.cfo = cfo = 0.00
         self.bn = bn = 2*math.pi * (p/100)
 
@@ -124,20 +119,17 @@ class cadu_soft(gr.top_block, Qt.QWidget):
         self.fir_filter_xxx_0 = filter.fir_filter_ccc(sps, (taps))
         self.fir_filter_xxx_0.declare_sample_delay(0)
         self.digital_binary_slicer_fb_0 = digital.binary_slicer_fb()
-        self.channel_phaseError_0 = channel.phaseError(135)
-        self.channel_gsPhaseNoise_0 = channel.gsPhaseNoise(math.sqrt(samp_rate/2), ( [2.800000000000000e-06,-5.866548800000000e-06,3.064241879202000e-06]), ( [1,-2.555230500000000,2.114073646727000,-0.558843141309031] ))
-        self.ccsds_synchronizeCADUSoft_0 = ccsds.synchronizeCADUSoft('1ACFFC1D',1,7,0,(frame_size + 4)*8,0,0,'sync')
-        self.ccsds_recoverCADUSoft_0 = ccsds.recoverCADUSoft((frame_size)*8, scramble, 'sync')
-        self.ccsds_createCADU_0 = ccsds.createCADU(frame_size, '1ACFFC1D', scramble, 'packet_len')
+        self.ccsds_synchronizeCADUArgMax_0 = ccsds.synchronizeCADUArgMax('1ACFFC1D', (frame_size + 4)*8, 1, 0, 0, 0, 'sync')
+        self.ccsds_recoverCADUSoft_0 = ccsds.recoverCADUSoft(frame_size*8, 0, 'sync')
+        self.ccsds_createCADU_0 = ccsds.createCADU(frame_size, '1ACFFC1D', 0, 'packet_len')
         self.bpsk_bpskPulseshapeRRC_0 = bpsk.bpskPulseshapeRRC(sps, 1.0, samp_rate, samp_rate/(sps), 0.35, 40*sps)
-        self.bpsk_bpskPhaseRecovery_0 = bpsk.bpskPhaseRecovery(4, bn, math.sqrt(2)/2, 2)
         self.bpsk_bpskIQMap_0 = bpsk.bpskIQMap()
         self.blocks_unpack_k_bits_bb_0 = blocks.unpack_k_bits_bb(8)
         self.blocks_throttle_0 = blocks.throttle(gr.sizeof_char*1, samp_rate,True)
         self.blocks_stream_to_tagged_stream_0 = blocks.stream_to_tagged_stream(gr.sizeof_char, 1, frame_size, "packet_len")
-        self.blocks_pdu_to_tagged_stream_0 = blocks.pdu_to_tagged_stream(blocks.float_t, 'packet_len')
+        self.blocks_pdu_to_tagged_stream_0 = blocks.pdu_to_tagged_stream(blocks.float_t, 'len')
         self.blocks_pack_k_bits_bb_0 = blocks.pack_k_bits_bb(8)
-        self.blocks_multiply_const_vxx_0 = blocks.multiply_const_vcc((-1, ))
+        self.blocks_multiply_const_vxx_0 = blocks.multiply_const_vcc((1, ))
         self.blocks_complex_to_real_0 = blocks.complex_to_real(1)
         self.baseband_debug_channel_model_1_0 = baseband.debug_channel_model_1(noise_original/math.sqrt(sps), cfo, 1.0, (1.0 , ), 0)
 
@@ -146,24 +138,21 @@ class cadu_soft(gr.top_block, Qt.QWidget):
         ##################################################
         self.msg_connect((self.ccsds_recoverCADUSoft_0, 'cadu'), (self.blocks_pdu_to_tagged_stream_0, 'pdus'))
         self.msg_connect((self.ccsds_recoverCADUSoft_0, 'cadu'), (self.tdd_nullMsgSink_0, 'in'))
-        self.connect((self.baseband_debug_channel_model_1_0, 0), (self.channel_gsPhaseNoise_0, 0))
-        self.connect((self.blocks_complex_to_real_0, 0), (self.ccsds_synchronizeCADUSoft_0, 0))
+        self.connect((self.baseband_debug_channel_model_1_0, 0), (self.fir_filter_xxx_0, 0))
+        self.connect((self.blocks_complex_to_real_0, 0), (self.ccsds_synchronizeCADUArgMax_0, 0))
         self.connect((self.blocks_multiply_const_vxx_0, 0), (self.blocks_complex_to_real_0, 0))
         self.connect((self.blocks_pack_k_bits_bb_0, 0), (self.blocks_stream_to_tagged_stream_0, 0))
         self.connect((self.blocks_pdu_to_tagged_stream_0, 0), (self.digital_binary_slicer_fb_0, 0))
         self.connect((self.blocks_stream_to_tagged_stream_0, 0), (self.ccsds_createCADU_0, 0))
         self.connect((self.blocks_throttle_0, 0), (self.blocks_pack_k_bits_bb_0, 0))
         self.connect((self.blocks_unpack_k_bits_bb_0, 0), (self.pcm_encodeNRZ_0, 0))
-        self.connect((self.bpsk_bpskIQMap_0, 0), (self.channel_phaseError_0, 0))
-        self.connect((self.bpsk_bpskPhaseRecovery_0, 0), (self.blocks_multiply_const_vxx_0, 0))
-        self.connect((self.bpsk_bpskPhaseRecovery_0, 0), (self.qtgui_sink_x_0_0, 0))
+        self.connect((self.bpsk_bpskIQMap_0, 0), (self.baseband_debug_channel_model_1_0, 0))
         self.connect((self.bpsk_bpskPulseshapeRRC_0, 0), (self.bpsk_bpskIQMap_0, 0))
         self.connect((self.ccsds_createCADU_0, 0), (self.blocks_unpack_k_bits_bb_0, 0))
-        self.connect((self.ccsds_synchronizeCADUSoft_0, 0), (self.ccsds_recoverCADUSoft_0, 0))
-        self.connect((self.channel_gsPhaseNoise_0, 0), (self.fir_filter_xxx_0, 0))
-        self.connect((self.channel_phaseError_0, 0), (self.baseband_debug_channel_model_1_0, 0))
+        self.connect((self.ccsds_synchronizeCADUArgMax_0, 0), (self.ccsds_recoverCADUSoft_0, 0))
         self.connect((self.digital_binary_slicer_fb_0, 0), (self.mapper_prbs_sink_b_0, 0))
-        self.connect((self.fir_filter_xxx_0, 0), (self.bpsk_bpskPhaseRecovery_0, 0))
+        self.connect((self.fir_filter_xxx_0, 0), (self.blocks_multiply_const_vxx_0, 0))
+        self.connect((self.fir_filter_xxx_0, 0), (self.qtgui_sink_x_0_0, 0))
         self.connect((self.mapper_prbs_source_b_0, 0), (self.blocks_throttle_0, 0))
         self.connect((self.pcm_encodeNRZ_0, 0), (self.bpsk_bpskPulseshapeRRC_0, 0))
 
@@ -288,12 +277,6 @@ class cadu_soft(gr.top_block, Qt.QWidget):
 
     def set_intDepth(self, intDepth):
         self.intDepth = intDepth
-
-    def get_decoder(self):
-        return self.decoder
-
-    def set_decoder(self, decoder):
-        self.decoder = decoder
 
     def get_cfo(self):
         return self.cfo
