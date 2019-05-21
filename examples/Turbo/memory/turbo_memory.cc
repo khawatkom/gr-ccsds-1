@@ -55,13 +55,13 @@ using namespace gr;
 using namespace std;
 int main(int argc, char **argv)
 {
-  int stop = atoi(argv[1]);
+  char* filename  = (argv[1]);
   std::cout << "Program starting .... " << std::endl;
-  std::cout << "Number of packets : " << stop << std::endl;
+  //std::cout << "Number of packets : " << stop << std::endl;
   top_block_sptr tb = make_top_block("turbo_memory");
 
   //File source
-  blocks::file_source::sptr file = blocks::file_source::make(sizeof(unsigned char),"turbo_frames.hex",true);
+  blocks::file_source::sptr file = blocks::file_source::make(sizeof(unsigned char),filename,true);
 
   //Unpacking bits
   blocks::unpack_k_bits_bb::sptr  unpack = gr::blocks::unpack_k_bits_bb::make(8);
@@ -77,14 +77,14 @@ int main(int argc, char **argv)
   gr::blocks::char_to_float::sptr char_to_float(gr::blocks::char_to_float::make());
 
   //Synchronize cadu
-  gr::ccsds::synchronizeCADUSoft::sptr sync = gr::ccsds::synchronizeCADUSoft::make("1ACFFC1D", 0, "sync");
-
+  //gr::ccsds::synchronizeCADUSoft::sptr sync = gr::ccsds::synchronizeCADUSoft::make("1ACFFC1D", 0, "sync");
+  gr::ccsds::synchronizeCADUSoft::sptr sync = gr::ccsds::synchronizeCADUSoft::make("1ACFFC1D", 1,7,2, 7184,0,0,"sync");
   //Extract cadu
-  gr::ccsds::recoverCADUSoft::sptr cadu = gr::ccsds::recoverCADUSoft::make(894,0,"sync");
+  gr::ccsds::recoverCADUSoft::sptr cadu = gr::ccsds::recoverCADUSoft::make(7152,0,"sync");
 
   //Decode turbo
 
-  gr::ccsds::decodeTurbo::sptr turbo = gr::ccsds::decodeTurbo::make(223, 1, 4, stop, 0.707, 0);
+  gr::ccsds::decodeTurbo::sptr turbo = gr::ccsds::decodeTurbo::make(223, 1, 4, 10, 0.707, 0);
 
   //Null sink
   gr::tdd::nullMsgSink::sptr null = gr::tdd::nullMsgSink::make(1);

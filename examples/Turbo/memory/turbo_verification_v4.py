@@ -3,7 +3,7 @@
 ##################################################
 # GNU Radio Python Flow Graph
 # Title: Turbo Verification V4
-# Generated: Tue Apr 23 15:27:10 2019
+# Generated: Tue May 21 16:29:26 2019
 ##################################################
 
 if __name__ == '__main__':
@@ -25,6 +25,7 @@ from gnuradio.eng_option import eng_option
 from gnuradio.filter import firdes
 from optparse import OptionParser
 import ccsds
+import mapper
 import math, numpy, os
 import sys
 from gnuradio import qtgui
@@ -76,9 +77,10 @@ class turbo_verification_v4(gr.top_block, Qt.QWidget):
         ##################################################
         # Blocks
         ##################################################
+        self.mapper_prbs_sink_b_0 = mapper.prbs_sink_b("PRBS31", reset*8)
         self.digital_map_bb_0 = digital.map_bb((-1,1))
-        self.ccsds_synchronizeCADUSoft_0 = ccsds.synchronizeCADUSoft('1ACFFC1D',1,7,2,int(frame_size*8/Rc) + 2 + 4*8,0,0,'syncsoft')
-        self.ccsds_recoverCADUSoft_0 = ccsds.recoverCADUSoft(int(frame_size*8/Rc) + 2, 0, 'syncsoft')
+        self.ccsds_synchronizeCADUSoft_0 = ccsds.synchronizeCADUSoft('1ACFFC1D',1,7,2,7184,0,0,'syncsoft')
+        self.ccsds_recoverCADUSoft_0 = ccsds.recoverCADUSoft(7184 - 32, 0, 'syncsoft')
         self.ccsds_decodeTurbo_0 = ccsds.decodeTurbo(223, 1, 4, 1, 0.707, 0)
         self.blocks_unpack_k_bits_bb_2 = blocks.unpack_k_bits_bb(8)
         self.blocks_pdu_to_tagged_stream_0 = blocks.pdu_to_tagged_stream(blocks.byte_t, 'packet_len')
@@ -94,6 +96,7 @@ class turbo_verification_v4(gr.top_block, Qt.QWidget):
         self.connect((self.blocks_char_to_float_0, 0), (self.ccsds_synchronizeCADUSoft_0, 0))
         self.connect((self.blocks_file_source_0, 0), (self.blocks_unpack_k_bits_bb_2, 0))
         self.connect((self.blocks_pdu_to_tagged_stream_0, 0), (self.blocks_null_sink_1, 0))
+        self.connect((self.blocks_pdu_to_tagged_stream_0, 0), (self.mapper_prbs_sink_b_0, 0))
         self.connect((self.blocks_unpack_k_bits_bb_2, 0), (self.digital_map_bb_0, 0))
         self.connect((self.ccsds_synchronizeCADUSoft_0, 0), (self.ccsds_recoverCADUSoft_0, 0))
         self.connect((self.digital_map_bb_0, 0), (self.blocks_char_to_float_0, 0))
@@ -114,8 +117,8 @@ class turbo_verification_v4(gr.top_block, Qt.QWidget):
 
     def set_vcdu_size(self, vcdu_size):
         self.vcdu_size = vcdu_size
-        self.set_frame_size(self.vcdu_size + 10)
         self.set_reset(self.vcdu_size)
+        self.set_frame_size(self.vcdu_size + 10)
 
     def get_value(self):
         return self.value
