@@ -1,6 +1,6 @@
 Dependencies
 ------------
-gr-tdd: 
+gr-tdd: https://github.com/mbkitine/gr-tdd
 
 To compile
 ----------
