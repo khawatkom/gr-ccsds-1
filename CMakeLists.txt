@@ -45,22 +45,33 @@ set(VERSION_INFO_MAJOR_VERSION 1)
 set(VERSION_INFO_API_COMPAT    0)
 set(VERSION_INFO_MINOR_VERSION 0)
 set(VERSION_INFO_MAINT_VERSION git)
+set(VERSION_ABI 0)
+set(VERSION_PATCH git)
 
 # Set cmake policies.
 # This will suppress developer warnings during the cmake process that can occur
 # if a newer cmake version than the minimum is used.
 
 if(POLICY CMP0026)
-    cmake_policy(SET CMP0026 OLD)
+    cmake_policy(SET CMP0026 NEW)
 endif()
 if(POLICY CMP0043)
-    cmake_policy(SET CMP0043 OLD)
+    cmake_policy(SET CMP0043 NEW)
 endif()
 if(POLICY CMP0045)
-    cmake_policy(SET CMP0045 OLD)
+    cmake_policy(SET CMP0045 NEW)
 endif()
 if(POLICY CMP0046)
-    cmake_policy(SET CMP0046 OLD)
+    cmake_policy(SET CMP0046 NEW)
+endif()
+if(POLICY CMP0011)
+    cmake_policy(SET CMP0011 NEW)
+endif()
+if(POLICY CMP0012)
+    cmake_policy(SET CMP0012 NEW)
+endif()
+if(POLICY CMP0037)
+    cmake_policy(SET CMP0037 NEW)
 endif()
 
 ########################################################################
